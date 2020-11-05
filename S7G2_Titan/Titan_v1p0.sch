@@ -95,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="PF_Ref" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -1486,7 +1489,7 @@ Shield pins may be grounded.
 </device>
 </devices>
 </deviceset>
-<deviceset name="C_0402" prefix="C" uservalue="yes">
+<deviceset name="C_0402_24PF" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CAP_NON_POLARIZED" x="0" y="0.508"/>
 </gates>
@@ -1497,7 +1500,29 @@ Shield pins may be grounded.
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="CC0402GRNPO9BN240" constant="no"/>
+<attribute name="VALUE" value="24pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C_0402_2.2UF" prefix="C" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CAP_NON_POLARIZED" x="0" y="0.508"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNO" value="GRM155C81C225ME15D" constant="no"/>
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1635,7 +1660,26 @@ Shield pins may be grounded.
 </device>
 </devices>
 </deviceset>
-<deviceset name="R_0402" prefix="R" uservalue="yes">
+<deviceset name="C_0402_100PF" prefix="C" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CAP_NON_POLARIZED" x="0" y="0.508"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNO" value="CL05C101JB5NNNC" constant="no"/>
+<attribute name="VALUE" value="100pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_0402_6K49" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -1646,7 +1690,48 @@ Shield pins may be grounded.
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="RMCF0402FT6K49" constant="no"/>
+<attribute name="VALUE" value="6K49" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_0402_33R0" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNO" value="RMCF0402JT33R0" constant="no"/>
+<attribute name="VALUE" value="33R0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_0402_1K5" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNO" value="RMCF0402JT1K50" constant="no"/>
+<attribute name="VALUE" value="1K5" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2453,35 +2538,35 @@ Shield pins may be grounded.
 <part name="C39" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
 <part name="C40" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
 <part name="U$3" library="3D_MIG_Controller" deviceset="XTAL_25_MHZ" device="" value="25MHz"/>
-<part name="C41" library="3D_MIG_Controller" deviceset="C_0402" device="" value="24pF"/>
-<part name="C42" library="3D_MIG_Controller" deviceset="C_0402" device="" value="24pF"/>
-<part name="R25" library="3D_MIG_Controller" deviceset="R_0402" device="" value="6k49"/>
+<part name="C41" library="3D_MIG_Controller" deviceset="C_0402_24PF" device="" value="24pF"/>
+<part name="C42" library="3D_MIG_Controller" deviceset="C_0402_24PF" device="" value="24pF"/>
+<part name="R25" library="3D_MIG_Controller" deviceset="R_0402_6K49" device="" value="6K49"/>
 <part name="C43" library="3D_MIG_Controller" deviceset="C_0402_22UF" device="" value="22uF"/>
-<part name="C44" library="3D_MIG_Controller" deviceset="C_0402" device="" value="0.1uF"/>
-<part name="C45" library="3D_MIG_Controller" deviceset="C_0402" device="" value="2.2uF"/>
-<part name="C46" library="3D_MIG_Controller" deviceset="C_0402" device="" value="0.1uF"/>
+<part name="C44" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
+<part name="C45" library="3D_MIG_Controller" deviceset="C_0402_2.2UF" device="" value="2.2uF"/>
+<part name="C46" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
 <part name="FB2/2" library="3D_MIG_Controller" deviceset="FB_0603_120_OHM" device="0603" value="120Ohm"/>
 <part name="R26" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="R27" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
-<part name="R28" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K50"/>
-<part name="R29" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K50"/>
-<part name="C47" library="3D_MIG_Controller" deviceset="R_0402" device="" value="100pF"/>
+<part name="R28" library="3D_MIG_Controller" deviceset="R_0402_1K5" device="" value="1K5"/>
+<part name="R29" library="3D_MIG_Controller" deviceset="R_0402_1K5" device="" value="1K5"/>
+<part name="C47" library="3D_MIG_Controller" deviceset="C_0402_100PF" device="" value="100pF"/>
 <part name="GND50" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND51" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND52" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND53" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="C48" library="3D_MIG_Controller" deviceset="C_0402_22UF" device="" value="22uF"/>
-<part name="C49" library="3D_MIG_Controller" deviceset="C_0402" device="" value="0.1uF"/>
+<part name="C49" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
 <part name="GND54" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="U$4" library="3D_MIG_Controller" deviceset="C_0402_10UF" device="" value="10uF"/>
 <part name="GND55" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND56" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND57" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND58" library="3D_MIG_Controller" deviceset="GND" device=""/>
-<part name="R30" library="3D_MIG_Controller" deviceset="R_0402" device="" value="33R0"/>
-<part name="R31" library="3D_MIG_Controller" deviceset="R_0402" device="" value="33R0"/>
-<part name="R32" library="3D_MIG_Controller" deviceset="R_0402" device="" value="33R0"/>
-<part name="R33" library="3D_MIG_Controller" deviceset="R_0402" device="" value="33R0"/>
+<part name="R30" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
+<part name="R31" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
+<part name="R32" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
+<part name="R33" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R1" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="U2" library="3D_MIG_Controller" deviceset="AP2151DWG-7" device=""/>
 <part name="C5" library="3D_MIG_Controller" deviceset="C_0402_10UF" device="" value="10uF"/>
@@ -2553,7 +2638,7 @@ Shield pins may be grounded.
 <part name="GND76" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="C60" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
 <part name="GND77" library="3D_MIG_Controller" deviceset="GND" device=""/>
-<part name="C61" library="3D_MIG_Controller" deviceset="C_0402" device="" value="0.1uF"/>
+<part name="C61" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
 <part name="GND78" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND79" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R20" library="3D_MIG_Controller" deviceset="R_0402_1K0" device="" value="1K0"/>
@@ -3038,7 +3123,7 @@ Shield pins may be grounded.
 </segment>
 <segment>
 <pinref part="C47" gate="G$1" pin="2"/>
-<wire x1="-575.31" y1="-168.656" x2="-575.31" y2="-171.704" width="0.1524" layer="91"/>
+<wire x1="-580.39" y1="-163.576" x2="-575.31" y2="-171.704" width="0.1524" layer="91"/>
 <wire x1="-575.31" y1="-171.704" x2="-583.692" y2="-171.704" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4553,7 +4638,7 @@ Shield pins may be grounded.
 </segment>
 <segment>
 <pinref part="C47" gate="G$1" pin="1"/>
-<wire x1="-575.31" y1="-158.496" x2="-575.31" y2="-154.686" width="0.1524" layer="91"/>
+<wire x1="-572.77" y1="-163.576" x2="-575.31" y2="-154.686" width="0.1524" layer="91"/>
 <wire x1="-575.31" y1="-154.686" x2="-583.692" y2="-154.686" width="0.1524" layer="91"/>
 </segment>
 </net>
