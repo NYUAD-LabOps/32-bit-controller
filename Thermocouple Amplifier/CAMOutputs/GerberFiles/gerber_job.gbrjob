@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-06-11T14:16:42Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Thermocouple_Amplifier_K"
+        },
+        "Owner": "Michael Davis <michael@davisfiles.net>",
+        "Size": {
+            "X": 30.5,
+            "Y": 17
+        }
+    }
+}

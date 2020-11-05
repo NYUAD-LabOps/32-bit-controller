@@ -1,0 +1,39 @@
+Qty Value                Part Num             Package               Parts                                                                                                
+2                        *                    2_X_10_.1_INCH        J5, J7                                                                                               
+1                        *                    RJ45_TH_ELEC          J4                                                                                                   
+21  0.1UF                CL05F104ZO5NNNC      0402                  C1, C8, C10, C11, C13, C14, C30, C31, C33, C34, C36, C37, C38, C39, C40, C54, C55, C56, C58, C59, C60
+4   0.1uF                *                    0402                  C44, C46, C49, C61                                                                                   
+2   1K0                  CRG0402J1K0          0402                  R20, R21                                                                                             
+2   1K50                 *                    0402                  R28, R29                                                                                             
+3   1UF                  CL05A105KO5NNNC      0402                  C2, C16, C32                                                                                         
+1   2.2UH,1.3A,1MOHM     LQM2HPN2R2MG0L       1008_(2520_METRIC)    L3                                                                                                   
+1   2.2uF                *                    0402                  C45                                                                                                  
+1   2K2                  RMCF0402JT2K20       0402                  R19                                                                                                  
+1   4-POS                691322310004         1X4_3.81MM_PITCH      J1                                                                                                   
+1   6k49                 *                    0402                  R25                                                                                                  
+3   10-POS               PH2RA-10-UA          2X5                   J6, J11, J12                                                                                         
+7   10K0                 RMCF0402JT10K0       0402                  R1, R12, R16, R17, R18, R26, R27                                                                     
+4   10UF                 CL05A106MP8NUB8      0402                  C5, C35, C57, U$4                                                                                    
+2   12PF                 CL05C120JB5NNNC      0402                  C50, C51                                                                                             
+1   15K0                 RMCF0402JT15K0       0402                  R4                                                                                                   
+2   18PF                 UMK105CG180JV-F      0402                  C52, C53                                                                                             
+2   22UF                 CL05A226MQ5N6J8      0402                  C43, C48                                                                                             
+1   24MHZ                FA-238 24.0000MB-C3  SMD_3225              X4                                                                                                   
+2   24pF                 *                    0402                  C41, C42                                                                                             
+1   25MHZ                FA-238 25.0000MB-B3  SMD_3225              U$3                                                                                                  
+2   27R0                 RMCF0402JT27R0       0402                  R5, R6                                                                                               
+1   30K0                 RC0402JR-0730KL      0402                  R7                                                                                                   
+1   32.768KHZ            ABS07-32.768KHZ-T    SMD_X_2_PADS          X3                                                                                                   
+4   33R0                 *                    0402                  R30, R31, R32, R33                                                                                   
+1   40-POS               61304021021          HEADER_2_X_20_.1_INCH J10                                                                                                  
+1   100UF                ‎TL8A0107M010D       C1210                 C15                                                                                                  
+1   100pF                *                    0402                  C47                                                                                                  
+1   120Ohm               *                    0603                  FB2/2                                                                                                
+3   470R0                RMCF0402JT470R       0402                  R13, R23, R24                                                                                        
+1   AP2151DWG-7          AP2151WG-7           SOT-23-5              U2                                                                                                   
+1   GREEN                LG R971-KN-1         LED_0805_GREEN        LED3                                                                                                 
+1   KSZ8081RNACAQFN-24-M *                    QFN-24-M              U3                                                                                                   
+1   S7G2LQFP176          R7FS7G27H3A01CFC#AA0 LQFP176_24X24         U4                                                                                                   
+1   SD_CARD_1140084168   114-00841-68         AMPHENOL_1140084168   J9                                                                                                   
+1   USB-A                87583-3010RPALF      USB_A_SMT             J3                                                                                                   
+1   USB-B-MICRO          10118192-0002LF      USB_MICRO-B           J2                                                                                                   
