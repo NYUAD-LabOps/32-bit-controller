@@ -1890,7 +1890,11 @@ Shield pins may be grounded.
 <connect gate="G$1" pin="YLO" pad="11"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MAN" value="Shanghai YDS Tech" constant="no"/>
+<attribute name="PARTNO" value="13F-64GYD2PL2NL" constant="no"/>
+<attribute name="VENDOR" value="lcsc.com" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2060,7 +2064,7 @@ Shield pins may be grounded.
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PARTNO" value="‎TL8A0107M010D" constant="no"/>
+<attribute name="PARTNO" value="TL8A0107M010D" constant="no"/>
 <attribute name="VALUE" value="100uF" constant="no"/>
 </technology>
 </technologies>
@@ -2465,6 +2469,7 @@ Shield pins may be grounded.
 </devices>
 </deviceset>
 <deviceset name="2_X_10_HEADER_GENERIC" prefix="J" uservalue="yes">
+<description>CONN HEADER R/A 20POS 2.54MM, Straight, Right Angle</description>
 <gates>
 <gate name="G$1" symbol="2_X_10_HEADER_GENERIC" x="1.27" y="-13.462"/>
 </gates>
@@ -2493,7 +2498,38 @@ Shield pins may be grounded.
 <connect gate="G$1" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="67996-420HLF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2_X_10_.1_IN_RA" package="2_X_10_.1_INCH">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$10" pad="P$10"/>
+<connect gate="G$1" pin="P$11" pad="P$11"/>
+<connect gate="G$1" pin="P$12" pad="P$12"/>
+<connect gate="G$1" pin="P$13" pad="P$13"/>
+<connect gate="G$1" pin="P$14" pad="P$14"/>
+<connect gate="G$1" pin="P$15" pad="P$15"/>
+<connect gate="G$1" pin="P$16" pad="P$16"/>
+<connect gate="G$1" pin="P$17" pad="P$17"/>
+<connect gate="G$1" pin="P$18" pad="P$18"/>
+<connect gate="G$1" pin="P$19" pad="P$19"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$20" pad="P$20"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNO" value="PH2RA-20-UA" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2526,13 +2562,13 @@ Shield pins may be grounded.
 <part name="LED3" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R13" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="L3" library="3D_MIG_Controller" deviceset="INDUCTOR_1008_2.2_MH_1.3A" device="" value="2.2uH,1.3A,1MOhm"/>
-<part name="J4" library="3D_MIG_Controller" deviceset="RJ45_WITH_ELEC" device=""/>
+<part name="J4" library="3D_MIG_Controller" deviceset="RJ45_WITH_ELEC" device="" value="RJ45"/>
 <part name="U3" library="3D_MIG_Controller" deviceset="KSZ8081RNACA" device="QFN-24-M"/>
 <part name="R23" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="R24" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="C39" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
 <part name="C40" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
-<part name="U$3" library="3D_MIG_Controller" deviceset="XTAL_25_MHZ" device="" value="25MHz"/>
+<part name="U5" library="3D_MIG_Controller" deviceset="XTAL_25_MHZ" device="" value="25MHz"/>
 <part name="C41" library="3D_MIG_Controller" deviceset="C_0402_24PF" device="" value="24pF"/>
 <part name="C42" library="3D_MIG_Controller" deviceset="C_0402_24PF" device="" value="24pF"/>
 <part name="R25" library="3D_MIG_Controller" deviceset="R_0402_6K49" device="" value="6K49"/>
@@ -2643,9 +2679,9 @@ Shield pins may be grounded.
 <part name="C1" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
 <part name="C2" library="3D_MIG_Controller" deviceset="C_0402_1UF" device="" value="1uF"/>
 <part name="J1" library="3D_MIG_Controller" deviceset="3.81MM_1_X_4_RT_ANGLE_PLUG_HEADER" device="" value="4-pos"/>
-<part name="J5" library="3D_MIG_Controller" deviceset="2_X_10_HEADER_GENERIC" device=""/>
+<part name="J5" library="3D_MIG_Controller" deviceset="2_X_10_HEADER_GENERIC" device="" value="20-pos"/>
 <part name="J12" library="3D_MIG_Controller" deviceset="CONN_05X2_RA" device="PTH" value="10-pos"/>
-<part name="J7" library="3D_MIG_Controller" deviceset="2_X_10_HEADER_GENERIC" device=""/>
+<part name="J7" library="3D_MIG_Controller" deviceset="2_X_10_HEADER_GENERIC" device="" value="20-pos"/>
 <part name="J6" library="3D_MIG_Controller" deviceset="CONN_05X2_RA" device="PTH" value="10-pos"/>
 </parts>
 <sheets>
@@ -2726,7 +2762,7 @@ Shield pins may be grounded.
 <attribute name="NAME" x="-405.704" y="-203.305" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-405.704" y="-208.131" size="1.778" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="-629.48" y="-159.7" smashed="yes"/>
+<instance part="U5" gate="G$1" x="-629.48" y="-159.7" smashed="yes"/>
 <instance part="C41" gate="G$1" x="-602.32" y="-168.45" smashed="yes">
 <attribute name="NAME" x="-601.304" y="-167.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-601.304" y="-172.641" size="1.778" layer="96"/>
@@ -3132,13 +3168,13 @@ Shield pins may be grounded.
 <wire x1="-602.32" y1="-173.53" x2="-602.32" y2="-177.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="4"/>
+<pinref part="U5" gate="G$1" pin="4"/>
 <pinref part="GND52" gate="1" pin="GND"/>
 <wire x1="-642.18" y1="-157.16" x2="-665.76" y2="-157.16" width="0.1524" layer="91"/>
 <wire x1="-665.76" y1="-157.16" x2="-665.76" y2="-177.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="2"/>
+<pinref part="U5" gate="G$1" pin="2"/>
 <pinref part="GND53" gate="1" pin="GND"/>
 <wire x1="-616.78" y1="-162.24" x2="-611.4" y2="-162.24" width="0.1524" layer="91"/>
 <wire x1="-611.4" y1="-162.24" x2="-611.4" y2="-177.74" width="0.1524" layer="91"/>
@@ -4644,7 +4680,7 @@ Shield pins may be grounded.
 <label x="-429.02" y="-115.68" size="0.4064" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="1"/>
+<pinref part="U5" gate="G$1" pin="1"/>
 <pinref part="C42" gate="G$1" pin="1"/>
 <wire x1="-642.18" y1="-162.24" x2="-650.47" y2="-162.24" width="0.1524" layer="91"/>
 <wire x1="-650.47" y1="-162.24" x2="-650.47" y2="-166.3" width="0.1524" layer="91"/>
@@ -4658,7 +4694,7 @@ Shield pins may be grounded.
 <label x="-429.02" y="-113.08" size="0.4064" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="3"/>
+<pinref part="U5" gate="G$1" pin="3"/>
 <pinref part="C41" gate="G$1" pin="1"/>
 <wire x1="-616.78" y1="-157.16" x2="-602.32" y2="-157.16" width="0.1524" layer="91"/>
 <wire x1="-602.32" y1="-157.16" x2="-602.32" y2="-165.91" width="0.1524" layer="91"/>
