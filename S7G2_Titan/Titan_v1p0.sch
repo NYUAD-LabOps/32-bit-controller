@@ -178,7 +178,7 @@
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="1008_(2520_METRIC)">
+<package name="1008">
 <smd name="1" x="0" y="1.1" dx="3" dy="1.1" layer="1"/>
 <smd name="2" x="0" y="-1.1" dx="3" dy="1.1" layer="1"/>
 <wire x1="-1.7" y1="1.8" x2="1.7" y2="1.8" width="0.127" layer="21"/>
@@ -1754,7 +1754,7 @@ Shield pins may be grounded.
 <gate name="G$1" symbol="INDUCTOR_2_PINS" x="17.78" y="-7.62"/>
 </gates>
 <devices>
-<device name="" package="1008_(2520_METRIC)">
+<device name="" package="1008">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
@@ -2038,7 +2038,9 @@ Shield pins may be grounded.
 <connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="BLM18PG121SN1D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
