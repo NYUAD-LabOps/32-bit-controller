@@ -1,0 +1,33 @@
+#Feeder,Feeder ID,Skip,Pos X,Pos Y,Angle,Footprint,Comment,Nozzle,Pick Height,Pick Delay,Move Speed,Place Height,Place Delay,Place Speed,Accuracy,Width,Length,Thickness,Size Analyze,Tray X,Tray Y,Columns,Rows,Right Top X,Right Top Y,Vision Model,Brightness,Vision Error,Vision Flash,Feeder Type,NoisyPoint,
+Feeder,16,,319.800,10.100,0,402,0.1uF,,,,,,,,,,,,,,,,,0.000,0.000,,80,,7,,,
+Feeder,17,,340.800,10.100,0,402,1uF,,,,,,,,,,,,,,,,,0.000,0.000,,80,,7,,,
+Feeder,67,NO,0.750,419.140,0,LPQF_176,LQFP_176,1,-5,10,20,10,10,20,High Speed,20.43,20.58,0,NO,1,1,10,10,325.000,325.000,Big IC Calib,80,,7,Pneumatic,1,
+
+#PCB,Columns,Rows,Left Bottom X,Left Bottom Y,Left Top X,Left Top Y,Right Top X,Right Top Y,Mirror Board Left Bottom X,Mirror Board Left Bottom Y,Panelize Board Angle,Mirror Board,Marked Panel X,Marked Panel Y,Marked Panel Value,Manual Program,Feed PCB,Panelized Mark Point,PCB Width,PCB Length,Manual Mark,Test,Detect X,Detect Y,Long PCB Input,
+PCB,4,1,299.840,97.480,325.000,325.000,538.690,181.110,0.000,0.000,,1,0.000,0.000,,NO,1,YES,96.8,281,NO,,400.000,100.000,,
+
+#Panel,Pos X,Pos Y,Offset X,Offset Y,Angle,Skip,Position,
+Panel,299.840,97.480,0,0,0,NO,Align,
+Panel,379.380,125.440,0,0,0,NO,Align,
+Panel,458.920,153.400,0,0,0,NO,Align,
+Panel,538.460,181.360,0,0,0,NO,Align,
+
+#Nozzle,NozzleID,Nozzle Type,Disabled,
+Nozzle,1,YX03,NO,
+Nozzle,2,CN140,NO,
+Nozzle,3,CN100,NO,
+Nozzle,4,CN065,NO,
+Nozzle,5,CN040,NO,
+Nozzle,6,CN040,NO,
+Nozzle,7,CN040,NO,
+Nozzle,8,CN040,NO,
+
+#Mark,Pos X,Pos Y,Min Size,Max Size,Flash,Brightness,Searching Area,Circular Similarity,Nested Mode,Select Camera,Position,
+Mark,295.92,97.52,0.8,1.2,Inner,20,4,80,White Point,Left Camera,,
+Mark,534.53,181.51,0.8,1.2,Inner,20,4,80,White Point,Left Camera,,
+
+#Comp,Feeder ID,Comment,Footprint,Designatior,NozzleNumber,Pos X,Pos Y,Angle,Skip,Position,
+Comp,16,0.1uF,402,C1,4,500.26,179.85,0,NO,Align,
+Comp,17,1uF,402,c2,5,26,100,90,NO,Align,
+Comp,67,LQFP_176,LPQF_176,c3,1,510.83,128.89,90,NO,Align,
+
