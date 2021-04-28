@@ -352,10 +352,10 @@
 <text x="-5.08" y="-5.08" size="1.27" layer="21" ratio="10">Secondary</text>
 </package>
 <package name="POWER_TAB">
-<smd name="2" x="0" y="30.7" dx="15.9" dy="18.25" layer="1"/>
-<smd name="1" x="0" y="9.5" dx="15.9" dy="19" layer="1"/>
-<hole x="0" y="35.1" drill="4.2"/>
-<hole x="0" y="7.45" drill="4.2"/>
+<smd name="1" x="-0.4" y="5" dx="15" dy="10" layer="1"/>
+<smd name="2" x="-0.6" y="18.4" dx="15" dy="10" layer="1"/>
+<hole x="-0.2" y="5" drill="4"/>
+<hole x="-0.2" y="19.1" drill="4"/>
 </package>
 <package name="CAP_SLP152M250H9P3_CND">
 <pad name="1" x="0" y="0" drill="2.1082" diameter="2.6162"/>
@@ -906,25 +906,25 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="1"/>
 <contactref element="U$2" pad="1"/>
 <contactref element="U$5" pad="2"/>
-<wire x1="81.28" y1="-46.99" x2="30.48" y2="-35.34" width="0" layer="19" extent="1-1"/>
-<wire x1="102.87" y1="-46.99" x2="81.28" y2="-46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="-46.99" x2="102.87" y2="-46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="29.88" y1="-47.64" x2="81.28" y2="-46.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$1" pad="2"/>
 <contactref element="U$4" pad="2"/>
-<wire x1="116.84" y1="-46.99" x2="46.99" y2="-35.34" width="0" layer="19" extent="1-1"/>
+<wire x1="46.39" y1="-47.64" x2="116.84" y2="-46.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U$2" pad="2"/>
 <contactref element="U$6" pad="2"/>
-<wire x1="95.25" y1="-46.99" x2="13.97" y2="-35.34" width="0" layer="19" extent="1-1"/>
+<wire x1="13.37" y1="-47.64" x2="95.25" y2="-46.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MIG_OUTPUT_RED">
 <contactref element="U$4" pad="1"/>
 <contactref element="U$5" pad="1"/>
 <contactref element="U$6" pad="1"/>
-<wire x1="30.48" y1="-56.54" x2="13.97" y2="-56.54" width="0" layer="19" extent="1-1"/>
-<wire x1="46.99" y1="-56.54" x2="30.48" y2="-56.54" width="0" layer="19" extent="1-1"/>
+<wire x1="30.08" y1="-61.04" x2="13.57" y2="-61.04" width="0" layer="19" extent="1-1"/>
+<wire x1="46.59" y1="-61.04" x2="30.08" y2="-61.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q29" pad="1"/>

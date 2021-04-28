@@ -474,10 +474,10 @@
 <text x="-5.08" y="-5.08" size="1.27" layer="21" ratio="10">Secondary</text>
 </package>
 <package name="POWER_TAB">
-<smd name="2" x="0" y="30.7" dx="15.9" dy="18.25" layer="1"/>
-<smd name="1" x="0" y="9.5" dx="15.9" dy="19" layer="1"/>
-<hole x="0" y="35.1" drill="4.2"/>
-<hole x="0" y="7.45" drill="4.2"/>
+<smd name="1" x="-0.4" y="5" dx="15" dy="10" layer="1"/>
+<smd name="2" x="-0.6" y="18.4" dx="15" dy="10" layer="1"/>
+<hole x="-0.2" y="5" drill="4"/>
+<hole x="-0.2" y="19.1" drill="4"/>
 </package>
 <package name="CAP_SLP152M250H9P3_CND">
 <pad name="1" x="0" y="0" drill="2.1082" diameter="2.6162"/>
@@ -583,11 +583,37 @@
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="DIODEV">
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="0" y="10.16" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<wire x1="0" y1="3.81" x2="1.905" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="0" y1="6.35" x2="-1.905" y2="6.35" width="0.2032" layer="94"/>
+<text x="2.54" y="2.0828" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="2.54" y="5.2324" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<text x="2.54" y="2.0828" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="2.54" y="5.2324" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<text x="2.54" y="2.0828" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="2.54" y="5.2324" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<text x="2.54" y="2.0828" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="2.54" y="5.2324" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<text x="2.54" y="2.0828" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="2.54" y="5.2324" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<wire x1="-1.905" y1="3.81" x2="0" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="1.905" y1="6.35" x2="0" y2="6.35" width="0.2032" layer="94"/>
+<wire x1="0" y1="6.35" x2="0" y2="7.62" width="0.2032" layer="94"/>
+<wire x1="0" y1="6.35" x2="-1.905" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="1.905" y1="3.81" x2="0" y2="6.35" width="0.2032" layer="94"/>
+<text x="2.54" y="2.0828" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="2.54" y="5.2324" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+</symbol>
 <symbol name="DIODE">
 <pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="1" x="10.16" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <wire x1="3.81" y1="0" x2="3.81" y2="-1.905" width="0.2032" layer="94"/>
 <wire x1="6.35" y1="0" x2="6.35" y2="1.905" width="0.2032" layer="94"/>
+<text x="-3.8862" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-2.8194" y="2.6924" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 <text x="-3.8862" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
 <text x="-2.8194" y="2.6924" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 <text x="-3.8862" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
@@ -734,22 +760,6 @@
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-12.7" width="0.254" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="2.54" y1="10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
-</symbol>
-<symbol name="DIODEV">
-<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="1" x="0" y="10.16" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<wire x1="0" y1="3.81" x2="1.905" y2="3.81" width="0.2032" layer="94"/>
-<wire x1="0" y1="6.35" x2="-1.905" y2="6.35" width="0.2032" layer="94"/>
-<text x="2.54" y="2.0828" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="2.54" y="5.2324" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-<wire x1="-1.905" y1="3.81" x2="0" y2="3.81" width="0.2032" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.2032" layer="94"/>
-<wire x1="1.905" y1="6.35" x2="0" y2="6.35" width="0.2032" layer="94"/>
-<wire x1="0" y1="6.35" x2="0" y2="7.62" width="0.2032" layer="94"/>
-<wire x1="0" y1="6.35" x2="-1.905" y2="3.81" width="0.2032" layer="94"/>
-<wire x1="1.905" y1="3.81" x2="0" y2="6.35" width="0.2032" layer="94"/>
-<text x="2.54" y="2.0828" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="2.54" y="5.2324" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 </symbol>
 <symbol name="CAPH">
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
@@ -972,7 +982,7 @@
 </deviceset>
 <deviceset name="VS-150EBU04">
 <gates>
-<gate name="A" symbol="DIODEV" x="0" y="-5.08"/>
+<gate name="A" symbol="DIODEV" x="0" y="-6.35"/>
 </gates>
 <devices>
 <device name="" package="POWER_TAB">
@@ -986,7 +996,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="C_1500UF" prefix="C" uservalue="yes">
+<deviceset name="C_1500UF" prefix="C">
 <gates>
 <gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
 </gates>
