@@ -205,69 +205,69 @@
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="DO-214BA_VIS">
-<smd name="1" x="-1.9304" y="0" dx="1.6764" dy="2.1844" layer="1" rot="R90"/>
-<smd name="2" x="1.9304" y="0" dx="1.6764" dy="2.1844" layer="1" rot="R90"/>
-<wire x1="-3.3782" y1="0" x2="-4.3942" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-4.6482" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0.635" x2="-4.3942" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-4.3942" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="0.381" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="0.127" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="-0.127" width="0.1524" layer="21"/>
-<wire x1="-3.6322" y1="0.635" x2="-3.6322" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.9972" y1="-1.5748" x2="2.9972" y2="-1.5748" width="0.1524" layer="21"/>
-<wire x1="2.9972" y1="-1.5748" x2="2.9972" y2="-1.1684" width="0.1524" layer="21"/>
-<wire x1="2.9972" y1="1.5748" x2="-2.9972" y2="1.5748" width="0.1524" layer="21"/>
-<wire x1="-2.9972" y1="1.5748" x2="-2.9972" y2="1.1684" width="0.1524" layer="21"/>
-<wire x1="-2.9972" y1="-1.1684" x2="-2.9972" y2="-1.5748" width="0.1524" layer="21"/>
-<wire x1="2.9972" y1="1.1684" x2="2.9972" y2="1.5748" width="0.1524" layer="21"/>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-3.3782" y1="0" x2="-4.3942" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-4.6482" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0.635" x2="-4.3942" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-4.3942" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="0.508" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="0.127" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-4.3942" y1="0" x2="-3.6322" y2="-0.127" width="0.1524" layer="51"/>
-<wire x1="-3.6322" y1="0.635" x2="-3.6322" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-2.8702" y1="-1.4478" x2="2.8702" y2="-1.4478" width="0.1524" layer="51"/>
-<wire x1="2.8702" y1="-1.4478" x2="2.8702" y2="1.4478" width="0.1524" layer="51"/>
-<wire x1="2.8702" y1="1.4478" x2="-2.8702" y2="1.4478" width="0.1524" layer="51"/>
-<wire x1="-2.8702" y1="1.4478" x2="-2.8702" y2="-1.4478" width="0.1524" layer="51"/>
+<package name="SMA_DIO-M">
+<smd name="1" x="-1.7683" y="0" dx="1.63" dy="2.5614" layer="1" rot="R90"/>
+<smd name="2" x="1.7683" y="0" dx="1.63" dy="2.5614" layer="1" rot="R90"/>
+<wire x1="-3.3782" y1="0" x2="-4.318" y2="0" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-4.572" y2="0" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0.635" x2="-4.318" y2="0" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-4.318" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="0.127" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="-0.127" width="0.1524" layer="21"/>
+<wire x1="-3.556" y1="0.635" x2="-3.556" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="-1.5748" x2="2.921" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-1.5748" x2="2.921" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="1.5748" x2="-2.921" y2="1.5748" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="1.5748" x2="-2.921" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="-1.143" x2="-2.921" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="1.143" x2="2.921" y2="1.5748" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="0" x2="-4.318" y2="0" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-4.572" y2="0" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0.635" x2="-4.318" y2="0" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-4.318" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="0.127" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-3.556" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="-3.556" y1="0.635" x2="-3.556" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-2.794" y1="-1.4478" x2="2.794" y2="-1.4478" width="0.1524" layer="51"/>
+<wire x1="2.794" y1="-1.4478" x2="2.794" y2="1.4478" width="0.1524" layer="51"/>
+<wire x1="2.794" y1="1.4478" x2="-2.794" y2="1.4478" width="0.1524" layer="51"/>
+<wire x1="-2.794" y1="1.4478" x2="-2.794" y2="-1.4478" width="0.1524" layer="51"/>
 <polygon width="0.1524" layer="41">
-<vertex x="-0.7874" y="0.889"/>
-<vertex x="0.7874" y="0.889"/>
-<vertex x="0.7874" y="-0.889"/>
-<vertex x="-0.7874" y="-0.889"/>
+<vertex x="-0.4368" y="0.8658"/>
+<vertex x="0.4368" y="0.8658"/>
+<vertex x="0.4368" y="-0.8658"/>
+<vertex x="-0.4368" y="-0.8658"/>
 </polygon>
 <polygon width="0.1524" layer="41">
-<vertex x="-2.8194" y="1.397"/>
-<vertex x="2.8194" y="1.397"/>
-<vertex x="2.8194" y="0.889"/>
-<vertex x="-2.8194" y="0.889"/>
+<vertex x="-2.7442" y="1.4092"/>
+<vertex x="2.7442" y="1.4092"/>
+<vertex x="2.7442" y="0.8658"/>
+<vertex x="-2.7442" y="0.8658"/>
 </polygon>
 <polygon width="0.1524" layer="41">
-<vertex x="-2.8194" y="-0.889"/>
-<vertex x="2.8194" y="-0.889"/>
-<vertex x="2.8194" y="-1.397"/>
-<vertex x="-2.8194" y="-1.397"/>
+<vertex x="-2.7442" y="-0.8658"/>
+<vertex x="2.7442" y="-0.8658"/>
+<vertex x="2.7442" y="-1.4092"/>
+<vertex x="-2.7442" y="-1.4092"/>
 </polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 <package name="2_3.81MM_PITCH">
 <pad name="P$1" x="0" y="0" drill="1.1" diameter="2" shape="long" rot="R90"/>
@@ -370,6 +370,11 @@
 <wire x1="-12.4968" y1="0" x2="22.5044" y2="0" width="0" layer="51" curve="-180"/>
 <text x="1.7272" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
+<package name="TO-252">
+<smd name="3" x="0" y="6.25" dx="6" dy="6.5" layer="1"/>
+<smd name="1" x="-2.3" y="0" dx="1.4" dy="3" layer="1"/>
+<smd name="2" x="2.3" y="0" dx="1.4" dy="3" layer="1"/>
 </package>
 </packages>
 </library>
@@ -638,101 +643,69 @@ design rules under a new name.</description>
 <attribute name="NAME" x="306.07" y="-95.25" size="0.508" layer="25"/>
 <attribute name="VALUE" x="306.07" y="-99.06" size="0.381" layer="27"/>
 </element>
-<element name="D35" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-86.36" smashed="yes">
+<element name="D35" library="3D_MIG_Controller" package="SMA_DIO-M" value="SMAZ18-13-FSMA_DIO-M" x="269.24" y="-86.36" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-86.36" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-86.36" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SMAZ18-13-F" x="269.24" y="-86.36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="265.9634" y="-86.995" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-86.36" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCELIBRARY" value="DiodesInc_2015-05-08" x="269.24" y="-86.36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="267.5128" y="-86.995" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-86.36" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Diodes Inc" x="269.24" y="-86.36" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D38" library="3D_MIG_Controller" package="DO-214BA_VIS" value="ZJF_638" x="269.24" y="-90.17" smashed="yes">
+<element name="D38" library="3D_MIG_Controller" package="SMA_DIO-M" value="ZJF_638" x="269.24" y="-90.17" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-90.17" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SMAZ18-13-F" x="269.24" y="-90.17" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="265.9634" y="-90.805" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCELIBRARY" value="DiodesInc_2015-05-08" x="269.24" y="-90.17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="267.5128" y="-90.805" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Diodes Inc" x="269.24" y="-90.17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D41" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-93.98" smashed="yes">
+<element name="D41" library="3D_MIG_Controller" package="SMA_DIO-M" value="SMAZ18-13-FSMA_DIO-M" x="269.24" y="-93.98" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-93.98" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-93.98" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SMAZ18-13-F" x="269.24" y="-93.98" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="265.9634" y="-94.615" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-93.98" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCELIBRARY" value="DiodesInc_2015-05-08" x="269.24" y="-93.98" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="267.5128" y="-94.615" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-93.98" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Diodes Inc" x="269.24" y="-93.98" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D42" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-97.79" smashed="yes">
+<element name="D42" library="3D_MIG_Controller" package="SMA_DIO-M" value="SMAZ18-13-FSMA_DIO-M" x="269.24" y="-97.79" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-97.79" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SMAZ18-13-F" x="269.24" y="-97.79" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="265.9634" y="-98.425" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCELIBRARY" value="DiodesInc_2015-05-08" x="269.24" y="-97.79" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="267.5128" y="-98.425" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Diodes Inc" x="269.24" y="-97.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D7" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-101.6" smashed="yes">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="265.9634" y="-102.235" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="267.5128" y="-102.235" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-101.6" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D10" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-105.41" smashed="yes">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-105.41" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-105.41" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="265.9634" y="-106.045" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-105.41" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="267.5128" y="-106.045" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-105.41" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D36" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-124.46" smashed="yes">
+<element name="D36" library="3D_MIG_Controller" package="SMA_DIO-M" value="SMAZ18-13-FSMA_DIO-M" x="269.24" y="-124.46" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-124.46" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-124.46" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SMAZ18-13-F" x="269.24" y="-124.46" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="265.9634" y="-125.095" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-124.46" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCELIBRARY" value="DiodesInc_2015-05-08" x="269.24" y="-124.46" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="267.5128" y="-125.095" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-124.46" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Diodes Inc" x="269.24" y="-124.46" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D37" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-128.27" smashed="yes">
+<element name="D37" library="3D_MIG_Controller" package="SMA_DIO-M" value="SMAZ18-13-FSMA_DIO-M" x="269.24" y="-128.27" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-128.27" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-128.27" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SMAZ18-13-F" x="269.24" y="-128.27" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="265.9634" y="-128.905" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-128.27" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCELIBRARY" value="DiodesInc_2015-05-08" x="269.24" y="-128.27" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="267.5128" y="-128.905" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-128.27" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Diodes Inc" x="269.24" y="-128.27" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D39" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-132.08" smashed="yes">
+<element name="D39" library="3D_MIG_Controller" package="SMA_DIO-M" value="SMAZ18-13-FSMA_DIO-M" x="269.24" y="-132.08" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-132.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SMAZ18-13-F" x="269.24" y="-132.08" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="265.9634" y="-132.715" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCELIBRARY" value="DiodesInc_2015-05-08" x="269.24" y="-132.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="267.5128" y="-132.715" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Diodes Inc" x="269.24" y="-132.08" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D40" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-135.89" smashed="yes">
+<element name="D40" library="3D_MIG_Controller" package="SMA_DIO-M" value="SMAZ18-13-FSMA_DIO-M" x="269.24" y="-135.89" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-135.89" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-135.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SMAZ18-13-F" x="269.24" y="-135.89" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="265.9634" y="-136.525" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-135.89" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCELIBRARY" value="DiodesInc_2015-05-08" x="269.24" y="-135.89" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="267.5128" y="-136.525" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-135.89" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D9" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-139.7" smashed="yes">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-139.7" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-139.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="265.9634" y="-140.335" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-139.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="267.5128" y="-140.335" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-139.7" size="1.778" layer="27" display="off"/>
-</element>
-<element name="D8" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-147.32" smashed="yes">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-147.32" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-147.32" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="265.9634" y="-147.955" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2020-02-10" x="269.24" y="-147.32" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="267.5128" y="-147.955" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="Vishay" x="269.24" y="-147.32" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Diodes Inc" x="269.24" y="-135.89" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J2" library="3D_MIG_Controller" package="2_3.81MM_PITCH" value="2-pos" x="193.04" y="-54.61" smashed="yes">
 <attribute name="NAME" x="190.5" y="-52.07" size="1.27" layer="25"/>
@@ -798,6 +771,13 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="23.5966" y="-139.065" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Cornell Dubilier" x="20.32" y="-138.43" size="1.778" layer="27" display="off"/>
 </element>
+<element name="D10" library="3D_MIG_Controller" package="TO-252" value="RURD660S9A" x="-8.89" y="-147.32" smashed="yes">
+<attribute name="NAME" x="-12.1666" y="-147.955" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="-10.6172" y="-147.955" size="1.27" layer="27" ratio="6" rot="SR0"/>
+</element>
+<element name="D8" library="3D_MIG_Controller" package="TO-252" value="RURD660S9A" x="-16.51" y="-153.67" smashed="yes"/>
+<element name="D7" library="3D_MIG_Controller" package="TO-252" value="RURD660S9A" x="-22.86" y="-153.67" smashed="yes"/>
+<element name="D9" library="3D_MIG_Controller" package="TO-252" value="RURD660S9A" x="-29.21" y="-153.67" smashed="yes"/>
 </elements>
 <signals>
 <signal name="RCV19_PRP">
@@ -819,16 +799,16 @@ design rules under a new name.</description>
 <contactref element="D42" pad="2"/>
 <contactref element="C52" pad="1"/>
 <contactref element="R142" pad="1"/>
+<wire x1="271.0083" y1="-97.79" x2="306.39" y2="-96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="314.96" y1="-11.43" x2="306.39" y2="-96.52" width="0" layer="19" extent="1-1"/>
 <wire x1="291.15" y1="-10.16" x2="314.96" y2="-11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="306.39" y1="-96.52" x2="291.15" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="271.1704" y1="-97.79" x2="306.39" y2="-96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RC22_GRN">
-<contactref element="D7" pad="2"/>
 <contactref element="Q32" pad="2"/>
 <contactref element="U$2" pad="3"/>
-<wire x1="271.1704" y1="-101.6" x2="320.421" y2="-11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="81.28" y1="-62.23" x2="271.1704" y2="-101.6" width="0" layer="19" extent="1-1"/>
+<contactref element="D7" pad="2"/>
+<wire x1="81.28" y1="-62.23" x2="-20.56" y2="-153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="320.421" y1="-11.43" x2="81.28" y2="-62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RC20_RED">
 <contactref element="Q29" pad="3"/>
@@ -837,18 +817,18 @@ design rules under a new name.</description>
 <contactref element="D38" pad="2"/>
 <contactref element="R140" pad="2"/>
 <contactref element="D10" pad="2"/>
+<wire x1="271.0083" y1="-90.17" x2="303.21" y2="-96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="303.21" y1="-10.16" x2="271.0083" y2="-90.17" width="0" layer="19" extent="1-1"/>
 <wire x1="325.8566" y1="1.27" x2="303.21" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="271.1704" y1="-90.17" x2="303.21" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="271.1704" y1="-105.41" x2="271.1704" y2="-90.17" width="0" layer="19" extent="1-1"/>
-<wire x1="303.21" y1="-96.52" x2="271.1704" y2="-90.17" width="0" layer="19" extent="1-1"/>
-<wire x1="116.84" y1="-62.23" x2="271.1704" y2="-105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="116.84" y1="-62.23" x2="271.0083" y2="-90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.59" y1="-147.32" x2="116.84" y2="-62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RC21_BLK">
-<contactref element="D9" pad="2"/>
 <contactref element="Q31" pad="2"/>
 <contactref element="U$1" pad="3"/>
-<wire x1="271.1704" y1="-139.7" x2="320.421" y2="-5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="102.87" y1="-62.23" x2="271.1704" y2="-139.7" width="0" layer="19" extent="1-1"/>
+<contactref element="D9" pad="2"/>
+<wire x1="102.87" y1="-62.23" x2="-26.91" y2="-153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="320.421" y1="-5.08" x2="102.87" y2="-62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RC23_YEL">
 <contactref element="Q30" pad="3"/>
@@ -857,28 +837,34 @@ design rules under a new name.</description>
 <contactref element="D39" pad="2"/>
 <contactref element="R143" pad="2"/>
 <contactref element="D8" pad="2"/>
-<wire x1="343.85" y1="-90.17" x2="298.13" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="271.1704" y1="-132.08" x2="343.85" y2="-90.17" width="0" layer="19" extent="1-1"/>
-<wire x1="271.1704" y1="-147.32" x2="271.1704" y2="-132.08" width="0" layer="19" extent="1-1"/>
-<wire x1="95.25" y1="-62.23" x2="271.1704" y2="-147.32" width="0" layer="19" extent="1-1"/>
-<wire x1="15.9766" y1="-3.81" x2="298.13" y2="-10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="95.25" y1="-62.23" x2="-14.21" y2="-153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="15.9766" y1="-3.81" x2="95.25" y2="-62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="271.0083" y1="-132.08" x2="95.25" y2="-62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="343.85" y1="-90.17" x2="271.0083" y2="-132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="298.13" y1="-10.16" x2="343.85" y2="-90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D66_1">
-<contactref element="D9" pad="1"/>
 <contactref element="D66" pad="2"/>
 <contactref element="D66" pad="1"/>
 <contactref element="Q29" pad="2"/>
 <contactref element="Q30" pad="2"/>
-<contactref element="D7" pad="1"/>
-<contactref element="D10" pad="1"/>
 <contactref element="C89" pad="2"/>
+<contactref element="D10" pad="3"/>
+<contactref element="D10" pad="1"/>
+<contactref element="D7" pad="3"/>
+<contactref element="D7" pad="1"/>
+<contactref element="D9" pad="3"/>
+<contactref element="D9" pad="1"/>
+<wire x1="-25.16" y1="-153.67" x2="-31.51" y2="-153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.21" y1="-147.42" x2="-31.51" y2="-153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.86" y1="-147.42" x2="-29.21" y2="-147.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.19" y1="-147.32" x2="-22.86" y2="-147.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.89" y1="-141.07" x2="-11.19" y2="-147.32" width="0" layer="19" extent="1-1"/>
+<wire x1="30.3276" y1="-138.43" x2="-8.89" y2="-141.07" width="0" layer="19" extent="1-1"/>
 <wire x1="137.16" y1="-64.77" x2="30.3276" y2="-138.43" width="0" layer="19" extent="1-1"/>
 <wire x1="142.62" y1="-35.7632" x2="137.16" y2="-64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="267.3096" y1="-139.7" x2="142.62" y2="-35.7632" width="0" layer="19" extent="1-1"/>
-<wire x1="267.3096" y1="-105.41" x2="267.3096" y2="-139.7" width="0" layer="19" extent="1-1"/>
-<wire x1="267.3096" y1="-101.6" x2="267.3096" y2="-105.41" width="0" layer="19" extent="1-1"/>
-<wire x1="320.421" y1="1.27" x2="267.3096" y2="-101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="10.541" y1="-3.81" x2="320.421" y2="1.27" width="0" layer="19" extent="1-1"/>
+<wire x1="10.541" y1="-3.81" x2="142.62" y2="-35.7632" width="0" layer="19" extent="1-1"/>
+<wire x1="320.421" y1="1.27" x2="142.62" y2="-35.7632" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RC24_ORG">
 <contactref element="D2" pad="1"/>
@@ -894,13 +880,15 @@ design rules under a new name.</description>
 <contactref element="Q27" pad="4"/>
 <contactref element="U$3" pad="3"/>
 <contactref element="D66" pad="3"/>
+<contactref element="D8" pad="3"/>
 <contactref element="D8" pad="1"/>
-<wire x1="180.71" y1="-47.3964" x2="267.3096" y2="-147.32" width="0" layer="19" extent="1-1"/>
-<wire x1="180.721" y1="-64.77" x2="180.71" y2="-47.3964" width="0" layer="19" extent="1-1"/>
-<wire x1="161.671" y1="-64.77" x2="180.721" y2="-64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="148.082" y1="-64.77" x2="161.671" y2="-64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.51" y1="-147.42" x2="-18.81" y2="-153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="59.69" y1="-62.23" x2="-16.51" y2="-147.42" width="0" layer="19" extent="1-1"/>
+<wire x1="148.082" y1="-64.77" x2="59.69" y2="-62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="161.671" y1="-64.77" x2="148.082" y2="-64.77" width="0" layer="19" extent="1-1"/>
 <wire x1="161.66" y1="-47.3964" x2="161.671" y2="-64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="59.69" y1="-62.23" x2="148.082" y2="-64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="180.71" y1="-47.3964" x2="161.66" y2="-47.3964" width="0" layer="19" extent="1-1"/>
+<wire x1="180.721" y1="-64.77" x2="180.71" y2="-47.3964" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MIG_OUTPUT_BLACK">
 <contactref element="U$1" pad="1"/>
@@ -931,49 +919,49 @@ design rules under a new name.</description>
 <contactref element="D35" pad="2"/>
 <contactref element="C50" pad="1"/>
 <contactref element="R140" pad="1"/>
+<wire x1="271.0083" y1="-86.36" x2="301.31" y2="-96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="301.31" y1="-10.16" x2="271.0083" y2="-86.36" width="0" layer="19" extent="1-1"/>
 <wire x1="314.96" y1="1.27" x2="301.31" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="271.1704" y1="-86.36" x2="301.31" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="301.31" y1="-96.52" x2="271.1704" y2="-86.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="D35" pad="1"/>
 <contactref element="D38" pad="1"/>
-<wire x1="267.3096" y1="-86.36" x2="267.3096" y2="-90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="267.4717" y1="-90.17" x2="267.4717" y2="-86.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="Q30" pad="1"/>
 <contactref element="D40" pad="2"/>
 <contactref element="R143" pad="1"/>
 <contactref element="C53" pad="1"/>
-<wire x1="341.95" y1="-90.17" x2="296.23" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="271.1704" y1="-135.89" x2="341.95" y2="-90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="271.0083" y1="-135.89" x2="341.95" y2="-90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="296.23" y1="-10.16" x2="341.95" y2="-90.17" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="-3.81" x2="296.23" y2="-10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="D40" pad="1"/>
 <contactref element="D39" pad="1"/>
-<wire x1="267.3096" y1="-132.08" x2="267.3096" y2="-135.89" width="0" layer="19" extent="1-1"/>
+<wire x1="267.4717" y1="-135.89" x2="267.4717" y2="-132.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="C52" pad="2"/>
 <contactref element="D41" pad="2"/>
 <contactref element="R142" pad="2"/>
-<wire x1="308.29" y1="-96.52" x2="271.1704" y2="-93.98" width="0" layer="19" extent="1-1"/>
-<wire x1="293.05" y1="-10.16" x2="308.29" y2="-96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="271.0083" y1="-93.98" x2="308.29" y2="-96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="293.05" y1="-10.16" x2="271.0083" y2="-93.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="D42" pad="1"/>
 <contactref element="D41" pad="1"/>
-<wire x1="267.3096" y1="-93.98" x2="267.3096" y2="-97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="267.4717" y1="-97.79" x2="267.4717" y2="-93.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="Q31" pad="1"/>
 <contactref element="D37" pad="2"/>
 <contactref element="C51" pad="1"/>
 <contactref element="R141" pad="1"/>
+<wire x1="347.03" y1="-90.17" x2="271.0083" y2="-128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="306.39" y1="-10.16" x2="347.03" y2="-90.17" width="0" layer="19" extent="1-1"/>
 <wire x1="314.96" y1="-5.08" x2="306.39" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="347.03" y1="-90.17" x2="306.39" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="271.1704" y1="-128.27" x2="347.03" y2="-90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="C51" pad="2"/>
@@ -986,11 +974,11 @@ design rules under a new name.</description>
 <contactref element="Q28" pad="3"/>
 <contactref element="Q27" pad="3"/>
 <contactref element="C91" pad="1"/>
-<wire x1="325.8566" y1="-11.43" x2="308.29" y2="-10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="348.93" y1="-90.17" x2="271.0083" y2="-124.46" width="0" layer="19" extent="1-1"/>
+<wire x1="325.8566" y1="-11.43" x2="348.93" y2="-90.17" width="0" layer="19" extent="1-1"/>
 <wire x1="325.8566" y1="-5.08" x2="325.8566" y2="-11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="348.93" y1="-90.17" x2="308.29" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="271.1704" y1="-124.46" x2="348.93" y2="-90.17" width="0" layer="19" extent="1-1"/>
-<wire x1="186.1566" y1="-64.77" x2="271.1704" y2="-124.46" width="0" layer="19" extent="1-1"/>
+<wire x1="308.29" y1="-10.16" x2="325.8566" y2="-11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="186.1566" y1="-64.77" x2="271.0083" y2="-124.46" width="0" layer="19" extent="1-1"/>
 <wire x1="167.1066" y1="-64.77" x2="186.1566" y2="-64.77" width="0" layer="19" extent="1-1"/>
 <wire x1="129.313" y1="-63.88" x2="167.1066" y2="-64.77" width="0" layer="19" extent="1-1"/>
 <wire x1="122.963" y1="-63.88" x2="129.313" y2="-63.88" width="0" layer="19" extent="1-1"/>
@@ -999,7 +987,7 @@ design rules under a new name.</description>
 <signal name="N$12">
 <contactref element="D37" pad="1"/>
 <contactref element="D36" pad="1"/>
-<wire x1="267.3096" y1="-124.46" x2="267.3096" y2="-128.27" width="0" layer="19" extent="1-1"/>
+<wire x1="267.4717" y1="-128.27" x2="267.4717" y2="-124.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="C89" pad="1"/>
