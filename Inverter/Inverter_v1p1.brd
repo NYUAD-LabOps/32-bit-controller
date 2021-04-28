@@ -646,7 +646,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="267.5128" y="-86.995" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Vishay" x="269.24" y="-86.36" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D38" library="3D_MIG_Controller" package="DO-214BA_VIS" value="GF1D-E3" x="269.24" y="-90.17" smashed="yes">
+<element name="D38" library="3D_MIG_Controller" package="DO-214BA_VIS" value="ZJF_638" x="269.24" y="-90.17" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="269.24" y="-90.17" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GF1D-E3" x="269.24" y="-90.17" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="265.9634" y="-90.805" size="1.27" layer="25" ratio="6" rot="SR0"/>

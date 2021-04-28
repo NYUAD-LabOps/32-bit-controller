@@ -1034,7 +1034,7 @@
 <part name="R140" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
 <part name="R142" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
 <part name="D35" library="3D_MIG_Controller" deviceset="GF1D-E3" device=""/>
-<part name="D38" library="3D_MIG_Controller" deviceset="GF1D-E3" device=""/>
+<part name="D38" library="3D_MIG_Controller" deviceset="GF1D-E3" device="" value="ZJF_638"/>
 <part name="D41" library="3D_MIG_Controller" deviceset="GF1D-E3" device=""/>
 <part name="D42" library="3D_MIG_Controller" deviceset="GF1D-E3" device=""/>
 <part name="D7" library="3D_MIG_Controller" deviceset="GF1D-E3" device=""/>
