@@ -232,6 +232,20 @@
 <pad name="6" x="6.35" y="-6.35" drill="1.651" diameter="2.159"/>
 <text x="1.27" y="-3.81" size="1.27" layer="21" ratio="10">Sec_2</text>
 </package>
+<package name="GENERIC_RELAY">
+<wire x1="-11.5" y1="-15.8" x2="-11.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-11.5" y1="0" x2="-13.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-13.5" y1="0" x2="-13.5" y2="15.8" width="0.127" layer="21"/>
+<wire x1="-13.5" y1="15.8" x2="13.5" y2="15.8" width="0.127" layer="21"/>
+<wire x1="13.5" y1="15.8" x2="13.5" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="13.5" y1="-0.1" x2="8.7" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="8.7" y1="-0.1" x2="8.7" y2="-15.8" width="0.127" layer="21"/>
+<wire x1="8.7" y1="-15.8" x2="-11.5" y2="-15.8" width="0.127" layer="21"/>
+<pad name="1" x="-6" y="-12" drill="1" shape="square"/>
+<pad name="2" x="3" y="-12" drill="1"/>
+<pad name="3" x="-8" y="8" drill="1.8"/>
+<pad name="4" x="8" y="8" drill="1.8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-RECTIFIER">
@@ -364,6 +378,27 @@
 <pin name="5" x="12.7" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="6" x="12.7" y="-12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="GENERIC_RELAY">
+<wire x1="-10.16" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-10.16" y="-10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="2" x="10.16" y="-10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="3" x="-10.16" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="4" x="10.16" y="15.24" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
+<wire x1="-10.16" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="KBPC5010W-G">
@@ -443,6 +478,24 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="GENERIC_RELAY">
+<gates>
+<gate name="A" symbol="GENERIC_RELAY" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="GENERIC_RELAY">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -467,6 +520,8 @@
 <part name="Q3" library="3D_MIG_Controller" deviceset="IGBT_FGH60N60SFD" device=""/>
 <part name="Q4" library="3D_MIG_Controller" deviceset="IGBT_FGH60N60SFD" device=""/>
 <part name="U$2" library="3D_MIG_Controller" deviceset="GENERIC_TRANSFORMER_2_X_SEC" device=""/>
+<part name="U$3" library="3D_MIG_Controller" deviceset="GENERIC_RELAY" device=""/>
+<part name="U$4" library="3D_MIG_Controller" deviceset="GENERIC_RELAY" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -515,6 +570,8 @@
 <attribute name="VALUE" x="-350.52" y="83.82" size="2.0828" layer="96" ratio="6" rot="SR270"/>
 </instance>
 <instance part="U$2" gate="A" x="-142.24" y="83.82" smashed="yes"/>
+<instance part="U$3" gate="A" x="-180.34" y="218.44" smashed="yes" rot="R180"/>
+<instance part="U$4" gate="A" x="-144.78" y="218.44" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
