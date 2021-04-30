@@ -217,6 +217,21 @@
 <wire x1="-2.1082" y1="0" x2="-1.7018" y2="0" width="0" layer="51" curve="-180"/>
 <text x="2.1844" y="-0.2032" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="GENERIC_TRANSFORMER_2_X_SEC">
+<pad name="1" x="-7.62" y="8.89" drill="1.651" diameter="2.159"/>
+<pad name="2" x="6.35" y="8.89" drill="1.651" diameter="2.159"/>
+<pad name="3" x="-7.62" y="-6.35" drill="1.651" diameter="2.159"/>
+<pad name="4" x="-3.81" y="-6.35" drill="1.651" diameter="2.159"/>
+<wire x1="-11.43" y1="11.43" x2="-11.43" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-10.16" x2="8.89" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-10.16" x2="8.89" y2="11.43" width="0.127" layer="21"/>
+<wire x1="8.89" y1="11.43" x2="-11.43" y2="11.43" width="0.127" layer="21"/>
+<text x="-3.81" y="6.35" size="1.27" layer="21" ratio="10">Primary</text>
+<text x="-8.89" y="-3.81" size="1.27" layer="21" ratio="10">Sec_1</text>
+<pad name="5" x="2.54" y="-6.35" drill="1.651" diameter="2.159"/>
+<pad name="6" x="6.35" y="-6.35" drill="1.651" diameter="2.159"/>
+<text x="1.27" y="-3.81" size="1.27" layer="21" ratio="10">Sec_2</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-RECTIFIER">
@@ -330,6 +345,25 @@
 <text x="-5.08" y="10.16" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-1.905" y1="2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="GENERIC_TRANSFORMER_2_X_SEC">
+<pin name="1" x="-12.7" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="2" x="-12.7" y="-12.7" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="3" x="12.7" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="12.7" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<pin name="5" x="12.7" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="6" x="12.7" y="-12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="KBPC5010W-G">
@@ -389,6 +423,26 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="GENERIC_TRANSFORMER_2_X_SEC">
+<gates>
+<gate name="A" symbol="GENERIC_TRANSFORMER_2_X_SEC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GENERIC_TRANSFORMER_2_X_SEC">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -412,6 +466,7 @@
 <part name="Q2" library="3D_MIG_Controller" deviceset="IGBT_FGH60N60SFD" device=""/>
 <part name="Q3" library="3D_MIG_Controller" deviceset="IGBT_FGH60N60SFD" device=""/>
 <part name="Q4" library="3D_MIG_Controller" deviceset="IGBT_FGH60N60SFD" device=""/>
+<part name="U$2" library="3D_MIG_Controller" deviceset="GENERIC_TRANSFORMER_2_X_SEC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -459,6 +514,7 @@
 <attribute name="NAME" x="-347.98" y="83.82" size="2.0828" layer="95" ratio="6" rot="SR270"/>
 <attribute name="VALUE" x="-350.52" y="83.82" size="2.0828" layer="96" ratio="6" rot="SR270"/>
 </instance>
+<instance part="U$2" gate="A" x="-142.24" y="83.82" smashed="yes"/>
 </instances>
 <busses>
 </busses>
