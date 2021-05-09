@@ -1104,6 +1104,16 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="VARISTOR_D25_P7.5">
+<pad name="2" x="3.75" y="-0.925" drill="1.1" diameter="1.8" shape="long"/>
+<pad name="1" x="-3.75" y="0.925" drill="1.1" diameter="1.8" shape="long"/>
+<wire x1="12.5" y1="-2.6" x2="12.5" y2="2.6" width="0.1" layer="21"/>
+<wire x1="-12.5" y1="-2.6" x2="-12.5" y2="2.6" width="0.1" layer="21"/>
+<wire x1="-12.5" y1="2.6" x2="12.5" y2="2.6" width="0.1" layer="21"/>
+<wire x1="-12.5" y1="-2.6" x2="12.5" y2="-2.6" width="0.1" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="B0570-BL" urn="urn:adsk.eagle:package:28103889/1" type="box">
@@ -3076,6 +3086,23 @@ Diode with low voltage drop</description>
 <device name="" package="X01_M10_7461061">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1 1-1 1-2 1-3 1-4 1-5 1-6 1-7 1-8 1-9 1-10 1-11 1-12 1-13 1-14 1-15 1-16 1-17 1-18 1-19 1-20 1-21 1-22 1-23 1-24 1-25 1-26 1-27 1-28 1-29 1-30 1-31 1-32 1-33 1-34 1-35"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B57364S100M54">
+<description>NTC Inrush Current Limiter</description>
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VARISTOR_D25_P7.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14945,6 +14972,8 @@ Created by Upverter.com</description>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="220K 5% CRCW1206220KJNEAHP"/>
 <part name="K1" library="3D_MIG_Controller" deviceset="PANASONIC_ALFG2PF09" device="PANASONIC_ALFG2PF09_0_0"/>
 <part name="J1" library="TE - 282841-2" deviceset="TE_282841-2" device="TE_282841-2_0_0"/>
+<part name="U$1" library="3D_MIG_Controller" deviceset="B57364S100M54" device=""/>
+<part name="D1" library="3D_MIG_Controller" deviceset="MBRS1100T3G" device="ON_SEMI_MBRS1100T3G_0_0"/>
 </parts>
 <sheets>
 <sheet>
@@ -15004,6 +15033,13 @@ Created by Upverter.com</description>
 </instance>
 <instance part="J1" gate="G$0" x="142.24" y="170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="144.78" y="170.18" size="2.54" layer="95" rot="R90" align="top-left"/>
+</instance>
+<instance part="U$1" gate="G$1" x="147.32" y="243.84" smashed="yes">
+<attribute name="NAME" x="149.86" y="238.506" size="2.54" layer="95" align="top-left"/>
+<attribute name="VALUE" x="152.4" y="243.84" size="1.778" layer="96"/>
+</instance>
+<instance part="D1" gate="G$0" x="160.02" y="182.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="159.004" y="182.626" size="2.54" layer="95" rot="R180" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -15072,6 +15108,8 @@ Created by Upverter.com</description>
 <junction x="132.08" y="241.3"/>
 <pinref part="K1" gate="G$0" pin="COM"/>
 <wire x1="144.78" y1="223.52" x2="144.78" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<junction x="144.78" y="241.3"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -15110,6 +15148,9 @@ Created by Upverter.com</description>
 <label x="236.22" y="241.3" size="1.27" layer="95" xref="yes"/>
 <wire x1="218.44" y1="241.3" x2="236.22" y2="241.3" width="0.1524" layer="91"/>
 <junction x="218.44" y="241.3"/>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="241.3" x2="165.1" y2="241.3" width="0.1524" layer="91"/>
+<junction x="165.1" y="241.3"/>
 </segment>
 </net>
 <net name="V_RECT_F_MINUS" class="0">
@@ -15144,6 +15185,8 @@ Created by Upverter.com</description>
 <label x="137.16" y="187.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="137.16" y1="187.96" x2="142.24" y2="187.96" width="0.1524" layer="91"/>
 <junction x="142.24" y="187.96"/>
+<pinref part="D1" gate="G$0" pin="CATHODE"/>
+<wire x1="147.32" y1="187.96" x2="142.24" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND_LV" class="0">
@@ -15156,6 +15199,8 @@ Created by Upverter.com</description>
 <wire x1="165.1" y1="187.96" x2="175.26" y2="187.96" width="0.1524" layer="91"/>
 <junction x="165.1" y="187.96"/>
 <label x="175.26" y="187.96" size="1.778" layer="95" xref="yes"/>
+<pinref part="D1" gate="G$0" pin="ANODE"/>
+<wire x1="165.1" y1="187.96" x2="162.56" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
