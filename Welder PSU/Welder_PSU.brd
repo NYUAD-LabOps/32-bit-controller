@@ -2375,7 +2375,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="10_PSFB_CONVERTER:100K" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="" x="-59.69" y="214.63" smashed="yes">
+<element name="10_PSFB_CONVERTER:R" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K" x="-59.69" y="214.63" smashed="yes">
 <attribute name="NAME" x="-59.69" y="214.63" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="70" x="-59.69" y="214.63" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-59.69" y="214.63" size="1.778" layer="27" display="off"/>
@@ -4322,7 +4322,7 @@ design rules under a new name.</description>
 <contactref element="10_PSFB_CONVERTER:R52" pad="2"/>
 <contactref element="10_PSFB_CONVERTER:R49" pad="1"/>
 <contactref element="10_PSFB_CONVERTER:IC5" pad="2"/>
-<contactref element="10_PSFB_CONVERTER:100K" pad="1"/>
+<contactref element="10_PSFB_CONVERTER:R" pad="1"/>
 <contactref element="10_PSFB_CONVERTER:C36" pad="2"/>
 <contactref element="10_PSFB_CONVERTER:C35" pad="2"/>
 <contactref element="10_PSFB_CONVERTER:Q1" pad="2"/>
@@ -4708,9 +4708,13 @@ design rules under a new name.</description>
 <wire x1="-91.57" y1="148.59" x2="-83.09" y2="209.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="10_PSFB_CONVERTER:N$34">
-<contactref element="10_PSFB_CONVERTER:R34" pad="2"/>
 <contactref element="10_PSFB_CONVERTER:R33" pad="1"/>
-<wire x1="-144.91" y1="148.59" x2="-188.38" y2="184.15" width="0" layer="19" extent="1-1"/>
+<contactref element="10_PSFB_CONVERTER:D6" pad="A"/>
+<contactref element="10_PSFB_CONVERTER:T4" pad="1"/>
+<contactref element="10_PSFB_CONVERTER:R34" pad="2"/>
+<wire x1="-144.91" y1="148.59" x2="-176.757" y2="14.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-188.38" y1="184.15" x2="-144.91" y2="148.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.09" y1="209.55" x2="-144.91" y2="148.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="10_PSFB_CONVERTER:AN_OUTD">
 <contactref element="10_PSFB_CONVERTER:R33" pad="2"/>
@@ -4786,11 +4790,6 @@ design rules under a new name.</description>
 <contactref element="10_PSFB_CONVERTER:IC3" pad="15"/>
 <wire x1="-115.44" y1="148.59" x2="-62.1" y2="148.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-119.604996875" y1="126.365" x2="-115.44" y2="148.59" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="10_PSFB_CONVERTER:N$40">
-<contactref element="10_PSFB_CONVERTER:D6" pad="A"/>
-<contactref element="10_PSFB_CONVERTER:T4" pad="1"/>
-<wire x1="-87.09" y1="209.55" x2="-176.757" y2="14.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="10_PSFB_CONVERTER:VSS_A">
 <contactref element="10_PSFB_CONVERTER:R29" pad="1"/>
@@ -5060,7 +5059,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="10_PSFB_CONVERTER:N$58">
 <contactref element="10_PSFB_CONVERTER:47K" pad="1"/>
-<contactref element="10_PSFB_CONVERTER:100K" pad="2"/>
+<contactref element="10_PSFB_CONVERTER:R" pad="2"/>
 <contactref element="10_PSFB_CONVERTER:C36" pad="1"/>
 <contactref element="10_PSFB_CONVERTER:IC8" pad="1"/>
 <wire x1="-58.84" y1="214.63" x2="-32.9946" y2="210.5" width="0" layer="19" extent="1-1"/>
@@ -5216,12 +5215,12 @@ design rules under a new name.</description>
 <contactref element="FLYBACK1:D2" pad="2"/>
 <contactref element="FLYBACK1:C10" pad="1"/>
 <contactref element="FLYBACK1:C9" pad="1"/>
-<contactref element="FLYBACK1:IC1" pad="3"/>
 <contactref element="FLYBACK1:IC1" pad="8"/>
-<contactref element="FLYBACK1:IC1" pad="7"/>
 <contactref element="FLYBACK1:Q1" pad="3"/>
 <contactref element="FLYBACK1:C12" pad="2"/>
 <contactref element="FLYBACK1:C13" pad="2"/>
+<contactref element="FLYBACK1:IC1" pad="3"/>
+<contactref element="FLYBACK1:IC1" pad="7"/>
 <wire x1="-81.24" y1="290.83" x2="-64.73" y2="290.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-88.9" y1="290.83" x2="-81.24" y2="290.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-88.9" y1="293.37" x2="-88.9" y2="290.83" width="0" layer="19" extent="1-1"/>

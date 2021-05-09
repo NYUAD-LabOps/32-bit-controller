@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11741,10 +11741,10 @@ Created by Upverter.com</description>
 <modules>
 <module name="10_PSFB_CONVERTER" prefix="" dx="50.8" dy="91.44">
 <ports>
-<port name="V_12V" side="left" coord="-10.16" direction="io"/>
-<port name="V_12V_AUX" side="left" coord="5.08" direction="io"/>
-<port name="V_5V0" side="left" coord="-12.7" direction="io"/>
-<port name="V_3V3" side="left" coord="-15.24" direction="io"/>
+<port name="V_12V" side="left" coord="-10.16" direction="in"/>
+<port name="V_12V_AUX" side="left" coord="5.08" direction="in"/>
+<port name="V_5V0" side="left" coord="-12.7" direction="in"/>
+<port name="V_3V3" side="left" coord="-15.24" direction="in"/>
 <port name="WELDER_RED" side="right" coord="35.56" direction="io"/>
 <port name="WELDER_BLACK" side="right" coord="25.4" direction="io"/>
 <port name="PWM_I_SET" side="right" coord="-40.64" direction="in"/>
@@ -11919,7 +11919,7 @@ Created by Upverter.com</description>
 <part name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R64" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K"/>
 <part name="47K" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="100K" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K"/>
 <part name="R67" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="IC8" library="3D_MIG_Controller" deviceset="MCP6001UT" device=""/>
 <part name="GND37" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -12190,9 +12190,9 @@ Created by Upverter.com</description>
 <attribute name="NAME" x="377.19" y="331.2414" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="377.19" y="336.042" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R34" gate="G$1" x="360.68" y="335.28" smashed="yes" rot="MR90">
-<attribute name="NAME" x="359.41" y="336.7786" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="359.41" y="331.978" size="1.778" layer="96" rot="MR0"/>
+<instance part="R34" gate="G$1" x="360.68" y="332.74" smashed="yes" rot="MR90">
+<attribute name="NAME" x="359.41" y="334.2386" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="359.41" y="329.438" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R35" gate="G$1" x="368.3" y="363.22" smashed="yes" rot="MR90">
 <attribute name="NAME" x="367.03" y="364.7186" size="1.778" layer="95" rot="MR0"/>
@@ -12497,7 +12497,7 @@ Created by Upverter.com</description>
 <attribute name="NAME" x="328.93" y="133.5786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="328.93" y="128.778" size="1.778" layer="96"/>
 </instance>
-<instance part="100K" gate="G$1" x="314.96" y="124.46" smashed="yes" rot="R90">
+<instance part="R" gate="G$1" x="314.96" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="313.4614" y="120.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="318.262" y="120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -12814,7 +12814,7 @@ Created by Upverter.com</description>
 </segment>
 <segment>
 <pinref part="GND37" gate="1" pin="GND"/>
-<pinref part="100K" gate="G$1" pin="1"/>
+<pinref part="R" gate="G$1" pin="1"/>
 <wire x1="314.96" y1="116.84" x2="314.96" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C36" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="119.38" x2="325.12" y2="116.84" width="0.1524" layer="91"/>
@@ -13392,13 +13392,18 @@ Created by Upverter.com</description>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="365.76" y1="340.36" x2="360.68" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="340.36" x2="358.14" y2="340.36" width="0.1524" layer="91"/>
-<junction x="360.68" y="340.36"/>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="375.92" y1="332.74" x2="365.76" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="332.74" x2="365.76" y2="340.36" width="0.1524" layer="91"/>
+<pinref part="D6" gate="G$1" pin="2"/>
+<wire x1="370.84" y1="340.36" x2="365.76" y2="340.36" width="0.1524" layer="91"/>
+<pinref part="T4" gate="G$1" pin="G"/>
+<wire x1="365.76" y1="340.36" x2="360.68" y2="340.36" width="0.1524" layer="91"/>
+<junction x="365.76" y="340.36"/>
+<pinref part="R34" gate="G$1" pin="2"/>
+<wire x1="360.68" y1="340.36" x2="347.98" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="337.82" x2="360.68" y2="340.36" width="0.1524" layer="91"/>
+<junction x="360.68" y="340.36"/>
 </segment>
 </net>
 <net name="AN_OUTD" class="0">
@@ -13420,7 +13425,6 @@ Created by Upverter.com</description>
 <net name="VSS_D" class="0">
 <segment>
 <pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="360.68" y1="330.2" x2="360.68" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="327.66" x2="337.82" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="327.66" x2="411.48" y2="327.66" width="0.1524" layer="91"/>
 <junction x="360.68" y="327.66"/>
@@ -13493,13 +13497,6 @@ Created by Upverter.com</description>
 <pinref part="IC3" gate="G$1" pin="OUTA"/>
 <wire x1="220.98" y1="45.72" x2="233.68" y2="45.72" width="0.1524" layer="91"/>
 <label x="223.52" y="45.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="D6" gate="G$1" pin="2"/>
-<wire x1="370.84" y1="340.36" x2="347.98" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="T4" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="VSS_A" class="0">
@@ -13989,7 +13986,7 @@ Created by Upverter.com</description>
 <segment>
 <pinref part="47K" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="132.08" x2="325.12" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="100K" gate="G$1" pin="2"/>
+<pinref part="R" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="132.08" x2="314.96" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="132.08" x2="314.96" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C36" gate="G$1" pin="1"/>
@@ -14126,12 +14123,12 @@ Created by Upverter.com</description>
 <ports>
 <port name="MAINS_L" side="left" coord="5.08" direction="io"/>
 <port name="MAINS_N" side="left" coord="-2.54" direction="io"/>
-<port name="V_12V_AUX" side="right" coord="15.24" direction="io"/>
-<port name="V_12V" side="right" coord="0" direction="io"/>
-<port name="V_5V0" side="right" coord="-2.54" direction="io"/>
-<port name="V_3V3" side="right" coord="-5.08" direction="io"/>
-<port name="GND_AUX" side="right" coord="10.16" direction="io"/>
-<port name="GND_LV" side="right" coord="-10.16" direction="io"/>
+<port name="V_12V_AUX" side="right" coord="15.24" direction="out"/>
+<port name="V_12V" side="right" coord="0" direction="out"/>
+<port name="V_5V0" side="right" coord="-2.54" direction="out"/>
+<port name="V_3V3" side="right" coord="-5.08" direction="out"/>
+<port name="GND_AUX" side="right" coord="10.16" direction="pwr"/>
+<port name="GND_LV" side="right" coord="-10.16" direction="pwr"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -14600,27 +14597,30 @@ Created by Upverter.com</description>
 <wire x1="129.54" y1="172.72" x2="129.54" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="1_GND"/>
 <pinref part="IC1" gate="G$1" pin="2_GND"/>
-<wire x1="210.82" y1="142.24" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="3_GND"/>
-<wire x1="210.82" y1="139.7" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
-<junction x="210.82" y="139.7"/>
 <pinref part="Q1" gate="G$0" pin="EMITTER"/>
-<wire x1="215.9" y1="167.64" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="167.64" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="142.24" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="127" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="124.46" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="124.46" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
 <junction x="215.9" y="139.7"/>
 <pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="137.16" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="127" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="124.46" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
 <junction x="182.88" y="124.46"/>
 <label x="220.98" y="124.46" size="1.27" layer="95" xref="yes"/>
 <wire x1="220.98" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
 <junction x="215.9" y="124.46"/>
+<pinref part="IC1" gate="G$1" pin="1_GND"/>
+<wire x1="210.82" y1="142.24" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
+<junction x="215.9" y="142.24"/>
+<pinref part="IC1" gate="G$1" pin="3_GND"/>
+<wire x1="210.82" y1="137.16" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
+<junction x="215.9" y="137.16"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -14925,8 +14925,8 @@ Created by Upverter.com</description>
 <port name="MAINS_N" side="left" coord="-2.54" direction="io"/>
 <port name="V_RECT_F_PLUS" side="right" coord="5.08" direction="io"/>
 <port name="V_RECT_F_MINUS" side="right" coord="-2.54" direction="io"/>
-<port name="V_12V" side="right" coord="-5.08" direction="io"/>
-<port name="GND_LV" side="right" coord="-7.62" direction="io"/>
+<port name="V_12V" side="right" coord="-5.08" direction="in"/>
+<port name="GND_LV" side="right" coord="-7.62" direction="pwr"/>
 </ports>
 <variantdefs>
 </variantdefs>
