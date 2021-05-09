@@ -15272,16 +15272,16 @@ Created by Upverter.com</description>
 <plain>
 </plain>
 <moduleinsts>
-<moduleinst name="10_PSFB_CONVERTER" module="10_PSFB_CONVERTER" x="-5.08" y="142.24">
+<moduleinst name="10_PSFB_CONVERTER" module="10_PSFB_CONVERTER" x="-5.08" y="142.24" offset="300">
 <attribute name="NAME" value="10_PSFB_CONVERTER" x="-5.08" y="142.24" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="FLYBACK1" module="20_FLYBACK" x="-83.82" y="132.08">
+<moduleinst name="FLYBACK1" module="20_FLYBACK" x="-83.82" y="132.08" offset="200">
 <attribute name="NAME" x="-83.82" y="132.08" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="MCU1" module="40_MCU" x="71.12" y="83.82">
+<moduleinst name="MCU1" module="40_MCU" x="71.12" y="83.82" offset="400">
 <attribute name="NAME" x="71.12" y="83.82" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="30_MAINS_INPUT_PFC1" module="30_MAINS_INPUT_PFC" x="-83.82" y="170.18">
+<moduleinst name="30_MAINS_INPUT_PFC1" module="30_MAINS_INPUT_PFC" x="-83.82" y="170.18" offset="100">
 <attribute name="NAME" x="-83.82" y="170.18" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
