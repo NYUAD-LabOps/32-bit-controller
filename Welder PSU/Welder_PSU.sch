@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -15272,7 +15272,7 @@ Created by Upverter.com</description>
 <plain>
 </plain>
 <moduleinsts>
-<moduleinst name="10_PSFB_CONVERTER" module="10_PSFB_CONVERTER" x="-5.08" y="142.24" offset="300">
+<moduleinst name="10_PSFB_CONVERTER" module="10_PSFB_CONVERTER" x="-5.08" y="142.24" offset="100">
 <attribute name="NAME" value="10_PSFB_CONVERTER" x="-5.08" y="142.24" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="FLYBACK1" module="20_FLYBACK" x="-83.82" y="132.08" offset="200">
@@ -15281,7 +15281,7 @@ Created by Upverter.com</description>
 <moduleinst name="MCU1" module="40_MCU" x="71.12" y="83.82" offset="400">
 <attribute name="NAME" x="71.12" y="83.82" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="30_MAINS_INPUT_PFC1" module="30_MAINS_INPUT_PFC" x="-83.82" y="170.18" offset="100">
+<moduleinst name="30_MAINS_INPUT_PFC1" module="30_MAINS_INPUT_PFC" x="-83.82" y="170.18" offset="300">
 <attribute name="NAME" x="-83.82" y="170.18" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>

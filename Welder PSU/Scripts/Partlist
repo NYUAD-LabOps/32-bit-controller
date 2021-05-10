@@ -1,0 +1,226 @@
+Partlist
+
+Exported from Welder_PSU.brd at 5/9/2021 10:13 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                                          Package                  Library           Position (mm)         Orientation
+
+47K300                                                  R0603                    rcl               (-87.63 218.44)       R0
+C101     C_1500UF                                       CAP_SLP152M250H9P3_CND   3D_MIG_Controller (-39.37 238.76)       R0
+C102     C_1500UF                                       CAP_SLP152M250H9P3_CND   3D_MIG_Controller (-80.01 238.76)       R0
+C103     C_1500UF                                       CAP_SLP152M250H9P3_CND   3D_MIG_Controller (-120.65 238.76)      R0
+C104     C_1500UF                                       CAP_SLP152M250H9P3_CND   3D_MIG_Controller (-161.29 238.76)      R0
+C111     R49AN347050B1MKEMET_R49AN347050B1M_0_0         KEMET_R49AN347050B1M_0   3D_MIG_Controller (-59.69 262.89)       R0
+C201     ESL477M025AH9AA                                CAPACITOR-ELKO-RM5-10X16 3D_MIG_Controller (-144.78 289.56)      R0
+C202     ESL477M025AH9AA                                CAPACITOR-ELKO-RM5-10X16 3D_MIG_Controller (-168.91 289.56)      R0
+C203     100nF/50V                                      0603                     3D_MIG_Controller (-147.32 332.74)      R0
+C204     100nF/50V                                      0603                     3D_MIG_Controller (-153.67 332.74)      R0
+C205     100nF/50V                                      0603                     3D_MIG_Controller (-160.02 332.74)      R0
+C206     10µ-f/ 16V                                     0805                     3D_MIG_Controller (-43.18 332.74)       R0
+C207     22µF/16V                                       0805                     3D_MIG_Controller (-49.53 332.74)       R0
+C208     1µF/25V                                        0805                     3D_MIG_Controller (-55.88 332.74)       R0
+C209     860011378008WURTH_860011378008_0_0             WURTH_860011378008_0     3D_MIG_Controller (-62.23 290.83)       R0
+C210     860011378008WURTH_860011378008_0_0             WURTH_860011378008_0     3D_MIG_Controller (-78.74 290.83)       R0
+C211     R49AN347050B1MKEMET_R49AN347050B1M_0_0         KEMET_R49AN347050B1M_0   3D_MIG_Controller (-113.03 289.56)      R0
+C212     10µF 16V                                       C1206                    rcl               (-41.91 326.39)       R0
+C213     100nF 50V                                      C0603                    rcl               (-71.12 332.74)       R0
+C214     2.2nF/200V                                     C1206                    rcl               (-57.15 326.39)       R0
+C215     100nF/50V                                      0805                     3D_MIG_Controller (-17.78 332.74)       R0
+C216     10µF/ 16V                                      0805                     3D_MIG_Controller (-24.13 332.74)       R0
+C217     22µF/16V                                       0805                     3D_MIG_Controller (-30.48 332.74)       R0
+C218     100nF/50V                                      0805                     3D_MIG_Controller (-36.83 332.74)       R0
+C219     ESL477M025AH9AA                                CAPACITOR-ELKO-RM5-10X16 3D_MIG_Controller (-193.04 289.56)      R0
+C220     100nF 50V                                      C0603                    rcl               (-86.36 332.74)       R0
+C221     100nF 50V                                      C0603                    rcl               (-101.6 332.74)       R0
+C222     ESL477M025AH9AA                                CAPACITOR-ELKO-RM5-10X16 3D_MIG_Controller (-217.17 289.56)      R0
+C301     1µF/25V                                        0603                     3D_MIG_Controller (-21.59 215.9)        R0
+C302     1nF 50V                                        C0603                    rcl               (-35.56 199.39)       R0
+C303     1nF 50V                                        C0603                    rcl               (-60.96 199.39)       R0
+C304     100pF 50V                                      C0603                    rcl               (-86.36 199.39)       R0
+C305     1nF 50V                                        C0603                    rcl               (-111.76 199.39)      R0
+C306     100nF/16V                                      C0603                    rcl               (-137.16 199.39)      R0
+C307     100nF/16V                                      C0603                    rcl               (-162.56 199.39)      R0
+C308     100nF/16V                                      C0603                    rcl               (-187.96 199.39)      R0
+C309     1µF/25V                                        0603                     3D_MIG_Controller (-33.02 215.9)        R0
+C310     1µF/25V                                        0603                     3D_MIG_Controller (-146.05 210.82)      R0
+C311     100pF                                          C0603                    rcl               (-214.63 194.31)      R0
+C312     100pF                                          C0603                    rcl               (-83.82 162.56)       R0
+C313     100nF/16V                                      C0603                    rcl               (-109.22 162.56)      R0
+C314     100nF/16V                                      C0603                    rcl               (-134.62 162.56)      R0
+C315     1µF/25V                                        0603                     3D_MIG_Controller (-157.48 210.82)      R0
+C316     1µF/25V                                        0603                     3D_MIG_Controller (-168.91 210.82)      R0
+C317     100pF                                          C0603                    rcl               (-160.02 162.56)      R0
+C318     100pF                                          C0603                    rcl               (-185.42 162.56)      R0
+C319     1µF/25V                                        0603                     3D_MIG_Controller (-180.34 210.82)      R0
+C320     1µF/25V                                        0603                     3D_MIG_Controller (-191.77 210.82)      R0
+C321     1µF/25V                                        0603                     3D_MIG_Controller (-203.2 210.82)       R0
+C322     100nF/16V                                      C0603                    rcl               (-210.82 162.56)      R0
+C323     1µF/25V                                        0603                     3D_MIG_Controller (-214.63 210.82)      R0
+C324     100nF/16V                                      C0603                    rcl               (-36.83 168.91)       R0
+C325     100pF 100V                                     C0603                    rcl               (-62.23 168.91)       R0
+C326     100pF 100V                                     C0603                    rcl               (-87.63 168.91)       R0
+C327     100pF 100V                                     C0603                    rcl               (-113.03 168.91)      R0
+C328     100pF 100V                                     C0603                    rcl               (-138.43 168.91)      R0
+C329     1nF 50V                                        C0603                    rcl               (-163.83 168.91)      R0
+C330     1nF 50V                                        C0603                    rcl               (-189.23 168.91)      R0
+C331     100pF 50V                                      C0603                    rcl               (-214.63 168.91)      R0
+C332     1nF 50V                                        C0603                    rcl               (-36.83 173.99)       R0
+C333     100nF/16V                                      C0603                    rcl               (-62.23 173.99)       R0
+C334     1nF 50V                                        C0603                    rcl               (-87.63 173.99)       R0
+C335     100nF 50V                                      C0603                    rcl               (-113.03 173.99)      R0
+C336     220nF 50V                                      C0603                    rcl               (-138.43 173.99)      R0
+C337     1nF 50V                                        C0603                    rcl               (-163.83 173.99)      R0
+C338     1nF 50V                                        C0603                    rcl               (-189.23 173.99)      R0
+C339     10nF 25V                                       C0603                    rcl               (-214.63 173.99)      R0
+C340     1µF/25V                                        0603                     3D_MIG_Controller (-226.06 210.82)      R0
+D101     MBRS1100T3GON_SEMI_MBRS1100T3G_0_0             SMB                      3D_MIG_Controller (-223.012 -9.652)     R0
+D201     MBRS1100T3GON_SEMI_MBRS1100T3G_0_0             SMB                      3D_MIG_Controller (-209.55 325.12)      R0
+D202     MB10SON_SEMI_MB10S_0_3                         ON_SEMI_MB10S_3          3D_MIG_Controller (-121.92 316.23)      R0
+D203     STTH1L06ASTMICROELECTRONICS_STTH1L06A_0_0      SMA_STTH1L06A            3D_MIG_Controller (-111.76 331.47)      R0
+D204     MBRS1100T3GON_SEMI_MBRS1100T3G_0_0             SMB                      3D_MIG_Controller (-220.98 325.12)      R0
+D301     1A/40V/500mV                                   SMA-DIODE                3D_MIG_Controller (-40.64 209.55)       R0
+D302     MURA160T3                                      SMA-DIODE                3D_MIG_Controller (-49.53 209.55)       R0
+D303     MURA160T3                                      SMA-DIODE                3D_MIG_Controller (-58.42 209.55)       R0
+D304     MURA160T3                                      SMA-DIODE                3D_MIG_Controller (-67.31 209.55)       R0
+D305     MURA160T3                                      SMA-DIODE                3D_MIG_Controller (-76.2 209.55)        R0
+D306     MURA160T3                                      SMA-DIODE                3D_MIG_Controller (-85.09 209.55)       R0
+D307     MURA160T3                                      SMA-DIODE                3D_MIG_Controller (-93.98 209.55)       R0
+D308     HS5J V7G                                       SMC                      diode             (-151.13 123.19)      R0
+D309     HS5J V7G                                       SMC                      diode             (-176.53 123.19)      R0
+D310     MBRS1100T3GON_SEMI_MBRS1100T3G_0_0             SMB                      3D_MIG_Controller (-55.88 161.29)       R0
+IC201    NCP1014AP065G                                  PDIP-7                   3D_MIG_Controller (-92.71 289.56)       R0
+IC202    AP63301WU-7                                    SOT23-6                  3D_MIG_Controller (-139.7 332.74)       R0
+IC203    LD1117S33TR                                    SOT223_LD1117S33TR       3D_MIG_Controller (-17.78 317.5)        R0
+IC204    LM317AEMP                                      SOT223_LM317AEMP         3D_MIG_Controller (-73.66 317.5)        R0
+IC301    UCC28951PWR                                    TSSOP24                  3D_MIG_Controller (-97.79 3.81)         R0
+IC302    UCC21542DWK                                    SOIC16_HV                3D_MIG_Controller (-96.52 123.19)       R0
+IC303    UCC21542DWK                                    SOIC16_HV                3D_MIG_Controller (-124.46 123.19)      R0
+IC304    UCC27524DGNVSS                                 VSSOP-8                  3D_MIG_Controller (-46.99 140.97)       R0
+IC305    MCP6001UT                                      SOT-23-5                 3D_MIG_Controller (-222.25 204.47)      R0
+IC306    UCC27524DGNVSS                                 VSSOP-8                  3D_MIG_Controller (-60.96 140.97)       R0
+IC307    MCP6001UT                                      SOT-23-5                 3D_MIG_Controller (-20.32 209.55)       R0
+IC308    MCP6001UT                                      SOT-23-5                 3D_MIG_Controller (-31.75 209.55)       R0
+J101     TE_282841-2TE_282841-2_0_0                     TE_282841-2_0            TE - 282841-2     (-87.63 261.62)       R0
+J401     TE_282841-2TE_282841-2_0_0                     TE_282841-2_0            TE - 282841-2     (-53.34 340.36)       R0
+K101     PANASONIC_ALFG2PF09PANASONIC_ALFG2PF09_0_0     PANASONIC_ALFG2PF09_0    3D_MIG_Controller (-40.64 271.78)       R0
+L301     SRP1770TA-1R0M                                 SRP2313AA-1R0M           3D_MIG_Controller (-72.39 127)          R0
+PAD301                                                  3,81/1,4                 wirepad           (-223.52 154.94)      R0
+PAD302                                                  3,81/1,4                 wirepad           (-36.83 161.29)       R0
+Q201     PS2501L-1-ARENESAS_ELECTRONICS_PS2501L-1-A_0_0 PS2501L-1-A              3D_MIG_Controller (-107.95 316.23)      R0
+Q301     BSS123TA                                       SOT23                    3D_MIG_Controller (-35.56 140.97)       R0
+R101     220K 5% CRCW1206220KJNEAHP                     R1206                    rcl               (-144.78 260.35)      R0
+R102     220K 5% CRCW1206220KJNEAHP                     R1206                    rcl               (-176.53 260.35)      R0
+R111     220K 5% CRCW1206220KJNEAHP                     R1206                    rcl               (-208.28 260.35)      R0
+R112     220K 5% CRCW1206220KJNEAHP                     R1206                    rcl               (-41.91 279.4)        R0
+R113     EPCOS_B72205S0271K101EPCOS_B72205S0271K101_0_0 EPCOS_B72205S0271K101_0  3D_MIG_Controller (-111.76 259.08)      R0
+R201     3K9 1%                                         R0805                    rcl               (-87.63 326.39)       R0
+R202     1K, 1%                                         R0805                    rcl               (-101.6 326.39)       R0
+R203     1K 1%                                          R0805                    rcl               (-115.57 326.39)      R0
+R204     22R 1%                                         R0805                    rcl               (-129.54 326.39)      R0
+R205     470R 1%                                        R1206                    rcl               (-199.39 326.39)      R0
+R206     1K 1%                                          R0805                    rcl               (-143.51 326.39)      R0
+R207     1K 1%                                          R0805                    rcl               (-157.48 326.39)      R0
+R208     15K8 1%                                        R0805                    rcl               (-171.45 326.39)      R0
+R209     3K01 1%                                        R0805                    rcl               (-185.42 326.39)      R0
+R210     ERG-2SJ390VPANASONIC_ERG-2SJ390V_0_0           ERG-2SJ390V_0            3D_MIG_Controller (-88.9 316.23)        R0
+R211     220K 5% CRCW1206220KJNEAHP                     R1206                    rcl               (-167.64 316.23)      R0
+R212     220K 5% CRCW1206220KJNEAHP                     R1206                    rcl               (-199.39 316.23)      R0
+R213     EPCOS_B72205S0271K101EPCOS_B72205S0271K101_0_0 EPCOS_B72205S0271K101_0  3D_MIG_Controller (-134.62 314.96)      R0
+R214     150K 5% 200V                                   R1206                    rcl               (-72.39 326.39)       R0
+R215     8K66 1%                                        R0805                    rcl               (-215.9 316.23)       R0
+R216     1K 1%                                          R0805                    rcl               (-26.67 326.39)       R0
+R300     100K                                           R0603                    rcl               (-59.69 214.63)       R0
+R301     18K 1%                                         R0603                    rcl               (-213.36 199.39)      R0
+R302     49K9 1%                                        R0603                    rcl               (-35.56 204.47)       R0
+R303     47K 1%                                         R0603                    rcl               (-60.96 204.47)       R0
+R304     47K 1%                                         R0603                    rcl               (-86.36 204.47)       R0
+R305     47K 1%                                         R0603                    rcl               (-111.76 204.47)      R0
+R306     0R 1%                                          R0603                    rcl               (-137.16 204.47)      R0
+R307     10K 1%                                         R0603                    rcl               (-162.56 204.47)      R0
+R308     0R 1%                                          R0603                    rcl               (-187.96 204.47)      R0
+R309     10K 1%                                         R0603                    rcl               (-213.36 204.47)      R0
+R310     49K9 1%                                        R0603                    rcl               (-36.83 179.07)       R0
+R311     12R 1%                                         R1206                    rcl               (-196.85 154.94)      R0
+R312     590R 1%                                        R0603                    rcl               (-62.23 179.07)       R0
+R313     590R 1%                                        R0603                    rcl               (-87.63 179.07)       R0
+R314     412R 1%                                        R0603                    rcl               (-113.03 179.07)      R0
+R315     412R 1%                                        R0603                    rcl               (-138.43 179.07)      R0
+R316     1K2 1%                                         R0603                    rcl               (-163.83 179.07)      R0
+R317     1K2 1%                                         R0603                    rcl               (-189.23 179.07)      R0
+R318     1K2 1%                                         R0603                    rcl               (-214.63 179.07)      R0
+R319     10K                                            R0603                    rcl               (-36.83 184.15)       R0
+R320     10K                                            R0603                    rcl               (-62.23 184.15)       R0
+R321     47R                                            R0603                    rcl               (-87.63 184.15)       R0
+R322     47R                                            R0603                    rcl               (-113.03 184.15)      R0
+R323     22R                                            M1206                    rcl               (-140.97 140.97)      R0
+R324     22R                                            M1206                    rcl               (-167.64 140.97)      R0
+R325     22R                                            M1206                    rcl               (-194.31 140.97)      R0
+R326     22R                                            M1206                    rcl               (-220.98 140.97)      R0
+R327     22R                                            M1206                    rcl               (-36.83 148.59)       R0
+R328     49K9                                           R0603                    rcl               (-138.43 184.15)      R0
+R329     49K9                                           R0603                    rcl               (-163.83 184.15)      R0
+R330     22R                                            M1206                    rcl               (-63.5 148.59)        R0
+R331     22R                                            M1206                    rcl               (-90.17 148.59)       R0
+R332     22R                                            M1206                    rcl               (-116.84 148.59)      R0
+R333     22R                                            M1206                    rcl               (-143.51 148.59)      R0
+R334     49K9                                           R0603                    rcl               (-189.23 184.15)      R0
+R335     49K9                                           R0603                    rcl               (-214.63 184.15)      R0
+R336     10K                                            R0603                    rcl               (-36.83 189.23)       R0
+R337     10K                                            R0603                    rcl               (-62.23 189.23)       R0
+R338     47R                                            R0603                    rcl               (-87.63 189.23)       R0
+R339     47R                                            R0603                    rcl               (-113.03 189.23)      R0
+R340     22R                                            M1206                    rcl               (-170.18 148.59)      R0
+R341     1R8 1%                                         M1206                    rcl               (-196.85 148.59)      R0
+R342     1R8 1%                                         M1206                    rcl               (-223.52 148.59)      R0
+R343     22R 1%                                         M1206                    rcl               (-36.83 154.94)       R0
+R344     22R 1%                                         M1206                    rcl               (-63.5 154.94)        R0
+R345     1R8 1%                                         M1206                    rcl               (-90.17 154.94)       R0
+R346     1R8 1%                                         M1206                    rcl               (-116.84 154.94)      R0
+R347     22R                                            M1206                    rcl               (-143.51 154.94)      R0
+R348     22R                                            M1206                    rcl               (-170.18 154.94)      R0
+R349     WSLP3921L1000FEA                               VISHAY_WSLP3921L1000FEA  3D_MIG_Controller (-91.44 140.97)       R0
+R350                                                    R0603                    rcl               (-85.09 214.63)       R0
+R351     590R 1%                                        R0603                    rcl               (-138.43 189.23)      R0
+R352     590R 1%                                        R0603                    rcl               (-163.83 189.23)      R0
+R353     412R 1%                                        R0603                    rcl               (-189.23 189.23)      R0
+R354     412R 1%                                        R0603                    rcl               (-214.63 189.23)      R0
+R355     1K2 1%                                         R0603                    rcl               (-36.83 194.31)       R0
+R356     1K2 1%                                         R0603                    rcl               (-62.23 194.31)       R0
+R357     1K2 1%                                         R0603                    rcl               (-87.63 194.31)       R0
+R358                                                    R0603                    rcl               (-110.49 214.63)      R0
+R359     0R 1%                                          R0603                    rcl               (-113.03 194.31)      R0
+R360                                                    R0603                    rcl               (-135.89 214.63)      R0
+R361                                                    R0603                    rcl               (-161.29 214.63)      R0
+R362                                                    R0603                    rcl               (-186.69 214.63)      R0
+R363                                                    R0603                    rcl               (-212.09 214.63)      R0
+R364     100K                                           R0603                    rcl               (-138.43 194.31)      R0
+R365     18K 1%                                         R0603                    rcl               (-163.83 194.31)      R0
+R366     0R 1%                                          R0603                    rcl               (-189.23 194.31)      R0
+R367                                                    R0603                    rcl               (-36.83 218.44)       R0
+R368                                                    R0603                    rcl               (-62.23 218.44)       R0
+R369     B72205S0271K101                                EPCOS_B72205S0271K101_0  3D_MIG_Controller (-113.03 139.7)       R0
+T301     SIHG039N60EF                                   TO-247AC                 3D_MIG_Controller (-119.38 8.89)        R0
+T302     SIHG039N60EF                                   TO-247AC                 3D_MIG_Controller (-138.43 8.89)        R0
+T303     SIHG039N60EF                                   TO-247AC                 3D_MIG_Controller (-157.48 8.89)        R0
+T304     SIHG039N60EF                                   TO-247AC                 3D_MIG_Controller (-176.53 8.89)        R0
+T305     SIHG039N60EF                                   TO-247AC                 3D_MIG_Controller (-195.58 8.89)        R0
+T306     SIHG039N60EF                                   TO-247AC                 3D_MIG_Controller (-214.63 8.89)        R0
+T307     SIHG039N60EF                                   TO-247AC                 3D_MIG_Controller (-29.21 127)          R0
+T308     SIHG039N60EF                                   TO-247AC                 3D_MIG_Controller (-48.26 127)          R0
+TR201    B0570-BL                                       B0570-BL                 3D_MIG_Controller (-48.26 307.34)       R0
+TR301    CST206-2A                                      CST206-2A                3D_MIG_Controller (-204.47 123.19)      R0
+TR302    TRANSFORMER-CUSTOM-PSFB                        TOROID_B64290A0705X830   3D_MIG_Controller (175.006 67.564)      R0
+U$101    B57364S100M54                                  VARISTOR_D25_P7.5        3D_MIG_Controller (-214.884 -3.048)     R0
+U$201    SRN8040TA-220M                                 SRN8040TA-220M           3D_MIG_Controller (-40.64 317.5)        R0
+U$202    SRN8040TA-220M                                 SRN8040TA-220M           3D_MIG_Controller (-62.23 317.5)        R0
+U101     FAIRCHILD_GBPC3510WFAIRCHILD_GBPC3510W_0_0     FAIRCHILD_GBPC3510W_0    3D_MIG_Controller (-190.5 236.22)       R0
+U201     TL431AQDBZR,215NEXPERIA_TL431AQDBZR,215_0_0    SOT23_TL431AQDBZR,215    3D_MIG_Controller (-124.46 331.47)      R0
+X1       726386-2TE_726386-2                            TE_726386-2              3D_MIG_Controller (6.096 130.556)       R0
+X2       726386-2TE_726386-2                            TE_726386-2              3D_MIG_Controller (6.096 116.332)       R0
+X3       7461061                                        X01_M10_7461061          3D_MIG_Controller (231.394 83.058)      R0
+X4       7461061                                        X01_M10_7461061          3D_MIG_Controller (229.616 130.048)     R0
+X303     726386-2TE_726386-2                            TE_726386-2              3D_MIG_Controller (-113.03 209.55)      R0
+X304     726386-2TE_726386-2                            TE_726386-2              3D_MIG_Controller (-132.08 209.55)      R0
