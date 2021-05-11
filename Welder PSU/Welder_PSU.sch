@@ -925,20 +925,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <pad name="3" x="9.05" y="9.05" drill="1.25" diameter="1.9"/>
 <pad name="4" x="-9.05" y="9.05" drill="1.25" diameter="1.9"/>
 </package>
-<package name="CAP_SLP152M250H9P3_CND">
-<pad name="1" x="0" y="0" drill="2.1082" diameter="2.6162"/>
-<pad name="2" x="10.0076" y="0" drill="2.1082" diameter="2.6162" rot="R180"/>
-<wire x1="-14.0208" y1="0" x2="-12.7508" y2="0" width="0.1524" layer="21"/>
-<wire x1="-13.3858" y1="0.635" x2="-13.3858" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="22.6314" y1="0" x2="-12.6238" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-12.6238" y1="0" x2="22.6314" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-14.0208" y1="0" x2="-12.7508" y2="0" width="0.1524" layer="51"/>
-<wire x1="-13.3858" y1="0.635" x2="-13.3858" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="22.5044" y1="0" x2="-12.4968" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-12.4968" y1="0" x2="22.5044" y2="0" width="0" layer="51" curve="-180"/>
-<text x="1.7272" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
 <package name="PANASONIC_ALFG2PF09_0">
 <description>PNSC-ALFG2PF09-LF-G-4-3010x1570x2330-4</description>
 <wire x1="-3.2" y1="-14" x2="27.2" y2="-14" width="0.1" layer="51"/>
@@ -1113,6 +1099,20 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <wire x1="-12.5" y1="-2.6" x2="12.5" y2="-2.6" width="0.1" layer="21"/>
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="CAP_SLP152M250H9P3_CND">
+<pad name="1" x="0" y="0" drill="2.1082" diameter="2.6162"/>
+<pad name="2" x="10.0076" y="0" drill="2.1082" diameter="2.6162" rot="R180"/>
+<wire x1="-14.0208" y1="0" x2="-12.7508" y2="0" width="0.1524" layer="21"/>
+<wire x1="-13.3858" y1="0.635" x2="-13.3858" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="22.6314" y1="0" x2="-12.6238" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-12.6238" y1="0" x2="22.6314" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-14.0208" y1="0" x2="-12.7508" y2="0" width="0.1524" layer="51"/>
+<wire x1="-13.3858" y1="0.635" x2="-13.3858" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="22.5044" y1="0" x2="-12.4968" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-12.4968" y1="0" x2="22.5044" y2="0" width="0" layer="51" curve="-180"/>
+<text x="-13.5128" y="14.605" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-13.2334" y="12.065" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 </packages>
 <packages3d>
@@ -1635,18 +1635,6 @@ Diode with low voltage drop</description>
 <pin name="2_~" x="-2.54" y="-10.16" length="middle"/>
 <pin name="+" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="-" x="17.78" y="-10.16" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CAPH">
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 </symbol>
 <symbol name="PANASONIC_ALFG2PF09_0_0">
 <description>PNSC-ALFG2PF09-LF-G-4-3010x1570x2330-4</description>
@@ -2850,29 +2838,6 @@ Diode with low voltage drop</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C_1500UF" prefix="C">
-<gates>
-<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="CAP_SLP152M250H9P3_CND">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_Kyle" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" constant="no"/>
-<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" constant="no"/>
-<attribute name="VENDOR" value="Cornell Dubilier" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PANASONIC_ALFG2PF09" prefix="K">
 <description>Relay 31A, 9V, SPST-NO (1 Form A) Panasonic</description>
 <gates>
@@ -3106,6 +3071,29 @@ Diode with low voltage drop</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C_1500UF" prefix="C">
+<gates>
+<gate name="G$1" symbol="CAP_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAP_SLP152M250H9P3_CND">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_Kyle" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" constant="no"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" constant="no"/>
+<attribute name="VENDOR" value="Cornell Dubilier" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -14996,16 +14984,16 @@ Created by Upverter.com</description>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="220K 5% CRCW1206220KJNEAHP"/>
 <part name="R13" library="3D_MIG_Controller" deviceset="EPCOS_B72205S0271K101" device="EPCOS_B72205S0271K101_0_0"/>
 <part name="U1" library="3D_MIG_Controller" deviceset="FAIRCHILD_GBPC3510W" device="FAIRCHILD_GBPC3510W_0_0"/>
-<part name="C1" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
-<part name="C2" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
-<part name="C3" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
-<part name="C4" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="220K 5% CRCW1206220KJNEAHP"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="220K 5% CRCW1206220KJNEAHP"/>
 <part name="K1" library="3D_MIG_Controller" deviceset="PANASONIC_ALFG2PF09" device="PANASONIC_ALFG2PF09_0_0"/>
 <part name="J1" library="TE - 282841-2" deviceset="TE_282841-2" device="TE_282841-2_0_0"/>
 <part name="U$1" library="3D_MIG_Controller" deviceset="B57364S100M54" device=""/>
 <part name="D1" library="3D_MIG_Controller" deviceset="MBRS1100T3G" device="ON_SEMI_MBRS1100T3G_0_0"/>
+<part name="C1" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
+<part name="C2" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
+<part name="C3" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
+<part name="C4" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15036,22 +15024,6 @@ Created by Upverter.com</description>
 <instance part="U1" gate="G$0" x="93.98" y="231.14" smashed="yes">
 <attribute name="NAME" x="96.52" y="228.6" size="2.54" layer="95" align="top-left"/>
 </instance>
-<instance part="C1" gate="A" x="200.66" y="231.14" smashed="yes" rot="R90">
-<attribute name="VALUE" x="206.1972" y="225.9838" size="3.4798" layer="96" ratio="10" rot="SR90"/>
-<attribute name="NAME" x="198.5772" y="227.0506" size="3.4798" layer="95" ratio="10" rot="SR90"/>
-</instance>
-<instance part="C2" gate="A" x="218.44" y="231.14" smashed="yes" rot="R90">
-<attribute name="VALUE" x="223.9772" y="225.9838" size="3.4798" layer="96" ratio="10" rot="SR90"/>
-<attribute name="NAME" x="216.3572" y="227.0506" size="3.4798" layer="95" ratio="10" rot="SR90"/>
-</instance>
-<instance part="C3" gate="A" x="200.66" y="205.74" smashed="yes" rot="R90">
-<attribute name="VALUE" x="206.1972" y="200.5838" size="3.4798" layer="96" ratio="10" rot="SR90"/>
-<attribute name="NAME" x="198.5772" y="201.6506" size="3.4798" layer="95" ratio="10" rot="SR90"/>
-</instance>
-<instance part="C4" gate="A" x="218.44" y="205.74" smashed="yes" rot="R90">
-<attribute name="VALUE" x="223.9772" y="200.5838" size="3.4798" layer="96" ratio="10" rot="SR90"/>
-<attribute name="NAME" x="216.3572" y="201.6506" size="3.4798" layer="95" ratio="10" rot="SR90"/>
-</instance>
 <instance part="R1" gate="G$1" x="132.08" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="130.5814" y="229.87" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.382" y="229.87" size="1.778" layer="96" rot="R90"/>
@@ -15072,6 +15044,22 @@ Created by Upverter.com</description>
 </instance>
 <instance part="D1" gate="G$0" x="160.02" y="182.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="159.004" y="182.626" size="2.54" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="C1" gate="G$1" x="200.66" y="236.22" smashed="yes">
+<attribute name="NAME" x="201.676" y="236.855" size="1.778" layer="95"/>
+<attribute name="VALUE" x="201.676" y="232.029" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="200.66" y="210.82" smashed="yes">
+<attribute name="NAME" x="201.676" y="211.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="201.676" y="206.629" size="1.778" layer="96"/>
+</instance>
+<instance part="C3" gate="G$1" x="218.44" y="210.82" smashed="yes">
+<attribute name="NAME" x="219.456" y="211.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.456" y="206.629" size="1.778" layer="96"/>
+</instance>
+<instance part="C4" gate="G$1" x="218.44" y="236.22" smashed="yes">
+<attribute name="NAME" x="219.456" y="236.855" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.456" y="232.029" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -15146,16 +15134,16 @@ Created by Upverter.com</description>
 </net>
 <net name="N$1" class="4">
 <segment>
-<pinref part="C1" gate="A" pin="1"/>
-<pinref part="C3" gate="A" pin="2"/>
 <wire x1="200.66" y1="231.14" x2="200.66" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="C2" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$5" class="4">
 <segment>
-<pinref part="C2" gate="A" pin="1"/>
-<pinref part="C4" gate="A" pin="2"/>
 <wire x1="218.44" y1="231.14" x2="218.44" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+<pinref part="C4" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$4" class="4">
@@ -15168,9 +15156,7 @@ Created by Upverter.com</description>
 </net>
 <net name="V_RECT_F_PLUS" class="4">
 <segment>
-<pinref part="C2" gate="A" pin="2"/>
 <wire x1="218.44" y1="241.3" x2="218.44" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="C1" gate="A" pin="2"/>
 <wire x1="200.66" y1="241.3" x2="200.66" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="241.3" x2="218.44" y2="241.3" width="0.1524" layer="91"/>
 <junction x="200.66" y="241.3"/>
@@ -15183,6 +15169,8 @@ Created by Upverter.com</description>
 <pinref part="U$1" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="241.3" x2="165.1" y2="241.3" width="0.1524" layer="91"/>
 <junction x="165.1" y="241.3"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C4" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="V_RECT_F_MINUS" class="0">
@@ -15191,10 +15179,8 @@ Created by Upverter.com</description>
 <wire x1="111.76" y1="220.98" x2="114.3" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="220.98" x2="114.3" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="200.66" x2="121.92" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="C3" gate="A" pin="1"/>
 <wire x1="121.92" y1="200.66" x2="200.66" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="205.74" x2="200.66" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="C4" gate="A" pin="1"/>
 <wire x1="218.44" y1="205.74" x2="218.44" y2="200.66" width="0.1524" layer="91"/>
 <junction x="200.66" y="200.66"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -15204,6 +15190,8 @@ Created by Upverter.com</description>
 <label x="236.22" y="200.66" size="1.27" layer="95" xref="yes"/>
 <wire x1="218.44" y1="200.66" x2="236.22" y2="200.66" width="0.1524" layer="91"/>
 <junction x="218.44" y="200.66"/>
+<pinref part="C2" gate="G$1" pin="-"/>
+<pinref part="C3" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="V_12V" class="3">
