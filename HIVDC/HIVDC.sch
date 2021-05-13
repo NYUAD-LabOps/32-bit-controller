@@ -200,6 +200,41 @@
 <text x="-0.381" y="0.889" size="0.254" layer="25">&gt;Name</text>
 <text x="-0.254" y="-1.016" size="0.254" layer="27">&gt;Value</text>
 </package>
+<package name="KBPC-W_THRU">
+<pad name="1" x="-9.3" y="9.3" drill="1"/>
+<pad name="2" x="-9.3" y="-9.3" drill="1"/>
+<pad name="3" x="9.3" y="-9.3" drill="1"/>
+<pad name="4" x="9.3" y="2.6" drill="1" shape="square"/>
+<wire x1="-14.4" y1="14.4" x2="-14.4" y2="-14.4" width="0.127" layer="21"/>
+<wire x1="-14.4" y1="-14.4" x2="14.4" y2="-14.4" width="0.127" layer="21"/>
+<wire x1="14.4" y1="-14.4" x2="14.4" y2="14.4" width="0.127" layer="21"/>
+<wire x1="14.4" y1="14.4" x2="-14.4" y2="14.4" width="0.127" layer="21"/>
+<text x="16" y="2.3" size="1.27" layer="21" ratio="10">+</text>
+<text x="-16.5" y="-9.9" size="1.27" layer="21" ratio="10">-</text>
+<text x="-18" y="9" size="1.27" layer="21" ratio="10">AC</text>
+<text x="16.7" y="-10.1" size="1.27" layer="21" ratio="10">AC</text>
+</package>
+<package name="CAP_SLP152M250H9P3_CND">
+<pad name="1" x="0" y="0" drill="2.1082" diameter="2.6162"/>
+<pad name="2" x="10.0076" y="0" drill="2.1082" diameter="2.6162" rot="R180"/>
+<wire x1="22.6314" y1="0" x2="-12.6238" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-12.6238" y1="0" x2="22.6314" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="22.5044" y1="0" x2="-12.4968" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-12.4968" y1="0" x2="22.5044" y2="0" width="0" layer="51" curve="-180"/>
+<text x="-13.5128" y="14.605" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-13.2334" y="12.065" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-14.0208" y1="0" x2="-12.7508" y2="0" width="0.1524" layer="21"/>
+<wire x1="-13.3858" y1="0.635" x2="-13.3858" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="22.6314" y1="0" x2="-12.6238" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-12.6238" y1="0" x2="22.6314" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-14.0208" y1="0" x2="-12.7508" y2="0" width="0.1524" layer="51"/>
+<wire x1="-13.3858" y1="0.635" x2="-13.3858" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="22.5044" y1="0" x2="-12.4968" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-12.4968" y1="0" x2="22.5044" y2="0" width="0" layer="51" curve="-180"/>
+</package>
+<package name="AC_240V_L1_15A">
+<pad name="P$1" x="0" y="0" drill="3" diameter="8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1X2_HEADER">
@@ -257,6 +292,52 @@
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="DIODE-RECTIFIER">
+<wire x1="-7.62" y1="0" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-3.81" y2="6.35" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-6.35" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="6.35" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-3.81" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="0" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="0" y="10.16" visible="pin" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="3" x="10.16" y="0" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="0" y="-10.16" visible="pin" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="CAPH">
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
+<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+</symbol>
+<symbol name="AC_240V_L1_15A">
+<pin name="P$1" x="-5.08" y="0" visible="off" length="middle" direction="pas" swaplevel="1"/>
+<text x="-5.08" y="3.302" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -335,6 +416,92 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="KBPC5010W-G">
+<gates>
+<gate name="A" symbol="DIODE-RECTIFIER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KBPC-W_THRU">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SLP152M250H9P3" prefix="C">
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="CAP_SLP152M250H9P3_CND">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_Kyle" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" constant="no"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" constant="no"/>
+<attribute name="VENDOR" value="Cornell Dubilier" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AC_240V_L_15A" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="AC_240V_L1_15A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AC_240V_L1_15A">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AC_240V_N_15A" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="AC_240V_L1_15A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AC_240V_L1_15A">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AC_240V_EG" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="AC_240V_L1_15A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AC_240V_L1_15A">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -352,6 +519,12 @@
 <part name="RL1" library="3D_MIG_Controller" deviceset="J120D1AS12VDCP" device=""/>
 <part name="U1" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="R1" library="3D_MIG_Controller" deviceset="R_0402" device=""/>
+<part name="U$1" library="3D_MIG_Controller" deviceset="KBPC5010W-G" device=""/>
+<part name="C1" library="3D_MIG_Controller" deviceset="SLP152M250H9P3" device=""/>
+<part name="C2" library="3D_MIG_Controller" deviceset="SLP152M250H9P3" device=""/>
+<part name="AC_L1" library="3D_MIG_Controller" deviceset="AC_240V_L_15A" device=""/>
+<part name="AC_N" library="3D_MIG_Controller" deviceset="AC_240V_N_15A" device=""/>
+<part name="AC_EG" library="3D_MIG_Controller" deviceset="AC_240V_EG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -369,6 +542,24 @@
 <instance part="R1" gate="G$1" x="83.82" y="81.28" smashed="yes">
 <attribute name="NAME" x="80.01" y="82.7786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.01" y="77.978" size="1.778" layer="96"/>
+</instance>
+<instance part="U$1" gate="A" x="-22.86" y="104.14" smashed="yes" rot="R180"/>
+<instance part="C1" gate="A" x="12.7" y="114.3" smashed="yes" rot="R270">
+<attribute name="VALUE" x="17.7038" y="116.3828" size="3.4798" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="16.2306" y="111.3028" size="3.4798" layer="95" ratio="10" rot="SR0"/>
+</instance>
+<instance part="C2" gate="A" x="12.7" y="99.06" smashed="yes" rot="R270">
+<attribute name="VALUE" x="17.7038" y="101.1428" size="3.4798" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="18.7706" y="96.0628" size="3.4798" layer="95" ratio="10" rot="SR0"/>
+</instance>
+<instance part="AC_L1" gate="G$1" x="-5.08" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="0" y="32.258" size="1.778" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="AC_N" gate="G$1" x="-53.34" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="-48.26" y="100.838" size="1.778" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="AC_EG" gate="G$1" x="-53.34" y="152.4" smashed="yes">
+<attribute name="NAME" x="-58.42" y="155.702" size="1.778" layer="95" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -436,16 +627,51 @@
 </net>
 <net name="RELAY_LOAD_OUT" class="0">
 <segment>
-<pinref part="RL1" gate="G$1" pin="P$4"/>
-<wire x1="12.7" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
-<label x="7.62" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="RELAY_LOAD_IN" class="0">
-<segment>
+<pinref part="U$1" gate="A" pin="1"/>
 <pinref part="RL1" gate="G$1" pin="P$3"/>
 <wire x1="55.88" y1="35.56" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
-<label x="63.5" y="35.56" size="1.016" layer="95" xref="yes"/>
+<wire x1="63.5" y1="35.56" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="48.26" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="48.26" x2="-12.7" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="AC_N" gate="G$1" pin="P$1"/>
+<pinref part="U$1" gate="A" pin="3"/>
+<wire x1="-48.26" y1="104.14" x2="-33.02" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="AC_L1" gate="G$1" pin="P$1"/>
+<pinref part="RL1" gate="G$1" pin="P$4"/>
+<wire x1="0" y1="35.56" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="C2" gate="A" pin="2"/>
+<wire x1="12.7" y1="91.44" x2="12.7" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="88.9" x2="-22.86" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="A" pin="2"/>
+<wire x1="-22.86" y1="88.9" x2="-22.86" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$1" gate="A" pin="4"/>
+<wire x1="-22.86" y1="114.3" x2="-22.86" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="C1" gate="A" pin="1"/>
+<wire x1="-22.86" y1="119.38" x2="12.7" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="119.38" x2="12.7" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="C2" gate="A" pin="1"/>
+<pinref part="C1" gate="A" pin="2"/>
+<wire x1="12.7" y1="99.06" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

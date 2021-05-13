@@ -206,6 +206,41 @@
 <text x="-0.381" y="0.889" size="0.254" layer="25">&gt;Name</text>
 <text x="-0.254" y="-1.016" size="0.254" layer="27">&gt;Value</text>
 </package>
+<package name="KBPC-W_THRU">
+<pad name="1" x="-9.3" y="9.3" drill="1"/>
+<pad name="2" x="-9.3" y="-9.3" drill="1"/>
+<pad name="3" x="9.3" y="-9.3" drill="1"/>
+<pad name="4" x="9.3" y="2.6" drill="1" shape="square"/>
+<wire x1="-14.4" y1="14.4" x2="-14.4" y2="-14.4" width="0.127" layer="21"/>
+<wire x1="-14.4" y1="-14.4" x2="14.4" y2="-14.4" width="0.127" layer="21"/>
+<wire x1="14.4" y1="-14.4" x2="14.4" y2="14.4" width="0.127" layer="21"/>
+<wire x1="14.4" y1="14.4" x2="-14.4" y2="14.4" width="0.127" layer="21"/>
+<text x="16" y="2.3" size="1.27" layer="21" ratio="10">+</text>
+<text x="-16.5" y="-9.9" size="1.27" layer="21" ratio="10">-</text>
+<text x="-18" y="9" size="1.27" layer="21" ratio="10">AC</text>
+<text x="16.7" y="-10.1" size="1.27" layer="21" ratio="10">AC</text>
+</package>
+<package name="CAP_SLP152M250H9P3_CND">
+<pad name="1" x="0" y="0" drill="2.1082" diameter="2.6162"/>
+<pad name="2" x="10.0076" y="0" drill="2.1082" diameter="2.6162" rot="R180"/>
+<wire x1="22.6314" y1="0" x2="-12.6238" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-12.6238" y1="0" x2="22.6314" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="22.5044" y1="0" x2="-12.4968" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-12.4968" y1="0" x2="22.5044" y2="0" width="0" layer="51" curve="-180"/>
+<text x="-13.5128" y="14.605" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-13.2334" y="12.065" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-14.0208" y1="0" x2="-12.7508" y2="0" width="0.1524" layer="21"/>
+<wire x1="-13.3858" y1="0.635" x2="-13.3858" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="22.6314" y1="0" x2="-12.6238" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-12.6238" y1="0" x2="22.6314" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-14.0208" y1="0" x2="-12.7508" y2="0" width="0.1524" layer="51"/>
+<wire x1="-13.3858" y1="0.635" x2="-13.3858" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="22.5044" y1="0" x2="-12.4968" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-12.4968" y1="0" x2="22.5044" y2="0" width="0" layer="51" curve="-180"/>
+</package>
+<package name="AC_240V_L1_15A">
+<pad name="P$1" x="0" y="0" drill="3" diameter="8"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -401,66 +436,134 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="3D_MIG_Controller" package="2_3.81MM_PITCH" value="2-pos" x="155.8" y="15.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="153.26" y="13.36" size="1.27" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="691322310002" x="155.8" y="15.9" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="J1" library="3D_MIG_Controller" package="2_3.81MM_PITCH" value="2-pos" x="130.8" y="13.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="128.26" y="10.66" size="1.27" layer="25" rot="R90"/>
+<attribute name="PARTNO" value="691322310002" x="130.8" y="13.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J2" library="3D_MIG_Controller" package="2_3.81MM_PITCH" value="2-pos" x="155.5" y="35.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="152.96" y="32.76" size="1.27" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="691322310002" x="155.5" y="35.3" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="J2" library="3D_MIG_Controller" package="2_3.81MM_PITCH" value="2-pos" x="130.5" y="32.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="127.96" y="30.06" size="1.27" layer="25" rot="R90"/>
+<attribute name="PARTNO" value="691322310002" x="130.5" y="32.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RL1" library="3D_MIG_Controller" package="J120D" value="" x="116.1" y="27.8" smashed="yes" rot="R90"/>
-<element name="U1" library="3D_MIG_Controller" package="SOT323" value="NPN" x="145.8" y="34.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="148.8226" y="32.241" size="1.27" layer="25" ratio="6" rot="SR180"/>
-<attribute name="PARTNO" value="BC846BW_NPN" x="145.8" y="34.4" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="RL1" library="3D_MIG_Controller" package="J120D" value="" x="106.7" y="29.1" smashed="yes" rot="R90"/>
+<element name="U1" library="3D_MIG_Controller" package="SOT323" value="NPN" x="120.8" y="31.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="123.8226" y="29.541" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="PARTNO" value="BC846BW_NPN" x="120.8" y="31.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R1" library="3D_MIG_Controller" package="0402" value="" x="148.7" y="35.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="149.589" y="35.681" size="0.254" layer="25" rot="R270"/>
-<attribute name="VALUE" x="147.684" y="35.554" size="0.254" layer="27" rot="R270"/>
+<element name="R1" library="3D_MIG_Controller" package="0402" value="" x="123.7" y="32.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="124.589" y="32.981" size="0.254" layer="25" rot="R270"/>
+<attribute name="VALUE" x="122.684" y="32.854" size="0.254" layer="27" rot="R270"/>
 </element>
+<element name="U$1" library="3D_MIG_Controller" package="KBPC-W_THRU" value="KBPC5010W-G" x="35" y="30" smashed="yes"/>
+<element name="C1" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_CND" value="SLP152M250H9P3" x="76.3" y="75" smashed="yes" rot="R180">
+<attribute name="BUILT_BY" value="EMA_Kyle" x="76.3" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="76.3" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" x="76.3" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" x="76.3" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="89.8128" y="60.395" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="74.5728" y="75.635" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="76.3" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="89.5334" y="62.935" size="1.27" layer="27" ratio="6" rot="SR180"/>
+<attribute name="VALUE" x="73.0234" y="75.635" size="1.27" layer="27" ratio="6" rot="SR180"/>
+<attribute name="VENDOR" value="Cornell Dubilier" x="76.3" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C2" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_CND" value="SLP152M250H9P3" x="34.9" y="75" smashed="yes" rot="R180">
+<attribute name="BUILT_BY" value="EMA_Kyle" x="34.9" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="34.9" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" x="34.9" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" x="34.9" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="48.4128" y="60.395" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="33.1728" y="75.635" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="34.9" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="48.1334" y="62.935" size="1.27" layer="27" ratio="6" rot="SR180"/>
+<attribute name="VALUE" x="31.6234" y="75.635" size="1.27" layer="27" ratio="6" rot="SR180"/>
+<attribute name="VENDOR" value="Cornell Dubilier" x="34.9" y="75" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="AC_L1" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="102.6" y="7.4" smashed="yes"/>
+<element name="AC_N" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="40" y="10" smashed="yes"/>
+<element name="AC_EG" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="10" y="10" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
 <contactref element="J1" pad="P$2"/>
 <contactref element="J2" pad="P$2"/>
 <contactref element="RL1" pad="P$1"/>
-<wire x1="155.8" y1="19.71" x2="126.01" y2="19.71" width="0.508" layer="16"/>
-<wire x1="126.01" y1="19.71" x2="122.1" y2="15.8" width="0.508" layer="16"/>
-<wire x1="155.8" y1="19.71" x2="155.5" y2="39.11" width="0" layer="19" extent="1-1"/>
+<wire x1="130.8" y1="17.01" x2="112.79" y2="17.01" width="0.508" layer="16"/>
+<wire x1="112.7" y1="17.1" x2="112.79" y2="17.01" width="0.508" layer="16"/>
+<wire x1="112.7" y1="17.1" x2="130.5" y2="36.41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V12">
 <contactref element="J1" pad="P$1"/>
 <contactref element="U1" pad="3"/>
-<wire x1="155.8" y1="15.9" x2="145.8" y2="15.9" width="0.508" layer="16"/>
-<via x="145.8" y="15.9" extent="1-16" drill="0.35"/>
-<wire x1="145.8" y1="15.9" x2="145.8" y2="33.5237" width="0.508" layer="1"/>
+<wire x1="130.8" y1="13.2" x2="120.8" y2="13.2" width="0.508" layer="16"/>
+<via x="120.8" y="13.2" extent="1-16" drill="0.35"/>
+<wire x1="120.8" y1="13.2" x2="120.8" y2="30.8237" width="0.508" layer="1"/>
 </signal>
 <signal name="RLONOFF">
 <contactref element="J2" pad="P$1"/>
 <contactref element="R1" pad="P$1"/>
-<wire x1="155.5" y1="35.3" x2="151.3" y2="35.3" width="0.508" layer="16"/>
-<via x="151.3" y="35.3" extent="1-16" drill="0.35"/>
-<wire x1="151.3" y1="35.3" x2="149.3" y2="35.3" width="0.508" layer="1"/>
+<wire x1="130.5" y1="32.6" x2="126.3" y2="32.6" width="0.508" layer="16"/>
+<via x="126.3" y="32.6" extent="1-16" drill="0.35"/>
+<wire x1="126.3" y1="32.6" x2="124.3" y2="32.6" width="0.508" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="P$2"/>
 <contactref element="U1" pad="1"/>
-<wire x1="148.1" y1="35.3" x2="146.4737" y2="35.3" width="0.508" layer="1"/>
-<wire x1="146.4737" y1="35.3" x2="146.45" y2="35.2763" width="0.508" layer="1"/>
+<wire x1="123.1" y1="32.6" x2="121.4737" y2="32.6" width="0.508" layer="1"/>
+<wire x1="121.4737" y1="32.6" x2="121.45" y2="32.5763" width="0.508" layer="1"/>
 </signal>
 <signal name="RELAY_IN">
 <contactref element="RL1" pad="P$2"/>
 <contactref element="U1" pad="2"/>
-<wire x1="145.15" y1="35.2763" x2="145.15" y2="37.75" width="0.508" layer="1"/>
-<wire x1="145.15" y1="37.75" x2="145.2" y2="37.8" width="0.508" layer="1"/>
-<via x="145.2" y="37.8" extent="1-16" drill="0.35"/>
-<wire x1="145.2" y1="37.8" x2="122.1" y2="37.8" width="0.508" layer="16"/>
+<wire x1="120.15" y1="32.5763" x2="120.15" y2="35.05" width="0.508" layer="1"/>
+<wire x1="120.15" y1="35.05" x2="120.2" y2="35.1" width="0.508" layer="1"/>
+<via x="120.2" y="35.1" extent="1-16" drill="0.35"/>
+<wire x1="120.2" y1="35.1" x2="116.3" y2="39" width="0.508" layer="16"/>
+<wire x1="116.3" y1="39" x2="112.8" y2="39" width="0.508" layer="16"/>
+<wire x1="112.8" y1="39" x2="112.7" y2="39.1" width="0.508" layer="16"/>
 </signal>
 <signal name="RELAY_LOAD_OUT">
-<contactref element="RL1" pad="P$4"/>
-</signal>
-<signal name="RELAY_LOAD_IN">
+<contactref element="U$1" pad="1"/>
 <contactref element="RL1" pad="P$3"/>
+<via x="94.8" y="42.9" extent="1-16" drill="2"/>
+<via x="25.7" y="48.6" extent="1-16" drill="2"/>
+<wire x1="94.8" y1="42.9" x2="100.7" y2="42.9" width="8" layer="16"/>
+<wire x1="25.7" y1="39.3" x2="25.7" y2="48.6" width="8" layer="16"/>
+<wire x1="25.7" y1="48.6" x2="94.8" y2="42.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="AC_N" pad="P$1"/>
+<contactref element="U$1" pad="3"/>
+<wire x1="40" y1="10" x2="44.3" y2="14.3" width="8" layer="16"/>
+<wire x1="44.3" y1="14.3" x2="44.3" y2="20.7" width="8" layer="16"/>
+</signal>
+<signal name="N$5">
+<contactref element="AC_L1" pad="P$1"/>
+<contactref element="RL1" pad="P$4"/>
+<wire x1="102.6" y1="7.4" x2="100.7" y2="9.3" width="8" layer="16"/>
+<wire x1="100.7" y1="9.3" x2="100.7" y2="15.3" width="8" layer="16"/>
+</signal>
+<signal name="N$3">
+<contactref element="C2" pad="2"/>
+<contactref element="U$1" pad="2"/>
+<wire x1="25.7" y1="20.7" x2="17.4" y2="20.7" width="8" layer="16"/>
+<wire x1="10.3" y1="27.8" x2="10.3" y2="74.5" width="8" layer="16"/>
+<wire x1="10.3" y1="74.5" x2="10.8" y2="75" width="8" layer="16"/>
+<wire x1="10.8" y1="75" x2="24.8924" y2="75" width="8" layer="16"/>
+<wire x1="17.4" y1="20.7" x2="10.3" y2="27.8" width="8" layer="16"/>
+</signal>
+<signal name="N$2">
+<contactref element="U$1" pad="4"/>
+<contactref element="C1" pad="1"/>
+<wire x1="44.3" y1="32.6" x2="44.3" y2="50.2" width="8" layer="16"/>
+<wire x1="44.3" y1="50.2" x2="53" y2="58.9" width="8" layer="16"/>
+<wire x1="76.3" y1="75" x2="76.3" y2="66.7" width="8" layer="16"/>
+<wire x1="68.5" y1="58.9" x2="53" y2="58.9" width="8" layer="16"/>
+<wire x1="76.3" y1="66.7" x2="68.5" y2="58.9" width="8" layer="16"/>
+</signal>
+<signal name="N$4">
+<contactref element="C2" pad="1"/>
+<contactref element="C1" pad="2"/>
+<wire x1="34.9" y1="75" x2="66.2924" y2="75" width="6" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
