@@ -179,10 +179,10 @@
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;Name</text>
 </package>
 <package name="J120D">
-<pad name="P$1" x="-10" y="-6" drill="1.8"/>
-<pad name="P$2" x="12" y="-6" drill="1.8"/>
-<pad name="P$3" x="13.8" y="6" drill="1.8"/>
-<pad name="P$4" x="-13.8" y="6" drill="1.8"/>
+<pad name="P$1" x="-10" y="-6" drill="1.5" diameter="3.5"/>
+<pad name="P$2" x="12" y="-6" drill="1.5" diameter="3.5"/>
+<pad name="P$3" x="13.8" y="6" drill="1.5" diameter="3.5"/>
+<pad name="P$4" x="-13.8" y="6" drill="1.5" diameter="3.5"/>
 <wire x1="-16" y1="8" x2="-16" y2="-8" width="0.1" layer="21"/>
 <wire x1="-16" y1="-8" x2="16" y2="-8" width="0.1" layer="21"/>
 <wire x1="16" y1="-8" x2="16" y2="8" width="0.1" layer="21"/>
@@ -221,8 +221,8 @@
 <text x="16.7" y="-10.1" size="1.27" layer="21" ratio="10">AC</text>
 </package>
 <package name="CAP_SLP152M250H9P3_CND">
-<pad name="1" x="0" y="0" drill="2.1082" diameter="2.6162"/>
-<pad name="2" x="10.0076" y="0" drill="2.1082" diameter="2.6162" rot="R180"/>
+<pad name="1" x="0" y="0" drill="1.999" diameter="3.5"/>
+<pad name="2" x="10.0076" y="0" drill="1.999" diameter="3.5" rot="R180"/>
 <wire x1="22.6314" y1="0" x2="-12.6238" y2="0" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-12.6238" y1="0" x2="22.6314" y2="0" width="0.1524" layer="21" curve="-180"/>
 <wire x1="22.5044" y1="0" x2="-12.4968" y2="0" width="0" layer="51" curve="-180"/>
