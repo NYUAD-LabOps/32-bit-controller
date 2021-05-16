@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-05-14T06:34:12Z",
+        "CreationDate": "2021-05-15T10:57:43Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -17,7 +17,7 @@
         },
         "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
-            "X": 111,
+            "X": 120,
             "Y": 100
         }
     }
