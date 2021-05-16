@@ -506,62 +506,59 @@ design rules under a new name.</description>
 <attribute name="NAME" x="91.789" y="6.231" size="0.254" layer="25" rot="R270"/>
 <attribute name="VALUE" x="89.884" y="6.104" size="0.254" layer="27" rot="R270"/>
 </element>
-<element name="U$1" library="3D_MIG_Controller" package="KBPC-W_THRU" value="KBPC5010W-G" x="36.3" y="66" smashed="yes"/>
-<element name="C1" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_CND" value="SLP152M250H9P3" x="81.4" y="41" smashed="yes" rot="R90">
-<attribute name="BUILT_BY" value="EMA_Kyle" x="81.4" y="41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="81.4" y="41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" x="81.4" y="41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" x="81.4" y="41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="66.795" y="27.4872" size="1.27" layer="25" ratio="6" rot="SR90"/>
-<attribute name="NAME" x="82.035" y="42.7272" size="1.27" layer="25" ratio="6" rot="SR90"/>
-<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="81.4" y="41" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="69.335" y="27.7666" size="1.27" layer="27" ratio="6" rot="SR90"/>
-<attribute name="VALUE" x="82.035" y="44.2766" size="1.27" layer="27" ratio="6" rot="SR90"/>
-<attribute name="VENDOR" value="Cornell Dubilier" x="81.4" y="41" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U$1" library="3D_MIG_Controller" package="KBPC-W_THRU" value="KBPC5010W-G" x="40.2" y="47.9" smashed="yes" rot="R270"/>
+<element name="C1" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_CND" value="SLP152M250H9P3" x="77.1" y="81.6" smashed="yes" rot="R180">
+<attribute name="BUILT_BY" value="EMA_Kyle" x="77.1" y="81.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="77.1" y="81.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" x="77.1" y="81.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" x="77.1" y="81.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="75.3728" y="82.235" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="90.6128" y="66.995" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="77.1" y="81.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="73.8234" y="82.235" size="1.27" layer="27" ratio="6" rot="SR180"/>
+<attribute name="VALUE" x="90.3334" y="69.535" size="1.27" layer="27" ratio="6" rot="SR180"/>
+<attribute name="VENDOR" value="Cornell Dubilier" x="77.1" y="81.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C2" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_CND" value="SLP152M250H9P3" x="71.2" y="75.8" smashed="yes" rot="R90">
-<attribute name="BUILT_BY" value="EMA_Kyle" x="71.2" y="75.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="71.2" y="75.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" x="71.2" y="75.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" x="71.2" y="75.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="56.595" y="62.2872" size="1.27" layer="25" ratio="6" rot="SR90"/>
-<attribute name="NAME" x="71.835" y="77.5272" size="1.27" layer="25" ratio="6" rot="SR90"/>
-<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="71.2" y="75.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="59.135" y="62.5666" size="1.27" layer="27" ratio="6" rot="SR90"/>
-<attribute name="VALUE" x="71.835" y="79.0766" size="1.27" layer="27" ratio="6" rot="SR90"/>
-<attribute name="VENDOR" value="Cornell Dubilier" x="71.2" y="75.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C2" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_CND" value="SLP152M250H9P3" x="38.1" y="81.4" smashed="yes" rot="R180">
+<attribute name="BUILT_BY" value="EMA_Kyle" x="38.1" y="81.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="38.1" y="81.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" x="38.1" y="81.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" x="38.1" y="81.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="36.3728" y="82.035" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="51.6128" y="66.795" size="1.27" layer="25" ratio="6" rot="SR180"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="38.1" y="81.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="34.8234" y="82.035" size="1.27" layer="27" ratio="6" rot="SR180"/>
+<attribute name="VALUE" x="51.3334" y="69.335" size="1.27" layer="27" ratio="6" rot="SR180"/>
+<attribute name="VENDOR" value="Cornell Dubilier" x="38.1" y="81.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="AC_L1" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="15" y="75" smashed="yes"/>
-<element name="AC_N" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="15" y="50" smashed="yes"/>
-<element name="AC_EG" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="15" y="25" smashed="yes"/>
-<element name="R2" library="3D_MIG_Controller" package="YAG_RSF200_YAG" value="RSF200JB-73-22R" x="58.3" y="47" smashed="yes" rot="R270">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="58.3" y="47" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RSF200JB-73-22R" x="58.3" y="47" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="57.665" y="38.5926" size="1.27" layer="25" ratio="6" rot="SR270"/>
-<attribute name="SOURCELIBRARY" value="Yageo_2014-12-31" x="58.3" y="47" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="57.665" y="37.0432" size="1.27" layer="27" ratio="6" rot="SR270"/>
-<attribute name="VENDOR" value="Yageo" x="58.3" y="47" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="AC_L1" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="11.2" y="46.9" smashed="yes"/>
+<element name="AC_N" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="11.5" y="30.1" smashed="yes"/>
+<element name="R2" library="3D_MIG_Controller" package="YAG_RSF200_YAG" value="RSF200JB-73-22R" x="59.9" y="47.3" smashed="yes">
+<attribute name="BUILT_BY" value="EMA_UL_Team" x="59.9" y="47.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RSF200JB-73-22R" x="59.9" y="47.3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="68.3074" y="46.665" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="SOURCELIBRARY" value="Yageo_2014-12-31" x="59.9" y="47.3" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="69.8568" y="46.665" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<attribute name="VENDOR" value="Yageo" x="59.9" y="47.3" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="3D_MIG_Controller" package="YAG_RSF200_YAG" value="RSF200JB-73-22R" x="50.6" y="47" smashed="yes" rot="R270">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="50.6" y="47" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RSF200JB-73-22R" x="50.6" y="47" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="49.965" y="38.5926" size="1.27" layer="25" ratio="6" rot="SR270"/>
-<attribute name="SOURCELIBRARY" value="Yageo_2014-12-31" x="50.6" y="47" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="49.965" y="37.0432" size="1.27" layer="27" ratio="6" rot="SR270"/>
-<attribute name="VENDOR" value="Yageo" x="50.6" y="47" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R3" library="3D_MIG_Controller" package="YAG_RSF200_YAG" value="RSF200JB-73-22R" x="60" y="39.2" smashed="yes">
+<attribute name="BUILT_BY" value="EMA_UL_Team" x="60" y="39.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RSF200JB-73-22R" x="60" y="39.2" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="68.4074" y="38.565" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="SOURCELIBRARY" value="Yageo_2014-12-31" x="60" y="39.2" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="69.9568" y="38.565" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<attribute name="VENDOR" value="Yageo" x="60" y="39.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L1" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="105" y="64" smashed="yes"/>
-<element name="L2" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="105" y="88.6" smashed="yes"/>
-<element name="R4" library="3D_MIG_Controller" package="RS005_VIS" value="RS00547K00FE73" x="95.8" y="94.3" smashed="yes" rot="R270">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="95.8" y="94.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RS00547K00FE73" x="95.8" y="94.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="101.515" y="86.9594" size="1.27" layer="25" ratio="6" rot="SR270"/>
-<attribute name="SOURCELIBRARY" value="Vishay_2014-12-31" x="95.8" y="94.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="101.515" y="71.44" size="1.27" layer="27" ratio="6" rot="SR270"/>
-<attribute name="VENDOR" value="Vishay" x="95.8" y="94.3" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="L1" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="110.7" y="69.4" smashed="yes"/>
+<element name="L2" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="110" y="85.3" smashed="yes"/>
+<element name="R4" library="3D_MIG_Controller" package="RS005_VIS" value="RS00547K00FE73" x="98.1" y="57.3" smashed="yes" rot="R90">
+<attribute name="BUILT_BY" value="EMA_UL_Team" x="98.1" y="57.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RS00547K00FE73" x="98.1" y="57.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="92.385" y="64.6406" size="1.27" layer="25" ratio="6" rot="SR90"/>
+<attribute name="SOURCELIBRARY" value="Vishay_2014-12-31" x="98.1" y="57.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="92.385" y="80.16" size="1.27" layer="27" ratio="6" rot="SR90"/>
+<attribute name="VENDOR" value="Vishay" x="98.1" y="57.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="L3" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="43.5" y="89.6" smashed="yes"/>
-<element name="L4" library="3D_MIG_Controller" package="AC_240V_L1_15A" value="" x="27.4" y="63.4" smashed="yes"/>
 <element name="LED1" library="3D_MIG_Controller" package="0805" value="Green" x="81.3" y="5.55" smashed="yes" rot="R270">
 <attribute name="NAME" x="82.57" y="6.82" size="0.508" layer="25" rot="R270"/>
 <attribute name="PARTNO" value="LG R971-KN-1" x="81.3" y="5.55" size="1.778" layer="27" rot="R270" display="off"/>
@@ -573,58 +570,10 @@ design rules under a new name.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="U$1" pad="2"/>
 <contactref element="L2" pad="P$1"/>
-<via x="92.3" y="90.8" extent="1-16" drill="0.35"/>
-<via x="90.6" y="86.2" extent="1-16" drill="0.35"/>
-<via x="86.9" y="91.4" extent="1-16" drill="0.35"/>
-<via x="87.2" y="88.2" extent="1-16" drill="0.35"/>
-<via x="81.1" y="90.3" extent="1-16" drill="0.35"/>
-<via x="82.5" y="85.7" extent="1-16" drill="0.35"/>
-<via x="77.2" y="87.5" extent="1-16" drill="0.35"/>
-<via x="69.6" y="90.7" extent="1-16" drill="0.35"/>
-<via x="62.7" y="86.1" extent="1-16" drill="0.35"/>
-<via x="60.6" y="90.8" extent="1-16" drill="0.35"/>
 <contactref element="R4" pad="1"/>
-<polygon width="0.01" layer="1" thermals="no">
-<vertex x="32" y="100"/>
-<vertex x="111" y="100"/>
-<vertex x="111" y="81"/>
-<vertex x="32" y="81"/>
-</polygon>
-<contactref element="L3" pad="P$1"/>
-<contactref element="L4" pad="P$1"/>
-<polygon width="0.01" layer="16" thermals="no">
-<vertex x="21" y="68"/>
-<vertex x="21" y="57.3"/>
-<vertex x="24.3" y="54"/>
-<vertex x="33.65" y="54"/>
-<vertex x="37.2" y="57.55"/>
-<vertex x="37.2" y="67.1"/>
-<vertex x="36.3" y="68"/>
-</polygon>
-<polygon width="0.01" layer="16" thermals="no">
-<vertex x="32" y="100"/>
-<vertex x="111" y="100"/>
-<vertex x="111" y="81"/>
-<vertex x="32" y="81"/>
-</polygon>
-<polygon width="0.01" layer="1" thermals="no">
-<vertex x="36.3" y="68"/>
-<vertex x="21" y="68"/>
-<vertex x="21" y="57.3"/>
-<vertex x="24.3" y="54"/>
-<vertex x="33.65" y="54"/>
-<vertex x="37.2" y="57.55"/>
-<vertex x="37.2" y="67.1"/>
-</polygon>
-<via x="31.8" y="56.9" extent="1-16" drill="0.35"/>
-<via x="33.7" y="58.4" extent="1-16" drill="0.35"/>
-<via x="34.2" y="60.9" extent="1-16" drill="0.35"/>
-<via x="34.4" y="63" extent="1-16" drill="0.35"/>
-<via x="33.7" y="65.7" extent="1-16" drill="0.35"/>
-<via x="54" y="93.9" extent="1-16" drill="0.35"/>
-<via x="53.8" y="89.7" extent="1-16" drill="0.35"/>
-<via x="51.5" y="85.8" extent="1-16" drill="0.35"/>
-<wire x1="43.5" y1="89.6" x2="33.7" y2="65.7" width="0" layer="19" extent="1-1"/>
+<wire x1="110" y1="85.3" x2="98.1" y2="57.3" width="0" layer="19" extent="1-1"/>
+<wire x1="28.0924" y1="81.4" x2="110" y2="85.3" width="0" layer="19" extent="1-1"/>
+<wire x1="31.2" y1="56.9" x2="28.0924" y2="81.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DC+">
 <contactref element="C1" pad="1"/>
@@ -632,134 +581,38 @@ design rules under a new name.</description>
 <contactref element="R3" pad="2"/>
 <contactref element="RL1" pad="P$3"/>
 <contactref element="L1" pad="P$1"/>
-<polygon width="0.01" layer="16" thermals="no">
-<vertex x="49" y="15"/>
-<vertex x="49" y="26.4"/>
-<vertex x="68.6" y="46"/>
-<vertex x="93" y="46"/>
-<vertex x="93" y="77.9"/>
-<vertex x="111" y="77.9"/>
-<vertex x="111" y="32"/>
-<vertex x="90.9" y="32"/>
-<vertex x="74.1" y="15"/>
-</polygon>
-<polygon width="0.01" layer="1" thermals="no">
-<vertex x="49" y="15"/>
-<vertex x="49" y="26.4"/>
-<vertex x="68.6" y="46"/>
-<vertex x="93" y="46"/>
-<vertex x="93" y="77.9"/>
-<vertex x="111" y="77.9"/>
-<vertex x="111" y="32"/>
-<vertex x="90.9" y="32"/>
-<vertex x="74.1" y="15"/>
-</polygon>
-<via x="69.7" y="25.9" extent="1-16" drill="0.35"/>
-<via x="75" y="27.4" extent="1-16" drill="0.35"/>
-<via x="66.1" y="33.9" extent="1-16" drill="0.35"/>
-<via x="76.8" y="35.3" extent="1-16" drill="0.35"/>
-<via x="85.4" y="33.4" extent="1-16" drill="0.35"/>
-<via x="94.2" y="35.7" extent="1-16" drill="0.35"/>
-<via x="90" y="39.7" extent="1-16" drill="0.35"/>
-<via x="100.4" y="39.7" extent="1-16" drill="0.35"/>
-<via x="97" y="40.7" extent="1-16" drill="0.35"/>
-<via x="100.5" y="52.9" extent="1-16" drill="0.35"/>
-<via x="95.3" y="53.2" extent="1-16" drill="0.35"/>
 <contactref element="R4" pad="2"/>
+<wire x1="98.1" y1="91.2344" x2="110.7" y2="69.4" width="0" layer="19" extent="1-1"/>
+<wire x1="77.1" y1="81.6" x2="98.1" y2="91.2344" width="0" layer="19" extent="1-1"/>
+<wire x1="70.5" y1="17.9" x2="77.1" y2="81.6" width="0" layer="19" extent="1-1"/>
+<wire x1="83.268" y1="47.3" x2="70.5" y2="17.9" width="0" layer="19" extent="1-1"/>
+<wire x1="83.368" y1="39.2" x2="83.268" y2="47.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAP_TO_CAP_1">
 <contactref element="C2" pad="1"/>
 <contactref element="C1" pad="2"/>
-<polygon width="0.01" layer="1" thermals="no">
-<vertex x="66.7" y="78"/>
-<vertex x="90" y="78"/>
-<vertex x="90" y="49.1"/>
-<vertex x="66.7" y="49.1"/>
-</polygon>
-<polygon width="0.01" layer="16" thermals="no">
-<vertex x="66.7" y="49.1"/>
-<vertex x="66.7" y="78"/>
-<vertex x="90" y="78"/>
-<vertex x="90" y="49.1"/>
-</polygon>
-<via x="83" y="73" extent="1-16" drill="0.35"/>
-<via x="78.1" y="70" extent="1-16" drill="0.35"/>
-<via x="73.2" y="66.5" extent="1-16" drill="0.35"/>
-<via x="87.2" y="63" extent="1-16" drill="0.35"/>
-<via x="82.5" y="60.5" extent="1-16" drill="0.35"/>
-<via x="75.7" y="56.9" extent="1-16" drill="0.35"/>
+<wire x1="67.0924" y1="81.6" x2="38.1" y2="81.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AC_N">
 <contactref element="AC_N" pad="P$1"/>
 <contactref element="U$1" pad="3"/>
-<polygon width="0.01" layer="16" thermals="no">
-<vertex x="0.1" y="55"/>
-<vertex x="19.07073125" y="55"/>
-<vertex x="23.363415625" y="51"/>
-<vertex x="35" y="51"/>
-<vertex x="43.4" y="59.4"/>
-<vertex x="46.9" y="59.4"/>
-<vertex x="48.7" y="57.6"/>
-<vertex x="48.7" y="50.9"/>
-<vertex x="42.2" y="44.4"/>
-<vertex x="0.1" y="44.4"/>
-</polygon>
-<polygon width="0.01" layer="1" thermals="no">
-<vertex x="0" y="44.4"/>
-<vertex x="0" y="55"/>
-<vertex x="19.07073125" y="55"/>
-<vertex x="23.363415625" y="51"/>
-<vertex x="35" y="51"/>
-<vertex x="43.4" y="59.4"/>
-<vertex x="46.9" y="59.4"/>
-<vertex x="48.7" y="57.6"/>
-<vertex x="48.7" y="50.9"/>
-<vertex x="42.2" y="44.4"/>
-</polygon>
+<wire x1="11.5" y1="30.1" x2="31.2" y2="38.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AC_L1">
 <contactref element="AC_L1" pad="P$1"/>
 <contactref element="U$1" pad="1"/>
-<polygon width="0.01" layer="1" thermals="no">
-<vertex x="0" y="86.9"/>
-<vertex x="0" y="71"/>
-<vertex x="29.1" y="71"/>
-<vertex x="29.1" y="86.9"/>
-</polygon>
-<polygon width="0.01" layer="16" thermals="no">
-<vertex x="0.1" y="86.9"/>
-<vertex x="0.1" y="71"/>
-<vertex x="29.1" y="71"/>
-<vertex x="29.1" y="86.9"/>
-</polygon>
-<via x="5.8" y="82.6" extent="1-16" drill="0.35"/>
-<via x="13.6" y="83.9" extent="1-16" drill="0.35"/>
-<via x="20.3" y="86.1" extent="1-16" drill="0.35"/>
+<wire x1="11.2" y1="46.9" x2="49.2" y2="56.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="J2" pad="P$1"/>
 <contactref element="J1" pad="P$1"/>
-<polygon width="0.01" layer="16" thermals="no">
-<vertex x="39" y="12.1"/>
-<vertex x="39" y="0"/>
-<vertex x="111" y="0"/>
-<vertex x="111" y="29"/>
-<vertex x="92.8" y="29"/>
-<vertex x="75.9" y="12.1"/>
-</polygon>
-<polygon width="0.01" layer="1" thermals="no">
-<vertex x="39" y="12.1"/>
-<vertex x="75.9" y="12.1"/>
-<vertex x="92.8" y="29"/>
-<vertex x="111" y="29"/>
-<vertex x="111" y="0"/>
-<vertex x="39" y="0"/>
-</polygon>
 <contactref element="U1" pad="2"/>
 <via x="106.2" y="22.5" extent="1-16" drill="0.35"/>
 <wire x1="116.5" y1="11.6" x2="110" y2="11.6" width="1.27" layer="16"/>
 <via x="110" y="11.6" extent="1-16" drill="0.35"/>
 <wire x1="116.5" y1="22.5" x2="106.2" y2="22.5" width="1.27" layer="16"/>
+<wire x1="116.5" y1="11.6" x2="116.5" y2="22.5" width="0" layer="19" extent="1-1"/>
+<wire x1="87.0763" y1="7.15" x2="110" y2="11.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD5">
 <contactref element="R1" pad="P$1"/>
@@ -776,80 +629,9 @@ design rules under a new name.</description>
 <contactref element="R2" pad="1"/>
 <contactref element="R3" pad="1"/>
 <contactref element="RL1" pad="P$4"/>
-<polygon width="0.01" layer="1" thermals="no">
-<vertex x="39" y="15"/>
-<vertex x="46" y="15"/>
-<vertex x="46" y="28"/>
-<vertex x="62.5" y="44.5"/>
-<vertex x="62.5" y="78"/>
-<vertex x="36" y="78"/>
-<vertex x="36" y="74.3"/>
-<vertex x="52.1" y="58.2"/>
-<vertex x="52.1" y="50.4"/>
-<vertex x="39" y="37.3"/>
-</polygon>
-<polygon width="0.01" layer="16" thermals="no">
-<vertex x="36" y="78"/>
-<vertex x="62.5" y="78"/>
-<vertex x="62.5" y="44.5"/>
-<vertex x="46" y="28"/>
-<vertex x="46" y="15"/>
-<vertex x="39" y="15"/>
-<vertex x="39" y="37.3"/>
-<vertex x="52.1" y="50.4"/>
-<vertex x="52.1" y="58.2"/>
-<vertex x="36" y="74.3"/>
-</polygon>
-<via x="53.6" y="73.5" extent="1-16" drill="0.35"/>
-<via x="57.6" y="71.1" extent="1-16" drill="0.35"/>
-<via x="53.6" y="68.3" extent="1-16" drill="0.35"/>
-<via x="58" y="63.2" extent="1-16" drill="0.35"/>
-<via x="54" y="61.2" extent="1-16" drill="0.35"/>
-<via x="59" y="56.3" extent="1-16" drill="0.35"/>
-<via x="56" y="54.6" extent="1-16" drill="0.35"/>
-<via x="58.8" y="52.4" extent="1-16" drill="0.35"/>
-<via x="54.9" y="45.5" extent="1-16" drill="0.35"/>
-<via x="54.7" y="42.9" extent="1-16" drill="0.35"/>
-<via x="50.3" y="42.2" extent="1-16" drill="0.35"/>
-<via x="45.6" y="40" extent="1-16" drill="0.35"/>
-<via x="50.6" y="39.1" extent="1-16" drill="0.35"/>
-<via x="50.8" y="36.5" extent="1-16" drill="0.35"/>
-<via x="46.1" y="35.3" extent="1-16" drill="0.35"/>
-<via x="46.5" y="31.8" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="AC_EG">
-<polygon width="0.01" layer="16" thermals="no">
-<vertex x="0" y="40"/>
-<vertex x="36" y="40"/>
-<vertex x="36" y="11"/>
-<vertex x="0" y="11"/>
-</polygon>
-<contactref element="AC_EG" pad="P$1"/>
-<polygon width="0.01" layer="1" thermals="no">
-<vertex x="0" y="40"/>
-<vertex x="36" y="40"/>
-<vertex x="36" y="11"/>
-<vertex x="0" y="11"/>
-</polygon>
-<via x="8" y="32.7" extent="1-16" drill="0.35"/>
-<via x="18.6" y="34.6" extent="1-16" drill="0.35"/>
-<via x="29.3" y="30.9" extent="1-16" drill="0.35"/>
-<via x="30.1" y="18.9" extent="1-16" drill="0.35"/>
-<via x="5.4" y="19.5" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="NC">
-<polygon width="0.01" layer="1">
-<vertex x="0" y="68"/>
-<vertex x="18" y="68"/>
-<vertex x="18" y="58"/>
-<vertex x="0" y="58"/>
-</polygon>
-<polygon width="0.01" layer="16" thermals="no">
-<vertex x="0" y="68"/>
-<vertex x="18" y="68"/>
-<vertex x="18" y="58"/>
-<vertex x="0" y="58"/>
-</polygon>
+<wire x1="60" y1="39.2" x2="59.9" y2="47.3" width="0" layer="19" extent="1-1"/>
+<wire x1="49.2" y1="45.3" x2="60" y2="39.2" width="0" layer="19" extent="1-1"/>
+<wire x1="42.9" y1="17.9" x2="49.2" y2="45.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD12">
 <contactref element="J1" pad="P$2"/>

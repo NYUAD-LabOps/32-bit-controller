@@ -573,21 +573,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="AC_240V_EG" prefix="L" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="AC_240V_L1_15A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="AC_240V_L1_15A">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RSF200JB-73-22R" prefix="R">
 <gates>
 <gate name="A" symbol="RES" x="0" y="0" swaplevel="1"/>
@@ -687,14 +672,11 @@
 <part name="C2" library="3D_MIG_Controller" deviceset="SLP152M250H9P3" device=""/>
 <part name="AC_L1" library="3D_MIG_Controller" deviceset="AC_240V_L_15A" device=""/>
 <part name="AC_N" library="3D_MIG_Controller" deviceset="AC_240V_N_15A" device=""/>
-<part name="AC_EG" library="3D_MIG_Controller" deviceset="AC_240V_EG" device=""/>
 <part name="R2" library="3D_MIG_Controller" deviceset="RSF200JB-73-22R" device=""/>
 <part name="R3" library="3D_MIG_Controller" deviceset="RSF200JB-73-22R" device=""/>
 <part name="L1" library="3D_MIG_Controller" deviceset="DC_HI_V" device=""/>
 <part name="L2" library="3D_MIG_Controller" deviceset="DC_HI_V" device=""/>
 <part name="R4" library="3D_MIG_Controller" deviceset="RS00547K00FE73" device=""/>
-<part name="L3" library="3D_MIG_Controller" deviceset="DC_HI_V" device=""/>
-<part name="L4" library="3D_MIG_Controller" deviceset="DC_HI_V" device=""/>
 <part name="LED1" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 </parts>
 <sheets>
@@ -727,9 +709,6 @@
 <instance part="AC_N" gate="G$1" x="-53.34" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="-56.642" y="109.22" size="1.778" layer="95" rot="R90" align="top-left"/>
 </instance>
-<instance part="AC_EG" gate="G$1" x="-45.72" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="-49.022" y="109.22" size="1.778" layer="95" rot="R90" align="top-left"/>
-</instance>
 <instance part="R2" gate="A" x="5.08" y="119.38" smashed="yes">
 <attribute name="VALUE" x="2.4638" y="113.8428" size="3.4798" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="2.8956" y="121.4628" size="3.4798" layer="95" ratio="10" rot="SR0"/>
@@ -746,12 +725,6 @@
 </instance>
 <instance part="R4" gate="A" x="99.06" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="96.9772" y="96.8756" size="3.4798" layer="95" ratio="10" rot="SR90"/>
-</instance>
-<instance part="L3" gate="G$1" x="137.16" y="93.98" smashed="yes">
-<attribute name="NAME" x="132.08" y="97.282" size="1.778" layer="95" align="top-left"/>
-</instance>
-<instance part="L4" gate="G$1" x="137.16" y="101.6" smashed="yes">
-<attribute name="NAME" x="132.08" y="104.902" size="1.778" layer="95" align="top-left"/>
 </instance>
 <instance part="LED1" gate="G$1" x="22.86" y="154.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="20.828" y="151.384" size="1.778" layer="95"/>
@@ -773,19 +746,9 @@
 <label x="132.08" y="86.36" size="1.016" layer="95" rot="R270" xref="yes"/>
 <label x="-22.86" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="R4" gate="A" pin="1"/>
-<wire x1="99.06" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="99.06" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
 <junction x="99.06" y="88.9"/>
-<pinref part="L3" gate="G$1" pin="P$1"/>
-<wire x1="132.08" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="93.98" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
-<junction x="124.46" y="88.9"/>
-<pinref part="L4" gate="G$1" pin="P$1"/>
-<wire x1="132.08" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="101.6" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
-<junction x="119.38" y="88.9"/>
 </segment>
 </net>
 <net name="DC+" class="0">
@@ -881,13 +844,6 @@
 <wire x1="-10.16" y1="134.62" x2="-10.16" y2="119.38" width="0.1524" layer="91"/>
 <junction x="-10.16" y="119.38"/>
 <label x="-22.86" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="AC_EG" class="0">
-<segment>
-<pinref part="AC_EG" gate="G$1" pin="P$1"/>
-<wire x1="-45.72" y1="109.22" x2="-40.64" y2="109.22" width="0.1524" layer="91"/>
-<label x="-40.64" y="109.22" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VDD12" class="0">
