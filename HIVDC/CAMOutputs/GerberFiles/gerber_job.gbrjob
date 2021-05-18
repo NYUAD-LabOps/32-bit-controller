@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-05-15T10:57:43Z",
+        "CreationDate": "2021-05-18T02:38:47Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,12 +13,12 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "HIVDC"
+            "ProjectId": "HIVDC_v1p1"
         },
         "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
-            "X": 120,
-            "Y": 100
+            "X": 125,
+            "Y": 120
         }
     }
 }

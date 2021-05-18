@@ -227,8 +227,8 @@
 <pad name="P$1" x="0" y="0" drill="3" diameter="8"/>
 </package>
 <package name="VRES_VDRUS10T460BSE_VIS">
-<pad name="1" x="0" y="0" drill="1.0922" diameter="1.6002" shape="square"/>
-<pad name="2" x="7.493" y="-3.81" drill="1.0922" diameter="1.6002" rot="R180"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.7" shape="square"/>
+<pad name="2" x="7.493" y="-3.81" drill="1" diameter="1.7" rot="R180"/>
 <wire x1="-2.9972" y1="-1.905" x2="-4.0132" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-4.0132" y1="-1.905" x2="-4.2672" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-4.0132" y1="-1.27" x2="-4.0132" y2="-1.905" width="0.1524" layer="21"/>
@@ -344,8 +344,8 @@
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 <package name="CAP_5.0_X_10.5_X_18.0_EPC">
-<pad name="1" x="0" y="0" drill="1.0668" diameter="1.5748" shape="square"/>
-<pad name="2" x="14.986" y="0" drill="1.0668" diameter="1.5748" rot="R180"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.6" shape="square"/>
+<pad name="2" x="14.986" y="0" drill="1" diameter="1.6" rot="R180"/>
 <wire x1="-3.0226" y1="0" x2="-1.7526" y2="0" width="0.1524" layer="51"/>
 <wire x1="-2.3876" y1="0.635" x2="-2.3876" y2="-0.635" width="0.1524" layer="51"/>
 <wire x1="16.4846" y1="2.4892" x2="-1.4986" y2="2.4892" width="0.1524" layer="51"/>
@@ -395,19 +395,19 @@
 <smd name="2" x="2.21" y="0" dx="2.159" dy="2.743" layer="1"/>
 </package>
 <package name="TRES_B57464S0XXXM000_EPC">
-<pad name="1" x="0" y="0" drill="0.9144" diameter="1.4224" shape="square"/>
-<pad name="2" x="5.0038" y="0" drill="0.9144" diameter="1.4224" rot="R180"/>
-<wire x1="-0.254" y1="3.1242" x2="5.2578" y2="3.1242" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="-3.1242" x2="5.2578" y2="-3.1242" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.1" diameter="1.8" shape="square"/>
+<pad name="2" x="10" y="0" drill="1.1" diameter="1.8" rot="R180"/>
+<wire x1="-0.254" y1="3.1242" x2="9.9578" y2="3.1242" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-3.1242" x2="10.1578" y2="-3.1242" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="-3.1242" x2="-0.254" y2="3.1242" width="0.1524" layer="21" curve="-180"/>
-<wire x1="8.382" y1="0" x2="5.2578" y2="-3.1242" width="0.1524" layer="21" curve="-90"/>
-<wire x1="5.2578" y1="3.1242" x2="8.382" y2="0" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.254" y1="2.9972" x2="5.2578" y2="2.9972" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-2.9972" x2="5.2578" y2="-2.9972" width="0.1524" layer="51"/>
+<wire x1="13.282" y1="-0.1" x2="10.1578" y2="-3.1242" width="0.1524" layer="21" curve="-90"/>
+<wire x1="9.9578" y1="3.1242" x2="13.282" y2="-0.1" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.254" y1="2.9972" x2="10.1578" y2="2.9972" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-2.9972" x2="10.1578" y2="-2.9972" width="0.1524" layer="51"/>
 <wire x1="-0.254" y1="-2.9972" x2="-0.254" y2="2.9972" width="0.1524" layer="51" curve="-180"/>
-<wire x1="5.2578" y1="2.9972" x2="5.2578" y2="-2.9972" width="0.1524" layer="51" curve="-180"/>
-<text x="-0.762" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="0.762" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="10.1578" y1="2.9972" x2="10.1578" y2="-2.9972" width="0.1524" layer="51" curve="-180"/>
+<text x="-2.362" y="3.565" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="6.462" y="3.565" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 <package name="HEADER_1_X_10_.1_INCH">
 <pad name="P$1" x="-24.13" y="-1.27" drill="1.2" diameter="1.6"/>
