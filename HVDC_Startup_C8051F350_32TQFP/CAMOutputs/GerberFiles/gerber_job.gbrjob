@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-05-18T02:38:47Z",
+        "CreationDate": "2021-05-18T09:43:24Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,12 +13,12 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "HIVDC_v1p1"
+            "ProjectId": "HVDCS_C8051F350_32TQFP"
         },
         "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
-            "X": 125,
-            "Y": 120
+            "X": 35,
+            "Y": 35
         }
     }
 }
