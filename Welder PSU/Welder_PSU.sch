@@ -11762,8 +11762,6 @@ Created by Upverter.com</description>
 <part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="22R"/>
 <part name="C19" library="3D_MIG_Controller" deviceset="C_0603" device="" value="1µF/25V"/>
 <part name="C20" library="3D_MIG_Controller" deviceset="C_0603" device="" value="1µF/25V"/>
-<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
-<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device=""/>
 <part name="IC4" library="3D_MIG_Controller" deviceset="UCC27524DGN" device="VSS"/>
 <part name="IC6" library="3D_MIG_Controller" deviceset="UCC27524DGN" device="VSS"/>
@@ -12181,12 +12179,6 @@ Created by Upverter.com</description>
 <instance part="C20" gate="G$1" x="256.54" y="50.8" smashed="yes">
 <attribute name="NAME" x="259.715" y="52.324" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="262.509" y="52.324" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="SUPPLY1" gate="G$1" x="256.54" y="43.18" smashed="yes">
-<attribute name="VALUE" x="254.127" y="40.005" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY4" gate="G$1" x="129.54" y="38.1" smashed="yes">
-<attribute name="VALUE" x="132.207" y="37.465" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="452.12" y="0" smashed="yes">
@@ -13109,6 +13101,9 @@ Created by Upverter.com</description>
 <label x="246.38" y="27.94" size="1.27" layer="95" rot="R270" xref="yes"/>
 <wire x1="246.38" y1="27.94" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
 <junction x="246.38" y="30.48"/>
+<wire x1="246.38" y1="30.48" x2="256.54" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="30.48" x2="256.54" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VSS_C" class="4">
@@ -13134,6 +13129,7 @@ Created by Upverter.com</description>
 <wire x1="246.38" y1="43.18" x2="246.38" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <label x="220.98" y="43.18" size="1.778" layer="95"/>
+<label x="246.38" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -13215,6 +13211,10 @@ Created by Upverter.com</description>
 <wire x1="116.84" y1="27.94" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <label x="116.84" y="27.94" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="116.84" y1="27.94" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
+<junction x="116.84" y="27.94"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="27.94" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="3">
@@ -13271,13 +13271,13 @@ Created by Upverter.com</description>
 <net name="V_12V_AUX" class="5">
 <segment>
 <pinref part="R40" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="60.96" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
 <label x="254" y="60.96" size="1.778" layer="95"/>
+<wire x1="251.46" y1="60.96" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
+<label x="269.24" y="60.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="60.96" x2="269.24" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="53.34" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
 <junction x="256.54" y="60.96"/>
-<label x="269.24" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
@@ -13307,16 +13307,6 @@ Created by Upverter.com</description>
 <wire x1="226.06" y1="38.1" x2="223.52" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="38.1" x2="223.52" y2="35.56" width="0.1524" layer="91"/>
 <junction x="223.52" y="35.56"/>
-</segment>
-</net>
-<net name="GND2" class="0">
-<segment>
-<pinref part="C20" gate="G$1" pin="2"/>
-<pinref part="SUPPLY1" gate="G$1" pin="GND2"/>
-</segment>
-<segment>
-<pinref part="C19" gate="G$1" pin="2"/>
-<pinref part="SUPPLY4" gate="G$1" pin="GND2"/>
 </segment>
 </net>
 <net name="AN_OUTE_2" class="3">
