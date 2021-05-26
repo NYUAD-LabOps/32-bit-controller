@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -682,15 +682,15 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="WURTH_860011378008_0">
+<package name="WURTH_860011378008_MODIFIED">
 <description>Aluminium Electrolytic Capacitor, WCAP-ATG8 Series, 33 F, 20%, 400 V, 13 mm, Radial Leaded</description>
 <wire x1="-4.625" y1="4.8" x2="-4.625" y2="-4.8" width="0.3" layer="21"/>
 <text x="-8.3" y="-0.25" size="1" layer="25">&gt;NAME</text>
 <circle x="0" y="0" radius="6.75" width="0.15" layer="51"/>
 <circle x="0" y="0" radius="6.85" width="0" layer="39"/>
 <circle x="0" y="0" radius="6.75" width="0.15" layer="21"/>
-<pad name="1" x="-2.5" y="0" drill="0.9" diameter="1.4" shape="square"/>
-<pad name="2" x="2.5" y="0" drill="0.9" diameter="1.4"/>
+<pad name="1" x="-2.5" y="0" drill="1" diameter="1.6764" shape="square"/>
+<pad name="2" x="2.5" y="0" drill="1" diameter="1.6764"/>
 </package>
 <package name="ERG-2SJ390V_0">
 <description>RES 39 OHM 2W 5% AXIAL</description>
@@ -967,7 +967,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="-13.5128" y="14.605" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-13.2334" y="12.065" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
-<package name="GBPC3510W">
+<package name="GBPC3510W_MODIFIED">
 <description>Bridge Rectifiers (Glass Passivated)</description>
 <wire x1="-14.375" y1="-14.375" x2="-14.375" y2="14.375" width="0.15" layer="51"/>
 <wire x1="-14.375" y1="14.375" x2="14.375" y2="14.375" width="0.15" layer="51"/>
@@ -979,10 +979,10 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <wire x1="14.375" y1="-14.375" x2="-14.375" y2="-14.375" width="0.15" layer="21"/>
 <text x="-14.2" y="14.85" size="1" layer="25">&gt;NAME</text>
 <circle x="-15.4" y="-9.05" radius="0.25" width="0" layer="21"/>
-<pad name="1" x="-5.7" y="-9.05" drill="1.25" diameter="1.9" shape="square"/>
-<pad name="2" x="5.7" y="-9.05" drill="1.25" diameter="1.9"/>
-<pad name="3" x="9.05" y="9.05" drill="1.25" diameter="1.9"/>
-<pad name="4" x="-9.05" y="9.05" drill="1.25" diameter="1.9"/>
+<pad name="1" x="-5.7" y="-9.05" drill="1.5" diameter="2.2" shape="square"/>
+<pad name="2" x="5.7" y="-9.05" drill="1.5" diameter="2.2"/>
+<pad name="3" x="9.05" y="9.05" drill="1.5" diameter="2.2"/>
+<pad name="4" x="-9.05" y="9.05" drill="1.5" diameter="2.2"/>
 </package>
 <package name="SMA_STTH1L06A">
 <description>Diode Standard 600V 1A Surface Mount SMA</description>
@@ -2276,49 +2276,20 @@ Diode with low voltage drop</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="860011378008" prefix="C">
-<description>Aluminium Electrolytic Capacitor, WCAP-ATG8 Series, 33 F, 20%, 400 V, 13 mm, Radial Leaded</description>
+<deviceset name="860011378008_MODIFIED" prefix="C">
+<description>Aluminium Electrolytic Capacitor, WCAP-ATG8 Series, 33 F, 20%, 400 V, 13 mm, Radial Leaded
+Drill modified to match LabOp Machines</description>
 <gates>
 <gate name="G$0" symbol="WURTH_860011378008_0_0" x="0" y="0"/>
 </gates>
 <devices>
-<device name="WURTH_860011378008_0_0" package="WURTH_860011378008_0">
+<device name="" package="WURTH_860011378008_MODIFIED">
 <connects>
 <connect gate="G$0" pin="ANODE" pad="2"/>
 <connect gate="G$0" pin="CATHODE" pad="1"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CAPACITANCE" value="33.0µF"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="DATASHEET" value="http://katalog.we-online.com/pbs/datasheet/860011378008.pdf"/>
-<attribute name="DEVICE_CLASS_L1" value="Passive Components"/>
-<attribute name="DEVICE_CLASS_L2" value="Capacitors"/>
-<attribute name="DEVICE_CLASS_L3" value="Aluminum Electrolytic Capacitors"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CAP 33 UF 20% 400 V"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="732-8692-1-ND"/>
-<attribute name="DISSIPATION_FACTOR" value="15%"/>
-<attribute name="HEIGHT" value="26.5mm"/>
-<attribute name="LEAD_FREE" value="yes"/>
-<attribute name="LEAKAGE_CURRENT" value="396uA"/>
-<attribute name="LIFE" value="2000Hours"/>
-<attribute name="MATERIAL" value="Aluminium"/>
-<attribute name="MF" value="Wurth"/>
-<attribute name="MFG_PACKAGE_IDENT" value="860011378008"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-860011378008"/>
-<attribute name="MPN" value="860011378008"/>
-<attribute name="PACKAGE" value="RADIAL"/>
-<attribute name="PREFIX" value="C"/>
-<attribute name="RIPPLE_CURRENT" value="230mA"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-25°C"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1"/>
-<attribute name="VOLTAGE_RATING" value="400V"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2709,13 +2680,13 @@ Diode with low voltage drop</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GBPC3510W" prefix="D">
-<description>BRIDGE RECT 1xPhase 1KV 35A GBPC-W Package</description>
+<deviceset name="GBPC3510W_MODIFIED" prefix="D">
+<description>BRIDGE RECT 1xPhase 1KV 35A GBPC-W Package, Drill modified to match Labop Drill Tips</description>
 <gates>
 <gate name="G$1" symbol="GBPC3510W" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="GBPC3510W">
+<device name="" package="GBPC3510W_MODIFIED">
 <connects>
 <connect gate="G$1" pin="+" pad="1"/>
 <connect gate="G$1" pin="-" pad="3"/>
@@ -14111,8 +14082,8 @@ Created by Upverter.com</description>
 <part name="C6" library="3D_MIG_Controller" deviceset="C_0805" device="" value="10µ-f/ 16V"/>
 <part name="C7" library="3D_MIG_Controller" deviceset="C_0805" device="" value="22µF/16V"/>
 <part name="C8" library="3D_MIG_Controller" deviceset="C_0805" device="" value="1µF/25V"/>
-<part name="C9" library="3D_MIG_Controller" deviceset="860011378008" device="WURTH_860011378008_0_0"/>
-<part name="C10" library="3D_MIG_Controller" deviceset="860011378008" device="WURTH_860011378008_0_0"/>
+<part name="C9" library="3D_MIG_Controller" deviceset="860011378008_MODIFIED" device=""/>
+<part name="C10" library="3D_MIG_Controller" deviceset="860011378008_MODIFIED" device=""/>
 <part name="R10" library="3D_MIG_Controller" deviceset="ERG-2SJ390V" device="PANASONIC_ERG-2SJ390V_0_0"/>
 <part name="C11" library="3D_MIG_Controller" deviceset="R49AN347050B1M" device="KEMET_R49AN347050B1M_0_0"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="220K 5% CRCW1206220KJNEAHP"/>
@@ -14905,7 +14876,7 @@ Created by Upverter.com</description>
 <part name="C3" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
 <part name="C4" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
 <part name="R13" library="3D_MIG_Controller" deviceset="B72205S0271K101" device=""/>
-<part name="D2" library="3D_MIG_Controller" deviceset="GBPC3510W" device=""/>
+<part name="D2" library="3D_MIG_Controller" deviceset="GBPC3510W_MODIFIED" device=""/>
 </parts>
 <sheets>
 <sheet>
