@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -292,17 +292,17 @@ DIN A3, landscape with extra doc field</description>
 <pad name="2" x="-0.227" y="0" drill="1.85" diameter="2.8"/>
 <pad name="3" x="-0.227" y="-5.46" drill="1.85" diameter="2.8"/>
 </package>
-<package name="B0570-BL" urn="urn:adsk.eagle:footprint:28103887/1">
-<pad name="10" x="15.75" y="1.27" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="9" x="15.75" y="-3.81" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="8" x="15.75" y="-8.89" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="7" x="15.75" y="-13.97" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="6" x="15.75" y="-19.05" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="1" x="0" y="0" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="2" x="0" y="-3.81" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="3" x="0" y="-8.89" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="4" x="0" y="-13.97" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="5" x="0" y="-19.05" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
+<package name="B0570-BL_MODIFIED">
+<pad name="10" x="15.75" y="1.27" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="9" x="15.75" y="-3.81" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="8" x="15.75" y="-8.89" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="7" x="15.75" y="-13.97" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="6" x="15.75" y="-19.05" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="1" x="0" y="0" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="2" x="0" y="-3.81" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="3" x="0" y="-8.89" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="4" x="0" y="-13.97" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="5" x="0" y="-19.05" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
 <wire x1="-6.096" y1="5.08" x2="21.844" y2="5.08" width="0.1" layer="21"/>
 <wire x1="21.844" y1="-22.86" x2="21.844" y2="5.08" width="0.1" layer="21"/>
 <wire x1="-6.096" y1="-22.86" x2="21.844" y2="-22.86" width="0.1" layer="21"/>
@@ -782,7 +782,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="PANASONIC_ALFG2PF09_0">
+<package name="PANASONIC_ALFG2PF09_0_MODIFIED">
 <description>PNSC-ALFG2PF09-LF-G-4-3010x1570x2330-4</description>
 <wire x1="-3.2" y1="-14" x2="27.2" y2="-14" width="0.1" layer="51"/>
 <wire x1="27.2" y1="-14" x2="27.2" y2="2" width="0.1" layer="51"/>
@@ -797,10 +797,10 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <wire x1="27.725" y1="2.225" x2="27.725" y2="-14.225" width="0.1" layer="39"/>
 <wire x1="27.725" y1="-14.225" x2="-3.725" y2="-14.225" width="0.1" layer="39"/>
 <text x="-4.725" y="2.225" size="1" layer="25">&gt;NAME</text>
-<pad name="1" x="0" y="0" drill="1.9" diameter="2.4" shape="square"/>
-<pad name="2" x="22" y="0" drill="1.9" diameter="2.4"/>
-<pad name="3" x="-1.8" y="-12" drill="2.1" diameter="2.6"/>
-<pad name="4" x="25.8" y="-12" drill="2.1" diameter="2.6"/>
+<pad name="1" x="0" y="0" drill="2" diameter="2.6" shape="square"/>
+<pad name="2" x="22" y="0" drill="2" diameter="2.6"/>
+<pad name="3" x="-1.8" y="-12" drill="2" diameter="2.6"/>
+<pad name="4" x="25.8" y="-12" drill="2" diameter="2.6"/>
 </package>
 <package name="TE_726386-2">
 <description>Terminals GDS-FLACHSTECK 6.3</description>
@@ -1086,13 +1086,30 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <smd name="3" x="2.75" y="-1.27" dx="1.803" dy="0.866" layer="1" roundness="100"/>
 <smd name="4" x="2.75" y="1.27" dx="1.803" dy="0.866" layer="1" roundness="100"/>
 </package>
+<package name="TE_282841-2_0">
+<description>TERM BLOCK 2POS SIDE ENT 5.08MM</description>
+<wire x1="-5.33" y1="-4.5" x2="-5.33" y2="4.5" width="0.15" layer="51"/>
+<wire x1="-5.33" y1="4.5" x2="5.33" y2="4.5" width="0.15" layer="51"/>
+<wire x1="5.33" y1="4.5" x2="5.33" y2="-4.5" width="0.15" layer="51"/>
+<wire x1="5.33" y1="-4.5" x2="-5.33" y2="-4.5" width="0.15" layer="51"/>
+<wire x1="-5.33" y1="-4.5" x2="-5.33" y2="4.5" width="0.15" layer="21"/>
+<wire x1="-5.33" y1="4.5" x2="5.33" y2="4.5" width="0.15" layer="21"/>
+<wire x1="5.33" y1="4.5" x2="5.33" y2="-4.5" width="0.15" layer="21"/>
+<wire x1="5.33" y1="-4.5" x2="-5.33" y2="-4.5" width="0.15" layer="21"/>
+<wire x1="-5.555" y1="-4.725" x2="-5.555" y2="4.725" width="0.1" layer="39"/>
+<wire x1="-5.555" y1="4.725" x2="5.605" y2="4.725" width="0.1" layer="39"/>
+<wire x1="5.605" y1="4.725" x2="5.605" y2="-4.725" width="0.1" layer="39"/>
+<wire x1="5.605" y1="-4.725" x2="-5.555" y2="-4.725" width="0.1" layer="39"/>
+<text x="-5.58" y="4.875" size="1" layer="25">&gt;NAME</text>
+<circle x="-6.255" y="0" radius="0.25" width="0" layer="21"/>
+<pad name="1" x="-2.79" y="0" drill="1.5" diameter="2.25" shape="square"/>
+<pad name="2" x="2.29" y="0" drill="1.5" diameter="2.25"/>
+</package>
+<package name="THT_PAD_D5.0">
+<pad name="P$1" x="0" y="0" drill="5" diameter="8" shape="square"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="B0570-BL" urn="urn:adsk.eagle:package:28103889/1" type="box">
-<packageinstances>
-<packageinstance name="B0570-BL"/>
-</packageinstances>
-</package3d>
 <package3d name="TSSOP24" urn="urn:adsk.eagle:package:28117968/1" type="box">
 <description>24-Lead Thin Shrink Small Outline Package TSSOP (RU-24)
 Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</description>
@@ -1758,6 +1775,29 @@ Diode with low voltage drop</description>
 <pin name="1_~" x="10.16" y="0" visible="pad" length="middle" direction="pas" rot="R270"/>
 <pin name="2_~" x="10.16" y="-30.48" visible="pad" length="middle" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="TE_282841-2_0_0">
+<description>TERM BLOCK 2POS SIDE ENT 5.08MM</description>
+<wire x1="0" y1="-20.32" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-20.32" x2="0" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="3.302" y1="-10.16" x2="5.08" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="3.302" y1="-15.24" x2="5.08" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.15" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="5.08" y2="-15.24" width="0.15" layer="94"/>
+<text x="0" y="-2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="-22.86" size="2.54" layer="95" align="top-left">282841-2</text>
+<pin name="1" x="10.16" y="-10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="2" x="10.16" y="-15.24" visible="pad" length="middle" rot="R180"/>
+<circle x="2.54" y="-10.16" radius="0.762" width="0.254" layer="94"/>
+<circle x="2.54" y="-15.24" radius="0.762" width="0.254" layer="94"/>
+</symbol>
+<symbol name="THT_PAD">
+<circle x="0" y="0" radius="3.5921" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="-7.62" y="0" length="middle"/>
+<text x="-2.54" y="5.08" size="1.27" layer="94">&gt;Name</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SIHG039N60EF" prefix="T">
@@ -1778,13 +1818,13 @@ Diode with low voltage drop</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="B0570-BL" prefix="TR">
+<deviceset name="B0570-BL_MODIFIED" prefix="TR">
 <description>Flyback Transformer, B0570-BL, Coilcraft, 12Watt</description>
 <gates>
 <gate name="G$1" symbol="B0570-BL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="B0570-BL">
+<device name="B0570-BL-MODIFIED" package="B0570-BL_MODIFIED">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -1793,9 +1833,6 @@ Diode with low voltage drop</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28103889/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2420,13 +2457,13 @@ Drill modified to match LabOp Machines</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PANASONIC_ALFG2PF09" prefix="K">
+<deviceset name="PANASONIC_ALFG2PF09_MODIFIED" prefix="K">
 <description>Relay 31A, 9V, SPST-NO (1 Form A) Panasonic</description>
 <gates>
 <gate name="G$0" symbol="PANASONIC_ALFG2PF09_0_0" x="0" y="0"/>
 </gates>
 <devices>
-<device name="PANASONIC_ALFG2PF09_0_0" package="PANASONIC_ALFG2PF09_0">
+<device name="" package="PANASONIC_ALFG2PF09_0_MODIFIED">
 <connects>
 <connect gate="G$0" pin="1" pad="1"/>
 <connect gate="G$0" pin="2" pad="2"/>
@@ -2434,38 +2471,7 @@ Drill modified to match LabOp Machines</description>
 <connect gate="G$0" pin="NO" pad="3"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CIIVA_IDS" value="1180488"/>
-<attribute name="COIL_VOLTAGE" value="9 V"/>
-<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL"/>
-<attribute name="COMPONENT_LINK_1_URL" value="http://www3.panasonic.biz/ac/ae/index.jsp"/>
-<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="Package Specification"/>
-<attribute name="COMPONENT_LINK_3_URL" value="http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf?f_cd=300272"/>
-<attribute name="DATASHEET" value="http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf?f_cd=300272"/>
-<attribute name="DATASHEET_VERSION" value="201402-T"/>
-<attribute name="ELECTRICAL_LIFE" value="3x10^4"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Manufacturer Recommended"/>
-<attribute name="IMPORTED" value="yes"/>
-<attribute name="IMPORTED_FROM" value="vault"/>
-<attribute name="IMPORT_TS" value="1521844845"/>
-<attribute name="MAX_SWITCHING_CURRENT" value="31 A AC"/>
-<attribute name="MAX_SWITCHING_VOLTAGE" value="250 V AC"/>
-<attribute name="MECHANICAL_LIFEMINOPERATION" value="1x10^6"/>
-<attribute name="MF" value="Panasonic"/>
-<attribute name="MOUNTING_TECHNOLOGY" value="Through Hole"/>
-<attribute name="MPN" value="ALFG2PF09"/>
-<attribute name="NOMINAL_OPERATING_POWER" value="1400 mW"/>
-<attribute name="PACKAGE" value="LF-G-4-3010x1570x2330"/>
-<attribute name="PACKAGE_DESCRIPTION" value="4-Pin Through Hole Terminal Package, Body 30.1 x 15.7 mm"/>
-<attribute name="PACKAGE_VERSION" value="ASCTB196E, 02/2014"/>
-<attribute name="PACKING" value="Carton, Case"/>
-<attribute name="PB__FREE" value="true"/>
-<attribute name="PREFIX" value="K"/>
-<attribute name="RELEASE_DATE" value="1421744840"/>
-<attribute name="SERIES" value="LF-G Relays"/>
-<attribute name="VAULT_GUID" value="49A0321D-630D-49EF-B2C8-0308632C255A"/>
-<attribute name="VAULT_REVISION" value="10808CD6-6A28-402B-B998-FC10EF34438A"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2955,6 +2961,37 @@ Drill modified to match LabOp Machines</description>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
 <attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TE_282841-2" prefix="J">
+<gates>
+<gate name="G$1" symbol="TE_282841-2_0_0" x="-10.16" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="TE_282841-2_0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="THT_PAD_5MM" prefix="PAD">
+<gates>
+<gate name="G$1" symbol="THT_PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THT_PAD_D5.0">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -10837,67 +10874,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="wirepad" urn="urn:adsk.eagle:library:412">
-<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="3,81/1,4" urn="urn:adsk.eagle:footprint:30817/1" library_version="2">
-<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<wire x1="1.905" y1="-1.27" x2="1.905" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-1.905" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.905" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.905" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.905" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.905" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.397" diameter="3.81" shape="octagon"/>
-<text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="1.2" size="0.0254" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="3,81/1,4" urn="urn:adsk.eagle:package:30835/1" type="box" library_version="2">
-<description>THROUGH-HOLE PAD</description>
-<packageinstances>
-<packageinstance name="3,81/1,4"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="PAD" urn="urn:adsk.eagle:symbol:30808/1" library_version="2">
-<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
-<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="3,81/1,4" urn="urn:adsk.eagle:component:30853/2" prefix="PAD" uservalue="yes" library_version="2">
-<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="PAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="3,81/1,4">
-<connects>
-<connect gate="1" pin="P" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30835/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="14" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="diode" urn="urn:adsk.eagle:library:210">
 <description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
@@ -11525,86 +11501,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="TE - 282841-2">
-<description>Upverter Parts Library
-
-Created by Upverter.com</description>
-<packages>
-<package name="TE_282841-2_0">
-<description>TERM BLOCK 2POS SIDE ENT 5.08MM</description>
-<wire x1="-5.33" y1="-4.5" x2="-5.33" y2="4.5" width="0.15" layer="51"/>
-<wire x1="-5.33" y1="4.5" x2="5.33" y2="4.5" width="0.15" layer="51"/>
-<wire x1="5.33" y1="4.5" x2="5.33" y2="-4.5" width="0.15" layer="51"/>
-<wire x1="5.33" y1="-4.5" x2="-5.33" y2="-4.5" width="0.15" layer="51"/>
-<wire x1="-5.33" y1="-4.5" x2="-5.33" y2="4.5" width="0.15" layer="21"/>
-<wire x1="-5.33" y1="4.5" x2="5.33" y2="4.5" width="0.15" layer="21"/>
-<wire x1="5.33" y1="4.5" x2="5.33" y2="-4.5" width="0.15" layer="21"/>
-<wire x1="5.33" y1="-4.5" x2="-5.33" y2="-4.5" width="0.15" layer="21"/>
-<wire x1="-5.555" y1="-4.725" x2="-5.555" y2="4.725" width="0.1" layer="39"/>
-<wire x1="-5.555" y1="4.725" x2="5.605" y2="4.725" width="0.1" layer="39"/>
-<wire x1="5.605" y1="4.725" x2="5.605" y2="-4.725" width="0.1" layer="39"/>
-<wire x1="5.605" y1="-4.725" x2="-5.555" y2="-4.725" width="0.1" layer="39"/>
-<text x="-5.58" y="4.875" size="1" layer="25">&gt;NAME</text>
-<circle x="-6.255" y="0" radius="0.25" width="0" layer="21"/>
-<pad name="1" x="-2.79" y="0" drill="1.4" diameter="2.15" shape="square"/>
-<pad name="2" x="2.29" y="0" drill="1.4" diameter="2.15"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TE_282841-2_0_0">
-<description>TERM BLOCK 2POS SIDE ENT 5.08MM</description>
-<wire x1="0" y1="-20.32" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-20.32" x2="0" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="3.302" y1="-10.16" x2="5.08" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="3.302" y1="-15.24" x2="5.08" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.15" layer="94"/>
-<wire x1="5.08" y1="-15.24" x2="5.08" y2="-15.24" width="0.15" layer="94"/>
-<text x="0" y="-2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
-<text x="0" y="-22.86" size="2.54" layer="95" align="top-left">282841-2</text>
-<pin name="1" x="10.16" y="-10.16" visible="pad" length="middle" rot="R180"/>
-<pin name="2" x="10.16" y="-15.24" visible="pad" length="middle" rot="R180"/>
-<circle x="2.54" y="-10.16" radius="0.762" width="0.254" layer="94"/>
-<circle x="2.54" y="-15.24" radius="0.762" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TE_282841-2" prefix="J">
-<description>TERM BLOCK 2POS SIDE ENT 5.08MM</description>
-<gates>
-<gate name="G$0" symbol="TE_282841-2_0_0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="TE_282841-2_0_0" package="TE_282841-2_0">
-<connects>
-<connect gate="G$0" pin="1" pad="1"/>
-<connect gate="G$0" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F282841%7FH6%7Fpdf%7FEnglish%7FENG_CD_282841_H6.pdf%7F282841-2"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN 2 Position Wire to Board Terminal Block Horizontal with Board 0.200&quot; (5.08mm) Through Hole"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A98342-ND"/>
-<attribute name="FORKED_FROM" value="57044443676a7d4b"/>
-<attribute name="IS_FEMALE" value="yes"/>
-<attribute name="LEAD_FREE" value="yes"/>
-<attribute name="MF" value="TE"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-2828412"/>
-<attribute name="MPN" value="282841-2"/>
-<attribute name="PACKAGE" value="PTH_TERM_BLOCK"/>
-<attribute name="PREFIX" value="J"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11757,8 +11653,6 @@ Created by Upverter.com</description>
 <part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100pF 100V"/>
 <part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="22R"/>
 <part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100pF 100V"/>
-<part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="3,81/1,4" device="" package3d_urn="urn:adsk.eagle:package:30835/1"/>
-<part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="3,81/1,4" device="" package3d_urn="urn:adsk.eagle:package:30835/1"/>
 <part name="R49" library="3D_MIG_Controller" deviceset="WSLP3921L1000FEA" device=""/>
 <part name="IC7" library="3D_MIG_Controller" deviceset="MCP6001UT" device=""/>
 <part name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="590R 1%"/>
@@ -11846,6 +11740,8 @@ Created by Upverter.com</description>
 <part name="GND25" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND27" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND29" library="3D_MIG_Controller" deviceset="GND" device=""/>
+<part name="PAD1" library="3D_MIG_Controller" deviceset="THT_PAD_5MM" device=""/>
+<part name="PAD2" library="3D_MIG_Controller" deviceset="THT_PAD_5MM" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12249,14 +12145,6 @@ Created by Upverter.com</description>
 <attribute name="NAME" x="321.564" y="279.019" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="321.564" y="276.479" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="PAD1" gate="1" x="76.2" y="393.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="77.343" y="391.8458" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="77.343" y="397.002" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="PAD2" gate="1" x="83.82" y="393.7" smashed="yes">
-<attribute name="NAME" x="82.677" y="395.5542" size="1.778" layer="95"/>
-<attribute name="VALUE" x="82.677" y="390.398" size="1.778" layer="96"/>
-</instance>
 <instance part="R49" gate="G$1" x="464.82" y="205.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="463.3214" y="201.93" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="466.09" y="199.898" size="1.778" layer="96"/>
@@ -12478,6 +12366,12 @@ Created by Upverter.com</description>
 <instance part="GND25" gate="1" x="304.8" y="261.62" smashed="yes"/>
 <instance part="GND27" gate="1" x="269.24" y="276.86" smashed="yes"/>
 <instance part="GND29" gate="1" x="370.84" y="276.86" smashed="yes"/>
+<instance part="PAD1" gate="G$1" x="76.2" y="401.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="71.12" y="398.78" size="1.27" layer="94" rot="R90"/>
+</instance>
+<instance part="PAD2" gate="G$1" x="83.82" y="401.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="88.9" y="398.78" size="1.27" layer="94" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13462,14 +13356,14 @@ Created by Upverter.com</description>
 <pinref part="D8" gate="G$1" pin="C"/>
 <wire x1="287.02" y1="365.76" x2="287.02" y2="393.7" width="0.1524" layer="91"/>
 <junction x="287.02" y="393.7"/>
-<pinref part="PAD2" gate="1" pin="P"/>
-<wire x1="238.76" y1="393.7" x2="86.36" y2="393.7" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="393.7" x2="83.82" y2="393.7" width="0.1524" layer="91"/>
 <junction x="238.76" y="393.7"/>
+<pinref part="PAD2" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="PAD1" gate="1" pin="P"/>
-<wire x1="73.66" y1="393.7" x2="48.26" y2="393.7" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="393.7" x2="48.26" y2="393.7" width="0.1524" layer="91"/>
 <label x="48.26" y="393.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="PAD1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$47" class="3">
@@ -14057,7 +13951,7 @@ Created by Upverter.com</description>
 </variantdefs>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="TR1" library="3D_MIG_Controller" deviceset="B0570-BL" device="" package3d_urn="urn:adsk.eagle:package:28103889/1"/>
+<part name="TR1" library="3D_MIG_Controller" deviceset="B0570-BL_MODIFIED" device="B0570-BL-MODIFIED"/>
 <part name="IC1" library="3D_MIG_Controller" deviceset="NCP1014AP065G" device=""/>
 <part name="D1" library="3D_MIG_Controller" deviceset="MBRS1100T3G" device="ON_SEMI_MBRS1100T3G_0_0"/>
 <part name="C1" library="3D_MIG_Controller" deviceset="ESL477M025AH9AA" device=""/>
@@ -14867,8 +14761,7 @@ Created by Upverter.com</description>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="220K 5% CRCW1206220KJNEAHP"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="220K 5% CRCW1206220KJNEAHP"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="220K 5% CRCW1206220KJNEAHP"/>
-<part name="K1" library="3D_MIG_Controller" deviceset="PANASONIC_ALFG2PF09" device="PANASONIC_ALFG2PF09_0_0"/>
-<part name="J1" library="TE - 282841-2" deviceset="TE_282841-2" device="TE_282841-2_0_0"/>
+<part name="K1" library="3D_MIG_Controller" deviceset="PANASONIC_ALFG2PF09_MODIFIED" device=""/>
 <part name="U$1" library="3D_MIG_Controller" deviceset="B57364S100M54" device=""/>
 <part name="D1" library="3D_MIG_Controller" deviceset="MBRS1100T3G" device="ON_SEMI_MBRS1100T3G_0_0"/>
 <part name="C1" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
@@ -14877,6 +14770,7 @@ Created by Upverter.com</description>
 <part name="C4" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
 <part name="R13" library="3D_MIG_Controller" deviceset="B72205S0271K101" device=""/>
 <part name="D2" library="3D_MIG_Controller" deviceset="GBPC3510W_MODIFIED" device=""/>
+<part name="J1" library="3D_MIG_Controller" deviceset="TE_282841-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14911,9 +14805,6 @@ Created by Upverter.com</description>
 <instance part="K1" gate="G$0" x="160.02" y="210.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="160.02" y="213.36" size="2.54" layer="95" rot="R180" align="top-left"/>
 </instance>
-<instance part="J1" gate="G$0" x="142.24" y="170.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="144.78" y="170.18" size="2.54" layer="95" rot="R90" align="top-left"/>
-</instance>
 <instance part="U$1" gate="G$1" x="147.32" y="243.84" smashed="yes">
 <attribute name="NAME" x="149.86" y="238.506" size="2.54" layer="95" align="top-left"/>
 <attribute name="VALUE" x="152.4" y="243.84" size="1.778" layer="96"/>
@@ -14943,6 +14834,9 @@ Created by Upverter.com</description>
 </instance>
 <instance part="D2" gate="G$1" x="93.98" y="231.14" smashed="yes">
 <attribute name="NAME" x="96.52" y="228.6" size="2.54" layer="95" align="top-left"/>
+</instance>
+<instance part="J1" gate="G$1" x="142.24" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="144.78" y="170.18" size="2.54" layer="95" rot="R90" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -15080,7 +14974,6 @@ Created by Upverter.com</description>
 <net name="GND_LV" class="3">
 <segment>
 <pinref part="K1" gate="G$0" pin="1"/>
-<pinref part="J1" gate="G$0" pin="2"/>
 <wire x1="165.1" y1="218.44" x2="165.1" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="187.96" x2="165.1" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="180.34" x2="157.48" y2="180.34" width="0.1524" layer="91"/>
@@ -15089,6 +14982,7 @@ Created by Upverter.com</description>
 <label x="175.26" y="187.96" size="1.778" layer="95" xref="yes"/>
 <pinref part="D1" gate="G$0" pin="ANODE"/>
 <wire x1="165.1" y1="187.96" x2="162.56" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -15100,8 +14994,8 @@ Created by Upverter.com</description>
 <wire x1="142.24" y1="187.96" x2="147.32" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="187.96" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
 <junction x="147.32" y="187.96"/>
-<pinref part="J1" gate="G$0" pin="1"/>
 <wire x1="147.32" y1="180.34" x2="152.4" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -15111,49 +15005,45 @@ Created by Upverter.com</description>
 <module name="40_MCU" prefix="MCU" dx="50.8" dy="50.8">
 <ports>
 <port name="DO_I_SET_PWM" side="left" coord="17.78" direction="out"/>
-<port name="GND" side="left" coord="10.16" direction="io"/>
+<port name="GND_MCU" side="left" coord="10.16" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
 <parts>
-<part name="J1" library="TE - 282841-2" deviceset="TE_282841-2" device="TE_282841-2_0_0"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA3_L" device=""/>
-<part name="GND1" library="3D_MIG_Controller" deviceset="GND" device=""/>
+<part name="J1" library="3D_MIG_Controller" deviceset="TE_282841-2" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="J1" gate="G$0" x="104.14" y="81.28" smashed="yes" rot="MR0">
-<attribute name="NAME" x="104.14" y="78.74" size="2.54" layer="95" rot="MR0" align="top-left"/>
-</instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="287.02" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="299.72" y="1.27" size="2.54" layer="94"/>
 <attribute name="SHEET" x="373.38" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="304.8" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="GND1" gate="1" x="83.82" y="63.5" smashed="yes"/>
+<instance part="J1" gate="G$1" x="104.14" y="81.28" smashed="yes" rot="MR0">
+<attribute name="NAME" x="104.14" y="78.74" size="2.54" layer="95" rot="MR0" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="DO_I_SET_PWM" class="1">
+<net name="DO_I_SET_PWM" class="3">
 <segment>
-<pinref part="J1" gate="G$0" pin="1"/>
-<wire x1="93.98" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
 <label x="78.74" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="78.74" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="GND" class="3">
+<net name="GND_MCU" class="3">
 <segment>
-<pinref part="J1" gate="G$0" pin="2"/>
-<wire x1="93.98" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
-<label x="78.74" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="83.82" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
-<junction x="83.82" y="66.04"/>
+<wire x1="83.82" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
+<label x="83.82" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<label x="88.9" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -15169,7 +15059,6 @@ Created by Upverter.com</description>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
 <part name="X3" library="3D_MIG_Controller" deviceset="7461061" device=""/>
 <part name="X4" library="3D_MIG_Controller" deviceset="7461061" device=""/>
-<part name="GND2" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND3" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND1" library="3D_MIG_Controller" deviceset="GND" device=""/>
 </parts>
@@ -15219,7 +15108,6 @@ Created by Upverter.com</description>
 <attribute name="NAME" x="48.26" y="170.18" size="1.27" layer="95"/>
 <attribute name="VALUE" x="40.64" y="162.56" size="1.27" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="38.1" y="88.9" smashed="yes"/>
 <instance part="GND3" gate="1" x="-55.88" y="154.94" smashed="yes"/>
 <instance part="GND1" gate="1" x="-48.26" y="119.38" smashed="yes"/>
 </instances>
@@ -15289,24 +15177,20 @@ Created by Upverter.com</description>
 <wire x1="-55.88" y1="162.56" x2="-55.88" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-53.34" y="119.38" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="-63.5" y1="121.92" x2="-53.34" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="121.92" x2="-48.26" y2="121.92" width="0.1524" layer="91"/>
+<portref moduleinst="10_PSFB_CONVERTER" port="GND"/>
 <wire x1="-48.26" y1="121.92" x2="-43.18" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="121.92" x2="-35.56" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="119.38" x2="-53.34" y2="121.92" width="0.1524" layer="91"/>
-<junction x="-53.34" y="121.92"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <junction x="-48.26" y="121.92"/>
+<wire x1="-43.18" y1="121.92" x2="-35.56" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="121.92" x2="-48.26" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="119.38" x2="-53.34" y2="121.92" width="0.1524" layer="91"/>
+<junction x="-53.34" y="121.92"/>
+<wire x1="-63.5" y1="121.92" x2="-53.34" y2="121.92" width="0.1524" layer="91"/>
 <portref moduleinst="FLYBACK1" port="GND"/>
-<portref moduleinst="10_PSFB_CONVERTER" port="GND"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="40.64" y1="93.98" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="93.98" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="121.92" x2="-43.18" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="93.98" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
+<label x="-53.34" y="119.38" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-43.18" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="93.98" x2="-43.18" y2="121.92" width="0.1524" layer="91"/>
 <junction x="-43.18" y="121.92"/>
-<junction x="38.1" y="93.98"/>
 </segment>
 </net>
 <net name="12V_AUX" class="0">
