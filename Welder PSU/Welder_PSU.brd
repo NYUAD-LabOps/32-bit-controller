@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="100" altunitdist="mil" altunit="mm"/>
+<grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="100" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -165,9 +165,9 @@
 <wire x1="382" y1="-10" x2="382" y2="210" width="0" layer="20"/>
 <wire x1="382" y1="210" x2="0" y2="210" width="0" layer="20"/>
 <wire x1="0" y1="210" x2="0" y2="-10" width="0" layer="20"/>
-<hole x="377.19" y="207.645" drill="0.35"/>
+<hole x="375.539" y="206.629" drill="0.35"/>
 <hole x="209.55" y="38.1" drill="0.35"/>
-<hole x="6.35" y="6.985" drill="0.35"/>
+<hole x="13.589" y="3.937" drill="0.35"/>
 <wire x1="377.19" y1="102.87" x2="244.475" y2="102.87" width="6" layer="39"/>
 <wire x1="244.475" y1="102.87" x2="220.345" y2="127" width="6" layer="39"/>
 <wire x1="161.29" y1="92.075" x2="32.385" y2="92.075" width="6" layer="41"/>
@@ -1714,7 +1714,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <smd name="3" x="-3.175" y="-2.3" dx="1" dy="2.05" layer="1" roundness="20" rot="R90"/>
 <smd name="4" x="3.175" y="0" dx="3.25" dy="2.05" layer="1" roundness="10" rot="R90"/>
 </package>
-<package name="PANASONIC_ALFG2PF09_0">
+<package name="PANASONIC_ALFG2PF09_0_MODIFIED">
 <description>PNSC-ALFG2PF09-LF-G-4-3010x1570x2330-4</description>
 <wire x1="-3.2" y1="-14" x2="27.2" y2="-14" width="0.1" layer="51"/>
 <wire x1="27.2" y1="-14" x2="27.2" y2="2" width="0.1" layer="51"/>
@@ -1729,10 +1729,10 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <wire x1="27.725" y1="2.225" x2="27.725" y2="-14.225" width="0.1" layer="39"/>
 <wire x1="27.725" y1="-14.225" x2="-3.725" y2="-14.225" width="0.1" layer="39"/>
 <text x="-4.725" y="2.225" size="1" layer="25">&gt;NAME</text>
-<pad name="1" x="0" y="0" drill="1.9" diameter="2.4" shape="square"/>
-<pad name="2" x="22" y="0" drill="1.9" diameter="2.4"/>
-<pad name="3" x="-1.8" y="-12" drill="2.1" diameter="2.6"/>
-<pad name="4" x="25.8" y="-12" drill="2.1" diameter="2.6"/>
+<pad name="1" x="0" y="0" drill="2" diameter="2.6" shape="square"/>
+<pad name="2" x="22" y="0" drill="2" diameter="2.6"/>
+<pad name="3" x="-1.8" y="-12" drill="2" diameter="2.6"/>
+<pad name="4" x="25.8" y="-12" drill="2" diameter="2.6"/>
 </package>
 <package name="SRP2313AA-1R0M">
 <smd name="2" x="16.925" y="0" dx="3.15" dy="12.5" layer="1" rot="R180"/>
@@ -1875,17 +1875,17 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="B0570-BL" urn="urn:adsk.eagle:footprint:28103887/1">
-<pad name="10" x="15.75" y="1.27" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="9" x="15.75" y="-3.81" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="8" x="15.75" y="-8.89" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="7" x="15.75" y="-13.97" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="6" x="15.75" y="-19.05" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="1" x="0" y="0" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="2" x="0" y="-3.81" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="3" x="0" y="-8.89" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="4" x="0" y="-13.97" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
-<pad name="5" x="0" y="-19.05" drill="1.37" diameter="2.54" shape="square" rot="R180"/>
+<package name="B0570-BL_MODIFIED">
+<pad name="10" x="15.75" y="1.27" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="9" x="15.75" y="-3.81" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="8" x="15.75" y="-8.89" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="7" x="15.75" y="-13.97" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="6" x="15.75" y="-19.05" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="1" x="0" y="0" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="2" x="0" y="-3.81" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="3" x="0" y="-8.89" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="4" x="0" y="-13.97" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
+<pad name="5" x="0" y="-19.05" drill="1.5" diameter="2.54" shape="square" rot="R180"/>
 <wire x1="-6.096" y1="5.08" x2="21.844" y2="5.08" width="0.1" layer="21"/>
 <wire x1="21.844" y1="-22.86" x2="21.844" y2="5.08" width="0.1" layer="21"/>
 <wire x1="-6.096" y1="-22.86" x2="21.844" y2="-22.86" width="0.1" layer="21"/>
@@ -2061,6 +2061,28 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <smd name="3" x="2.75" y="-1.27" dx="1.803" dy="0.866" layer="1" roundness="100"/>
 <smd name="4" x="2.75" y="1.27" dx="1.803" dy="0.866" layer="1" roundness="100"/>
 </package>
+<package name="TE_282841-2_0">
+<description>TERM BLOCK 2POS SIDE ENT 5.08MM</description>
+<wire x1="-5.33" y1="-4.5" x2="-5.33" y2="4.5" width="0.15" layer="51"/>
+<wire x1="-5.33" y1="4.5" x2="5.33" y2="4.5" width="0.15" layer="51"/>
+<wire x1="5.33" y1="4.5" x2="5.33" y2="-4.5" width="0.15" layer="51"/>
+<wire x1="5.33" y1="-4.5" x2="-5.33" y2="-4.5" width="0.15" layer="51"/>
+<wire x1="-5.33" y1="-4.5" x2="-5.33" y2="4.5" width="0.15" layer="21"/>
+<wire x1="-5.33" y1="4.5" x2="5.33" y2="4.5" width="0.15" layer="21"/>
+<wire x1="5.33" y1="4.5" x2="5.33" y2="-4.5" width="0.15" layer="21"/>
+<wire x1="5.33" y1="-4.5" x2="-5.33" y2="-4.5" width="0.15" layer="21"/>
+<wire x1="-5.555" y1="-4.725" x2="-5.555" y2="4.725" width="0.1" layer="39"/>
+<wire x1="-5.555" y1="4.725" x2="5.605" y2="4.725" width="0.1" layer="39"/>
+<wire x1="5.605" y1="4.725" x2="5.605" y2="-4.725" width="0.1" layer="39"/>
+<wire x1="5.605" y1="-4.725" x2="-5.555" y2="-4.725" width="0.1" layer="39"/>
+<text x="-5.58" y="4.875" size="1" layer="25">&gt;NAME</text>
+<circle x="-6.255" y="0" radius="0.25" width="0" layer="21"/>
+<pad name="1" x="-2.79" y="0" drill="1.5" diameter="2.25" shape="square"/>
+<pad name="2" x="2.29" y="0" drill="1.5" diameter="2.25"/>
+</package>
+<package name="THT_PAD_D5.0">
+<pad name="P$1" x="0" y="0" drill="5" diameter="8" shape="square"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="TSSOP24" urn="urn:adsk.eagle:package:28117968/1" type="box">
@@ -2074,11 +2096,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <description>SOT-23</description>
 <packageinstances>
 <packageinstance name="SOT23"/>
-</packageinstances>
-</package3d>
-<package3d name="B0570-BL" urn="urn:adsk.eagle:package:28103889/1" type="box">
-<packageinstances>
-<packageinstance name="B0570-BL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2117,61 +2134,6 @@ Based on the following sources:
 <description>DIODE</description>
 <packageinstances>
 <packageinstance name="SMC"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="TE - 282841-2">
-<description>Upverter Parts Library
-
-Created by Upverter.com</description>
-<packages>
-<package name="TE_282841-2_0">
-<description>TERM BLOCK 2POS SIDE ENT 5.08MM</description>
-<wire x1="-5.33" y1="-4.5" x2="-5.33" y2="4.5" width="0.15" layer="51"/>
-<wire x1="-5.33" y1="4.5" x2="5.33" y2="4.5" width="0.15" layer="51"/>
-<wire x1="5.33" y1="4.5" x2="5.33" y2="-4.5" width="0.15" layer="51"/>
-<wire x1="5.33" y1="-4.5" x2="-5.33" y2="-4.5" width="0.15" layer="51"/>
-<wire x1="-5.33" y1="-4.5" x2="-5.33" y2="4.5" width="0.15" layer="21"/>
-<wire x1="-5.33" y1="4.5" x2="5.33" y2="4.5" width="0.15" layer="21"/>
-<wire x1="5.33" y1="4.5" x2="5.33" y2="-4.5" width="0.15" layer="21"/>
-<wire x1="5.33" y1="-4.5" x2="-5.33" y2="-4.5" width="0.15" layer="21"/>
-<wire x1="-5.555" y1="-4.725" x2="-5.555" y2="4.725" width="0.1" layer="39"/>
-<wire x1="-5.555" y1="4.725" x2="5.605" y2="4.725" width="0.1" layer="39"/>
-<wire x1="5.605" y1="4.725" x2="5.605" y2="-4.725" width="0.1" layer="39"/>
-<wire x1="5.605" y1="-4.725" x2="-5.555" y2="-4.725" width="0.1" layer="39"/>
-<text x="-5.58" y="4.875" size="1" layer="25">&gt;NAME</text>
-<circle x="-6.255" y="0" radius="0.25" width="0" layer="21"/>
-<pad name="1" x="-2.79" y="0" drill="1.4" diameter="2.15" shape="square"/>
-<pad name="2" x="2.29" y="0" drill="1.4" diameter="2.15"/>
-</package>
-</packages>
-</library>
-<library name="wirepad" urn="urn:adsk.eagle:library:412">
-<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="3,81/1,4" urn="urn:adsk.eagle:footprint:30817/1" library_version="2">
-<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<wire x1="1.905" y1="-1.27" x2="1.905" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-1.905" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.905" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.905" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.905" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.905" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.397" diameter="3.81" shape="octagon"/>
-<text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="1.2" size="0.0254" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="3,81/1,4" urn="urn:adsk.eagle:package:30835/1" type="box" library_version="2">
-<description>THROUGH-HOLE PAD</description>
-<packageinstances>
-<packageinstance name="3,81/1,4"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2993,88 +2955,12 @@ design rules under a new name.</description>
 <element name="IC204" library="3D_MIG_Controller" package="SOT223_LM317AEMP" value="LM317AEMP" x="75.565" y="116.205" smashed="yes">
 <attribute name="NAME" x="74.93" y="114.935" size="0.8" layer="25" rot="R90"/>
 </element>
-<element name="J301" library="TE - 282841-2" package="TE_282841-2_0" value="TE_282841-2TE_282841-2_0_0" x="179.07" y="127" smashed="yes">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F282841%7FH6%7Fpdf%7FEnglish%7FENG_CD_282841_H6.pdf%7F282841-2" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN 2 Position Wire to Board Terminal Block Horizontal with Board 0.200&quot; (5.08mm) Through Hole" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A98342-ND" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="FORKED_FROM" value="57044443676a7d4b" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="IS_FEMALE" value="yes" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-2828412" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="282841-2" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="178.435" y="132.715" size="1" layer="25"/>
-<attribute name="PACKAGE" value="PTH_TERM_BLOCK" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="J" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="yes" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="179.07" y="127" size="1.778" layer="27" display="off"/>
-</element>
-<element name="J401" library="TE - 282841-2" package="TE_282841-2_0" value="TE_282841-2TE_282841-2_0_0" x="127.508" y="4.572" smashed="yes" rot="R180">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F282841%7FH6%7Fpdf%7FEnglish%7FENG_CD_282841_H6.pdf%7F282841-2" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN 2 Position Wire to Board Terminal Block Horizontal with Board 0.200&quot; (5.08mm) Through Hole" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A98342-ND" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FORKED_FROM" value="57044443676a7d4b" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="IS_FEMALE" value="yes" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="TE" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-2828412" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="282841-2" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="128.778" y="10.287" size="1" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="PTH_TERM_BLOCK" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PREFIX" value="J" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS" value="yes" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C" x="127.508" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="K301" library="3D_MIG_Controller" package="PANASONIC_ALFG2PF09_0" value="PANASONIC_ALFG2PF09PANASONIC_ALFG2PF09_0_0" x="100.33" y="156.21" smashed="yes" rot="R180">
-<attribute name="CIIVA_IDS" value="1180488" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COIL_VOLTAGE" value="9 V" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPONENT_LINK_1_URL" value="http://www3.panasonic.biz/ac/ae/index.jsp" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="Package Specification" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMPONENT_LINK_3_URL" value="http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf?f_cd=300272" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf?f_cd=300272" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET_VERSION" value="201402-T" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ELECTRICAL_LIFE" value="3x10^4" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Manufacturer Recommended" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="IMPORTED" value="yes" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="IMPORTED_FROM" value="vault" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="IMPORT_TS" value="1521844845" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MAX_SWITCHING_CURRENT" value="31 A AC" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MAX_SWITCHING_VOLTAGE" value="250 V AC" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MECHANICAL_LIFEMINOPERATION" value="1x10^6" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Panasonic" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNTING_TECHNOLOGY" value="Through Hole" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="ALFG2PF09" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="K301" library="3D_MIG_Controller" package="PANASONIC_ALFG2PF09_0_MODIFIED" value="PANASONIC_ALFG2PF09_MODIFIED" x="100.33" y="156.21" smashed="yes" rot="R180">
 <attribute name="NAME" x="104.105" y="162.21" size="1" layer="25" align="center-left"/>
-<attribute name="NOMINAL_OPERATING_POWER" value="1400 mW" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGE" value="LF-G-4-3010x1570x2330" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGE_DESCRIPTION" value="4-Pin Through Hole Terminal Package, Body 30.1 x 15.7 mm" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGE_VERSION" value="ASCTB196E, 02/2014" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKING" value="Carton, Case" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PB__FREE" value="true" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PREFIX" value="K" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RELEASE_DATE" value="1421744840" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SERIES" value="LF-G Relays" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VAULT_GUID" value="49A0321D-630D-49EF-B2C8-0308632C255A" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VAULT_REVISION" value="10808CD6-6A28-402B-B998-FC10EF34438A" x="100.33" y="156.21" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L101" library="3D_MIG_Controller" package="SRP2313AA-1R0M" value="SRP1770TA-1R0M" x="295.275" y="142.24" smashed="yes">
 <attribute name="NAME" x="288.925" y="141.605" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="295.275" y="142.24" size="1.27" layer="27" font="vector"/>
-</element>
-<element name="PAD101" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="3,81/1,4" package3d_urn="urn:adsk.eagle:package:30835/1" value="" x="214.63" y="170.18" smashed="yes">
-<attribute name="NAME" x="212.09" y="166.37" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="14" x="214.63" y="170.18" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="214.63" y="170.18" size="0.0254" layer="27"/>
-</element>
-<element name="PAD102" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="3,81/1,4" package3d_urn="urn:adsk.eagle:package:30835/1" value="" x="184.785" y="170.18" smashed="yes">
-<attribute name="NAME" x="182.88" y="166.37" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="14" x="184.785" y="170.18" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="184.785" y="170.18" size="0.0254" layer="27"/>
 </element>
 <element name="Q101" library="3D_MIG_Controller" package="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="BSS123TA" x="141.097" y="5.969" smashed="yes" rot="R270">
 <attribute name="NAME" x="141.097" y="7.4676" size="1.27" layer="25" rot="R90" align="center-left"/>
@@ -3688,7 +3574,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="300.99" y="115.57" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="300.99" y="99.695" size="1.27" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="TR201" library="3D_MIG_Controller" package="B0570-BL" package3d_urn="urn:adsk.eagle:package:28103889/1" value="B0570-BL" x="28.575" y="86.36" smashed="yes" rot="R90">
+<element name="TR201" library="3D_MIG_Controller" package="B0570-BL_MODIFIED" value="B0570-BL_MODIFIEDB0570-BL-MODIFIED" x="28.575" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.64" y="81.915" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="28.575" y="86.36" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
@@ -3977,6 +3863,14 @@ design rules under a new name.</description>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-55°C" x="33.655" y="137.16" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VERIFICATION_VERSION" value="0.0.0.3" x="33.655" y="137.16" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
+<element name="J301" library="3D_MIG_Controller" package="TE_282841-2_0" value="TE_282841-2" x="179.9336" y="127.1524" smashed="yes">
+<attribute name="NAME" x="174.3536" y="132.0274" size="1" layer="25"/>
+</element>
+<element name="J401" library="3D_MIG_Controller" package="TE_282841-2_0" value="TE_282841-2" x="127.762" y="6.223" smashed="yes" rot="R180">
+<attribute name="NAME" x="133.342" y="1.348" size="1" layer="25" rot="R180"/>
+</element>
+<element name="PAD101" library="3D_MIG_Controller" package="THT_PAD_D5.0" value="THT_PAD_5MM" x="183.007" y="171.323" smashed="yes"/>
+<element name="PAD102" library="3D_MIG_Controller" package="THT_PAD_D5.0" value="THT_PAD_5MM" x="213.614" y="171.196" smashed="yes"/>
 </elements>
 <signals>
 <signal name="MAINS_L" class="1">
@@ -4434,7 +4328,7 @@ design rules under a new name.</description>
 <signal name="10_PSFB_CONVERTER:N$11">
 <contactref element="TR101" pad="1"/>
 <contactref element="D101" pad="A"/>
-<wire x1="193.675" y1="127" x2="193.675" y2="97.173" width="0.508" layer="16"/>
+<wire x1="193.675" y1="127" x2="193.675" y2="97.173" width="1.016" layer="16"/>
 <wire x1="193.675" y1="97.173" x2="193.3495" y2="96.8475" width="0.508" layer="16"/>
 <wire x1="193.2225" y1="96.8475" x2="193.3495" y2="96.8475" width="0.508" layer="16"/>
 <via x="193.2225" y="96.8475" extent="1-16" drill="0.35" diameter="1"/>
@@ -5819,7 +5713,6 @@ design rules under a new name.</description>
 <contactref element="T101" pad="2"/>
 <contactref element="T103" pad="2"/>
 <contactref element="D108" pad="C"/>
-<contactref element="PAD101" pad="1"/>
 <contactref element="K301" pad="3"/>
 <contactref element="U$301" pad="2"/>
 <contactref element="C301" pad="1"/>
@@ -5832,7 +5725,6 @@ design rules under a new name.</description>
 <wire x1="118.745" y1="186.69" x2="155.575" y2="186.69" width="2.54" layer="1"/>
 <wire x1="155.575" y1="186.69" x2="168.275" y2="186.69" width="2.54" layer="1"/>
 <wire x1="233.045" y1="196.85" x2="214.63" y2="178.435" width="2.54" layer="1"/>
-<wire x1="214.63" y1="170.18" x2="214.63" y2="178.435" width="2.54" layer="1"/>
 <wire x1="233.045" y1="196.85" x2="279.4" y2="196.85" width="2.54" layer="1"/>
 <wire x1="370.205" y1="196.85" x2="335.661" y2="196.85" width="2.54" layer="1"/>
 <wire x1="335.661" y1="196.85" x2="279.4" y2="196.85" width="2.54" layer="1"/>
@@ -5842,8 +5734,6 @@ design rules under a new name.</description>
 <wire x1="376.301" y1="153.399" x2="376.301" y2="190.754" width="2.54" layer="1"/>
 <wire x1="335.6570125" y1="182.653" x2="335.6570125" y2="196.8460125" width="2.54" layer="1"/>
 <wire x1="335.6570125" y1="196.8460125" x2="335.661" y2="196.85" width="2.54" layer="1"/>
-<contactref element="PAD102" pad="1"/>
-<wire x1="168.275" y1="186.69" x2="184.785" y2="170.18" width="2.54" layer="1"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="208.28" y="172.085"/>
 <vertex x="208.28" y="167.005"/>
@@ -5876,7 +5766,9 @@ design rules under a new name.</description>
 <vertex x="91.44" y="207.645"/>
 <vertex x="186.69" y="207.645"/>
 </polygon>
-<wire x1="214.63" y1="170.18" x2="184.785" y2="170.18" width="0" layer="19" extent="1-1"/>
+<contactref element="PAD101" pad="P$1"/>
+<contactref element="PAD102" pad="P$1"/>
+<wire x1="213.614" y1="171.196" x2="183.007" y2="171.323" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="10_PSFB_CONVERTER:N$47" class="3">
 <contactref element="R152" pad="1"/>
@@ -6036,8 +5928,8 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="R162" pad="2"/>
 <contactref element="J401" pad="1"/>
-<wire x1="130.298" y1="4.572" x2="134.835" y2="4.572" width="0.3048" layer="1"/>
-<wire x1="134.835" y1="4.572" x2="135.382" y2="5.119" width="0.3048" layer="1"/>
+<wire x1="130.552" y1="6.223" x2="131.656" y2="5.119" width="0.508" layer="1"/>
+<wire x1="131.656" y1="5.119" x2="135.382" y2="5.119" width="0.508" layer="1"/>
 </signal>
 <signal name="10_PSFB_CONVERTER:N$60" class="3">
 <contactref element="R158" pad="1"/>
@@ -6357,15 +6249,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND" class="3">
 <contactref element="K301" pad="1"/>
-<contactref element="J301" pad="2"/>
 <contactref element="D301" pad="2"/>
 <wire x1="90.475" y1="149.86" x2="97.155" y2="149.86" width="0.508" layer="1"/>
 <wire x1="97.155" y1="149.86" x2="100.33" y2="153.035" width="0.508" layer="1"/>
 <wire x1="100.33" y1="153.035" x2="100.33" y2="156.21" width="0.508" layer="1"/>
-<wire x1="181.36" y1="127" x2="181.36" y2="129.155" width="0.508" layer="1"/>
 <wire x1="90.475" y1="133.68" x2="90.475" y2="149.86" width="0.508" layer="1"/>
-<wire x1="181.36" y1="129.155" x2="179.07" y2="131.445" width="0.508" layer="1"/>
-<wire x1="179.07" y1="131.445" x2="92.71" y2="131.445" width="0.508" layer="1"/>
+<wire x1="92.71" y1="131.445" x2="179.07" y2="131.445" width="0.508" layer="1"/>
 <wire x1="92.71" y1="131.445" x2="90.475" y2="133.68" width="0.508" layer="1"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="368.935" y="7.62"/>
@@ -6610,9 +6499,9 @@ design rules under a new name.</description>
 <wire x1="204.724" y1="85.725" x2="204.216" y2="86.233" width="0.2" layer="1"/>
 <wire x1="204.216" y1="86.233" x2="204.216" y2="88.138" width="0.2" layer="1"/>
 <via x="204.216" y="88.138" extent="1-16" drill="0.35" diameter="1"/>
-<wire x1="204.216" y1="88.138" x2="204.216" y2="119.38" width="0.508" layer="16"/>
-<wire x1="204.216" y1="119.38" x2="206.502" y2="121.666" width="0.508" layer="16"/>
-<wire x1="206.502" y1="121.666" x2="206.502" y2="126.873" width="0.508" layer="16"/>
+<wire x1="204.216" y1="88.138" x2="204.216" y2="119.38" width="1.016" layer="16"/>
+<wire x1="204.216" y1="119.38" x2="206.502" y2="121.666" width="1.016" layer="16"/>
+<wire x1="206.502" y1="121.666" x2="206.502" y2="126.873" width="1.016" layer="16"/>
 <wire x1="206.502" y1="126.873" x2="206.375" y2="127" width="0.508" layer="16"/>
 <wire x1="95.886340625" y1="87.22" x2="95.886340625" y2="85.980340625" width="0.508" layer="1"/>
 <wire x1="95.886340625" y1="85.980340625" x2="95.25" y2="85.344" width="0.508" layer="1"/>
@@ -6861,8 +6750,6 @@ design rules under a new name.</description>
 <via x="223.52" y="-2.54" extent="1-16" drill="0.35"/>
 <via x="223.52" y="-5.08" extent="1-16" drill="0.35"/>
 <via x="223.52" y="-7.62" extent="1-16" drill="0.35"/>
-<wire x1="181.36" y1="127" x2="181.36" y2="93.34" width="0.508" layer="16"/>
-<via x="181.36" y="93.34" extent="1-16" drill="0.35" diameter="1"/>
 <wire x1="231.162971875" y1="22.615" x2="234.5128375" y2="22.615" width="0.508" layer="1"/>
 <wire x1="234.5128375" y1="22.615" x2="235.6283375" y2="21.4995" width="0.508" layer="1"/>
 <wire x1="265.93" y1="19.765628125" x2="269.666134375" y2="19.765628125" width="0.508" layer="1"/>
@@ -6987,6 +6874,11 @@ design rules under a new name.</description>
 <wire x1="24.765" y1="53.61" x2="24.765" y2="52.705" width="0.2" layer="1"/>
 <via x="35.941" y="51.816" extent="1-16" drill="0.35"/>
 <via x="25.019" y="51.308" extent="1-16" drill="0.35"/>
+<contactref element="J301" pad="2"/>
+<wire x1="182.2236" y1="128.2914" x2="182.2236" y2="127.1524" width="0.508" layer="1"/>
+<wire x1="179.07" y1="131.445" x2="182.2236" y2="128.2914" width="0.508" layer="1"/>
+<wire x1="182.2236" y1="127.1524" x2="182.2236" y2="100.9864" width="0.508" layer="16"/>
+<wire x1="182.2236" y1="100.9864" x2="182.245" y2="100.965" width="0.508" layer="16"/>
 </signal>
 <signal name="30_MAINS_INPUT_PFC1:N$13" class="1">
 <contactref element="R312" pad="2"/>
@@ -7046,19 +6938,20 @@ design rules under a new name.</description>
 <vertex x="139.065" y="178.435"/>
 </polygon>
 </signal>
-<signal name="MCU1:GND" class="3">
-<contactref element="J401" pad="2"/>
-</signal>
 <signal name="30_MAINS_INPUT_PFC1:N$3">
 <contactref element="K301" pad="2"/>
 <contactref element="D301" pad="1"/>
-<contactref element="J301" pad="1"/>
 <wire x1="86.055" y1="149.86" x2="86.055" y2="133.02" width="0.508" layer="1"/>
-<wire x1="92.075" y1="127" x2="176.28" y2="127" width="0.508" layer="1"/>
-<wire x1="86.055" y1="133.02" x2="92.075" y2="127" width="0.508" layer="1"/>
+<wire x1="86.055" y1="133.02" x2="91.44" y2="127.635" width="0.508" layer="1"/>
 <wire x1="78.33" y1="156.21" x2="78.33" y2="153.445" width="0.508" layer="1"/>
 <wire x1="78.33" y1="153.445" x2="81.915" y2="149.86" width="0.508" layer="1"/>
 <wire x1="81.915" y1="149.86" x2="86.055" y2="149.86" width="0.508" layer="1"/>
+<contactref element="J301" pad="1"/>
+<wire x1="177.1436" y1="127.1524" x2="176.661" y2="127.635" width="0.508" layer="1"/>
+<wire x1="176.661" y1="127.635" x2="91.44" y2="127.635" width="0.508" layer="1"/>
+</signal>
+<signal name="MCU1:GND_MCU" class="3">
+<contactref element="J401" pad="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
