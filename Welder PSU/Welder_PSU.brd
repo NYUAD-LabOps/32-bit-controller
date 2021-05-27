@@ -1627,8 +1627,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
 <text x="-3.2766" y="-0.635" size="0.508" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="PDIP-7">
-<description>PDIP-7</description>
+<package name="PDIP-7_MODIFIED">
+<description>PDIP-7 modified to 1mm drill bit Labop</description>
 <wire x1="-0.635" y1="5.1" x2="0.635" y2="5.1" width="0.2" layer="21" curve="180"/>
 <wire x1="-2.65" y1="-5.1" x2="-2.65" y2="5.1" width="0.15" layer="21"/>
 <wire x1="2.65" y1="-5.1" x2="2.65" y2="5.1" width="0.15" layer="21"/>
@@ -1647,13 +1647,13 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <circle x="-3.81" y="5.11" radius="0.125" width="0.25" layer="21"/>
 <circle x="-1.65" y="4.1" radius="0.3" width="0.6" layer="21"/>
 <circle x="-2.65" y="4.175" radius="0.5" width="0.1" layer="51"/>
-<pad name="1" x="-3.81" y="3.81" drill="0.9" diameter="1.5" shape="square"/>
-<pad name="2" x="-3.81" y="1.27" drill="0.9" diameter="1.5"/>
-<pad name="3" x="-3.81" y="-1.27" drill="0.9" diameter="1.5"/>
-<pad name="4" x="-3.81" y="-3.81" drill="0.9" diameter="1.5"/>
-<pad name="8" x="3.81" y="3.81" drill="0.9" diameter="1.5"/>
-<pad name="7" x="3.81" y="1.27" drill="0.9" diameter="1.5"/>
-<pad name="5" x="3.81" y="-3.81" drill="0.9" diameter="1.5"/>
+<pad name="1" x="-3.81" y="3.81" drill="1" diameter="1.6" shape="square"/>
+<pad name="2" x="-3.81" y="1.27" drill="0.9" diameter="1.6"/>
+<pad name="3" x="-3.81" y="-1.27" drill="0.9" diameter="1.6"/>
+<pad name="4" x="-3.81" y="-3.81" drill="0.9" diameter="1.6"/>
+<pad name="8" x="3.81" y="3.81" drill="0.9" diameter="1.6"/>
+<pad name="7" x="3.81" y="1.27" drill="0.9" diameter="1.6"/>
+<pad name="5" x="3.81" y="-3.81" drill="0.9" diameter="1.6"/>
 </package>
 <package name="SOT23-6">
 <circle x="-1.75" y="-1.3" radius="0.111803125" width="0.254" layer="21"/>
@@ -1795,8 +1795,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <smd name="1" x="-4.15" y="0" dx="2.7" dy="6.2" layer="1"/>
 <smd name="2" x="4.15" y="0" dx="2.7" dy="6.2" layer="1"/>
 </package>
-<package name="EPCOS_B72205S0271K101_0">
-<description>430V 400A Varistor 1 Circuit Through Hole Disc 5mm</description>
+<package name="EPCOS_B72205S0271K101_MODIFIED">
+<description>430V 400A Varistor 1 Circuit Through Hole Disc 5mm, Drill modified to match Drillbits Labop</description>
 <wire x1="-3.5" y1="-2.15" x2="-3.5" y2="2.15" width="0.15" layer="51"/>
 <wire x1="-3.5" y1="2.15" x2="3.5" y2="2.15" width="0.15" layer="51"/>
 <wire x1="3.5" y1="2.15" x2="3.5" y2="-2.15" width="0.15" layer="51"/>
@@ -1808,8 +1808,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <wire x1="-3.5" y1="-2.15" x2="-3.5" y2="-0.225" width="0.15" layer="21"/>
 <wire x1="-3.5" y1="1.825" x2="-3.5" y2="2.15" width="0.15" layer="21"/>
 <text x="-3.5" y="2.45" size="1" layer="25">&gt;NAME</text>
-<pad name="1" x="-2.5" y="0.8" drill="0.8" diameter="1.3" shape="square"/>
-<pad name="2" x="2.5" y="-0.8" drill="0.8" diameter="1.3"/>
+<pad name="1" x="-2.5" y="0.8" drill="1" diameter="1.6" shape="square"/>
+<pad name="2" x="2.5" y="-0.8" drill="1" diameter="1.6"/>
 </package>
 <package name="ERG-2SJ390V_0">
 <description>RES 39 OHM 2W 5% AXIAL</description>
@@ -1831,8 +1831,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <pad name="1" x="-9.555" y="0" drill="1" diameter="1.55" shape="square"/>
 <pad name="2" x="9.555" y="0" drill="1" diameter="1.55"/>
 </package>
-<package name="TO-247AC">
-<description>MOSFET N-CH 60V 120A TO-247AC</description>
+<package name="TO-247AC_MODIFIED">
+<description>MOSFET N-CH 60V 120A TO-247AC, Drill modified for Labop</description>
 <wire x1="-2.655" y1="-7.935" x2="-2.655" y2="7.935" width="0.15" layer="51"/>
 <wire x1="-2.655" y1="7.935" x2="2.655" y2="7.935" width="0.15" layer="51"/>
 <wire x1="2.655" y1="7.935" x2="2.655" y2="-7.935" width="0.15" layer="51"/>
@@ -1843,9 +1843,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <wire x1="2.655" y1="8" x2="-2.655" y2="7.5" width="0.15" layer="21"/>
 <text x="-2.68" y="8.235" size="1" layer="25">&gt;NAME</text>
 <circle x="-0.227" y="8.435" radius="0.25" width="0" layer="21"/>
-<pad name="1" x="-0.227" y="5.46" drill="1.85" diameter="2.8" shape="square"/>
-<pad name="2" x="-0.227" y="0" drill="1.85" diameter="2.8"/>
-<pad name="3" x="-0.227" y="-5.46" drill="1.85" diameter="2.8"/>
+<pad name="1" x="-0.227" y="5.46" drill="2" diameter="3" shape="square"/>
+<pad name="2" x="-0.227" y="0" drill="1.85" diameter="3"/>
+<pad name="3" x="-0.227" y="-5.46" drill="1.85" diameter="3"/>
 </package>
 <package name="CST206-2A">
 <pad name="2" x="6.35" y="0" drill="1.27" diameter="2.0828"/>
@@ -1934,8 +1934,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <smd name="SMD_5" x="0.95" y="-1" dx="0.5" dy="0.6" layer="1"/>
 <smd name="SMD_6" x="0" y="1" dx="0.5" dy="0.6" layer="1"/>
 </package>
-<package name="TE_726386-2">
-<description>Terminals GDS-FLACHSTECK 6.3</description>
+<package name="TE_726386-2_MODIFIED">
+<description>Terminals GDS-FLACHSTECK 6.3 Modified Drill Labop</description>
 <wire x1="-4" y1="-0.415" x2="-4" y2="0.415" width="0.15" layer="51"/>
 <wire x1="-4" y1="0.415" x2="4" y2="0.415" width="0.15" layer="51"/>
 <wire x1="4" y1="0.415" x2="4" y2="-0.415" width="0.15" layer="51"/>
@@ -1947,8 +1947,53 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <wire x1="4.1" y1="1.175" x2="4.1" y2="-1.175" width="0.1" layer="39"/>
 <wire x1="4.1" y1="-1.175" x2="-4.1" y2="-1.175" width="0.1" layer="39"/>
 <text x="-4" y="1.615" size="1" layer="25">&gt;NAME</text>
-<pad name="1" x="-2.54" y="0" drill="1.4" diameter="2.15"/>
-<pad name="1-2" x="2.54" y="0" drill="1.4" diameter="2.15"/>
+<pad name="1" x="-2.54" y="0" drill="1.5" diameter="2.54"/>
+<pad name="1-2" x="2.54" y="0" drill="1.5" diameter="2.54"/>
+</package>
+<package name="X01_M10_7461061_MODIFIED">
+<description>Drill modified to fit Labops drillbits</description>
+<pad name="1" x="-6.35" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-1" x="-3.81" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-2" x="-1.27" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-3" x="1.27" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-4" x="-6.35" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-5" x="-3.81" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-6" x="-1.27" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-7" x="1.27" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-8" x="-6.35" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-9" x="-3.81" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-10" x="-1.27" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-11" x="1.27" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-12" x="-6.35" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-13" x="-3.81" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-14" x="-1.27" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-15" x="1.27" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-16" x="3.81" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-17" x="3.81" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-18" x="3.81" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-19" x="3.81" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-20" x="3.81" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-21" x="1.27" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-22" x="-1.27" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-23" x="-3.81" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-24" x="-6.35" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-25" x="6.35" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-26" x="6.35" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-27" x="6.35" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-28" x="6.35" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-29" x="6.35" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-30" x="-6.35" y="6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-31" x="-3.81" y="6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-32" x="-1.27" y="6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-33" x="1.27" y="6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-34" x="3.81" y="6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-35" x="6.35" y="6.35" drill="1.5" diameter="2.25"/>
+<wire x1="-7.87" y1="-7.87" x2="7.87" y2="-7.87" width="0.1" layer="21"/>
+<wire x1="-7.87" y1="7.87" x2="7.87" y2="7.87" width="0.1" layer="21"/>
+<wire x1="-7.87" y1="-7.87" x2="-7.87" y2="7.87" width="0.1" layer="21"/>
+<wire x1="7.87" y1="-7.87" x2="7.87" y2="7.87" width="0.1" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="X01_M10_7461061">
 <pad name="1" x="-6.35" y="-6.35" drill="1.45" diameter="2.2"/>
@@ -1994,9 +2039,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="CAP_SLP152M250H9P3_CND">
-<pad name="1" x="0" y="0" drill="2.1082" diameter="2.6162"/>
-<pad name="2" x="10.0076" y="0" drill="2.1082" diameter="2.6162" rot="R180"/>
+<package name="CAP_SLP152M250H9P3_MODIFIED">
+<pad name="1" x="0" y="0" drill="3" diameter="3.8"/>
+<pad name="2" x="10.0076" y="0" drill="3" diameter="3.8" rot="R180"/>
 <wire x1="-14.0208" y1="0" x2="-12.7508" y2="0" width="0.1524" layer="21"/>
 <wire x1="-13.3858" y1="0.635" x2="-13.3858" y2="-0.635" width="0.1524" layer="21"/>
 <wire x1="22.6314" y1="0" x2="-12.6238" y2="0" width="0.1524" layer="21" curve="-180"/>
@@ -2007,6 +2052,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <wire x1="-12.4968" y1="0" x2="22.5044" y2="0" width="0" layer="51" curve="-180"/>
 <text x="-13.5128" y="14.605" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-13.2334" y="12.065" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="19.05" y1="-10.16" x2="19.05" y2="10.16" width="0.127" layer="21"/>
 </package>
 <package name="GBPC3510W_MODIFIED">
 <description>Bridge Rectifiers (Glass Passivated)</description>
@@ -2942,7 +2988,7 @@ design rules under a new name.</description>
 <element name="IC108" library="3D_MIG_Controller" package="SOT-23-5" value="MCP6001UT" x="181.229" y="9.779" smashed="yes" rot="R270">
 <attribute name="NAME" x="183.134" y="11.049" size="0.508" layer="25" ratio="6" rot="SR270"/>
 </element>
-<element name="IC201" library="3D_MIG_Controller" package="PDIP-7" value="NCP1014AP065G" x="37.465" y="114.935" smashed="yes" rot="R90">
+<element name="IC201" library="3D_MIG_Controller" package="PDIP-7_MODIFIED" value="NCP1014AP065GPDIP-7_MODIFIED" x="37.465" y="114.935" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.45" y="113.665" size="1" layer="25" rot="R90"/>
 </element>
 <element name="IC202" library="3D_MIG_Controller" package="SOT23-6" value="AP63301WU-7" x="31.75" y="43.815" smashed="yes" rot="R90">
@@ -3411,7 +3457,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="191.77" y="13.589" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="191.77" y="13.589" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R169" library="3D_MIG_Controller" package="EPCOS_B72205S0271K101_0" value="B72205S0271K101" x="373.183846875" y="60.325" smashed="yes" rot="R90">
+<element name="R169" library="3D_MIG_Controller" package="EPCOS_B72205S0271K101_MODIFIED" value="B72205S0271K1011" x="373.183846875" y="60.325" smashed="yes" rot="R90">
 <attribute name="NAME" x="373.183846875" y="60.325" size="1" layer="25" rot="R90"/>
 </element>
 <element name="R201" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3K9 1%" x="33.655" y="53.975" smashed="yes">
@@ -3542,28 +3588,28 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="31.75" y="178.435" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="31.75" y="178.435" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="T101" library="3D_MIG_Controller" package="TO-247AC" value="SIHG039N60EF" x="279.4" y="182.88" smashed="yes" rot="R90">
+<element name="T101" library="3D_MIG_Controller" package="TO-247AC_MODIFIED" value="SIHG039N60EF&quot;" x="279.4" y="182.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="279.1635" y="185.685" size="1" layer="25" rot="R90" align="center-left"/>
 </element>
-<element name="T102" library="3D_MIG_Controller" package="TO-247AC" value="SIHG039N60EF" x="306.07" y="182.88" smashed="yes" rot="R90">
+<element name="T102" library="3D_MIG_Controller" package="TO-247AC_MODIFIED" value="SIHG039N60EF&quot;" x="306.07" y="182.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="305.8335" y="185.685" size="1" layer="25" rot="R90" align="center-left"/>
 </element>
-<element name="T103" library="3D_MIG_Controller" package="TO-247AC" value="SIHG039N60EF" x="335.6570125" y="182.88" smashed="yes" rot="R90">
+<element name="T103" library="3D_MIG_Controller" package="TO-247AC_MODIFIED" value="SIHG039N60EF&quot;" x="335.6570125" y="182.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="335.4205125" y="185.685" size="1" layer="25" rot="R90" align="center-left"/>
 </element>
-<element name="T104" library="3D_MIG_Controller" package="TO-247AC" value="SIHG039N60EF" x="363.22" y="182.88" smashed="yes" rot="R90">
+<element name="T104" library="3D_MIG_Controller" package="TO-247AC_MODIFIED" value="SIHG039N60EF&quot;" x="363.22" y="182.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="362.9835" y="185.685" size="1" layer="25" rot="R90" align="center-left"/>
 </element>
-<element name="T105" library="3D_MIG_Controller" package="TO-247AC" value="SIHG039N60EF" x="319.405" y="21.2725" smashed="yes" rot="R270">
+<element name="T105" library="3D_MIG_Controller" package="TO-247AC_MODIFIED" value="SIHG039N60EF&quot;" x="319.405" y="21.2725" smashed="yes" rot="R270">
 <attribute name="NAME" x="311.32" y="21.235" size="1" layer="25" rot="R180" align="center-left"/>
 </element>
-<element name="T106" library="3D_MIG_Controller" package="TO-247AC" value="SIHG039N60EF" x="353.90666875" y="21.2725" smashed="yes" rot="R270">
+<element name="T106" library="3D_MIG_Controller" package="TO-247AC_MODIFIED" value="SIHG039N60EF&quot;" x="353.90666875" y="21.2725" smashed="yes" rot="R270">
 <attribute name="NAME" x="345.82166875" y="21.235" size="1" layer="25" rot="R180" align="center-left"/>
 </element>
-<element name="T107" library="3D_MIG_Controller" package="TO-247AC" value="SIHG039N60EF" x="241.0883375" y="21.2725" smashed="yes" rot="R270">
+<element name="T107" library="3D_MIG_Controller" package="TO-247AC_MODIFIED" value="SIHG039N60EF&quot;" x="241.0883375" y="21.2725" smashed="yes" rot="R270">
 <attribute name="NAME" x="233.0033375" y="21.235" size="1" layer="25" rot="R180" align="center-left"/>
 </element>
-<element name="T108" library="3D_MIG_Controller" package="TO-247AC" value="SIHG039N60EF" x="276.86000625" y="21.2725" smashed="yes" rot="R270">
+<element name="T108" library="3D_MIG_Controller" package="TO-247AC_MODIFIED" value="SIHG039N60EF&quot;" x="276.86000625" y="21.2725" smashed="yes" rot="R270">
 <attribute name="NAME" x="268.77500625" y="21.235" size="1" layer="25" rot="R180" align="center-left"/>
 </element>
 <element name="TR101" library="3D_MIG_Controller" package="CST206-2A" value="CST206-2A" x="200.025" y="127" smashed="yes">
@@ -3619,173 +3665,49 @@ design rules under a new name.</description>
 <attribute name="VOLTAGE_-_INPUT" value="2.495 V ~ 36 V" x="24.765" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_-_OUTPUT" value="2.495 V ~ 36 V" x="24.765" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="X1" library="3D_MIG_Controller" package="TE_726386-2" value="726386-2TE_726386-2" x="10.795" y="156.845" smashed="yes" rot="R180">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CONN_GENDER" value="Male" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Tin" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="10mm" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="TE" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="726386-2" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="X1" library="3D_MIG_Controller" package="TE_726386-2_MODIFIED" value="726386-2" x="10.795" y="156.845" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.62" y="159.385" size="1" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PREFIX" value="J" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS" value="yes" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="10.795" y="156.845" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="X103" library="3D_MIG_Controller" package="TE_726386-2" value="726386-2TE_726386-2" x="362.585" y="67.822609375" smashed="yes">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_GENDER" value="Male" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Tin" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="10mm" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="726386-2" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
+<element name="X103" library="3D_MIG_Controller" package="TE_726386-2_MODIFIED" value="726386-2" x="362.585" y="67.822609375" smashed="yes">
 <attribute name="NAME" x="361.315" y="69.092609375" size="1" layer="25"/>
-<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="J" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="yes" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="362.585" y="67.822609375" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X104" library="3D_MIG_Controller" package="TE_726386-2" value="726386-2TE_726386-2" x="362.585" y="53.3036375" smashed="yes" rot="R180">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CONN_GENDER" value="Male" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Tin" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="10mm" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="TE" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="726386-2" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="X104" library="3D_MIG_Controller" package="TE_726386-2_MODIFIED" value="726386-2" x="362.585" y="53.3036375" smashed="yes" rot="R180">
 <attribute name="NAME" x="363.855" y="52.0336375" size="1" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PREFIX" value="J" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS" value="yes" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="362.585" y="53.3036375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="X2" library="3D_MIG_Controller" package="TE_726386-2" value="726386-2TE_726386-2" x="10.16" y="179.705" smashed="yes">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_GENDER" value="Male" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Tin" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="10mm" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="726386-2" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
+<element name="X2" library="3D_MIG_Controller" package="TE_726386-2_MODIFIED" value="726386-2" x="10.16" y="179.705" smashed="yes">
 <attribute name="NAME" x="6.35" y="181.61" size="1" layer="25"/>
-<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="J" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="yes" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="10.16" y="179.705" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X3" library="3D_MIG_Controller" package="X01_M10_7461061" value="7461061" x="371.475" y="85.09" smashed="yes">
 <attribute name="NAME" x="371.475" y="85.09" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="371.475" y="85.09" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="X4" library="3D_MIG_Controller" package="X01_M10_7461061" value="7461061" x="371.475" y="36.195" smashed="yes">
+<element name="X4" library="3D_MIG_Controller" package="X01_M10_7461061_MODIFIED" value="7461061&quot;" x="371.475" y="36.195" smashed="yes">
 <attribute name="NAME" x="370.84" y="44.45" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="371.475" y="36.195" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="C301" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_CND" value="C_1500UF" x="118.745" y="186.69" smashed="yes" rot="R270">
-<attribute name="BUILT_BY" value="EMA_Kyle" x="118.745" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="118.745" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" x="118.745" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" x="118.745" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C301" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_MODIFIED" value="C_1500UFCAP_SLP152M250H9P3_MODIFIED" x="118.745" y="186.69" smashed="yes" rot="R270">
 <attribute name="NAME" x="136.5758" y="182.3847" size="1.27" layer="25" ratio="6" rot="R90" align="top-center"/>
-<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="118.745" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="130.81" y="199.9234" size="1.27" layer="27" ratio="6" rot="SR270"/>
-<attribute name="VENDOR" value="Cornell Dubilier" x="118.745" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C302" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_CND" value="C_1500UF" x="118.745" y="147.955" smashed="yes" rot="R270">
-<attribute name="BUILT_BY" value="EMA_Kyle" x="118.745" y="147.955" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="118.745" y="147.955" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" x="118.745" y="147.955" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" x="118.745" y="147.955" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C302" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_MODIFIED" value="C_1500UFCAP_SLP152M250H9P3_MODIFIED" x="118.745" y="147.955" smashed="yes" rot="R270">
 <attribute name="NAME" x="136.5758" y="143.6497" size="1.27" layer="25" ratio="6" rot="R90" align="top-center"/>
-<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="118.745" y="147.955" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="130.81" y="161.1884" size="1.27" layer="27" ratio="6" rot="SR270"/>
-<attribute name="VENDOR" value="Cornell Dubilier" x="118.745" y="147.955" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C303" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_CND" value="C_1500UF" x="155.575" y="147.875625" smashed="yes" rot="R270">
-<attribute name="BUILT_BY" value="EMA_Kyle" x="155.575" y="147.875625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="155.575" y="147.875625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" x="155.575" y="147.875625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" x="155.575" y="147.875625" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C303" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_MODIFIED" value="C_1500UFCAP_SLP152M250H9P3_MODIFIED" x="155.575" y="147.875625" smashed="yes" rot="R270">
 <attribute name="NAME" x="173.4058" y="143.570325" size="1.27" layer="25" ratio="6" rot="R90" align="top-center"/>
-<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="155.575" y="147.875625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="167.64" y="161.109025" size="1.27" layer="27" ratio="6" rot="SR270"/>
-<attribute name="VENDOR" value="Cornell Dubilier" x="155.575" y="147.875625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C304" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_CND" value="C_1500UF" x="155.575" y="186.69" smashed="yes" rot="R270">
-<attribute name="BUILT_BY" value="EMA_Kyle" x="155.575" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="155.575" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DATASHEET" value="https://www.cde.com/resources/catalogs/SLP.pdf" x="155.575" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SLP152M250H9P3" x="155.575" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C304" library="3D_MIG_Controller" package="CAP_SLP152M250H9P3_MODIFIED" value="C_1500UFCAP_SLP152M250H9P3_MODIFIED" x="155.575" y="186.69" smashed="yes" rot="R270">
 <attribute name="NAME" x="173.4058" y="182.3847" size="1.27" layer="25" ratio="6" rot="R90" align="top-center"/>
-<attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" x="155.575" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="167.64" y="199.9234" size="1.27" layer="27" ratio="6" rot="SR270"/>
-<attribute name="VENDOR" value="Cornell Dubilier" x="155.575" y="186.69" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R313" library="3D_MIG_Controller" package="EPCOS_B72205S0271K101_0" value="B72205S0271K101" x="12.7" y="168.275" smashed="yes" rot="R270">
+<element name="R313" library="3D_MIG_Controller" package="EPCOS_B72205S0271K101_MODIFIED" value="B72205S0271K1011" x="12.7" y="168.275" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.15" y="171.775" size="1" layer="25" rot="R270"/>
 </element>
 <element name="D302" library="3D_MIG_Controller" package="GBPC3510W_MODIFIED" value="GBPC3510W_MODIFIED" x="51.435" y="166.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.285" y="180.57" size="1" layer="25" rot="R270"/>
 </element>
-<element name="R213" library="3D_MIG_Controller" package="EPCOS_B72205S0271K101_0" value="B72205S0271K101" x="8.255" y="128.27" smashed="yes" rot="R90">
+<element name="R213" library="3D_MIG_Controller" package="EPCOS_B72205S0271K101_MODIFIED" value="B72205S0271K1011" x="8.255" y="128.27" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.805" y="124.77" size="1" layer="25" rot="R90"/>
 </element>
 <element name="D203" library="3D_MIG_Controller" package="SMA_STTH1L06A" value="STTH1L06ASTMICROELECTRONICS_STTH1L06A_0_0" x="39.37" y="121.92" smashed="yes">
@@ -4988,10 +4910,10 @@ design rules under a new name.</description>
 <wire x1="341.21" y1="175.77621875" x2="341.21" y2="182.5600125" width="0.508" layer="1"/>
 <wire x1="341.21" y1="182.5600125" x2="341.1170125" y2="182.653" width="0.508" layer="1"/>
 <wire x1="341.1170125" y1="182.653" x2="346.1700125" y2="187.706" width="2.54" layer="1"/>
-<wire x1="362.0302" y1="185.241875" x2="362.0302" y2="183.8428" width="2.54" layer="1"/>
-<wire x1="362.0302" y1="183.8428" x2="363.22" y2="182.653" width="2.54" layer="1"/>
-<wire x1="359.566075" y1="187.706" x2="362.0302" y2="185.241875" width="2.54" layer="1"/>
-<wire x1="346.1700125" y1="187.706" x2="359.566075" y2="187.706" width="2.54" layer="1"/>
+<wire x1="363.3002" y1="184.606875" x2="363.3002" y2="182.7332" width="2.54" layer="1"/>
+<wire x1="363.22" y1="182.653" x2="363.3002" y2="182.7332" width="2.54" layer="1"/>
+<wire x1="360.201075" y1="187.706" x2="363.3002" y2="184.606875" width="2.54" layer="1"/>
+<wire x1="346.1700125" y1="187.706" x2="360.201075" y2="187.706" width="2.54" layer="1"/>
 <wire x1="337.693" y1="160.528" x2="341.21" y2="164.045" width="0.4064" layer="1"/>
 <wire x1="341.21" y1="164.045" x2="341.21" y2="175.77621875" width="0.4064" layer="1"/>
 <via x="112.522" y="102.108" extent="1-16" drill="0.35" diameter="1"/>

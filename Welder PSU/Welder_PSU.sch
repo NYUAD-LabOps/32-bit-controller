@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -1108,6 +1108,142 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <package name="THT_PAD_D5.0">
 <pad name="P$1" x="0" y="0" drill="5" diameter="8" shape="square"/>
 </package>
+<package name="CAP_SLP152M250H9P3_MODIFIED">
+<pad name="1" x="0" y="0" drill="3" diameter="3.8"/>
+<pad name="2" x="10.0076" y="0" drill="3" diameter="3.8" rot="R180"/>
+<wire x1="-14.0208" y1="0" x2="-12.7508" y2="0" width="0.1524" layer="21"/>
+<wire x1="-13.3858" y1="0.635" x2="-13.3858" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="22.6314" y1="0" x2="-12.6238" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-12.6238" y1="0" x2="22.6314" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-14.0208" y1="0" x2="-12.7508" y2="0" width="0.1524" layer="51"/>
+<wire x1="-13.3858" y1="0.635" x2="-13.3858" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="22.5044" y1="0" x2="-12.4968" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-12.4968" y1="0" x2="22.5044" y2="0" width="0" layer="51" curve="-180"/>
+<text x="-13.5128" y="14.605" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-13.2334" y="12.065" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="19.05" y1="-10.16" x2="19.05" y2="10.16" width="0.127" layer="21"/>
+</package>
+<package name="PDIP-7_MODIFIED">
+<description>PDIP-7 modified to 1mm drill bit Labop</description>
+<wire x1="-0.635" y1="5.1" x2="0.635" y2="5.1" width="0.2" layer="21" curve="180"/>
+<wire x1="-2.65" y1="-5.1" x2="-2.65" y2="5.1" width="0.15" layer="21"/>
+<wire x1="2.65" y1="-5.1" x2="2.65" y2="5.1" width="0.15" layer="21"/>
+<wire x1="-2.65" y1="5.1" x2="-0.635" y2="5.1" width="0.15" layer="21"/>
+<wire x1="0.635" y1="5.1" x2="2.65" y2="5.1" width="0.15" layer="21"/>
+<wire x1="-2.65" y1="-5.1" x2="2.65" y2="-5.1" width="0.15" layer="21"/>
+<wire x1="-3.55" y1="-5.075" x2="-3.55" y2="5.075" width="0.1" layer="51"/>
+<wire x1="3.55" y1="-5.075" x2="3.55" y2="5.075" width="0.1" layer="51"/>
+<wire x1="-3.55" y1="5.075" x2="3.55" y2="5.075" width="0.1" layer="51"/>
+<wire x1="-3.55" y1="-5.075" x2="3.55" y2="-5.075" width="0.1" layer="51"/>
+<wire x1="-4.85" y1="-5.35" x2="-4.85" y2="5.35" width="0.1" layer="39"/>
+<wire x1="-4.85" y1="5.35" x2="4.85" y2="5.35" width="0.1" layer="39"/>
+<wire x1="4.85" y1="5.35" x2="4.85" y2="-5.35" width="0.1" layer="39"/>
+<wire x1="4.85" y1="-5.35" x2="-4.85" y2="-5.35" width="0.1" layer="39"/>
+<text x="-5.85" y="5.35" size="1" layer="25">&gt;NAME</text>
+<circle x="-3.81" y="5.11" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1.65" y="4.1" radius="0.3" width="0.6" layer="21"/>
+<circle x="-2.65" y="4.175" radius="0.5" width="0.1" layer="51"/>
+<pad name="1" x="-3.81" y="3.81" drill="1" diameter="1.6" shape="square"/>
+<pad name="2" x="-3.81" y="1.27" drill="0.9" diameter="1.6"/>
+<pad name="3" x="-3.81" y="-1.27" drill="0.9" diameter="1.6"/>
+<pad name="4" x="-3.81" y="-3.81" drill="0.9" diameter="1.6"/>
+<pad name="8" x="3.81" y="3.81" drill="0.9" diameter="1.6"/>
+<pad name="7" x="3.81" y="1.27" drill="0.9" diameter="1.6"/>
+<pad name="5" x="3.81" y="-3.81" drill="0.9" diameter="1.6"/>
+</package>
+<package name="EPCOS_B72205S0271K101_MODIFIED">
+<description>430V 400A Varistor 1 Circuit Through Hole Disc 5mm, Drill modified to match Drillbits Labop</description>
+<wire x1="-3.5" y1="-2.15" x2="-3.5" y2="2.15" width="0.15" layer="51"/>
+<wire x1="-3.5" y1="2.15" x2="3.5" y2="2.15" width="0.15" layer="51"/>
+<wire x1="3.5" y1="2.15" x2="3.5" y2="-2.15" width="0.15" layer="51"/>
+<wire x1="3.5" y1="-2.15" x2="-3.5" y2="-2.15" width="0.15" layer="51"/>
+<wire x1="-3.5" y1="2.15" x2="3.5" y2="2.15" width="0.15" layer="21"/>
+<wire x1="3.5" y1="-2.15" x2="3.5" y2="-1.825" width="0.15" layer="21"/>
+<wire x1="3.5" y1="0.225" x2="3.5" y2="2.15" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="-2.15" x2="3.5" y2="-2.15" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="-2.15" x2="-3.5" y2="-0.225" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="1.825" x2="-3.5" y2="2.15" width="0.15" layer="21"/>
+<text x="-3.5" y="2.45" size="1" layer="25">&gt;NAME</text>
+<pad name="1" x="-2.5" y="0.8" drill="1" diameter="1.6" shape="square"/>
+<pad name="2" x="2.5" y="-0.8" drill="1" diameter="1.6"/>
+</package>
+<package name="TO-247AC_MODIFIED">
+<description>MOSFET N-CH 60V 120A TO-247AC, Drill modified for Labop</description>
+<wire x1="-2.655" y1="-7.935" x2="-2.655" y2="7.935" width="0.15" layer="51"/>
+<wire x1="-2.655" y1="7.935" x2="2.655" y2="7.935" width="0.15" layer="51"/>
+<wire x1="2.655" y1="7.935" x2="2.655" y2="-7.935" width="0.15" layer="51"/>
+<wire x1="2.655" y1="-7.935" x2="-2.655" y2="-7.935" width="0.15" layer="51"/>
+<wire x1="2.655" y1="7.935" x2="2.655" y2="-7.935" width="0.3" layer="21"/>
+<wire x1="-2.655" y1="7.5" x2="-2.655" y2="-7.5" width="0.15" layer="21"/>
+<wire x1="2.655" y1="-8" x2="-2.655" y2="-7.5" width="0.15" layer="21"/>
+<wire x1="2.655" y1="8" x2="-2.655" y2="7.5" width="0.15" layer="21"/>
+<text x="-2.68" y="8.235" size="1" layer="25">&gt;NAME</text>
+<circle x="-0.227" y="8.435" radius="0.25" width="0" layer="21"/>
+<pad name="1" x="-0.227" y="5.46" drill="2" diameter="3" shape="square"/>
+<pad name="2" x="-0.227" y="0" drill="1.85" diameter="3"/>
+<pad name="3" x="-0.227" y="-5.46" drill="1.85" diameter="3"/>
+</package>
+<package name="TE_726386-2_MODIFIED">
+<description>Terminals GDS-FLACHSTECK 6.3 Modified Drill Labop</description>
+<wire x1="-4" y1="-0.415" x2="-4" y2="0.415" width="0.15" layer="51"/>
+<wire x1="-4" y1="0.415" x2="4" y2="0.415" width="0.15" layer="51"/>
+<wire x1="4" y1="0.415" x2="4" y2="-0.415" width="0.15" layer="51"/>
+<wire x1="4" y1="-0.415" x2="-4" y2="-0.415" width="0.15" layer="51"/>
+<wire x1="-0.79" y1="0.415" x2="0.79" y2="0.415" width="0.15" layer="21"/>
+<wire x1="-0.79" y1="-0.415" x2="0.79" y2="-0.415" width="0.15" layer="21"/>
+<wire x1="-4.1" y1="-1.175" x2="-4.1" y2="1.175" width="0.1" layer="39"/>
+<wire x1="-4.1" y1="1.175" x2="4.1" y2="1.175" width="0.1" layer="39"/>
+<wire x1="4.1" y1="1.175" x2="4.1" y2="-1.175" width="0.1" layer="39"/>
+<wire x1="4.1" y1="-1.175" x2="-4.1" y2="-1.175" width="0.1" layer="39"/>
+<text x="-4" y="1.615" size="1" layer="25">&gt;NAME</text>
+<pad name="1" x="-2.54" y="0" drill="1.5" diameter="2.54"/>
+<pad name="1-2" x="2.54" y="0" drill="1.5" diameter="2.54"/>
+</package>
+<package name="X01_M10_7461061_MODIFIED">
+<description>Drill modified to fit Labops drillbits</description>
+<pad name="1" x="-6.35" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-1" x="-3.81" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-2" x="-1.27" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-3" x="1.27" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-4" x="-6.35" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-5" x="-3.81" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-6" x="-1.27" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-7" x="1.27" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-8" x="-6.35" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-9" x="-3.81" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-10" x="-1.27" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-11" x="1.27" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-12" x="-6.35" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-13" x="-3.81" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-14" x="-1.27" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-15" x="1.27" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-16" x="3.81" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-17" x="3.81" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-18" x="3.81" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-19" x="3.81" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-20" x="3.81" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-21" x="1.27" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-22" x="-1.27" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-23" x="-3.81" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-24" x="-6.35" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-25" x="6.35" y="-1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-26" x="6.35" y="-3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-27" x="6.35" y="-6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-28" x="6.35" y="1.27" drill="1.5" diameter="2.25"/>
+<pad name="1-29" x="6.35" y="3.81" drill="1.5" diameter="2.25"/>
+<pad name="1-30" x="-6.35" y="6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-31" x="-3.81" y="6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-32" x="-1.27" y="6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-33" x="1.27" y="6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-34" x="3.81" y="6.35" drill="1.5" diameter="2.25"/>
+<pad name="1-35" x="6.35" y="6.35" drill="1.5" diameter="2.25"/>
+<wire x1="-7.87" y1="-7.87" x2="7.87" y2="-7.87" width="0.1" layer="21"/>
+<wire x1="-7.87" y1="7.87" x2="7.87" y2="7.87" width="0.1" layer="21"/>
+<wire x1="-7.87" y1="-7.87" x2="-7.87" y2="7.87" width="0.1" layer="21"/>
+<wire x1="7.87" y1="-7.87" x2="7.87" y2="7.87" width="0.1" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="TSSOP24" urn="urn:adsk.eagle:package:28117968/1" type="box">
@@ -1806,7 +1942,17 @@ Diode with low voltage drop</description>
 <gate name="G$1" symbol="N-MOSFET" x="0" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="TO-247AC">
+<device name="2" package="TO-247AC">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="&quot;" package="TO-247AC_MODIFIED">
 <connects>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="1"/>
@@ -1846,6 +1992,20 @@ Diode with low voltage drop</description>
 </gates>
 <devices>
 <device name="" package="PDIP-7">
+<connects>
+<connect gate="G$1" pin="1_GND" pad="3"/>
+<connect gate="G$1" pin="2_GND" pad="8"/>
+<connect gate="G$1" pin="3_GND" pad="7"/>
+<connect gate="G$1" pin="DRAIN" pad="5"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="NC" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PDIP-7_MODIFIED" package="PDIP-7_MODIFIED">
 <connects>
 <connect gate="G$1" pin="1_GND" pad="3"/>
 <connect gate="G$1" pin="2_GND" pad="8"/>
@@ -2516,6 +2676,14 @@ Drill modified to match LabOp Machines</description>
 </technology>
 </technologies>
 </device>
+<device name="" package="TE_726386-2_MODIFIED">
+<connects>
+<connect gate="G$0" pin="1" pad="1 1-2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="LM317AEMP" prefix="IC">
@@ -2574,12 +2742,21 @@ Drill modified to match LabOp Machines</description>
 </devices>
 </deviceset>
 <deviceset name="B72205S0271K101" prefix="R">
-<description>VARISTOR 430V 400A DISC 5MM</description>
+<description>VARISTOR 205V 800A DISC 5MM</description>
 <gates>
 <gate name="G$1" symbol="VARISTOR" x="-7.62" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="EPCOS_B72205S0271K101_0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="B72205S2131K101"/>
+</technologies>
+</device>
+<device name="1" package="EPCOS_B72205S0271K101_MODIFIED">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2644,6 +2821,14 @@ Drill modified to match LabOp Machines</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="&quot;" package="X01_M10_7461061_MODIFIED">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1 1-1 1-2 1-3 1-4 1-5 1-6 1-7 1-8 1-9 1-10 1-11 1-12 1-13 1-14 1-15 1-16 1-17 1-18 1-19 1-20 1-21 1-22 1-23 1-24 1-25 1-26 1-27 1-28 1-29 1-30 1-31 1-32 1-33 1-34 1-35"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="B57364S100M54">
@@ -2682,6 +2867,15 @@ Drill modified to match LabOp Machines</description>
 <attribute name="SOURCELIBRARY" value="Add_to_database_2021-04-21" constant="no"/>
 <attribute name="VENDOR" value="Cornell Dubilier" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="CAP_SLP152M250H9P3_MODIFIED" package="CAP_SLP152M250H9P3_MODIFIED">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -11553,10 +11747,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <variantdefs>
 </variantdefs>
 <parts>
-<part name="T1" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device=""/>
-<part name="T2" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device=""/>
-<part name="T3" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device=""/>
-<part name="T4" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device=""/>
+<part name="T1" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device="&quot;" value="SIHG039N60EF&quot;"/>
+<part name="T2" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device="&quot;"/>
+<part name="T3" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device="&quot;"/>
+<part name="T4" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device="&quot;"/>
 <part name="IC2" library="3D_MIG_Controller" deviceset="UCC21542DWK" device=""/>
 <part name="IC1" library="3D_MIG_Controller" deviceset="UCC28951PWR" device="" package3d_urn="urn:adsk.eagle:package:28117968/1"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="18K 1%"/>
@@ -11637,16 +11831,16 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/16V"/>
 <part name="C23" library="3D_MIG_Controller" deviceset="C_0603" device="" value="1µF/25V"/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/16V"/>
-<part name="T5" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device=""/>
-<part name="T6" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device=""/>
+<part name="T5" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device="&quot;"/>
+<part name="T6" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device="&quot;"/>
 <part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1R8 1%"/>
 <part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1R8 1%"/>
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="22R 1%"/>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100pF 100V"/>
 <part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="22R 1%"/>
 <part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100pF 100V"/>
-<part name="T7" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device=""/>
-<part name="T8" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device=""/>
+<part name="T7" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device="&quot;"/>
+<part name="T8" library="3D_MIG_Controller" deviceset="SIHG039N60EF" device="&quot;"/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1R8 1%"/>
 <part name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="1R8 1%"/>
 <part name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="22R"/>
@@ -11687,7 +11881,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF 50V"/>
 <part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF 50V"/>
 <part name="R68" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R69" library="3D_MIG_Controller" deviceset="B72205S0271K101" device=""/>
+<part name="R69" library="3D_MIG_Controller" deviceset="B72205S0271K101" device="1" value="B72205S0271K1011"/>
 <part name="Q1" library="3D_MIG_Controller" deviceset="BSS123TA" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="GND39" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
@@ -11698,8 +11892,8 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="C40" library="3D_MIG_Controller" deviceset="C_0603" device="" value="1µF/25V"/>
 <part name="R65" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="18K 1%"/>
 <part name="R66" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0R 1%"/>
-<part name="X3" library="3D_MIG_Controller" deviceset="726386-2" device="TE_726386-2"/>
-<part name="X4" library="3D_MIG_Controller" deviceset="726386-2" device="TE_726386-2"/>
+<part name="X3" library="3D_MIG_Controller" deviceset="726386-2" device="" value="726386-2"/>
+<part name="X4" library="3D_MIG_Controller" deviceset="726386-2" device="" value="726386-2"/>
 <part name="GND1" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND2" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND3" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -13952,7 +14146,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="TR1" library="3D_MIG_Controller" deviceset="B0570-BL_MODIFIED" device="B0570-BL-MODIFIED"/>
-<part name="IC1" library="3D_MIG_Controller" deviceset="NCP1014AP065G" device=""/>
+<part name="IC1" library="3D_MIG_Controller" deviceset="NCP1014AP065G" device="PDIP-7_MODIFIED" value="NCP1014AP065GPDIP-7_MODIFIED"/>
 <part name="D1" library="3D_MIG_Controller" deviceset="MBRS1100T3G" device="ON_SEMI_MBRS1100T3G_0_0"/>
 <part name="C1" library="3D_MIG_Controller" deviceset="ESL477M025AH9AA" device=""/>
 <part name="C2" library="3D_MIG_Controller" deviceset="ESL477M025AH9AA" device=""/>
@@ -13999,7 +14193,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="C22" library="3D_MIG_Controller" deviceset="ESL477M025AH9AA" device=""/>
 <part name="IC4" library="3D_MIG_Controller" deviceset="LM317AEMP" device=""/>
 <part name="IC3" library="3D_MIG_Controller" deviceset="LD1117S33TR" device=""/>
-<part name="R13" library="3D_MIG_Controller" deviceset="B72205S0271K101" device=""/>
+<part name="R13" library="3D_MIG_Controller" deviceset="B72205S0271K101" device="1" value="B72205S0271K1011"/>
 <part name="D3" library="3D_MIG_Controller" deviceset="STTH1L06A" device="STMICROELECTRONICS_STTH1L06A_0_0"/>
 <part name="D2" library="3D_MIG_Controller" deviceset="MB10S" device="ON_SEMI_MB10S_0_3"/>
 <part name="GND1" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -14019,7 +14213,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="TR1" gate="G$1" x="231.14" y="198.12" smashed="yes"/>
 <instance part="IC1" gate="G$1" x="190.5" y="154.94" smashed="yes">
 <attribute name="NAME" x="190.5" y="152.4" size="2.54" layer="95" align="top-left"/>
-<attribute name="VALUE" x="193.04" y="154.94" size="2.54" layer="96" align="top-left"/>
 </instance>
 <instance part="D1" gate="G$0" x="251.46" y="218.44" smashed="yes">
 <attribute name="NAME" x="252.476" y="218.694" size="2.54" layer="95" align="top-left"/>
@@ -14764,11 +14957,11 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="K1" library="3D_MIG_Controller" deviceset="PANASONIC_ALFG2PF09_MODIFIED" device=""/>
 <part name="U$1" library="3D_MIG_Controller" deviceset="B57364S100M54" device=""/>
 <part name="D1" library="3D_MIG_Controller" deviceset="MBRS1100T3G" device="ON_SEMI_MBRS1100T3G_0_0"/>
-<part name="C1" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
-<part name="C2" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
-<part name="C3" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
-<part name="C4" library="3D_MIG_Controller" deviceset="C_1500UF" device=""/>
-<part name="R13" library="3D_MIG_Controller" deviceset="B72205S0271K101" device=""/>
+<part name="C1" library="3D_MIG_Controller" deviceset="C_1500UF" device="CAP_SLP152M250H9P3_MODIFIED" value="C_1500UFCAP_SLP152M250H9P3_MODIFIED"/>
+<part name="C2" library="3D_MIG_Controller" deviceset="C_1500UF" device="CAP_SLP152M250H9P3_MODIFIED" value="C_1500UFCAP_SLP152M250H9P3_MODIFIED"/>
+<part name="C3" library="3D_MIG_Controller" deviceset="C_1500UF" device="CAP_SLP152M250H9P3_MODIFIED" value="C_1500UFCAP_SLP152M250H9P3_MODIFIED"/>
+<part name="C4" library="3D_MIG_Controller" deviceset="C_1500UF" device="CAP_SLP152M250H9P3_MODIFIED" value="C_1500UFCAP_SLP152M250H9P3_MODIFIED"/>
+<part name="R13" library="3D_MIG_Controller" deviceset="B72205S0271K101" device="1" value="B72205S0271K1011"/>
 <part name="D2" library="3D_MIG_Controller" deviceset="GBPC3510W_MODIFIED" device=""/>
 <part name="J1" library="3D_MIG_Controller" deviceset="TE_282841-2" device=""/>
 </parts>
@@ -14814,19 +15007,15 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </instance>
 <instance part="C1" gate="G$1" x="200.66" y="236.22" smashed="yes">
 <attribute name="NAME" x="201.676" y="236.855" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.676" y="232.029" size="1.778" layer="96"/>
 </instance>
 <instance part="C2" gate="G$1" x="200.66" y="210.82" smashed="yes">
 <attribute name="NAME" x="201.676" y="211.455" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.676" y="206.629" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="218.44" y="210.82" smashed="yes">
 <attribute name="NAME" x="219.456" y="211.455" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.456" y="206.629" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="218.44" y="236.22" smashed="yes">
 <attribute name="NAME" x="219.456" y="236.855" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.456" y="232.029" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="27.94" y="215.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.274" y="218.44" size="2.54" layer="95" rot="R90" align="top-left"/>
@@ -15053,12 +15242,12 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </modules>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="X1" library="3D_MIG_Controller" deviceset="726386-2" device="TE_726386-2"/>
-<part name="X2" library="3D_MIG_Controller" deviceset="726386-2" device="TE_726386-2"/>
+<part name="X1" library="3D_MIG_Controller" deviceset="726386-2" device="" value="726386-2"/>
+<part name="X2" library="3D_MIG_Controller" deviceset="726386-2" device="" value="726386-2"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
 <part name="X3" library="3D_MIG_Controller" deviceset="7461061" device=""/>
-<part name="X4" library="3D_MIG_Controller" deviceset="7461061" device=""/>
+<part name="X4" library="3D_MIG_Controller" deviceset="7461061" device="&quot;" value="7461061&quot;"/>
 <part name="GND3" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND1" library="3D_MIG_Controller" deviceset="GND" device=""/>
 </parts>
