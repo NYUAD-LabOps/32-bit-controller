@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-05-28T14:05:49Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Callisto_RJ45_Test_Board"
+        },
+        "Owner": "Michael Davis <michael@davisfiles.net>",
+        "Size": {
+            "X": 50,
+            "Y": 60
+        }
+    }
+}

@@ -401,10 +401,6 @@
 <smd name="1" x="-0.65" y="-0.8763" dx="0.4572" dy="1.1684" layer="1"/>
 <smd name="2" x="0.65" y="-0.8763" dx="0.4572" dy="1.1684" layer="1"/>
 <smd name="3" x="0" y="0.8763" dx="0.4572" dy="1.1684" layer="1"/>
-<wire x1="-0.7112" y1="-0.4064" x2="-0.9652" y2="-0.4318" width="0" layer="51" curve="-180"/>
-<wire x1="-0.9652" y1="-0.4318" x2="-0.7112" y2="-0.4064" width="0" layer="51" curve="-180"/>
-<wire x1="-2.2352" y1="-1.1176" x2="-2.4892" y2="-1.1176" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.4892" y1="-1.1176" x2="-2.2352" y2="-1.0922" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
 <wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
 <text x="-3.0226" y="2.159" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
@@ -440,18 +436,18 @@
 <wire x1="-8.325" y1="4.58" x2="-8.325" y2="6.8" width="0.05" layer="39"/>
 <text x="-7.62" y="7.62" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.62" y="-12.7" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="-5.715" y="0" drill="3.51"/>
-<hole x="5.715" y="0" drill="3.51"/>
-<pad name="S1" x="-7.875" y="3.05" drill="1.71"/>
-<pad name="S2" x="7.875" y="3.05" drill="1.71"/>
-<pad name="8" x="-4.445" y="-8.89" drill="0.9"/>
-<pad name="6" x="-1.905" y="-8.89" drill="0.9"/>
-<pad name="4" x="0.635" y="-8.89" drill="0.9"/>
-<pad name="2" x="3.175" y="-8.89" drill="0.9"/>
-<pad name="7" x="-3.175" y="-6.35" drill="0.9"/>
-<pad name="5" x="-0.635" y="-6.35" drill="0.9"/>
-<pad name="3" x="1.905" y="-6.35" drill="0.9"/>
-<pad name="1" x="4.445" y="-6.35" drill="0.9" shape="square"/>
+<hole x="-5.715" y="0" drill="3.3"/>
+<hole x="5.715" y="0" drill="3.3"/>
+<pad name="S1" x="-7.875" y="3.05" drill="1.5"/>
+<pad name="S2" x="7.875" y="3.05" drill="1.5"/>
+<pad name="8" x="-4.445" y="-8.89" drill="1"/>
+<pad name="6" x="-1.905" y="-8.89" drill="1"/>
+<pad name="4" x="0.635" y="-8.89" drill="1"/>
+<pad name="2" x="3.175" y="-8.89" drill="1"/>
+<pad name="7" x="-3.175" y="-6.35" drill="1"/>
+<pad name="5" x="-0.635" y="-6.35" drill="1"/>
+<pad name="3" x="1.905" y="-6.35" drill="1"/>
+<pad name="1" x="4.445" y="-6.35" drill="1" shape="square"/>
 </package>
 <package name="1X4_3.81MM_PITCH">
 <pad name="P$1" x="0" y="0" drill="1.1" diameter="2" shape="long" rot="R90"/>
@@ -805,6 +801,7 @@
 </devices>
 </deviceset>
 <deviceset name="BC846BW" prefix="U" uservalue="yes">
+<description>Bipolar (BJT) Transistor NPN 100MHz Surface Mount SOT-323</description>
 <gates>
 <gate name="A" symbol="TRANS_NPN" x="5.08" y="0"/>
 </gates>
@@ -817,8 +814,8 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="BC846BW" constant="no"/>
-<attribute name="VENDOR" value="Nexperia" constant="no"/>
+<attribute name="PARTNO" value="BC846BW_NPN" constant="no"/>
+<attribute name="VALUE" value="NPN" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -917,57 +914,57 @@
 <part name="R6" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R7" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
 <part name="R8" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
-<part name="U1" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
-<part name="U2" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
+<part name="U1" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U2" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="J5" library="3D_MIG_Controller" deviceset="RJ45_TH_VERT" device=""/>
 <part name="R13" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R14" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R15" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
 <part name="R16" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
-<part name="U7" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
-<part name="U8" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
+<part name="U7" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U8" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="J7" library="3D_MIG_Controller" deviceset="RJ45_TH_VERT" device=""/>
 <part name="R21" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R22" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R23" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
 <part name="R24" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
-<part name="U11" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
-<part name="U12" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
+<part name="U11" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U12" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="J9" library="3D_MIG_Controller" deviceset="RJ45_TH_VERT" device=""/>
 <part name="R9" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R10" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R11" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
 <part name="R12" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
-<part name="U4" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
-<part name="U5" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
+<part name="U4" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U5" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="J6" library="3D_MIG_Controller" deviceset="RJ45_TH_VERT" device=""/>
 <part name="R25" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R26" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R27" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
 <part name="R28" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
-<part name="U13" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
-<part name="U14" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
+<part name="U13" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U14" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="J10" library="3D_MIG_Controller" deviceset="RJ45_TH_VERT" device=""/>
 <part name="R33" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R34" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R35" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
 <part name="R36" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
-<part name="U17" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
-<part name="U18" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
+<part name="U17" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U18" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="J13" library="3D_MIG_Controller" deviceset="RJ45_TH_VERT" device=""/>
 <part name="R17" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R18" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R19" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
 <part name="R20" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
-<part name="U9" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
-<part name="U10" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
+<part name="U9" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U10" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="J8" library="3D_MIG_Controller" deviceset="RJ45_TH_VERT" device=""/>
 <part name="R37" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R38" library="3D_MIG_Controller" deviceset="R_0402" device="" value="1K"/>
 <part name="R39" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
 <part name="R40" library="3D_MIG_Controller" deviceset="R_0402" device="" value="10K"/>
-<part name="U19" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
-<part name="U20" library="3D_MIG_Controller" deviceset="BC846BW" device=""/>
+<part name="U19" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U20" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="J14" library="3D_MIG_Controller" deviceset="RJ45_TH_VERT" device=""/>
 <part name="J18" library="3D_MIG_Controller" deviceset="RJ45_TH_VERT" device=""/>
 <part name="J19" library="3D_MIG_Controller" deviceset="RJ45_TH_VERT" device=""/>
