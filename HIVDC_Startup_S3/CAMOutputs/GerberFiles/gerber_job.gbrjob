@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-06-17T03:06:21Z",
+        "CreationDate": "2021-06-18T12:09:12Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,7 +13,7 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "HVDCS_S3A6_48_TQFP_v1p00"
+            "ProjectId": "HVDCS_S3A6_48_TQFP_v1p01"
         },
         "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
