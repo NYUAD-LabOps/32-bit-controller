@@ -999,90 +999,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/39677768AD7714_c.pdf</de
 <smd name="1" x="-2.015" y="0" dx="1.4" dy="1.64" layer="1"/>
 <smd name="2" x="2.015" y="0" dx="1.4" dy="1.64" layer="1"/>
 </package>
-<package name="ON_SEMI_MB10S_0">
-<description>Bridge Rectifier Single Phase Standard 1kV Surface Mount 4-SOIC</description>
-<wire x1="-2.1" y1="-2.475" x2="-2.1" y2="2.475" width="0.15" layer="51"/>
-<wire x1="-2.1" y1="2.475" x2="2.1" y2="2.475" width="0.15" layer="51"/>
-<wire x1="2.1" y1="2.475" x2="2.1" y2="-2.475" width="0.15" layer="51"/>
-<wire x1="2.1" y1="-2.475" x2="-2.1" y2="-2.475" width="0.15" layer="51"/>
-<wire x1="-4.4" y1="-2.575" x2="-4.4" y2="2.575" width="0.1" layer="41"/>
-<wire x1="-4.4" y1="2.575" x2="4.4" y2="2.575" width="0.1" layer="41"/>
-<wire x1="4.4" y1="2.575" x2="4.4" y2="-2.575" width="0.1" layer="41"/>
-<wire x1="4.4" y1="-2.575" x2="-4.4" y2="-2.575" width="0.1" layer="41"/>
-<wire x1="-1.8" y1="2.475" x2="1.8" y2="2.475" width="0.15" layer="21"/>
-<wire x1="1.8" y1="-2.475" x2="1.8" y2="2.475" width="0.15" layer="21"/>
-<wire x1="-1.8" y1="-2.475" x2="1.8" y2="-2.475" width="0.15" layer="21"/>
-<wire x1="-1.8" y1="-2.475" x2="-1.8" y2="2.475" width="0.15" layer="21"/>
-<text x="-2.175" y="2.75" size="1" layer="25">&gt;NAME</text>
-<circle x="-4.85" y="1.27" radius="0.25" width="0" layer="21"/>
-<circle x="-0.975" y="1.65" radius="0.5" width="0" layer="21"/>
-<smd name="1" x="-3.25" y="1.27" dx="2.1" dy="1.55" layer="1"/>
-<smd name="2" x="-3.25" y="-1.27" dx="2.1" dy="1.55" layer="1"/>
-<smd name="3" x="3.25" y="-1.27" dx="2.1" dy="1.55" layer="1"/>
-<smd name="4" x="3.25" y="1.27" dx="2.1" dy="1.55" layer="1"/>
-</package>
-<package name="ON_SEMI_MB10S_1">
-<description>Bridge Rectifier Single Phase Standard 1kV Surface Mount 4-SOIC</description>
-<wire x1="-1.95" y1="-2.362" x2="-1.95" y2="2.362" width="0.15" layer="51"/>
-<wire x1="-1.95" y1="2.362" x2="1.95" y2="2.362" width="0.15" layer="51"/>
-<wire x1="1.95" y1="2.362" x2="1.95" y2="-2.362" width="0.15" layer="51"/>
-<wire x1="1.95" y1="-2.362" x2="-1.95" y2="-2.362" width="0.15" layer="51"/>
-<wire x1="-4.552" y1="-2.862" x2="-4.552" y2="2.862" width="0.1" layer="41"/>
-<wire x1="-4.552" y1="2.862" x2="4.552" y2="2.862" width="0.1" layer="41"/>
-<wire x1="4.552" y1="2.862" x2="4.552" y2="-2.862" width="0.1" layer="41"/>
-<wire x1="4.552" y1="-2.862" x2="-4.552" y2="-2.862" width="0.1" layer="41"/>
-<wire x1="-1.149" y1="-2.362" x2="-1.149" y2="2.362" width="0.15" layer="21"/>
-<wire x1="-1.149" y1="2.362" x2="1.149" y2="2.362" width="0.15" layer="21"/>
-<wire x1="1.149" y1="2.362" x2="1.149" y2="-2.362" width="0.15" layer="21"/>
-<wire x1="1.149" y1="-2.362" x2="-1.149" y2="-2.362" width="0.15" layer="21"/>
-<text x="-1.927" y="2.612" size="1" layer="25">&gt;NAME</text>
-<circle x="-0.399" y="1.612" radius="0.5" width="0" layer="21"/>
-<circle x="-4.602" y="1.27" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="-2.85" y="1.27" dx="2.403" dy="0.946" layer="1"/>
-<smd name="2" x="-2.85" y="-1.27" dx="2.403" dy="0.946" layer="1" roundness="100"/>
-<smd name="3" x="2.85" y="-1.27" dx="2.403" dy="0.946" layer="1" roundness="100"/>
-<smd name="4" x="2.85" y="1.27" dx="2.403" dy="0.946" layer="1" roundness="100"/>
-</package>
-<package name="ON_SEMI_MB10S_2">
-<description>Bridge Rectifier Single Phase Standard 1kV Surface Mount 4-SOIC</description>
-<wire x1="-1.95" y1="-2.362" x2="-1.95" y2="2.362" width="0.15" layer="51"/>
-<wire x1="-1.95" y1="2.362" x2="1.95" y2="2.362" width="0.15" layer="51"/>
-<wire x1="1.95" y1="2.362" x2="1.95" y2="-2.362" width="0.15" layer="51"/>
-<wire x1="1.95" y1="-2.362" x2="-1.95" y2="-2.362" width="0.15" layer="51"/>
-<wire x1="-4.102" y1="-2.612" x2="-4.102" y2="2.612" width="0.1" layer="41"/>
-<wire x1="-4.102" y1="2.612" x2="4.102" y2="2.612" width="0.1" layer="41"/>
-<wire x1="4.102" y1="2.612" x2="4.102" y2="-2.612" width="0.1" layer="41"/>
-<wire x1="4.102" y1="-2.612" x2="-4.102" y2="-2.612" width="0.1" layer="41"/>
-<wire x1="-1.249" y1="-2.362" x2="-1.249" y2="2.362" width="0.15" layer="21"/>
-<wire x1="-1.249" y1="2.362" x2="1.249" y2="2.362" width="0.15" layer="21"/>
-<wire x1="1.249" y1="2.362" x2="1.249" y2="-2.362" width="0.15" layer="21"/>
-<wire x1="1.249" y1="-2.362" x2="-1.249" y2="-2.362" width="0.15" layer="21"/>
-<text x="-1.927" y="2.612" size="1" layer="25">&gt;NAME</text>
-<circle x="-0.499" y="1.612" radius="0.5" width="0" layer="21"/>
-<circle x="-4.402" y="1.27" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="-2.8" y="1.27" dx="2.103" dy="0.906" layer="1"/>
-<smd name="2" x="-2.8" y="-1.27" dx="2.103" dy="0.906" layer="1" roundness="100"/>
-<smd name="3" x="2.8" y="-1.27" dx="2.103" dy="0.906" layer="1" roundness="100"/>
-<smd name="4" x="2.8" y="1.27" dx="2.103" dy="0.906" layer="1" roundness="100"/>
-</package>
-<package name="ON_SEMI_MB10S_3">
-<description>Bridge Rectifier Single Phase Standard 1kV Surface Mount 4-SOIC</description>
-<wire x1="-1.95" y1="-2.362" x2="-1.95" y2="2.362" width="0.15" layer="51"/>
-<wire x1="-1.95" y1="2.362" x2="1.95" y2="2.362" width="0.15" layer="51"/>
-<wire x1="1.95" y1="2.362" x2="1.95" y2="-2.362" width="0.15" layer="51"/>
-<wire x1="1.95" y1="-2.362" x2="-1.95" y2="-2.362" width="0.15" layer="51"/>
-<wire x1="-1.349" y1="-2.362" x2="-1.349" y2="2.362" width="0.15" layer="21"/>
-<wire x1="-1.349" y1="2.362" x2="1.349" y2="2.362" width="0.15" layer="21"/>
-<wire x1="1.349" y1="2.362" x2="1.349" y2="-2.362" width="0.15" layer="21"/>
-<wire x1="1.349" y1="-2.362" x2="-1.349" y2="-2.362" width="0.15" layer="21"/>
-<text x="-1.927" y="2.637" size="1" layer="25">&gt;NAME</text>
-<circle x="-0.599" y="1.612" radius="0.5" width="0" layer="21"/>
-<circle x="-4.202" y="1.27" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="-2.75" y="1.27" dx="1.803" dy="0.866" layer="1"/>
-<smd name="2" x="-2.75" y="-1.27" dx="1.803" dy="0.866" layer="1" roundness="100"/>
-<smd name="3" x="2.75" y="-1.27" dx="1.803" dy="0.866" layer="1" roundness="100"/>
-<smd name="4" x="2.75" y="1.27" dx="1.803" dy="0.866" layer="1" roundness="100"/>
-</package>
 <package name="TE_282841-2_0">
 <description>TERM BLOCK 2POS SIDE ENT 5.08MM</description>
 <wire x1="-5.33" y1="-4.5" x2="-5.33" y2="4.5" width="0.15" layer="51"/>
@@ -1911,30 +1827,6 @@ Diode with low voltage drop</description>
 <text x="1.27" y="-8.636" size="2.54" layer="95" align="top-left">STTH1L06A</text>
 <pin name="ANODE" x="-2.54" y="-5.08" visible="pad" length="middle" direction="pas"/>
 <pin name="CATHODE" x="12.7" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="ON_SEMI_MB10S_0_0">
-<description>Bridge Rectifier Single Phase Standard 1kV Surface Mount 4-SOIC</description>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="-17.78" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-15.24" x2="5.08" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="12.7" y1="-15.24" x2="15.24" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="0" y1="-15.24" x2="10.16" y2="-5.08" width="0.508" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="20.32" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="0" y1="-15.24" x2="10.16" y2="-25.4" width="0.508" layer="94"/>
-<wire x1="10.16" y1="-25.4" x2="20.32" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-15.24" x2="7.62" y2="-12.7" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="7.62" y2="-17.78" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-17.78" x2="12.7" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="12.7" y1="-15.24" x2="7.62" y2="-12.7" width="0.508" layer="94"/>
-<wire x1="0" y1="-15.24" x2="0" y2="-15.24" width="0.15" layer="94"/>
-<wire x1="20.32" y1="-15.24" x2="20.32" y2="-15.24" width="0.15" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.15" layer="94"/>
-<wire x1="10.16" y1="-25.4" x2="10.16" y2="-25.4" width="0.15" layer="94"/>
-<text x="26.416" y="-12.192" size="2.54" layer="95" align="top-left">&gt;NAME</text>
-<text x="26.67" y="-16.256" size="2.54" layer="95" align="top-left">MB10S</text>
-<pin name="-" x="-5.08" y="-15.24" visible="pad" length="middle" direction="pas"/>
-<pin name="+" x="25.4" y="-15.24" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="1_~" x="10.16" y="0" visible="pad" length="middle" direction="pas" rot="R270"/>
-<pin name="2_~" x="10.16" y="-30.48" visible="pad" length="middle" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="TE_282841-2_0_0">
 <description>TERM BLOCK 2POS SIDE ENT 5.08MM</description>
@@ -2992,218 +2884,6 @@ Drill modified to match LabOp Machines</description>
 <attribute name="ROHS" value="Yes"/>
 <attribute name="STANDOFF_HEIGHT" value="0.05mm"/>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+175°C"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MB10S" prefix="D">
-<description>Bridge Rectifier Single Phase Standard 1kV Surface Mount 4-SOIC</description>
-<gates>
-<gate name="G$0" symbol="ON_SEMI_MB10S_0_0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="ON_SEMI_MB10S_0_0" package="ON_SEMI_MB10S_0">
-<connects>
-<connect gate="G$0" pin="+" pad="1"/>
-<connect gate="G$0" pin="-" pad="2"/>
-<connect gate="G$0" pin="1_~" pad="3"/>
-<connect gate="G$0" pin="2_~" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AUTOMOTIVE" value="No"/>
-<attribute name="CAPACITANCE" value="13pF"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="DATASHEET" value="https://www.onsemi.com/pub/Collateral/MB10S-D.PDF"/>
-<attribute name="DEVICE_CLASS_L1" value="Discrete Semiconductors"/>
-<attribute name="DEVICE_CLASS_L2" value="Diodes"/>
-<attribute name="DEVICE_CLASS_L3" value="Rectifier Diodes"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="BRIDGE RECT 1P 1KV 500MA 4SOIC"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="MB10SCT-ND"/>
-<attribute name="FOOTPRINT_PARAMETERS_1" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_URL" value="https://www.onsemi.com/pub/Collateral/751EP.PDF"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
-<attribute name="FORWARD_CURRENT" value="0.8A"/>
-<attribute name="HEIGHT" value="2.9mm"/>
-<attribute name="LEAD_FREE" value="Yes"/>
-<attribute name="MAX_JUNCTION_TEMP" value="+150°C"/>
-<attribute name="MAX_REPETITIVE_REVERSE_VOLTAGE" value="1000V"/>
-<attribute name="MAX_SURGE_FORWARD_CURRENT" value="35A"/>
-<attribute name="MF" value="ON Semi"/>
-<attribute name="MFG_PACKAGE_IDENT" value="751EP"/>
-<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="f1ce8039da724604"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="09/2016"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="O"/>
-<attribute name="MOUSER_PART_NUMBER" value="512-MB10S"/>
-<attribute name="MPN" value="MB10S"/>
-<attribute name="PACKAGE" value="SOIC4"/>
-<attribute name="PEAK_REVERSE_CURRENT" value="5uA"/>
-<attribute name="PREFIX" value="D"/>
-<attribute name="REVERSE_VOLTAGE" value="1000V"/>
-<attribute name="ROHS" value="Yes"/>
-<attribute name="STANDOFF_HEIGHT" value="0.05mm"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
-</technology>
-</technologies>
-</device>
-<device name="ON_SEMI_MB10S_0_1" package="ON_SEMI_MB10S_1">
-<connects>
-<connect gate="G$0" pin="+" pad="1"/>
-<connect gate="G$0" pin="-" pad="2"/>
-<connect gate="G$0" pin="1_~" pad="3"/>
-<connect gate="G$0" pin="2_~" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AUTOMOTIVE" value="No"/>
-<attribute name="CAPACITANCE" value="13pF"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="DATASHEET" value="https://www.onsemi.com/pub/Collateral/MB10S-D.PDF"/>
-<attribute name="DEVICE_CLASS_L1" value="Discrete Semiconductors"/>
-<attribute name="DEVICE_CLASS_L2" value="Diodes"/>
-<attribute name="DEVICE_CLASS_L3" value="Rectifier Diodes"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="BRIDGE RECT 1P 1KV 500MA 4SOIC"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="MB10SCT-ND"/>
-<attribute name="FOOTPRINT_PARAMETERS_1" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_URL" value="https://www.onsemi.com/pub/Collateral/751EP.PDF"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
-<attribute name="FORWARD_CURRENT" value="0.8A"/>
-<attribute name="HEIGHT" value="2.9mm"/>
-<attribute name="LEAD_FREE" value="Yes"/>
-<attribute name="MAX_JUNCTION_TEMP" value="+150°C"/>
-<attribute name="MAX_REPETITIVE_REVERSE_VOLTAGE" value="1000V"/>
-<attribute name="MAX_SURGE_FORWARD_CURRENT" value="35A"/>
-<attribute name="MF" value="ON Semi"/>
-<attribute name="MFG_PACKAGE_IDENT" value="751EP"/>
-<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="f1ce8039da724604"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="09/2016"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="O"/>
-<attribute name="MOUSER_PART_NUMBER" value="512-MB10S"/>
-<attribute name="MPN" value="MB10S"/>
-<attribute name="PACKAGE" value="SOIC4"/>
-<attribute name="PEAK_REVERSE_CURRENT" value="5uA"/>
-<attribute name="PREFIX" value="D"/>
-<attribute name="REVERSE_VOLTAGE" value="1000V"/>
-<attribute name="ROHS" value="Yes"/>
-<attribute name="STANDOFF_HEIGHT" value="0.05mm"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
-</technology>
-</technologies>
-</device>
-<device name="ON_SEMI_MB10S_0_2" package="ON_SEMI_MB10S_2">
-<connects>
-<connect gate="G$0" pin="+" pad="1"/>
-<connect gate="G$0" pin="-" pad="2"/>
-<connect gate="G$0" pin="1_~" pad="3"/>
-<connect gate="G$0" pin="2_~" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AUTOMOTIVE" value="No"/>
-<attribute name="CAPACITANCE" value="13pF"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="DATASHEET" value="https://www.onsemi.com/pub/Collateral/MB10S-D.PDF"/>
-<attribute name="DEVICE_CLASS_L1" value="Discrete Semiconductors"/>
-<attribute name="DEVICE_CLASS_L2" value="Diodes"/>
-<attribute name="DEVICE_CLASS_L3" value="Rectifier Diodes"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="BRIDGE RECT 1P 1KV 500MA 4SOIC"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="MB10SCT-ND"/>
-<attribute name="FOOTPRINT_PARAMETERS_1" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_URL" value="https://www.onsemi.com/pub/Collateral/751EP.PDF"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
-<attribute name="FORWARD_CURRENT" value="0.8A"/>
-<attribute name="HEIGHT" value="2.9mm"/>
-<attribute name="LEAD_FREE" value="Yes"/>
-<attribute name="MAX_JUNCTION_TEMP" value="+150°C"/>
-<attribute name="MAX_REPETITIVE_REVERSE_VOLTAGE" value="1000V"/>
-<attribute name="MAX_SURGE_FORWARD_CURRENT" value="35A"/>
-<attribute name="MF" value="ON Semi"/>
-<attribute name="MFG_PACKAGE_IDENT" value="751EP"/>
-<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="f1ce8039da724604"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="09/2016"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="O"/>
-<attribute name="MOUSER_PART_NUMBER" value="512-MB10S"/>
-<attribute name="MPN" value="MB10S"/>
-<attribute name="PACKAGE" value="SOIC4"/>
-<attribute name="PEAK_REVERSE_CURRENT" value="5uA"/>
-<attribute name="PREFIX" value="D"/>
-<attribute name="REVERSE_VOLTAGE" value="1000V"/>
-<attribute name="ROHS" value="Yes"/>
-<attribute name="STANDOFF_HEIGHT" value="0.05mm"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
-</technology>
-</technologies>
-</device>
-<device name="ON_SEMI_MB10S_0_3" package="ON_SEMI_MB10S_3">
-<connects>
-<connect gate="G$0" pin="+" pad="1"/>
-<connect gate="G$0" pin="-" pad="2"/>
-<connect gate="G$0" pin="1_~" pad="3"/>
-<connect gate="G$0" pin="2_~" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AUTOMOTIVE" value="No"/>
-<attribute name="CAPACITANCE" value="13pF"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="DATASHEET" value="https://www.onsemi.com/pub/Collateral/MB10S-D.PDF"/>
-<attribute name="DEVICE_CLASS_L1" value="Discrete Semiconductors"/>
-<attribute name="DEVICE_CLASS_L2" value="Diodes"/>
-<attribute name="DEVICE_CLASS_L3" value="Rectifier Diodes"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="BRIDGE RECT 1P 1KV 500MA 4SOIC"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="MB10SCT-ND"/>
-<attribute name="FOOTPRINT_PARAMETERS_1" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOIC_wide&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;nom&quot;:4,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;N&quot;,&quot;type&quot;:&quot;count&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:2400000,&quot;max&quot;:2900000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:50000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:2200000,&quot;max&quot;:2700000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:4500000,&quot;max&quot;:4950000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width w/ leads&quot;,&quot;min&quot;:6400000,&quot;max&quot;:7000000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:3600000,&quot;max&quot;:4200000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:430000,&quot;max&quot;:840000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:150000,&quot;max&quot;:410000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:2540000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:480000,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8000000,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;HT&quot;:{&quot;default&quot;:&quot;No&quot;,&quot;long name&quot;:&quot;Thermal pad&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;HT&quot;,&quot;children&quot;:[]},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
-<attribute name="FOOTPRINT_URL" value="https://www.onsemi.com/pub/Collateral/751EP.PDF"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
-<attribute name="FORWARD_CURRENT" value="0.8A"/>
-<attribute name="HEIGHT" value="2.9mm"/>
-<attribute name="LEAD_FREE" value="Yes"/>
-<attribute name="MAX_JUNCTION_TEMP" value="+150°C"/>
-<attribute name="MAX_REPETITIVE_REVERSE_VOLTAGE" value="1000V"/>
-<attribute name="MAX_SURGE_FORWARD_CURRENT" value="35A"/>
-<attribute name="MF" value="ON Semi"/>
-<attribute name="MFG_PACKAGE_IDENT" value="751EP"/>
-<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="f1ce8039da724604"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="09/2016"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="O"/>
-<attribute name="MOUSER_PART_NUMBER" value="512-MB10S"/>
-<attribute name="MPN" value="MB10S"/>
-<attribute name="PACKAGE" value="SOIC4"/>
-<attribute name="PEAK_REVERSE_CURRENT" value="5uA"/>
-<attribute name="PREFIX" value="D"/>
-<attribute name="REVERSE_VOLTAGE" value="1000V"/>
-<attribute name="ROHS" value="Yes"/>
-<attribute name="STANDOFF_HEIGHT" value="0.05mm"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
 <attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
 </technology>
 </technologies>
@@ -11746,6 +11426,91 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Labops_Lib_AH">
+<packages>
+<package name="SOIC4W">
+<circle x="-0.7" y="1.5" radius="0.3" width="0.6" layer="21"/>
+<circle x="-2.975" y="1.635" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1.2" y="1.6" radius="0.5" width="0.1" layer="51"/>
+<smd name="1" x="-3.25" y="1.27" dx="2.1" dy="1.55" layer="1" roundness="50"/>
+<smd name="2" x="-3.25" y="-1.27" dx="2.1" dy="1.55" layer="1" roundness="50"/>
+<smd name="3" x="3.25" y="-1.27" dx="2.1" dy="1.55" layer="1" roundness="50"/>
+<smd name="4" x="3.25" y="1.27" dx="2.1" dy="1.55" layer="1" roundness="50"/>
+<wire x1="-1.7" y1="-2.5" x2="1.7" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="2.5" x2="1.7" y2="2.5" width="0.2" layer="21"/>
+<wire x1="1.7" y1="-2.5" x2="1.7" y2="2.5" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="-2.5" x2="-1.7" y2="2.5" width="0.2" layer="21"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="-2.75" x2="4.1" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-4.1" y1="2.75" x2="4.1" y2="2.75" width="0.05" layer="51"/>
+<wire x1="4.1" y1="-2.75" x2="4.1" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-4.1" y1="-2.75" x2="-4.1" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-2.5" x2="2.099996875" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="2.5" x2="2.099996875" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.099996875" y1="-2.5" x2="2.099996875" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="-2.5" x2="-2.1" y2="2.5" width="0.1" layer="51"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MB10S">
+<description>Bridge Rectifier Single Phase Standard 1kV Surface Mount 4-SOIC</description>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="-17.78" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="5.08" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="15.24" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="0" y1="-15.24" x2="10.16" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="20.32" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="0" y1="-15.24" x2="10.16" y2="-25.4" width="0.508" layer="94"/>
+<wire x1="10.16" y1="-25.4" x2="20.32" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="7.62" y2="-12.7" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="7.62" y2="-17.78" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="12.7" y2="-15.24" width="0.508" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="7.62" y2="-12.7" width="0.508" layer="94"/>
+<text x="26.416" y="-12.192" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="26.67" y="-16.256" size="2.54" layer="95" align="top-left">MB10S</text>
+<pin name="-" x="-5.08" y="-15.24" visible="pad" length="middle" direction="pas"/>
+<pin name="+" x="25.4" y="-15.24" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="1_~" x="10.16" y="0" visible="pad" length="middle" direction="pas" rot="R270"/>
+<pin name="2_~" x="10.16" y="-30.48" visible="pad" length="middle" direction="pas" rot="R90"/>
+<wire x1="20.32" y1="-17.78" x2="22.86" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="21.59" y1="-16.51" x2="21.59" y2="-19.05" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
+<text x="7.62" y="-5.08" size="1.778" layer="94">~</text>
+<text x="7.62" y="-26.67" size="1.778" layer="94">~</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MB10S" prefix="D">
+<gates>
+<gate name="G$1" symbol="MB10S" x="-10.16" y="15.24"/>
+</gates>
+<devices>
+<device name="" package="SOIC4W">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+<connect gate="G$1" pin="1_~" pad="3"/>
+<connect gate="G$1" pin="2_~" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="0.5 A 1000 V Low Leakage SMT Bridge Rectifier - SOIC-4" constant="no"/>
+<attribute name="LIB_STATUS" value="Prototype" constant="no"/>
+<attribute name="MFN" value="MB10S"/>
+<attribute name="MFR" value="On Semi, Diodes,MDD" constant="no"/>
+<attribute name="PART_VALUE" value="Bridge Rectifier" constant="no"/>
+<attribute name="PRICE-1" value="0.02" constant="no"/>
+<attribute name="STOCK" value="10" constant="no"/>
+<attribute name="SUPPLIER-1" value="Digikey" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11918,7 +11683,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMC" package3d_urn="urn:adsk.eagle:package:43425/2" value="HS5J V7G"/>
 <part name="R58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R61" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R61" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R62" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R64" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K"/>
@@ -11987,6 +11752,8 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="GND29" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="PAD1" library="3D_MIG_Controller" deviceset="THT_PAD_5MM" device=""/>
 <part name="PAD2" library="3D_MIG_Controller" deviceset="THT_PAD_5MM" device=""/>
+<part name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
+<part name="R70" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k 1%"/>
 </parts>
 <sheets>
 <sheet>
@@ -12616,6 +12383,14 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </instance>
 <instance part="PAD2" gate="G$1" x="83.82" y="401.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="88.9" y="398.78" size="1.27" layer="94" rot="R90"/>
+</instance>
+<instance part="C41" gate="G$1" x="58.42" y="241.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="58.801" y="239.776" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="57.404" y="244.221" size="1.778" layer="96"/>
+</instance>
+<instance part="R70" gate="G$1" x="96.52" y="220.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="97.79" y="222.4786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="97.79" y="217.678" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14058,6 +13833,14 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="200.66" x2="91.44" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="GND30" gate="1" pin="GND"/>
+<pinref part="R70" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="215.9" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="200.66" x2="91.44" y2="200.66" width="0.1524" layer="91"/>
+<junction x="91.44" y="200.66"/>
+<pinref part="IC1" gate="G$1" pin="DCM"/>
+<wire x1="101.6" y1="223.52" x2="101.6" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="200.66" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
+<junction x="96.52" y="200.66"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -14078,6 +13861,9 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <junction x="63.5" y="233.68"/>
+<pinref part="C41" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="241.3" x2="53.34" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="233.68" x2="60.96" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -14177,6 +13963,20 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="370.84" y1="279.4" x2="370.84" y2="281.94" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="C41" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="SS/EN"/>
+<wire x1="60.96" y1="241.3" x2="101.6" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="R70" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="RSUM"/>
+<wire x1="96.52" y1="226.06" x2="101.6" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -14208,7 +14008,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3K9 1%"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K, 1%"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K 1%"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22R 1%"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47R 1%"/>
 <part name="C4" library="3D_MIG_Controller" deviceset="C_0603" device="" value="100nF/50V"/>
 <part name="IC2" library="3D_MIG_Controller" deviceset="AP63301WU-7" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470R 1%"/>
@@ -14220,7 +14020,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3K01 1%"/>
 <part name="C6" library="3D_MIG_Controller" deviceset="C_0805" device="" value="10µ-f/ 16V"/>
 <part name="C7" library="3D_MIG_Controller" deviceset="C_0805" device="" value="22µF/16V"/>
-<part name="C8" library="3D_MIG_Controller" deviceset="C_0805" device="" value="1µF/25V"/>
+<part name="C8" library="3D_MIG_Controller" deviceset="C_0805" device="" value="10µF/25V"/>
 <part name="C9" library="3D_MIG_Controller" deviceset="860011378008_MODIFIED" device=""/>
 <part name="C10" library="3D_MIG_Controller" deviceset="860011378008_MODIFIED" device=""/>
 <part name="R10" library="3D_MIG_Controller" deviceset="ERG-2SJ390V" device="PANASONIC_ERG-2SJ390V_0_0"/>
@@ -14233,7 +14033,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="150K 5% 200V"/>
 <part name="C15" library="3D_MIG_Controller" deviceset="C_0805" device="" value="100nF/50V"/>
 <part name="C16" library="3D_MIG_Controller" deviceset="C_0805" device="" value="10µF/ 16V"/>
-<part name="C17" library="3D_MIG_Controller" deviceset="C_0805" device="" value="22µF/16V"/>
+<part name="C17" library="3D_MIG_Controller" deviceset="C_0805" device="" value="10µF/16V"/>
 <part name="C18" library="3D_MIG_Controller" deviceset="C_0805" device="" value="100nF/50V"/>
 <part name="D4" library="3D_MIG_Controller" deviceset="MBRS1100T3G" device="ON_SEMI_MBRS1100T3G_0_0"/>
 <part name="C19" library="3D_MIG_Controller" deviceset="ESL477M025AH9AA" device=""/>
@@ -14246,10 +14046,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="IC3" library="3D_MIG_Controller" deviceset="LD1117S33TR" device=""/>
 <part name="R13" library="3D_MIG_Controller" deviceset="B72205S0271K101" device="1" value="B72205S0271K1011"/>
 <part name="D3" library="3D_MIG_Controller" deviceset="STTH1L06A" device="STMICROELECTRONICS_STTH1L06A_0_0"/>
-<part name="D2" library="3D_MIG_Controller" deviceset="MB10S" device="ON_SEMI_MB10S_0_3"/>
 <part name="GND1" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND2" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND3" library="3D_MIG_Controller" deviceset="GND" device=""/>
+<part name="D2" library="Labops_Lib_AH" deviceset="MB10S" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14446,12 +14246,12 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="D3" gate="G$0" x="203.2" y="193.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="194.564" y="192.532" size="2.54" layer="95" rot="R180" align="top-left"/>
 </instance>
-<instance part="D2" gate="G$0" x="91.44" y="215.9" smashed="yes">
-<attribute name="NAME" x="91.186" y="190.119" size="2.54" layer="95" align="top-left"/>
-</instance>
 <instance part="GND1" gate="1" x="101.6" y="63.5" smashed="yes"/>
 <instance part="GND2" gate="1" x="335.28" y="144.78" smashed="yes"/>
 <instance part="GND3" gate="1" x="353.06" y="193.04" smashed="yes"/>
+<instance part="D2" gate="G$1" x="91.44" y="215.9" smashed="yes">
+<attribute name="NAME" x="117.856" y="203.708" size="2.54" layer="95" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14644,7 +14444,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <label x="132.08" y="218.44" size="1.27" layer="95" xref="yes"/>
 <wire x1="132.08" y1="218.44" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="218.44" x2="129.54" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$0" pin="+"/>
+<pinref part="D2" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="VIN_FBK_-" class="5">
@@ -14661,7 +14461,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <label x="132.08" y="172.72" size="1.27" layer="95" xref="yes"/>
 <wire x1="132.08" y1="172.72" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="172.72" x2="129.54" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$0" pin="-"/>
+<pinref part="D2" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="2_GND"/>
@@ -14737,7 +14537,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="20.32" y1="177.8" x2="20.32" y2="180.34" width="0.1524" layer="91"/>
 <junction x="20.32" y="180.34"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<pinref part="D2" gate="G$0" pin="2_~"/>
+<pinref part="D2" gate="G$1" pin="2_~"/>
 </segment>
 </net>
 <net name="N$16" class="1">
@@ -14745,7 +14545,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <pinref part="R10" gate="G$0" pin="2"/>
 <wire x1="83.82" y1="220.98" x2="101.6" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="220.98" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$0" pin="1_~"/>
+<pinref part="D2" gate="G$1" pin="1_~"/>
 </segment>
 </net>
 <net name="N$12" class="0">

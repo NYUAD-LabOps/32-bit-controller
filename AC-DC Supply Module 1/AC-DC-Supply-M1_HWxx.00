@@ -1,0 +1,55 @@
+Part	Value	Device	Package	Description	DESCRIPTION	LIB_STATUS	MFN	MFR	MPN	OUR-STOCK	OUR_STOCK	PART_VALUE	PRICE-1	PRICE_1	SUPPLIER-1
+C101	R49AN347050B1M	R49AN347050B1M	R49AN347050B1M	"0.47µF X Cap 330V 800V Polypropylene (PP), Metallized Radial"	"Film,X1,470nF/330Vac,THT"	Verified	R49AN347050B1M	Kemet			8	470nF/330VAC	1.51		Digikey
+C102	860011378008	8.60011E+11	RADIAL_D13.0P5.0H25.0	"Aluminium Electrolytic Capacitor, WCAP-ATG8 Series, 33 F, 20%, 400 V, 13 mm, Radial Leaded"	Electrolytic Cap 33µF 400V 13mm Radial WCAP-ATG8			8.60011E+11							
+C103	860011378008	8.60011E+11	RADIAL_D13.0P5.0H25.0	"Aluminium Electrolytic Capacitor, WCAP-ATG8 Series, 33 F, 20%, 400 V, 13 mm, Radial Leaded"	Electrolytic Cap 33µF 400V 13mm Radial WCAP-ATG8			8.60011E+11							
+C104	50PX470MEFC10X20	50PX470MEFC10X20	CAPACITOR-ELKO-RM5-10X16	"Electrolytic Cap, 470µF, 25V, Low ESR, Kemet, Pitch=5mm, Dia=10mm, L=12,5mm"	470uF ±20% 50V 10mm 20mm 5mm 2000Hrs @ 105? -55? ~ +105?	Prototype	50PX470MEFC10X20	Rubicon			20	470uF/50V	0.14		LCSC
+C105	50PX470MEFC10X20	50PX470MEFC10X20	CAPACITOR-ELKO-RM5-10X16	"Electrolytic Cap, 470µF, 25V, Low ESR, Kemet, Pitch=5mm, Dia=10mm, L=12,5mm"	470uF ±20% 50V 10mm 20mm 5mm 2000Hrs @ 105? -55? ~ +105?	Prototype	50PX470MEFC10X20	Rubicon			20	470uF/50V	0.14		LCSC
+C106	50PX470MEFC10X20	50PX470MEFC10X20	CAPACITOR-ELKO-RM5-10X16	"Electrolytic Cap, 470µF, 25V, Low ESR, Kemet, Pitch=5mm, Dia=10mm, L=12,5mm"	470uF ±20% 50V 10mm 20mm 5mm 2000Hrs @ 105? -55? ~ +105?	Prototype	50PX470MEFC10X20	Rubicon			20	470uF/50V	0.14		LCSC
+C107	100nF/50V	C_0603	603				Open Source								
+C108	1uF/35V	C_0603	603				Open Source								
+C109	100nF/50V	C_0603	603				Open Source								
+C110	100nF/50V	C_0603	603				Open Source								
+C111	10uF/25V	C_0603	603				Open Source								
+C112	10uF/25V	C_0603	603				Open Source								
+C113	10uF/25V	C_0603	603				Open Source								
+C114	10uF/25V	C_0603	603				Open Source								
+C115	100nF/50V	C_0603	603				Open Source								
+C116	50PX470MEFC10X20	50PX470MEFC10X20	CAPACITOR-ELKO-RM5-10X16	"Electrolytic Cap, 470µF, 25V, Low ESR, Kemet, Pitch=5mm, Dia=10mm, L=12,5mm"	470uF ±20% 50V 10mm 20mm 5mm 2000Hrs @ 105? -55? ~ +105?	Prototype	50PX470MEFC10X20	Rubicon			20	470uF/50V	0.14		LCSC
+C117	50PX470MEFC10X20	50PX470MEFC10X20	CAPACITOR-ELKO-RM5-10X16	"Electrolytic Cap, 470µF, 25V, Low ESR, Kemet, Pitch=5mm, Dia=10mm, L=12,5mm"	470uF ±20% 50V 10mm 20mm 5mm 2000Hrs @ 105? -55? ~ +105?	Prototype	50PX470MEFC10X20	Rubicon			20	470uF/50V	0.14		LCSC
+C118	1uF/35V	C_0603	603				Open Source								
+C119	ERP610W471MEF0	ERP610W471MEF0	CAP-P12.5-H15-W4-D1		"470 pF ±20% 760VAC Ceramic Capacitor Y5U (E) Radial X1,Y1"	Prototype	ERP610W471MEF0	Kemet			150	470pF/760VAC	0.42		Digikey
+C120	ERP610W471MEF0	ERP610W471MEF0	CAP-P12.5-H15-W4-D1		"470 pF ±20% 760VAC Ceramic Capacitor Y5U (E) Radial X1,Y1"	Prototype	ERP610W471MEF0	Kemet			150	470pF/760VAC	0.42		Digikey
+D101	MB10S	MB10S	SOIC4W		0.5 A 1000 V Low Leakage SMT Bridge Rectifier - SOIC-4	Prototype	MB10S	"On Semi, Diodes,MDD"				Bridge Rectifier	0.02		Digikey
+D102	STTH1L06ASTMICROELECTRONICS_STTH1L06A_0_0	STTH1L06ASTMICROELECTRONICS_STTH1L06A_0_0	SMA_STTH1L06A	Diode Standard 600V 1A Surface Mount SMA					STTH1L06A						
+FID101	FIDUCIAL	FIDUCIAL	FIDUCIAL												
+FID102	FIDUCIAL	FIDUCIAL	FIDUCIAL												
+IC101	LD1117S33TR	LD1117S33TR	SOT223_LD1117S33TR	IC REG LINEAR 3.3V 800mA SOT223	"LDO,Fixed 15V 3.3V 1.3V @ 800mA SOT-223 "	Verified	LD1117S33TR	"STmicro, Diodes, TI,"			10	xx1117x33xx		0.07	LCSC
+IC102	AP63301WU-7	AP63301WU-7	SOT23-6	"Buck Regulator, 3.8V-32V Input, 3A Low IQ Synchronous Buck Converter with Enhanced EMI"	Buck 3.8V to 32V Input 3A Low IQ Synchronous Buck Converter with Enhanced EMI	Verified		Diodes	AP63301WU-7		10	AP63301WU-7	0.25		Digikey
+IC103	AP63301WU-7	AP63301WU-7	SOT23-6	"Buck Regulator, 3.8V-32V Input, 3A Low IQ Synchronous Buck Converter with Enhanced EMI"	Buck 3.8V to 32V Input 3A Low IQ Synchronous Buck Converter with Enhanced EMI	Verified		Diodes	AP63301WU-7		10	AP63301WU-7	0.25		Digikey
+L101	RLB0914-102KL	RLB0914-102KL	THTINDUCTOR8MM7		Inductor Power Wirewound 1mH 10% 252KHz 40Q-Factor Ferrite 300mA 2.1Ohm	Prototype	RLB0914-102KL	Bourns			0	1mH	0.42		Digikey
+L102	RLB0914-102KL	RLB0914-102KL	THTINDUCTOR8MM7		Inductor Power Wirewound 1mH 10% 252KHz 40Q-Factor Ferrite 300mA 2.1Ohm	Prototype	RLB0914-102KL	Bourns			0	1mH	0.42		Digikey
+L103	SRN8040TA-220M	SRN8040TA-220M	SRN8040TA-220M	"FIXED IND 22UH 2.9A SMD, 73m-Ohm, Bourns"	"FIXED IND 22UH 2.9A SMD, 73m-Ohm, Bourns"	Verified	SRN8040TA-220M	Bourns			10	22uH/2.9A			Digikey
+L104	SRN8040TA-220M	SRN8040TA-220M	SRN8040TA-220M	"FIXED IND 22UH 2.9A SMD, 73m-Ohm, Bourns"	"FIXED IND 22UH 2.9A SMD, 73m-Ohm, Bourns"	Verified	SRN8040TA-220M	Bourns			10	22uH/2.9A			Digikey
+L105	SRN8040TA-220M	SRN8040TA-220M	SRN8040TA-220M	"FIXED IND 22UH 2.9A SMD, 73m-Ohm, Bourns"	"FIXED IND 22UH 2.9A SMD, 73m-Ohm, Bourns"	Verified	SRN8040TA-220M	Bourns			10	22uH/2.9A			Digikey
+M101	M_HOLE_3M	M_HOLE_3M	PCB_SCREW_M3_POWER												
+M102	M_HOLE_3M	M_HOLE_3M	PCB_SCREW_M3_POWER												
+M103	M_HOLE_3M	M_HOLE_3M	PCB_SCREW_M3_POWER												
+M104	M_HOLE_3M	M_HOLE_3M	PCB_SCREW_M3_POWER												
+R101	ERG-2SJ390V	ERG-2SJ390V	ERG-2SJ390V_0	"RES 39 OHM 2W 5% AXIAL, Metal Oxide, Panasonic"											
+R102	R_1206	R_1206	R1206			Verified	CRCW1206220KJNEAHP	Vishay				220K 5%			
+R103	R_1206	R_1206	R1206			Verified	CRCW1206220KJNEAHP	Vishay				220K 5%			
+R104		R_0603	R0603				Open Source 								
+R105		R_0603	R0603				Open Source 								
+R106		R_0603	R0603				Open Source 								
+R107	RNF12FTD10M0	RNF12FTD10M0	RES-RM12.5-VR37		"10 MOhms ±1% 0.5W, 1/2W Through Hole Resistor Axial Flame Retardant Coating, Safety Metal Film"	Prototype	RNF12FTD10M0	Stackpole Electronics Inc		20		10Meg 5%	0.29		Digikey
+R108		R_0603	R0603				Open Source 								
+R109	15.8K 1%	R_0603	R0603				Open Source 								
+R110	3k01 1%	R_0603	R0603				Open Source 								
+R111	47k 1%	R_0603	R0603				Open Source 								
+R112	3.3k 1%	R_0603	R0603				Open Source 								
+R113	RNF12FTD10M0	RNF12FTD10M0	RES-RM12.5-VR37		"10 MOhms ±1% 0.5W, 1/2W Through Hole Resistor Axial Flame Retardant Coating, Safety Metal Film"	Prototype	RNF12FTD10M0	Stackpole Electronics Inc		20		10Meg 5%	0.29		Digikey
+U101	BPM2417SJ	BPM2417SJ	BPM2417SJ		Ac/Dc Power Supply Module 	Prototype	BPM2417SJ	Tamura			5	Power Sources	7		Digikey
+V101	B72205S0271K101B72205S2131K101	B72205S0271K101B72205S2131K101	EPCOS_B72205S0271K101_0	VARISTOR 205V 800A DISC 5MM		Verified	B72205S0271K1011	EPCOS			10	"430V, 400A"	0.31		Digikey
+X1	726386-2	726386-2	TE_726386-2_MODIFIED	"Terminals, Faston, GDS-Flachstecker 6.3x0.8mm, TE"	"0.250 (6.35mm) Quick Connect Male - Solder Connector Non-Insulated"""		726386-2	TE Connectivity				6.35mmx8mm	0.24		Digikey
+X2	726386-2	726386-2	TE_726386-2_MODIFIED	"Terminals, Faston, GDS-Flachstecker 6.3x0.8mm, TE"	"0.250 (6.35mm) Quick Connect Male - Solder Connector Non-Insulated"""		726386-2	TE Connectivity				6.35mmx8mm	0.24		Digikey
+X3	MOLEX_206832-0601MOLEX_206832-0601	MOLEX_206832-0601MOLEX_206832-0601	MOLEX_206832-0601	"Connector Header Through Hole 6 position 0.118 (3.00mm)"""	Connector Header Through Hole 6 position 3mm Microfit	Prototype	206832-0601	Molex			20	6CCT x 2Row	1.32		Digikey
