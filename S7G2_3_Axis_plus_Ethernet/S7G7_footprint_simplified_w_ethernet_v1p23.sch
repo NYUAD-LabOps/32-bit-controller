@@ -95,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="PF_Ref" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -2398,7 +2401,7 @@ Shield pins may be grounded.
 </device>
 </devices>
 </deviceset>
-<deviceset name="S7G2_X_176" prefix="U" uservalue="yes">
+<deviceset name="RENESAS_S7G2_X_176" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="S7G2_X_176_PIN" x="0" y="0"/>
 </gates>
@@ -2583,7 +2586,10 @@ Shield pins may be grounded.
 <connect gate="G$1" pin="XCOUT" pad="21"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="R7FS7G27H3A01CFC#AA0" constant="no"/>
+<attribute name="VALUE" value="S7G2LQFP176" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2773,7 +2779,7 @@ Shield pins may be grounded.
 <part name="GNDE2" library="3D_MIG_Controller" deviceset="GNDEARTH" device=""/>
 <part name="GND46" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="J3" library="3D_MIG_Controller" deviceset="USB_A" device=""/>
-<part name="U4" library="3D_MIG_Controller" deviceset="S7G2_X_176" device=""/>
+<part name="U4" library="3D_MIG_Controller" deviceset="RENESAS_S7G2_X_176" device="" value="S7G2LQFP176"/>
 <part name="C10" library="3D_MIG_Controller" deviceset="C_0402" device="" value="0.1uF"/>
 <part name="C13" library="3D_MIG_Controller" deviceset="C_0402" device="" value="0.1uF"/>
 <part name="C14" library="3D_MIG_Controller" deviceset="C_0402" device="" value="0.1uF"/>

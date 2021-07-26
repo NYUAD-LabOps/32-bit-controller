@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-05-31T13:42:48Z",
+        "CreationDate": "2021-06-03T11:13:54Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,12 +13,12 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "Callisto_Minor_Relays_v1p0"
+            "ProjectId": "Callisto_Minor_2_Relays_v1p0"
         },
         "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
             "X": 75,
-            "Y": 30
+            "Y": 50
         }
     }
 }

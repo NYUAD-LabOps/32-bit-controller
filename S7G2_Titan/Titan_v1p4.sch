@@ -2079,7 +2079,7 @@ Shield pins may be grounded.
 </device>
 </devices>
 </deviceset>
-<deviceset name="S7G2_X_176" prefix="U" uservalue="yes">
+<deviceset name="RENESAS_S7G2_X_176" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="S7G2_X_176_PIN" x="0" y="0"/>
 </gates>
@@ -2526,7 +2526,7 @@ Shield pins may be grounded.
 <part name="GNDE2" library="3D_MIG_Controller" deviceset="GNDEARTH" device=""/>
 <part name="GND46" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="J6" library="3D_MIG_Controller" deviceset="USB_A" device="" value="USB-A"/>
-<part name="U3" library="3D_MIG_Controller" deviceset="S7G2_X_176" device="" value="S7G2LQFP176"/>
+<part name="U3" library="3D_MIG_Controller" deviceset="RENESAS_S7G2_X_176" device="" value="S7G2LQFP176"/>
 <part name="C35" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
 <part name="C38" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
 <part name="C30" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
