@@ -15327,7 +15327,6 @@ Diode with low voltage drop</description>
 <part name="M3" library="Labops_Lib_AH" deviceset="M_HOLE_3M" device=""/>
 <part name="M4" library="Labops_Lib_AH" deviceset="M_HOLE_3M" device=""/>
 <part name="GND2" library="3D_MIG_Controller" deviceset="GND" device=""/>
-<part name="GND4" library="3D_MIG_Controller" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15382,7 +15381,6 @@ Diode with low voltage drop</description>
 <instance part="M3" gate="G$1" x="-144.78" y="99.06" smashed="yes"/>
 <instance part="M4" gate="G$1" x="-144.78" y="91.44" smashed="yes"/>
 <instance part="GND2" gate="1" x="-134.62" y="111.76" smashed="yes"/>
-<instance part="GND4" gate="1" x="-134.62" y="104.14" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -15465,11 +15463,6 @@ Diode with low voltage drop</description>
 <junction x="-43.18" y="121.92"/>
 <portref moduleinst="MCU1" port="GND_MCU"/>
 <wire x1="-43.18" y1="83.82" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="M2" gate="G$1" pin="P$1"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="-144.78" y1="106.68" x2="-134.62" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
