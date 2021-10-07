@@ -11462,14 +11462,14 @@ Diode with low voltage drop</description>
 <part name="C31" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100pF 50V"/>
 <part name="R57" library="Labops_Lib_AH" deviceset="R_0603" device="" value="1K2 1%"/>
 <part name="C33" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/16V"/>
-<part name="R58" library="Labops_Lib_AH" deviceset="R_0603" device=""/>
+<part name="R58" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10K 1%"/>
 <part name="R60" library="Labops_Lib_AH" deviceset="R_0603" device=""/>
 <part name="R61" library="Labops_Lib_AH" deviceset="R_0603" device="" value="1k"/>
 <part name="R62" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10K 1%"/>
 <part name="R63" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10K 1%"/>
 <part name="R64" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100K"/>
-<part name="R1590" library="Labops_Lib_AH" deviceset="R_0603" device=""/>
-<part name="R99" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100K"/>
+<part name="R1590" library="Labops_Lib_AH" deviceset="R_0603" device="" value="47K 1%"/>
+<part name="R99" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100K 1%"/>
 <part name="IC8" library="Labops_Lib_AH" deviceset="OPA378AIDBVR" device=""/>
 <part name="C34" library="Labops_Lib_AH" deviceset="C_0603" device="" value="1nF 50V"/>
 <part name="C35" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF 50V"/>

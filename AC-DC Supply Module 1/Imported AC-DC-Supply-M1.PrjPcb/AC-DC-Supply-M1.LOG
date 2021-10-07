@@ -1,0 +1,46 @@
+Importer Log Report
+Project : AC-DC-Supply-M1.PrjPcb
+
+Section : Analyze Document - C:\Users\ah5743\Documents\EAGLE\projects\32-bit-controller\AC-DC Supply Module 1\AC-DC-Supply-M1.brd
+    Analyzing data of C:\Users\ah5743\Documents\EAGLE\projects\32-bit-controller\AC-DC Supply Module 1\AC-DC-Supply-M1.brd
+    Load settings
+    Load layers 150
+    Load Library "Labops_Lib_AH"
+    Load Packages 22
+    ERROR: Unhandled typemfgpreviewcolors
+EndSection
+
+Section : Analyze Document - C:\Users\ah5743\Documents\EAGLE\projects\32-bit-controller\AC-DC Supply Module 1\AC-DC-Supply-M1.sch
+    Analyzing data of C:\Users\ah5743\Documents\EAGLE\projects\32-bit-controller\AC-DC Supply Module 1\AC-DC-Supply-M1.sch
+    Load settings
+    Load layers 150
+    Load schematic
+    Load Libraries 3
+    Load Library "frames"
+    Load Packages 0
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "Labops_Lib_AH"
+    Load Packages 24
+    Load Symbols 19
+    Load DeviceSets 23
+    Load Library "3D_MIG_Controller"
+    Load Packages 0
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Attributes 0
+    Load Classes 1
+    Load Modules 1
+    Load Ports 7
+    Load Parts 57
+    Load Sheets 1
+    Load Parts 5
+    Load Sheets 1
+    ERROR: Unhandled typeportref
+    ERROR: Unhandled typeportref
+    ERROR: Unhandled typeportref
+    ERROR: Unhandled typeportref
+    ERROR: Unhandled typeportref
+    ERROR: Unhandled typeportref
+    ERROR: Unhandled typeportref
+EndSection
