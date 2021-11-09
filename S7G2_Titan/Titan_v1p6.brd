@@ -1221,8 +1221,8 @@ design rules under a new name.</description>
 <element name="C29" library="3D_MIG_Controller" package="0402" value="0.1uF" x="28.3" y="15.1" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="CL05F104ZO5NNNC" x="28.3" y="15.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C31" library="3D_MIG_Controller" package="C1210" package3d_urn="urn:adsk.eagle:package:26139/1" value="10uF_Tant" x="28.9" y="17.7" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="TPST106K016H0800" x="28.9" y="17.7" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C31" library="3D_MIG_Controller" package="C1210" package3d_urn="urn:adsk.eagle:package:26139/1" value="100uF_Tant" x="28.9" y="17.7" smashed="yes" rot="R180">
+<attribute name="PARTNO" value="TLJT107M010R0900" x="28.9" y="17.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J6" library="3D_MIG_Controller" package="USB_A_SMT" value="USB-A" x="35" y="7.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.35" y="16.242" size="1.016" layer="25" ratio="14" rot="R180"/>
