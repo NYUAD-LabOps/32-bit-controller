@@ -1946,7 +1946,7 @@ Shield pins may be grounded.
 </device>
 </devices>
 </deviceset>
-<deviceset name="C_1210_10UF_TANT" prefix="C" uservalue="yes">
+<deviceset name="C_1210_100UF_TANT" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CAP_NON_POLARIZED" x="0" y="0.508"/>
 </gates>
@@ -1961,8 +1961,8 @@ Shield pins may be grounded.
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PARTNO" value="TPST106K016H0800" constant="no"/>
-<attribute name="VALUE" value="10uF_Tant" constant="no"/>
+<attribute name="PARTNO" value="TLJT107M010R0900" constant="no"/>
+<attribute name="VALUE" value="100uF_Tant" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2520,7 +2520,7 @@ Shield pins may be grounded.
 <part name="GND38" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND43" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="C29" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
-<part name="C31" library="3D_MIG_Controller" deviceset="C_1210_10UF_TANT" device="" package3d_urn="urn:adsk.eagle:package:26139/1" value="10uF_Tant"/>
+<part name="C31" library="3D_MIG_Controller" deviceset="C_1210_100UF_TANT" device="" package3d_urn="urn:adsk.eagle:package:26139/1" value="100uF_Tant"/>
 <part name="GND44" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND45" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GNDE2" library="3D_MIG_Controller" deviceset="GNDEARTH" device=""/>
