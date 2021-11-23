@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1734,7 +1734,7 @@ Diode with low voltage drop</description>
 <part name="C11" library="Labops_Lib_AH" deviceset="C_0603" device="" value="10uF/25V"/>
 <part name="C12" library="Labops_Lib_AH" deviceset="C_0603" device="" value="10uF/25V"/>
 <part name="C13" library="Labops_Lib_AH" deviceset="C_0603" device="" value="10uF/25V"/>
-<part name="R9" library="Labops_Lib_AH" deviceset="R_0603" device="" value="15.8K 1%"/>
+<part name="R9" library="Labops_Lib_AH" deviceset="R_0603" device="" value="22K 1%"/>
 <part name="R10" library="Labops_Lib_AH" deviceset="R_0603" device="" value="3k01 1%"/>
 <part name="C14" library="Labops_Lib_AH" deviceset="C_0603" device="" value="10uF/25V"/>
 <part name="C15" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/50V"/>
