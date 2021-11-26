@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1820,6 +1820,8 @@ Diode with low voltage drop</description>
 <part name="GND9" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="V2" library="Labops_Lib_AH" deviceset="0603ESDA-24N" device=""/>
 <part name="V3" library="Labops_Lib_AH" deviceset="0603ESDA-24N" device=""/>
+<part name="V4" library="Labops_Lib_AH" deviceset="B72205S0271K101" device="" technology="B72205S2131K101"/>
+<part name="V5" library="Labops_Lib_AH" deviceset="B72205S0271K101" device="1"/>
 </parts>
 <sheets>
 <sheet>
@@ -2580,6 +2582,10 @@ Diode with low voltage drop</description>
 <attribute name="NAME" x="316.0014" y="191.77" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="320.802" y="191.77" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="V4" gate="G$1" x="134.62" y="220.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="139.954" y="223.52" size="2.54" layer="95" rot="R90" align="top-left"/>
+<attribute name="VALUE" x="132.08" y="210.82" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2898,8 +2904,12 @@ Diode with low voltage drop</description>
 <pinref part="K1" gate="G$1" pin="3"/>
 <wire x1="127" y1="223.52" x2="129.54" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="223.52" x2="129.54" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="243.84" x2="139.7" y2="243.84" width="0.1524" layer="91"/>
-<label x="139.7" y="243.84" size="1.778" layer="95" xref="yes"/>
+<wire x1="129.54" y1="243.84" x2="137.16" y2="243.84" width="0.1524" layer="91"/>
+<label x="149.86" y="243.84" size="1.778" layer="95" xref="yes"/>
+<pinref part="V4" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="243.84" x2="149.86" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="236.22" x2="137.16" y2="243.84" width="0.1524" layer="91"/>
+<junction x="137.16" y="243.84"/>
 </segment>
 </net>
 <net name="MAINS_N" class="0">
@@ -2933,8 +2943,12 @@ Diode with low voltage drop</description>
 <net name="PH_PUMP_MAINS_L_SW" class="0">
 <segment>
 <pinref part="K1" gate="G$1" pin="4"/>
-<wire x1="127" y1="215.9" x2="149.86" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="127" y1="215.9" x2="137.16" y2="215.9" width="0.1524" layer="91"/>
 <label x="149.86" y="215.9" size="1.778" layer="95" xref="yes"/>
+<pinref part="V4" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="215.9" x2="149.86" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="218.44" x2="137.16" y2="215.9" width="0.1524" layer="91"/>
+<junction x="137.16" y="215.9"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -3084,6 +3098,10 @@ Diode with low voltage drop</description>
 <attribute name="VALUE" x="139.192" y="226.06" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND4" gate="1" x="132.08" y="215.9" smashed="yes"/>
+<instance part="V5" gate="G$1" x="177.8" y="228.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="183.134" y="231.14" size="2.54" layer="95" rot="R90" align="top-left"/>
+<attribute name="VALUE" x="177.8" y="233.68" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3392,15 +3410,22 @@ Diode with low voltage drop</description>
 <pinref part="K2" gate="G$1" pin="3"/>
 <wire x1="165.1" y1="233.68" x2="175.26" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="233.68" x2="175.26" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="248.92" x2="185.42" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="248.92" x2="180.34" y2="248.92" width="0.1524" layer="91"/>
 <label x="185.42" y="248.92" size="1.778" layer="95" xref="yes"/>
+<pinref part="V5" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="248.92" x2="185.42" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="243.84" x2="180.34" y2="248.92" width="0.1524" layer="91"/>
+<junction x="180.34" y="248.92"/>
 </segment>
 </net>
 <net name="CONDUCTIV_PUMP_MAINS_L_SW" class="0">
 <segment>
 <pinref part="K2" gate="G$1" pin="4"/>
-<wire x1="165.1" y1="226.06" x2="185.42" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="226.06" x2="180.34" y2="226.06" width="0.1524" layer="91"/>
 <label x="185.42" y="226.06" size="1.778" layer="95" xref="yes"/>
+<pinref part="V5" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="226.06" x2="185.42" y2="226.06" width="0.1524" layer="91"/>
+<junction x="180.34" y="226.06"/>
 </segment>
 </net>
 </nets>
