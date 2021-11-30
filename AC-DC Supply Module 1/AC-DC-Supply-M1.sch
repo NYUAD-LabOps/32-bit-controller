@@ -1765,7 +1765,7 @@ Diode with low voltage drop</description>
 <part name="IC2" library="Labops_Lib_AH" deviceset="TPS54202DDCR" device=""/>
 <part name="IC3" library="Labops_Lib_AH" deviceset="TPS54202DDCR" device=""/>
 <part name="C21" library="Labops_Lib_AH" deviceset="C_0603" device="" value="1uF/35V"/>
-<part name="R14" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10k 1%"/>
+<part name="R14" library="Labops_Lib_AH" deviceset="R_0603" device="" value="33k 1%"/>
 <part name="C22" library="Labops_Lib_AH" deviceset="C_0603" device="" value="10uF/25V"/>
 <part name="C23" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/50V"/>
 <part name="L6" library="Labops_Lib_AH" deviceset="SRN8040TA-220M" device=""/>
