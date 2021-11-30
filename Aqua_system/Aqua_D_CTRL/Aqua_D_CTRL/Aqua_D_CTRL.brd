@@ -613,6 +613,17 @@
 <text x="-2.54" y="10.16" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="3.556" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="B2B-XH-AM(LF)(SN)">
+<hole x="4.1" y="2" drill="1.1"/>
+<pad name="2" x="2.5" y="0" drill="0.8" diameter="1.5"/>
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.5"/>
+<wire x1="-2.54" y1="-2.413" x2="-2.54" y2="3.683" width="0.1" layer="21"/>
+<wire x1="-2.54" y1="-2.413" x2="5.08" y2="-2.413" width="0.1" layer="21"/>
+<wire x1="5.08" y1="-2.413" x2="5.08" y2="3.683" width="0.1" layer="21"/>
+<wire x1="-2.54" y1="3.683" x2="5.08" y2="3.683" width="0.1" layer="21"/>
+<text x="5.08" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="5.08" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT23" urn="urn:adsk.eagle:package:28738/2" type="model">
@@ -1917,6 +1928,16 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="" x="-104.14" y="-25.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-105.41" y="-27.94" size="1.27" layer="27"/>
 </element>
+<element name="X1" library="Labops_Lib_AH" package="B2B-XH-AM(LF)(SN)" value="B2B-XH-AM(LF)(SN)" x="-104.14" y="-33.02" smashed="yes">
+<attribute name="DESCRIPTION" value="Connector, 2 pins, Header THT , Pitch 2.5mm, JST, Vertical" x="-104.14" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="B2B-XH-AM(LF)(SN)" x="-104.14" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="JST" x="-104.14" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-99.06" y="-30.48" size="1.27" layer="25" font="vector"/>
+<attribute name="PRICE-1" value="0.03" x="-104.14" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER-1" value="LCSC" x="-104.14" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="TECHNOLOGY" value="THT" x="-104.14" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.06" y="-34.544" size="1.27" layer="27" font="vector"/>
+</element>
 </elements>
 <signals>
 <signal name="N$16">
@@ -1988,6 +2009,8 @@ design rules under a new name.</description>
 <contactref element="R51" pad="1"/>
 <contactref element="C25" pad="1"/>
 <contactref element="D13" pad="1"/>
+<contactref element="X1" pad="2"/>
+<wire x1="-106.26" y1="-19.05" x2="-101.64" y2="-33.02" width="0" layer="19" extent="1-1"/>
 <wire x1="-105.09" y1="-16.24" x2="-106.26" y2="-19.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-105.562" y1="-3.81" x2="-105.09" y2="-16.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.54" y1="6.35" x2="-105.562" y2="-3.81" width="0" layer="19" extent="1-1"/>
@@ -2053,8 +2076,10 @@ design rules under a new name.</description>
 <contactref element="C5" pad="1"/>
 <contactref element="Q5" pad="2"/>
 <contactref element="Q5" pad="4"/>
-<wire x1="-16.51" y1="20.879" x2="-17.36" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.51" y1="14.6812" x2="-16.51" y2="20.879" width="0" layer="19" extent="1-1"/>
+<contactref element="X1" pad="1"/>
+<wire x1="-16.51" y1="14.6812" x2="-104.14" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.51" y1="20.879" x2="-16.51" y2="14.6812" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.36" y1="91.44" x2="-16.51" y2="20.879" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_24V0_P">
 <contactref element="D3" pad="3"/>

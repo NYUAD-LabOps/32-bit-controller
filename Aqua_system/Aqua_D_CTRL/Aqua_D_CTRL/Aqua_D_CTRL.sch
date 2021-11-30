@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -656,6 +656,17 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-2.54" y="10.16" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="3.556" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="B2B-XH-AM(LF)(SN)">
+<hole x="4.1" y="2" drill="1.1"/>
+<pad name="2" x="2.5" y="0" drill="0.8" diameter="1.5"/>
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.5"/>
+<wire x1="-2.54" y1="-2.413" x2="-2.54" y2="3.683" width="0.1" layer="21"/>
+<wire x1="-2.54" y1="-2.413" x2="5.08" y2="-2.413" width="0.1" layer="21"/>
+<wire x1="5.08" y1="-2.413" x2="5.08" y2="3.683" width="0.1" layer="21"/>
+<wire x1="-2.54" y1="3.683" x2="5.08" y2="3.683" width="0.1" layer="21"/>
+<text x="5.08" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="5.08" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT23" urn="urn:adsk.eagle:package:28738/2" type="model">
@@ -1135,6 +1146,16 @@ Diode with low voltage drop</description>
 <wire x1="-43.18" y1="-35.56" x2="-43.18" y2="38.1" width="0.254" layer="94"/>
 <text x="33.02" y="40.64" size="1.778" layer="95">&gt;Name</text>
 <text x="33.02" y="-40.64" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="X02">
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="2.54" length="short"/>
+<pin name="2" x="-5.08" y="-2.54" length="short"/>
+<text x="0" y="7.62" size="1.27" layer="95">&gt;Name</text>
+<text x="0" y="-7.62" size="1.27" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1884,6 +1905,29 @@ Diode with low voltage drop</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="B2B-XH-AM(LF)(SN)" prefix="X">
+<gates>
+<gate name="G$1" symbol="X02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B2B-XH-AM(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Connector, 2 pins, Header THT , Pitch 2.5mm, JST, Vertical" constant="no"/>
+<attribute name="MFN" value="B2B-XH-AM(LF)(SN)" constant="no"/>
+<attribute name="MFR" value="JST" constant="no"/>
+<attribute name="PRICE-1" value="0.03" constant="no"/>
+<attribute name="SUPPLIER-1" value="LCSC" constant="no"/>
+<attribute name="TECHNOLOGY" value="THT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="3D_MIG_Controller">
@@ -2171,6 +2215,9 @@ Diode with low voltage drop</description>
 <part name="P+2" library="Labops_Lib_AH" deviceset="VCC" device="" value="3V3"/>
 <part name="GND10" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R54" library="Labops_Lib_AH" deviceset="R_1206" device="" value="1K 1%"/>
+<part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="X1" library="Labops_Lib_AH" deviceset="B2B-XH-AM(LF)(SN)" device=""/>
+<part name="GND28" library="Labops_Lib_AH" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3869,6 +3916,40 @@ Diode with low voltage drop</description>
 <busses>
 </busses>
 <nets>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
+</instance>
+<instance part="X1" gate="G$1" x="12.7" y="20.32" smashed="yes" rot="MR0">
+<attribute name="NAME" x="12.7" y="27.94" size="1.27" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="20.32" y="12.7" size="1.27" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND28" gate="1" x="22.86" y="15.24" smashed="yes"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="V_24V0" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
+<label x="20.32" y="22.86" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
