@@ -1,0 +1,10 @@
+Output: ELO_Testpoint
+Type  : Test Points
+From  : PCB Document [Welder_PSU.PCBDOC]
+   Generated File[ProdFiles_Welder PSU_v03.yy.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 2:58:05 PM On 11/21/2021
