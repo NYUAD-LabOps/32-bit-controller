@@ -1739,8 +1739,8 @@ Diode with low voltage drop</description>
 <part name="C14" library="Labops_Lib_AH" deviceset="C_0603" device="" value="10uF/25V"/>
 <part name="C15" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/50V"/>
 <part name="C16" library="Labops_Lib_AH" deviceset="50PX470MEFC10X20" device=""/>
-<part name="R11" library="Labops_Lib_AH" deviceset="R_0603" device="" value="47k 1%"/>
-<part name="R12" library="Labops_Lib_AH" deviceset="R_0603" device="" value="3.3k 1%"/>
+<part name="R11" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100k 1%"/>
+<part name="R12" library="Labops_Lib_AH" deviceset="R_0603" device="" value="4.3k 1%"/>
 <part name="C17" library="Labops_Lib_AH" deviceset="50PX470MEFC10X20" device=""/>
 <part name="C18" library="Labops_Lib_AH" deviceset="C_0603" device="" value="1uF/35V"/>
 <part name="D2" library="Labops_Lib_AH" deviceset="STTH1L06A" device="STMICROELECTRONICS_STTH1L06A_0_0"/>

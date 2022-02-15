@@ -1165,7 +1165,7 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="" x="92.71" y="18.415" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="92.71" y="18.415" size="1.27" layer="27" display="off"/>
 </element>
-<element name="R111" library="Labops_Lib_AH" package="R0603" value="47k 1%" x="72.39" y="25.4" smashed="yes" rot="R270">
+<element name="R111" library="Labops_Lib_AH" package="R0603" value="100k 1%" x="72.39" y="25.4" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="" x="72.39" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LIB_STATUS" value="" x="72.39" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFN" value="Open Source " x="72.39" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1177,7 +1177,7 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="" x="72.39" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="72.39" y="25.4" size="1.27" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R112" library="Labops_Lib_AH" package="R0603" value="3.3k 1%" x="69.85" y="25.4" smashed="yes" rot="R270">
+<element name="R112" library="Labops_Lib_AH" package="R0603" value="4.3k 1%" x="69.85" y="25.4" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="" x="69.85" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LIB_STATUS" value="" x="69.85" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFN" value="Open Source " x="69.85" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
