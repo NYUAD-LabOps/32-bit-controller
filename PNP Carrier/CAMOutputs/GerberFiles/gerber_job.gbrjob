@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-11-12T14:26:38Z",
+        "CreationDate": "2021-11-19T01:48:18Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,12 +13,12 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "PNP_Carrier_base"
+            "ProjectId": "PNP_carrier_footprints"
         },
         "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
-            "X": 86,
-            "Y": 96.097688
+            "X": 65,
+            "Y": 55
         }
     }
 }

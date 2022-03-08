@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=00_Welder_PSU.SchDoc
+Record=SheetSymbol|SourceDocument=00_Welder_PSU.SchDoc|Designator=Mains_Input|SchDesignator=Mains_Input|FileName=10_Mains_Input.SchDoc|SymbolType=Normal|RawFileName=10_Mains_Input.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=00_Welder_PSU.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=40_MCU.SchDoc|SymbolType=Normal|RawFileName=40_MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=00_Welder_PSU.SchDoc|Designator=Power Supply|SchDesignator=Power Supply|FileName=20_Power_Supply.SchDoc|SymbolType=Normal|RawFileName=20_Power_Supply.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=00_Welder_PSU.SchDoc|Designator=PSFB Converter|SchDesignator=PSFB Converter|FileName=30_PSFB_Converter.SchDoc|SymbolType=Normal|RawFileName=30_PSFB_Converter.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
