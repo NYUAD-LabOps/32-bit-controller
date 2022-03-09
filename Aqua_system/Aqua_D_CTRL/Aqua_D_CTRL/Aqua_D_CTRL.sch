@@ -2875,18 +2875,18 @@ DDEController.pdf</description>
 <part name="R17" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10K 1%"/>
 <part name="GND11" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="C5" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/ 100V"/>
-<part name="R18" library="Labops_Lib_AH" deviceset="R_1206" device=""/>
+<part name="R18" library="Labops_Lib_AH" deviceset="R_1206" device="" value="100R 1%"/>
 <part name="D4" library="Labops_Lib_AH" deviceset="PESD36VS2UT" device=""/>
 <part name="C6" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/100V"/>
-<part name="R19" library="Labops_Lib_AH" deviceset="R_0603" device=""/>
-<part name="R20" library="Labops_Lib_AH" deviceset="R_0603" device=""/>
+<part name="R19" library="Labops_Lib_AH" deviceset="R_0603" device="" value="1K 1%"/>
+<part name="R20" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100K 1%"/>
 <part name="D5" library="Labops_Lib_AH" deviceset="BAS40-04,215" device=""/>
 <part name="P+3" library="Labops_Lib_AH" deviceset="VCC" device="" value="3V3"/>
-<part name="R21" library="Labops_Lib_AH" deviceset="R_1206" device=""/>
+<part name="R21" library="Labops_Lib_AH" deviceset="R_1206" device="" value="100R 1%"/>
 <part name="D6" library="Labops_Lib_AH" deviceset="PESD36VS2UT" device=""/>
 <part name="C7" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/100V"/>
-<part name="R22" library="Labops_Lib_AH" deviceset="R_0603" device=""/>
-<part name="R23" library="Labops_Lib_AH" deviceset="R_0603" device=""/>
+<part name="R22" library="Labops_Lib_AH" deviceset="R_0603" device="" value="1K 1%"/>
+<part name="R23" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100K 1%"/>
 <part name="D7" library="Labops_Lib_AH" deviceset="BAS40-04,215" device=""/>
 <part name="P+4" library="Labops_Lib_AH" deviceset="VCC" device="" value="3V3"/>
 <part name="GND12" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2908,10 +2908,10 @@ DDEController.pdf</description>
 <part name="GND15" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND16" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="IC3" library="Labops_Lib_AH" deviceset="LT6106CS5#TRPBF" device=""/>
-<part name="R29" library="3D_MIG_Controller" deviceset="R_0603" device="" value="4.7K 1%"/>
+<part name="R29" library="3D_MIG_Controller" deviceset="R_0603" device="" value="2.2K 1%"/>
 <part name="R30" library="3D_MIG_Controller" deviceset="R_0603" device="" value="100R 1%"/>
 <part name="GND17" library="3D_MIG_Controller" deviceset="GND" device=""/>
-<part name="R31" library="3D_MIG_Controller" deviceset="R_0603" device="" value="1K 1%"/>
+<part name="R31" library="3D_MIG_Controller" deviceset="R_0603" device="" value="100R 1%"/>
 <part name="C9" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/100V">
 <attribute name="PART_VALUE" value="100nF/100V"/>
 </part>
@@ -2935,10 +2935,10 @@ DDEController.pdf</description>
 <part name="GND20" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND21" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="IC4" library="Labops_Lib_AH" deviceset="LT6106CS5#TRPBF" device=""/>
-<part name="R37" library="3D_MIG_Controller" deviceset="R_0603" device="" value="4.7K 1%"/>
+<part name="R37" library="3D_MIG_Controller" deviceset="R_0603" device="" value="2.2K 1%"/>
 <part name="R38" library="3D_MIG_Controller" deviceset="R_0603" device="" value="100R 1%"/>
 <part name="GND22" library="3D_MIG_Controller" deviceset="GND" device=""/>
-<part name="R39" library="3D_MIG_Controller" deviceset="R_0603" device="" value="1K 1%"/>
+<part name="R39" library="3D_MIG_Controller" deviceset="R_0603" device="" value="100R 1%"/>
 <part name="C11" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/100V">
 <attribute name="PART_VALUE" value="100nF/100V"/>
 </part>
@@ -2946,7 +2946,7 @@ DDEController.pdf</description>
 <part name="P+6" library="Labops_Lib_AH" deviceset="VCC" device="" value="3V3"/>
 <part name="GND23" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R40" library="Labops_Lib_AH" deviceset="R_0603" device="" value="22K 1%"/>
-<part name="R41" library="Labops_Lib_AH" deviceset="R_0603" device="" value="1.2K 1%"/>
+<part name="R41" library="Labops_Lib_AH" deviceset="R_0603" device="" value="2.8K 1%"/>
 <part name="R42" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10K 1%"/>
 <part name="D10" library="Labops_Lib_AH" deviceset="BAS40-04,215" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3"/>
@@ -3538,15 +3538,9 @@ DDEController.pdf</description>
 </net>
 <net name="V_24V0" class="3">
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="223.52" x2="40.64" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="DRAIN"/>
-<wire x1="40.64" y1="231.14" x2="50.8" y2="231.14" width="0.1524" layer="91"/>
 <label x="22.86" y="231.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="22.86" y1="231.14" x2="25.4" y2="231.14" width="0.1524" layer="91"/>
-<junction x="40.64" y="231.14"/>
 <pinref part="SW1" gate="G$1" pin="1"/>
-<pinref part="SW1" gate="G$1" pin="2"/>
 <pinref part="C49" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="223.52" x2="25.4" y2="231.14" width="0.1524" layer="91"/>
 <junction x="25.4" y="231.14"/>
@@ -3900,6 +3894,16 @@ DDEController.pdf</description>
 <pinref part="R86" gate="G$1" pin="2"/>
 <pinref part="D12" gate="G$1" pin="C"/>
 <wire x1="340.36" y1="215.9" x2="340.36" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="SW1" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="223.52" x2="40.64" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="DRAIN"/>
+<wire x1="40.64" y1="231.14" x2="50.8" y2="231.14" width="0.1524" layer="91"/>
+<junction x="40.64" y="231.14"/>
 </segment>
 </net>
 </nets>
