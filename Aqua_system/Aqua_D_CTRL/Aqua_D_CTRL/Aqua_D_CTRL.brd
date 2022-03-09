@@ -721,6 +721,58 @@
 <smd name="2" x="0" y="0" dx="0.4" dy="1.9" layer="1"/>
 <smd name="3" x="1.2" y="0" dx="0.4" dy="1.9" layer="1"/>
 </package>
+<package name="L101011MS02Q">
+<description>SWITCH SLIDE SPST 4A 125V</description>
+<wire x1="-5.395" y1="-9.55" x2="-5.395" y2="9.55" width="0.15" layer="51"/>
+<wire x1="-5.395" y1="9.55" x2="5.395" y2="9.55" width="0.15" layer="51"/>
+<wire x1="5.395" y1="9.55" x2="5.395" y2="-9.55" width="0.15" layer="51"/>
+<wire x1="5.395" y1="-9.55" x2="-5.395" y2="-9.55" width="0.15" layer="51"/>
+<wire x1="-5.495" y1="-9.65" x2="-5.495" y2="9.65" width="0.1" layer="41"/>
+<wire x1="-5.495" y1="9.65" x2="5.495" y2="9.65" width="0.1" layer="41"/>
+<wire x1="5.495" y1="9.65" x2="5.495" y2="-9.65" width="0.1" layer="41"/>
+<wire x1="5.495" y1="-9.65" x2="-5.495" y2="-9.65" width="0.1" layer="41"/>
+<wire x1="-5.395" y1="9.55" x2="5.395" y2="9.55" width="0.15" layer="21"/>
+<wire x1="5.395" y1="-9.55" x2="5.395" y2="9.55" width="0.15" layer="21"/>
+<wire x1="-5.395" y1="-9.55" x2="5.395" y2="-9.55" width="0.15" layer="21"/>
+<wire x1="-5.395" y1="-9.55" x2="-5.395" y2="9.55" width="0.15" layer="21"/>
+<text x="-5.395" y="9.85" size="1" layer="25">&gt;NAME</text>
+<pad name="1" x="-2.85" y="-4.6" drill="1.65" diameter="2.5" shape="square"/>
+<pad name="2" x="-2.85" y="0" drill="1.65" diameter="2.5"/>
+</package>
+<package name="SMD1206-LED">
+<wire x1="1.125003125" y1="0.975003125" x2="0.675003125" y2="0.525" width="0.13" layer="21" curve="90"/>
+<wire x1="0.675003125" y1="-0.67499375" x2="0.975003125" y2="-0.974996875" width="0.13" layer="21" curve="90"/>
+<smd name="2" x="1.7" y="0.000003125" dx="1.3" dy="1.3" layer="1"/>
+<smd name="1" x="-1.699996875" y="0.000003125" dx="1.3" dy="1.3" layer="1"/>
+<wire x1="-1.699996875" y1="-1.119996875" x2="-1.699996875" y2="-0.999996875" width="0.13" layer="21"/>
+<wire x1="-1.699996875" y1="1.016003125" x2="-1.699996875" y2="1.143003125" width="0.15" layer="21"/>
+<wire x1="0.075003125" y1="-1.124996875" x2="0.075003125" y2="1.143003125" width="0.13" layer="21"/>
+<wire x1="-1.699996875" y1="1.143003125" x2="1.729003125" y2="1.143003125" width="0.15" layer="21"/>
+<wire x1="1.729003125" y1="0.975003125" x2="1.729003125" y2="1.143003125" width="0.13" layer="21"/>
+<wire x1="1.103253125" y1="0.975003125" x2="1.729003125" y2="0.975003125" width="0.13" layer="21"/>
+<wire x1="1.125003125" y1="0.975003125" x2="1.150003125" y2="0.975003125" width="0.1" layer="21"/>
+<wire x1="0.675003125" y1="-0.67499375" x2="0.675003125" y2="0.525" width="0.13" layer="21"/>
+<wire x1="0.975003125" y1="-0.974996875" x2="1.800003125" y2="-0.974996875" width="0.13" layer="21"/>
+<wire x1="-1.699996875" y1="-1.124996875" x2="1.800003125" y2="-1.124996875" width="0.13" layer="21"/>
+<wire x1="1.800003125" y1="-1.124996875" x2="1.800003125" y2="-0.974996875" width="0.13" layer="21"/>
+<text x="1.983003125" y="0.889003125" size="0.5" layer="21" font="vector">K</text>
+<text x="-2.207996875" y="1.016003125" size="0.5" layer="21" font="vector">A</text>
+<rectangle x1="0.075003125" y1="-1.099996875" x2="0.100003125" y2="1.100003125" layer="51"/>
+<polygon width="0" layer="21">
+<vertex x="1.729003125" y="1.143003125"/>
+<vertex x="0.078003125" y="1.143003125"/>
+<vertex x="0.078003125" y="-1.142996875"/>
+<vertex x="1.856003125" y="-1.142996875"/>
+<vertex x="1.856003125" y="-1.015996875"/>
+<vertex x="0.967003125" y="-1.015996875"/>
+<vertex x="0.713003125" y="-0.761996875"/>
+<vertex x="0.713003125" y="0.762003125"/>
+<vertex x="0.967003125" y="1.016003125"/>
+<vertex x="1.729003125" y="1.016003125"/>
+</polygon>
+<text x="1.27" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="3.81" y="-0.254" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT23" urn="urn:adsk.eagle:package:28738/2" type="model">
@@ -1073,17 +1125,17 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="Labops_Lib_AH" package="R49AN347050B1M" value="R49AN347050B1M" x="-33.02" y="6.35" smashed="yes">
-<attribute name="DESCRIPTION" value="Film,X1,470nF/330Vac,THT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="LIB_STATUS" value="Verified" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="R49AN347050B1M" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Kemet" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-46.42" y="11.75" size="1" layer="25"/>
-<attribute name="OUR_STOCK" value="8" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PART_VALUE" value="470nF/330VAC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE-1" value="1.51" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER-1" value="Digikey" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-29.21" y="11.43" size="1.27" layer="21"/>
+<element name="C1" library="Labops_Lib_AH" package="R49AN347050B1M" value="R49AN347050B1M" x="54.61" y="78.74" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Film,X1,470nF/330Vac,THT" x="60.96" y="111.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LIB_STATUS" value="Verified" x="60.96" y="111.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFN" value="R49AN347050B1M" x="60.96" y="111.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Kemet" x="60.96" y="111.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="49.21" y="65.34" size="1" layer="25" rot="R90"/>
+<attribute name="OUR_STOCK" value="8" x="60.96" y="111.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_VALUE" value="470nF/330VAC" x="60.96" y="111.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE-1" value="1.51" x="60.96" y="111.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER-1" value="Digikey" x="60.96" y="111.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="49.53" y="82.55" size="1.27" layer="21" rot="R90"/>
 </element>
 <element name="C10" library="Labops_Lib_AH" package="0603" value="100nF/100V" x="-83.82" y="82.55" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1508,17 +1560,17 @@ design rules under a new name.</description>
 <attribute name="PRICE-1" value="0.07" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER-1" value="LCSC" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="K1" library="Labops_Lib_AH" package="RELAY_KYOTO_KF0604D" value="KB20C06A" x="-19.05" y="26.67" smashed="yes">
-<attribute name="DESCRIPTION" value="Solid State Relay, Out AC 280VAC, In DC 32V" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="KB20C06A" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Kyotto" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER-1" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="K1" library="Labops_Lib_AH" package="RELAY_KYOTO_KF0604D" value="KB20C06A" x="44.45" y="90.17" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Solid State Relay, Out AC 280VAC, In DC 32V" x="71.12" y="109.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFN" value="KB20C06A" x="71.12" y="109.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Kyotto" x="71.12" y="109.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER-1" value="" x="71.12" y="109.22" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="K2" library="Labops_Lib_AH" package="RELAY_KYOTO_KF0604D" value="KB20C06A" x="-19.05" y="36.83" smashed="yes">
-<attribute name="DESCRIPTION" value="Solid State Relay, Out AC 280VAC, In DC 32V" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="KB20C06A" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Kyotto" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER-1" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="K2" library="Labops_Lib_AH" package="RELAY_KYOTO_KF0604D" value="KB20C06A" x="35.56" y="90.17" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Solid State Relay, Out AC 280VAC, In DC 32V" x="72.39" y="109.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFN" value="KB20C06A" x="72.39" y="109.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Kyotto" x="72.39" y="109.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER-1" value="" x="72.39" y="109.22" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="L1" library="Labops_Lib_AH" package="SRN8040TA-220M" value="SRN8040TA-220M" x="-52.07" y="46.99" smashed="yes">
 <attribute name="DESCRIPTION" value="FIXED IND 22UH 2.9A SMD, 73m-Ohm, Bourns" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1945,17 +1997,17 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-75.565" y="52.705" size="1.27" layer="27"/>
 </element>
-<element name="R46" library="Labops_Lib_AH" package="RES-RM12.5-VR37" value="RNF12FTD10M0" x="-26.67" y="46.99" smashed="yes">
-<attribute name="DESCRIPTION" value="10 MOhms ±1% 0.5W, 1/2W Through Hole Resistor Axial Flame Retardant Coating, Safety Metal Film" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="LIB_STATUS" value="Prototype" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="RNF12FTD10M0" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Stackpole Electronics Inc" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-26.67" y="49.53" size="1.27" layer="25" font="vector"/>
-<attribute name="OUR-STOCK" value="20" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PART_VALUE" value="10Meg 5%" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE-1" value="0.29" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER-1" value="Digikey" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-26.67" y="42.926" size="1.27" layer="27" font="vector"/>
+<element name="R46" library="Labops_Lib_AH" package="RES-RM12.5-VR37" value="RNF12FTD10M0" x="25.4" y="67.31" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="10 MOhms ±1% 0.5W, 1/2W Through Hole Resistor Axial Flame Retardant Coating, Safety Metal Film" x="72.39" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LIB_STATUS" value="Prototype" x="72.39" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFN" value="RNF12FTD10M0" x="72.39" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="72.39" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="22.86" y="67.31" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="OUR-STOCK" value="20" x="72.39" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_VALUE" value="10Meg 5%" x="72.39" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE-1" value="0.29" x="72.39" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER-1" value="Digikey" x="72.39" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="29.464" y="67.31" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R47" library="Labops_Lib_AH" package="R0603" value="470R 1%" x="-72.39" y="46.99" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -2033,17 +2085,17 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-27.94" y="68.58" size="1.27" layer="27"/>
 </element>
-<element name="R8" library="Labops_Lib_AH" package="RES-RM12.5-VR37" value="RNF12FTD10M0" x="-67.31" y="36.83" smashed="yes">
-<attribute name="DESCRIPTION" value="10 MOhms ±1% 0.5W, 1/2W Through Hole Resistor Axial Flame Retardant Coating, Safety Metal Film" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="LIB_STATUS" value="Prototype" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="RNF12FTD10M0" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Stackpole Electronics Inc" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-67.31" y="39.37" size="1.27" layer="25" font="vector"/>
-<attribute name="OUR-STOCK" value="20" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PART_VALUE" value="10Meg 5%" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE-1" value="0.29" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER-1" value="Digikey" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-67.31" y="32.766" size="1.27" layer="27" font="vector"/>
+<element name="R8" library="Labops_Lib_AH" package="RES-RM12.5-VR37" value="RNF12FTD10M0" x="25.4" y="85.09" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="10 MOhms ±1% 0.5W, 1/2W Through Hole Resistor Axial Flame Retardant Coating, Safety Metal Film" x="62.23" y="152.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LIB_STATUS" value="Prototype" x="62.23" y="152.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFN" value="RNF12FTD10M0" x="62.23" y="152.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Stackpole Electronics Inc" x="62.23" y="152.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="22.86" y="85.09" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="OUR-STOCK" value="20" x="62.23" y="152.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_VALUE" value="10Meg 5%" x="62.23" y="152.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE-1" value="0.29" x="62.23" y="152.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER-1" value="Digikey" x="62.23" y="152.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="29.464" y="85.09" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R9" library="3D_MIG_Controller" package="0603" value="10K 1%" x="-60.96" y="82.55" smashed="yes">
 <attribute name="NAME" x="-61.595" y="83.185" size="0.508" layer="25"/>
@@ -2090,13 +2142,13 @@ design rules under a new name.</description>
 <element name="V5" library="Labops_Lib_AH" package="EPCOS_B72205S0271K101_MODIFIED" value="B72205S0271K1011" x="-66.04" y="69.85" smashed="yes">
 <attribute name="NAME" x="-69.54" y="72.3" size="1" layer="25"/>
 </element>
-<element name="IC2" library="Labops_Lib_AH" package="LQFP100" value="R7FS7G27G3A01CFP#AA0" x="-99.06" y="8.89" smashed="yes">
-<attribute name="DESCRIPTION" value="MCU 32-Bit ARM Cortex M4 3MB Flash 3.3V 100-pin, LQFP100" x="-99.06" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="R7FS7G27G3A01CFP#AA0" x="-99.06" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Renesas" x="-99.06" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-101.6" y="19.05" size="1.27" layer="25" font="vector"/>
-<attribute name="PART_VALUE" value="R7FS7G27G3A01CFP" x="-99.06" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-101.6" y="12.446" size="1.27" layer="27" font="vector"/>
+<element name="IC2" library="Labops_Lib_AH" package="LQFP100" value="R7FS7G27G3A01CFP#AA0" x="76.2" y="38.1" smashed="yes">
+<attribute name="DESCRIPTION" value="MCU 32-Bit ARM Cortex M4 3MB Flash 3.3V 100-pin, LQFP100" x="76.2" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="R7FS7G27G3A01CFP#AA0" x="76.2" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Renesas" x="76.2" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="73.66" y="48.26" size="1.27" layer="25" font="vector"/>
+<attribute name="PART_VALUE" value="R7FS7G27G3A01CFP" x="76.2" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="73.66" y="41.656" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R51" library="Labops_Lib_AH" package="R1206" value="100K 1%" x="-104.14" y="-3.81" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="-104.14" y="-3.81" size="1.778" layer="27" display="off"/>
@@ -2165,14 +2217,14 @@ design rules under a new name.</description>
 <attribute name="TECHNOLOGY" value="THT" x="-104.14" y="-33.02" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-99.06" y="-34.544" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="X2" library="Labops_Lib_AH" package="X10_100MIL_2XROW_VERT" value="WF2549-2WS05S0B01" x="-99.06" y="-40.64" smashed="yes">
-<attribute name="DESCRIPTION" value="X10, 10 Pins, Header, Pitch 2.54 wire to board 2xrows, THT" x="-99.06" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="WF2549-2WS05S0B01" x="-99.06" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="WCON" x="-99.06" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-99.06" y="-40.64" size="1.27" layer="25" font="vector"/>
-<attribute name="PRICE-1" value="0.25" x="-99.06" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER-1" value="LCSC" x="-99.06" y="-40.64" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-99.06" y="-42.164" size="1.27" layer="27" font="vector"/>
+<element name="X2" library="Labops_Lib_AH" package="X10_100MIL_2XROW_VERT" value="WF2549-2WS05S0B01" x="105.41" y="43.18" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="X10, 10 Pins, Header, Pitch 2.54 wire to board 2xrows, THT" x="105.41" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFN" value="WF2549-2WS05S0B01" x="105.41" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="WCON" x="105.41" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="104.14" y="52.07" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="PRICE-1" value="0.25" x="105.41" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER-1" value="LCSC" x="105.41" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="106.934" y="43.18" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="X3" library="Labops_Lib_AH" package="TE_282834-3_0" value="282834-3" x="-111.76" y="-36.83" smashed="yes">
 <attribute name="DESCRIPTION" value="Connector 3 Position THT 1 Row 2.54mm pitch side entry wire to board " x="-111.76" y="-36.83" size="1.778" layer="27" display="off"/>
@@ -2192,173 +2244,173 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="Digikey" x="-120.65" y="-36.83" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-123.19" y="-43.18" size="1.27" layer="27"/>
 </element>
-<element name="X5" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="-119.38" y="-48.26" smashed="yes">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_GENDER" value="Male" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Tin" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="10mm" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="726386-2" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-123.38" y="-46.645" size="1" layer="25"/>
-<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="J" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="yes" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="-119.38" y="-48.26" size="1.778" layer="27" display="off"/>
+<element name="X5" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="10.16" y="92.71" smashed="yes">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_GENDER" value="Male" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Tin" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="10mm" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="yes" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="726386-2" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.16" y="94.325" size="1" layer="25"/>
+<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="J" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="yes" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="10.16" y="92.71" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X6" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="-119.38" y="-53.34" smashed="yes">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_GENDER" value="Male" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Tin" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="10mm" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="726386-2" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-123.38" y="-51.725" size="1" layer="25"/>
-<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="J" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="yes" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="-119.38" y="-53.34" size="1.778" layer="27" display="off"/>
+<element name="X6" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="10.16" y="87.63" smashed="yes">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_GENDER" value="Male" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Tin" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="10mm" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="yes" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="726386-2" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.16" y="89.245" size="1" layer="25"/>
+<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="J" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="yes" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="10.16" y="87.63" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X7" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="-119.38" y="-58.42" smashed="yes">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_GENDER" value="Male" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Tin" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="10mm" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="726386-2" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-123.38" y="-56.805" size="1" layer="25"/>
-<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="J" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="yes" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="-119.38" y="-58.42" size="1.778" layer="27" display="off"/>
+<element name="X7" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="10.16" y="82.55" smashed="yes">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_GENDER" value="Male" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Tin" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="10mm" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="yes" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="726386-2" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.16" y="84.165" size="1" layer="25"/>
+<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="J" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="yes" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="10.16" y="82.55" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X8" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="-119.38" y="-63.5" smashed="yes">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_GENDER" value="Male" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Tin" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="10mm" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="726386-2" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-123.38" y="-61.885" size="1" layer="25"/>
-<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="J" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="yes" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="-119.38" y="-63.5" size="1.778" layer="27" display="off"/>
+<element name="X8" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="10.16" y="77.47" smashed="yes">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_GENDER" value="Male" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Tin" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="10mm" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="yes" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="726386-2" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.16" y="79.085" size="1" layer="25"/>
+<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="J" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="yes" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="10.16" y="77.47" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X9" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="-119.38" y="-68.58" smashed="yes">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_GENDER" value="Male" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Tin" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="10mm" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="726386-2" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-123.38" y="-66.965" size="1" layer="25"/>
-<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="J" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="yes" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="-119.38" y="-68.58" size="1.778" layer="27" display="off"/>
+<element name="X9" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="10.16" y="72.39" smashed="yes">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_GENDER" value="Male" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Tin" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="10mm" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="yes" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="726386-2" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.16" y="74.005" size="1" layer="25"/>
+<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="J" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="yes" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="10.16" y="72.39" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X10" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="-119.38" y="-73.66" smashed="yes">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_GENDER" value="Male" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="CONN_ORIENTATION" value="Straight" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="CONTACT_MATERIAL" value="Tin" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="DEVICE_CLASS_L3" value="unset" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="10mm" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="TE" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="726386-2" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-123.38" y="-72.045" size="1" layer="25"/>
-<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="PREFIX" value="J" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS" value="yes" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="-119.38" y="-73.66" size="1.778" layer="27" display="off"/>
+<element name="X10" library="Labops_Lib_AH" package="TE_726386-2" value="726386-2TE_726386-2" x="10.16" y="67.31" smashed="yes">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_GENDER" value="Male" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="CONN_ORIENTATION" value="Straight" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="CONTACT_MATERIAL" value="Tin" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F726386%7FG%7Fpdf%7FEnglish%7FENG_CD_726386_G.pdf%7F726386-2" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L2" value="Terminal Blocks | Terminals" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="DEVICE_CLASS_L3" value="unset" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN QC TAB 0.250 SOLDER" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="A114371-ND" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="10mm" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="yes" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="726386-2" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_DESCRIPTION" value="Terminals GDS-FLACHSTECK 6.3" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-726386-2" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="726386-2" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.16" y="68.925" size="1" layer="25"/>
+<attribute name="PACKAGE" value="PTH_TERMINAL_8MM0_0MM8" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="J" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="yes" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+110°C" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="10.16" y="67.31" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X11" library="Labops_Lib_AH" package="TE_282834-2_0" value="282834-2" x="-128.27" y="-68.58" smashed="yes">
 <attribute name="DESCRIPTION" value="Connector Header Terminal Block 2 Positions, 1 Row, 2.54mm, THT" x="-128.27" y="-68.58" size="1.778" layer="27" display="off"/>
@@ -2369,14 +2421,14 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="Digikey" x="-128.27" y="-68.58" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-130.81" y="-73.66" size="1.27" layer="27"/>
 </element>
-<element name="X12" library="con-tycoelectronics" library_urn="urn:adsk.eagle:library:193" package="RJ45-NO-SHIELD" package3d_urn="urn:adsk.eagle:package:10660/1" value="RJ45-8L-B" x="-119.38" y="-86.36" smashed="yes">
-<attribute name="MF" value="TYCO ELECTRONICS" x="-119.38" y="-86.36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RJ45-8L-B" x="-119.38" y="-86.36" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-128.905" y="-86.995" size="1.778" layer="25" rot="R90"/>
-<attribute name="OC_FARNELL" value="1279843" x="-119.38" y="-86.36" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="52K4445" x="-119.38" y="-86.36" size="1.778" layer="27" display="off"/>
-<attribute name="POPULARITY" value="0" x="-119.38" y="-86.36" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-125.095" y="-83.82" size="1.778" layer="27"/>
+<element name="X12" library="con-tycoelectronics" library_urn="urn:adsk.eagle:library:193" package="RJ45-NO-SHIELD" package3d_urn="urn:adsk.eagle:package:10660/1" value="RJ45-8L-B" x="151.13" y="27.94" smashed="yes" rot="R90">
+<attribute name="MF" value="TYCO ELECTRONICS" x="151.13" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RJ45-8L-B" x="151.13" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="151.765" y="18.415" size="1.778" layer="25" rot="R180"/>
+<attribute name="OC_FARNELL" value="1279843" x="151.13" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="52K4445" x="151.13" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="0" x="151.13" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="148.59" y="22.225" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="R53" library="Labops_Lib_AH" package="R0603" value="" x="-128.27" y="-99.06" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="-128.27" y="-99.06" size="1.778" layer="27" display="off"/>
@@ -2995,13 +3047,13 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="" x="-135.89" y="-386.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-137.795" y="-377.825" size="1.27" layer="27"/>
 </element>
-<element name="X13" library="con-amp-micromatch" library_urn="urn:adsk.eagle:library:122" package="MICROMATCH-16" package3d_urn="urn:adsk.eagle:package:5702/1" value="MICROMATCH-16" x="-127" y="-391.16" smashed="yes">
-<attribute name="MF" value="FARNELL" x="-127" y="-391.16" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="8-215464-6" x="-127" y="-391.16" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-136.525" y="-388.62" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="3784680" x="-127" y="-391.16" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="26H3309" x="-127" y="-391.16" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-136.525" y="-394.97" size="1.27" layer="27"/>
+<element name="X13" library="con-amp-micromatch" library_urn="urn:adsk.eagle:library:122" package="MICROMATCH-16" package3d_urn="urn:adsk.eagle:package:5702/1" value="MICROMATCH-16" x="77.47" y="6.35" smashed="yes">
+<attribute name="MF" value="FARNELL" x="77.47" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="8-215464-6" x="77.47" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="67.945" y="8.89" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="3784680" x="77.47" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="26H3309" x="77.47" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="67.945" y="2.54" size="1.27" layer="27"/>
 </element>
 <element name="C36" library="Labops_Lib_AH" package="0603" value="100nF/50V" x="-137.16" y="-397.51" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="-137.16" y="-397.51" size="1.778" layer="27" display="off"/>
@@ -3114,15 +3166,15 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="" x="-137.16" y="-435.61" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-137.795" y="-437.515" size="0.381" layer="27"/>
 </element>
-<element name="IC7" library="Labops_Lib_AH" package="CSTNE8M00G520000R0" value="CSTNE8M00G520000R0" x="-137.16" y="-439.42" smashed="yes">
-<attribute name="DESCRIPTION" value="8MHz ±0.5% 10pF 40Ω SMD3213-3P Ceramic Resonators " x="-137.16" y="-439.42" size="1.778" layer="27" display="off"/>
-<attribute name="LIB_STATUS" value="Prototype" x="-137.16" y="-439.42" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="CSTNE8M00G520000R0" x="-137.16" y="-439.42" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Murata" x="-137.16" y="-439.42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-135.16" y="-439.695" size="1" layer="25"/>
-<attribute name="PART_VALUE" value="8MHz, 0.5%" x="-137.16" y="-439.42" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE-1" value="0.12" x="-137.16" y="-439.42" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER-1" value="LCSC" x="-137.16" y="-439.42" size="1.778" layer="27" display="off"/>
+<element name="IC7" library="Labops_Lib_AH" package="CSTNE8M00G520000R0" value="CSTNE8M00G520000R0" x="77.47" y="27.94" smashed="yes">
+<attribute name="DESCRIPTION" value="8MHz ±0.5% 10pF 40Ω SMD3213-3P Ceramic Resonators " x="77.47" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="LIB_STATUS" value="Prototype" x="77.47" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="CSTNE8M00G520000R0" x="77.47" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Murata" x="77.47" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="79.47" y="27.665" size="1" layer="25"/>
+<attribute name="PART_VALUE" value="8MHz, 0.5%" x="77.47" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE-1" value="0.12" x="77.47" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER-1" value="LCSC" x="77.47" y="27.94" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R84" library="Labops_Lib_AH" package="R0603" value="10K 1%" x="-135.89" y="-444.5" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="-135.89" y="-444.5" size="1.778" layer="27" display="off"/>
@@ -3191,6 +3243,51 @@ design rules under a new name.</description>
 <attribute name="PRICE-1" value="" x="-137.16" y="-468.63" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER-1" value="" x="-137.16" y="-468.63" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-137.795" y="-470.535" size="0.381" layer="27"/>
+</element>
+<element name="SW1" library="Labops_Lib_AH" package="L101011MS02Q" value="L101011MS02Q" x="-146.05" y="-461.01" smashed="yes">
+<attribute name="DESCRIPTION" value="Slide Switch, SPST, 4A, 28VDC" x="-146.05" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="LIB_STATUS" value="Prototype" x="-146.05" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="L101011MS02Q" x="-146.05" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="C&amp;K" x="-146.05" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-151.445" y="-451.16" size="1" layer="25"/>
+<attribute name="PART_VALUE" value="SW 4A/28V" x="-146.05" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE-1" value="1.66" x="-146.05" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER-1" value="Mouser" x="-146.05" y="-461.01" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C49" library="Labops_Lib_AH" package="0603" value="100nF/ 100V" x="-149.86" y="-472.44" smashed="yes">
+<attribute name="DESCRIPTION" value="" x="-149.86" y="-472.44" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="Open Source" x="-149.86" y="-472.44" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="" x="-149.86" y="-472.44" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-147.955" y="-471.805" size="0.381" layer="25"/>
+<attribute name="OUR-STOCK" value="" x="-149.86" y="-472.44" size="1.778" layer="27" display="off"/>
+<attribute name="PART_VALUE" value="" x="-149.86" y="-472.44" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE-1" value="" x="-149.86" y="-472.44" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER-1" value="" x="-149.86" y="-472.44" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-150.495" y="-474.345" size="0.381" layer="27"/>
+</element>
+<element name="D12" library="Labops_Lib_AH" package="SMD1206-LED" value="26-21/GPC-F3138B/CA" x="-148.59" y="-480.06" smashed="yes">
+<attribute name="DESCRIPTION" value="Green SMD LED 1206, 160mcd" x="-148.59" y="-480.06" size="1.778" layer="27" display="off"/>
+<attribute name="LIB_STATUS" value="Prototype" x="-148.59" y="-480.06" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="26-21/GPC-F3138B/CA" x="-148.59" y="-480.06" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Everlight" x="-148.59" y="-480.06" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-147.32" y="-477.52" size="1.27" layer="25" font="vector"/>
+<attribute name="OUR_STOCK" value="50" x="-148.59" y="-480.06" size="1.778" layer="27" display="off"/>
+<attribute name="PART_VALUE" value="Green LED" x="-148.59" y="-480.06" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE-1" value="0.06" x="-148.59" y="-480.06" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER-1" value="LCSC" x="-148.59" y="-480.06" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-144.78" y="-480.314" size="1.27" layer="27" font="vector"/>
+</element>
+<element name="R86" library="Labops_Lib_AH" package="R1206" value="82R 1%" x="-148.59" y="-485.14" smashed="yes">
+<attribute name="DESCRIPTION" value="" x="-148.59" y="-485.14" size="1.778" layer="27" display="off"/>
+<attribute name="LIB_STATUS" value="Verified" x="-148.59" y="-485.14" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="R_Open_1206" x="-148.59" y="-485.14" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="" x="-148.59" y="-485.14" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-149.86" y="-483.87" size="1.27" layer="25"/>
+<attribute name="OUR-STOCK" value="" x="-148.59" y="-485.14" size="1.778" layer="27" display="off"/>
+<attribute name="PART_VALUE" value="" x="-148.59" y="-485.14" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE-1" value="" x="-148.59" y="-485.14" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER-1" value="" x="-148.59" y="-485.14" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-149.86" y="-487.68" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -3296,7 +3393,6 @@ design rules under a new name.</description>
 <contactref element="V3" pad="1"/>
 <contactref element="V2" pad="1"/>
 <contactref element="X13" pad="16"/>
-<contactref element="X13" pad="11"/>
 <contactref element="X2" pad="3"/>
 <contactref element="X2" pad="5"/>
 <contactref element="IC2" pad="26"/>
@@ -3322,6 +3418,8 @@ design rules under a new name.</description>
 <contactref element="C47" pad="1"/>
 <contactref element="IC2" pad="90"/>
 <contactref element="C48" pad="1"/>
+<contactref element="C49" pad="2"/>
+<contactref element="R86" pad="1"/>
 <wire x1="-129.12" y1="-114.3" x2="-127.32" y2="-120.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-136.74" y1="-153.67" x2="-127.32" y2="-120.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-127.32" y1="-162.39" x2="-136.74" y2="-153.67" width="0" layer="19" extent="1-1"/>
@@ -3347,9 +3445,7 @@ design rules under a new name.</description>
 <wire x1="-130.39" y1="-356.87" x2="-136.74" y2="-344.17" width="0" layer="19" extent="1-1"/>
 <wire x1="-136.74" y1="-367.03" x2="-130.39" y2="-356.87" width="0" layer="19" extent="1-1"/>
 <wire x1="-130.39" y1="-379.73" x2="-136.74" y2="-367.03" width="0" layer="19" extent="1-1"/>
-<wire x1="-130.175" y1="-389.89" x2="-130.39" y2="-379.73" width="0" layer="19" extent="1-1"/>
-<wire x1="-136.525" y1="-392.43" x2="-130.175" y2="-389.89" width="0" layer="19" extent="1-1"/>
-<wire x1="-138.01" y1="-397.51" x2="-136.525" y2="-392.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-138.01" y1="-397.51" x2="-130.39" y2="-379.73" width="0" layer="19" extent="1-1"/>
 <wire x1="-138.01" y1="-401.32" x2="-138.01" y2="-397.51" width="0" layer="19" extent="1-1"/>
 <wire x1="-138.01" y1="-405.13" x2="-138.01" y2="-401.32" width="0" layer="19" extent="1-1"/>
 <wire x1="-138.01" y1="-408.94" x2="-138.01" y2="-405.13" width="0" layer="19" extent="1-1"/>
@@ -3358,37 +3454,25 @@ design rules under a new name.</description>
 <wire x1="-138.01" y1="-420.37" x2="-136.31" y2="-416.56" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.04" y1="-430.53" x2="-138.01" y2="-420.37" width="0" layer="19" extent="1-1"/>
 <wire x1="-136.31" y1="-435.61" x2="-135.04" y2="-430.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-137.16" y1="-439.42" x2="-136.31" y2="-435.61" width="0" layer="19" extent="1-1"/>
-<wire x1="-138.01" y1="-457.2" x2="-137.16" y2="-439.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-138.01" y1="-457.2" x2="-136.31" y2="-435.61" width="0" layer="19" extent="1-1"/>
 <wire x1="-138.01" y1="-461.01" x2="-138.01" y2="-457.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-138.01" y1="-464.82" x2="-138.01" y2="-461.01" width="0" layer="19" extent="1-1"/>
 <wire x1="-138.01" y1="-468.63" x2="-138.01" y2="-464.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-149.01" y1="-472.44" x2="-138.01" y2="-468.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-150.012" y1="-485.14" x2="-149.01" y2="-472.44" width="0" layer="19" extent="1-1"/>
 <wire x1="-127" y1="-68.58" x2="-129.12" y2="-114.3" width="0" layer="19" extent="1-1"/>
 <wire x1="-120.65" y1="-36.83" x2="-127" y2="-68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-111.76" y1="-36.83" x2="-120.65" y2="-36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="-101.6" y1="-39.37" x2="-111.76" y2="-36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="-99.06" y1="-39.37" x2="-101.6" y2="-39.37" width="0" layer="19" extent="1-1"/>
-<wire x1="-101.64" y1="-33.02" x2="-101.6" y2="-39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.64" y1="-33.02" x2="-111.76" y2="-36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-106.26" y1="-19.05" x2="-101.64" y2="-33.02" width="0" layer="19" extent="1-1"/>
 <wire x1="-105.09" y1="-16.24" x2="-106.26" y2="-19.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-105.562" y1="-3.81" x2="-105.09" y2="-16.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-99.56" y1="1.04" x2="-105.562" y2="-3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.21" y1="2.89" x2="-99.56" y2="1.04" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.21" y1="6.89" x2="-91.21" y2="2.89" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.21" y1="8.39" x2="-91.21" y2="6.89" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.21" y1="12.39" x2="-91.21" y2="8.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-99.06" y1="16.74" x2="-91.21" y2="12.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-106.91" y1="11.389996875" x2="-99.06" y2="16.74" width="0" layer="19" extent="1-1"/>
-<wire x1="-106.91" y1="8.39" x2="-106.91" y2="11.389996875" width="0" layer="19" extent="1-1"/>
-<wire x1="-106.91" y1="7.889996875" x2="-106.91" y2="8.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.54" y1="6.35" x2="-91.21" y2="6.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.54" y1="6.35" x2="-105.562" y2="-3.81" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.37" y1="20.08" x2="-63.54" y2="6.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.8" y1="17.78" x2="-61.37" y2="20.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.05" y1="26.67" x2="-50.8" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.05" y1="36.83" x2="-19.05" y2="26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.92" y1="46.99" x2="-19.05" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="-28.79" y1="55.88" x2="-32.92" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.07" y1="62.4" x2="-28.79" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.03" y1="55.88" x2="-50.8" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-32.07" y1="62.4" x2="-44.03" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.79" y1="55.88" x2="-32.07" y2="62.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-24.45" y1="62.4" x2="-32.07" y2="62.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.83" y1="62.4" x2="-24.45" y2="62.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.2" y1="55.88" x2="-16.83" y2="62.4" width="0" layer="19" extent="1-1"/>
@@ -3439,17 +3523,38 @@ design rules under a new name.</description>
 <wire x1="-76.725" y1="69.85" x2="-77.15" y2="76.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-84.345" y1="69.85" x2="-82.23" y2="76.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-67.31" y1="61.595" x2="-76.725" y2="69.85" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.03" y1="55.88" x2="-32.07" y2="62.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-80.33" y1="54.78" x2="-67.31" y2="61.595" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="61.06" x2="-16.83" y2="62.4" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="90.17" x2="25.4" y2="61.06" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="90.17" x2="35.56" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="68.35" y1="40.599996875" x2="25.4" y2="61.06" width="0" layer="19" extent="1-1"/>
+<wire x1="68.35" y1="37.6" x2="68.35" y2="40.599996875" width="0" layer="19" extent="1-1"/>
+<wire x1="68.35" y1="37.099996875" x2="68.35" y2="37.6" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="45.95" x2="68.35" y2="40.599996875" width="0" layer="19" extent="1-1"/>
+<wire x1="84.05" y1="41.6" x2="76.2" y2="45.95" width="0" layer="19" extent="1-1"/>
+<wire x1="84.05" y1="37.6" x2="84.05" y2="41.6" width="0" layer="19" extent="1-1"/>
+<wire x1="84.05" y1="36.1" x2="84.05" y2="37.6" width="0" layer="19" extent="1-1"/>
+<wire x1="84.05" y1="32.1" x2="84.05" y2="36.1" width="0" layer="19" extent="1-1"/>
+<wire x1="77.47" y1="27.94" x2="84.05" y2="32.1" width="0" layer="19" extent="1-1"/>
+<wire x1="75.7" y1="30.25" x2="77.47" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="104.14" y1="40.64" x2="84.05" y2="41.6" width="0" layer="19" extent="1-1"/>
+<wire x1="104.14" y1="43.18" x2="104.14" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="67.945" y1="5.08" x2="77.47" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_24V0" class="3">
 <contactref element="C5" pad="1"/>
 <contactref element="Q5" pad="2"/>
 <contactref element="Q5" pad="4"/>
 <contactref element="X1" pad="1"/>
+<contactref element="SW1" pad="1"/>
+<contactref element="SW1" pad="2"/>
+<contactref element="C49" pad="1"/>
 <wire x1="-16.51" y1="14.6812" x2="-104.14" y2="-33.02" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.51" y1="20.879" x2="-16.51" y2="14.6812" width="0" layer="19" extent="1-1"/>
 <wire x1="-17.36" y1="91.44" x2="-16.51" y2="20.879" width="0" layer="19" extent="1-1"/>
+<wire x1="-148.9" y1="-461.01" x2="-104.14" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-148.9" y1="-465.61" x2="-148.9" y2="-461.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-150.71" y1="-472.44" x2="-148.9" y2="-465.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_24V0_P" class="3">
 <contactref element="D3" pad="3"/>
@@ -3496,7 +3601,7 @@ design rules under a new name.</description>
 <contactref element="D10" pad="3"/>
 <contactref element="C19" pad="1"/>
 <contactref element="IC2" pad="80"/>
-<wire x1="-59.27" y1="55.88" x2="-106.91" y2="12.889996875" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.27" y1="55.88" x2="68.35" y2="42.099996875" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.84" y1="87.63" x2="-59.27" y2="55.88" width="0" layer="19" extent="1-1"/>
 <wire x1="-86.36" y1="78.57" x2="-59.27" y2="55.88" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3525,12 +3630,9 @@ design rules under a new name.</description>
 <contactref element="C37" pad="2"/>
 <contactref element="IC2" pad="62"/>
 <contactref element="C39" pad="2"/>
+<contactref element="D12" pad="1"/>
 <wire x1="-103.19" y1="-16.24" x2="-102.718" y2="-25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.06" y1="1.04" x2="-103.19" y2="-16.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.21" y1="12.89" x2="-98.06" y2="1.04" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.56" y1="16.74" x2="-91.21" y2="12.89" width="0" layer="19" extent="1-1"/>
-<wire x1="-106.91" y1="11.89" x2="-98.56" y2="16.74" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.37" y1="17.78" x2="-91.21" y2="12.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.37" y1="17.78" x2="-103.19" y2="-16.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.47" y1="17.78" x2="-61.37" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.71" y1="55.88" x2="-55.47" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.14" y1="63.5" x2="-34.71" y2="55.88" width="0" layer="19" extent="1-1"/>
@@ -3543,11 +3645,16 @@ design rules under a new name.</description>
 <wire x1="-68.16" y1="87.63" x2="-63.08" y2="87.63" width="0" layer="19" extent="1-1"/>
 <wire x1="-83.4" y1="87.63" x2="-85.41" y2="76.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.495" y1="76.2" x2="-34.71" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="68.35" y1="41.1" x2="-14.495" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="76.7" y1="45.95" x2="68.35" y2="41.1" width="0" layer="19" extent="1-1"/>
+<wire x1="84.05" y1="42.1" x2="76.7" y2="45.95" width="0" layer="19" extent="1-1"/>
+<wire x1="77.2" y1="30.25" x2="84.05" y2="42.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-136.31" y1="-397.51" x2="-102.718" y2="-25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-136.31" y1="-401.32" x2="-136.31" y2="-397.51" width="0" layer="19" extent="1-1"/>
 <wire x1="-136.31" y1="-405.13" x2="-136.31" y2="-401.32" width="0" layer="19" extent="1-1"/>
 <wire x1="-136.31" y1="-408.94" x2="-136.31" y2="-405.13" width="0" layer="19" extent="1-1"/>
 <wire x1="-138.01" y1="-435.61" x2="-136.31" y2="-408.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-150.289996875" y1="-480.059996875" x2="-138.01" y2="-435.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30" class="3">
 <contactref element="IC5" pad="2"/>
@@ -3557,15 +3664,6 @@ design rules under a new name.</description>
 <wire x1="-55.07" y1="46.99" x2="-41.06" y2="87.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_5V0" class="3">
-<contactref element="L1" pad="2"/>
-<contactref element="C14" pad="1"/>
-<contactref element="C16" pad="1"/>
-<contactref element="C15" pad="1"/>
-<contactref element="R45" pad="2"/>
-<contactref element="IC6" pad="3"/>
-<contactref element="C21" pad="1"/>
-<contactref element="C20" pad="1"/>
-<contactref element="D11" pad="1"/>
 <contactref element="IC1" pad="8"/>
 <contactref element="C24" pad="1"/>
 <contactref element="R63" pad="2"/>
@@ -3578,6 +3676,16 @@ design rules under a new name.</description>
 <contactref element="C27" pad="2"/>
 <contactref element="C28" pad="2"/>
 <contactref element="R68" pad="2"/>
+<contactref element="L1" pad="2"/>
+<contactref element="C14" pad="1"/>
+<contactref element="C16" pad="1"/>
+<contactref element="C15" pad="1"/>
+<contactref element="R45" pad="2"/>
+<contactref element="C21" pad="1"/>
+<contactref element="C20" pad="1"/>
+<contactref element="D11" pad="1"/>
+<contactref element="IC6" pad="3"/>
+<contactref element="X13" pad="11"/>
 <wire x1="-135.04" y1="-134.62" x2="-133.5786" y2="-121.2088" width="0" layer="19" extent="1-1"/>
 <wire x1="-133.5786" y1="-147.8788" x2="-135.04" y2="-134.62" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.04" y1="-161.29" x2="-133.5786" y2="-147.8788" width="0" layer="19" extent="1-1"/>
@@ -3598,6 +3706,7 @@ design rules under a new name.</description>
 <wire x1="-32.6" y1="87.63" x2="-37.68" y2="87.63" width="0" layer="19" extent="1-1"/>
 <wire x1="-27.52" y1="87.63" x2="-32.6" y2="87.63" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.525" y1="76.2" x2="-27.52" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="74.295" y1="7.62" x2="-18.525" y2="76.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33" class="3">
 <contactref element="R45" pad="1"/>
@@ -3620,7 +3729,7 @@ design rules under a new name.</description>
 <contactref element="Q10" pad="3"/>
 <contactref element="R15" pad="1"/>
 <contactref element="IC2" pad="22"/>
-<wire x1="-47.84" y1="63.5" x2="-94.56" y2="1.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.84" y1="63.5" x2="80.7" y2="30.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.64" y1="64.6" x2="-47.84" y2="63.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9" class="3">
@@ -3641,12 +3750,12 @@ design rules under a new name.</description>
 <signal name="/DO_COMM_RX_EN" class="3">
 <contactref element="R16" pad="2"/>
 <contactref element="IC2" pad="23"/>
-<wire x1="-62.65" y1="46.99" x2="-94.06" y2="1.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.65" y1="46.99" x2="81.2" y2="30.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DO_COMM_TX_EN" class="3">
 <contactref element="R47" pad="2"/>
 <contactref element="IC2" pad="24"/>
-<wire x1="-71.54" y1="46.99" x2="-93.559996875" y2="1.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.54" y1="46.99" x2="81.700003125" y2="30.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37" class="3">
 <contactref element="R47" pad="1"/>
@@ -3661,7 +3770,7 @@ design rules under a new name.</description>
 <signal name="DO_USART_TX" class="3">
 <contactref element="R48" pad="2"/>
 <contactref element="IC2" pad="21"/>
-<wire x1="-80.43" y1="46.99" x2="-95.06" y2="1.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-80.43" y1="46.99" x2="80.2" y2="30.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RS485_B" class="3">
 <contactref element="IC1" pad="7"/>
@@ -3669,8 +3778,8 @@ design rules under a new name.</description>
 <contactref element="X12" pad="2"/>
 <contactref element="R53" pad="1"/>
 <contactref element="V3" pad="2"/>
-<wire x1="-122.555" y1="-77.47" x2="-129.12" y2="-99.06" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.31" y1="64.135" x2="-122.555" y2="-77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="142.24" y1="24.765" x2="-129.12" y2="-99.06" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.31" y1="64.135" x2="142.24" y2="24.765" width="0" layer="19" extent="1-1"/>
 <wire x1="-77.89" y1="82.55" x2="-67.31" y2="64.135" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.33" y1="76.2" x2="-67.31" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3680,8 +3789,8 @@ design rules under a new name.</description>
 <contactref element="X12" pad="1"/>
 <contactref element="R55" pad="1"/>
 <contactref element="V2" pad="2"/>
-<wire x1="-123.825" y1="-80.01" x2="-129.12" y2="-104.14" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.31" y1="62.865" x2="-123.825" y2="-80.01" width="0" layer="19" extent="1-1"/>
+<wire x1="144.78" y1="23.495" x2="-129.12" y2="-104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.31" y1="62.865" x2="144.78" y2="23.495" width="0" layer="19" extent="1-1"/>
 <wire x1="-72.81" y1="82.55" x2="-67.31" y2="62.865" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.41" y1="76.2" x2="-67.31" y2="62.865" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3714,7 +3823,7 @@ design rules under a new name.</description>
 <signal name="DO_V_PH_PUMP_ON" class="3">
 <contactref element="R5" pad="2"/>
 <contactref element="IC2" pad="20"/>
-<wire x1="-71.54" y1="90.17" x2="-95.56" y2="1.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.54" y1="90.17" x2="79.7" y2="30.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_PH" class="3">
 <contactref element="R18" pad="2"/>
@@ -3732,7 +3841,7 @@ design rules under a new name.</description>
 <contactref element="R20" pad="2"/>
 <contactref element="R19" pad="1"/>
 <contactref element="IC2" pad="76"/>
-<wire x1="-66.04" y1="78.57" x2="-106.91" y2="14.889996875" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.04" y1="78.57" x2="68.35" y2="44.099996875" width="0" layer="19" extent="1-1"/>
 <wire x1="-27.09" y1="76.2" x2="-66.04" y2="78.57" width="0" layer="19" extent="1-1"/>
 <wire x1="-23.71" y1="76.2" x2="-27.09" y2="76.2" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3790,14 +3899,14 @@ design rules under a new name.</description>
 <signal name="DO_PH_SENSOR_ON" class="3">
 <contactref element="R35" pad="2"/>
 <contactref element="IC2" pad="66"/>
-<wire x1="-41.06" y1="95.25" x2="-100.560003125" y2="16.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.06" y1="95.25" x2="74.699996875" y2="45.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AI_I_SENSE_PH_SENSOR" class="3">
 <contactref element="R38" pad="2"/>
 <contactref element="C11" pad="1"/>
 <contactref element="D9" pad="3"/>
 <contactref element="IC2" pad="78"/>
-<wire x1="-81.28" y1="78.57" x2="-106.91" y2="13.889996875" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.28" y1="78.57" x2="68.35" y2="43.099996875" width="0" layer="19" extent="1-1"/>
 <wire x1="-78.32" y1="87.63" x2="-81.28" y2="78.57" width="0" layer="19" extent="1-1"/>
 <wire x1="-44.87" y1="82.55" x2="-78.32" y2="87.63" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3808,7 +3917,7 @@ design rules under a new name.</description>
 <contactref element="Q1" pad="4"/>
 <contactref element="R1" pad="2"/>
 <wire x1="-76.2" y1="8.179" x2="-76.2" y2="1.9812" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.13" y1="26.67" x2="-76.2" y2="8.179" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="85.09" x2="-76.2" y2="8.179" width="0" layer="19" extent="1-1"/>
 <wire x1="-80.755" y1="69.85" x2="-76.2" y2="8.179" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.3" y1="82.55" x2="-80.755" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3822,11 +3931,11 @@ design rules under a new name.</description>
 <contactref element="V5" pad="2"/>
 <contactref element="X10" pad="1-2"/>
 <contactref element="X10" pad="1"/>
-<wire x1="-116.84" y1="-73.66" x2="-121.92" y2="-73.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.27" y1="6.35" x2="-116.84" y2="-73.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.83" y1="26.67" x2="-44.27" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.83" y1="36.83" x2="-36.83" y2="26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-48.3" y1="69.05" x2="-36.83" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="67.31" x2="7.62" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="67.49" x2="12.7" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="72.39" x2="54.61" y2="67.49" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="72.39" x2="44.45" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.3" y1="69.05" x2="35.56" y2="72.39" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.92" y1="69.05" x2="-48.3" y2="69.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.54" y1="69.05" x2="-55.92" y2="69.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-86.208" y1="63.5" x2="-63.54" y2="69.05" width="0" layer="19" extent="1-1"/>
@@ -3843,15 +3952,15 @@ design rules under a new name.</description>
 <contactref element="X6" pad="1"/>
 <contactref element="X7" pad="1-2"/>
 <contactref element="X7" pad="1"/>
-<wire x1="-121.92" y1="-53.34" x2="-121.92" y2="-58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-116.84" y1="-58.42" x2="-121.92" y2="-58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-121.92" y1="-48.26" x2="-121.92" y2="-53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-116.84" y1="-53.34" x2="-121.92" y2="-53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-116.84" y1="-48.26" x2="-121.92" y2="-48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.06" y1="36.83" x2="-116.84" y2="-48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.3" y1="17.78" x2="-61.06" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.77" y1="6.35" x2="-38.3" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.3" y1="70.65" x2="-61.06" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="87.63" x2="7.62" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="82.55" x2="7.62" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="92.71" x2="7.62" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="87.63" x2="7.62" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="92.71" x2="7.62" y2="92.71" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="91.34" x2="12.7" y2="92.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.3" y1="17.78" x2="25.4" y2="91.34" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="89.99" x2="-38.3" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.3" y1="70.65" x2="25.4" y2="91.34" width="0" layer="19" extent="1-1"/>
 <wire x1="-28.092" y1="71.12" x2="-53.3" y2="70.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
@@ -3864,14 +3973,14 @@ design rules under a new name.</description>
 <contactref element="V4" pad="1"/>
 <contactref element="X8" pad="1-2"/>
 <contactref element="X8" pad="1"/>
-<wire x1="-116.84" y1="-63.5" x2="-121.92" y2="-63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.99" y1="26.67" x2="-116.84" y2="-63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.92" y1="70.65" x2="-46.99" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="77.47" x2="7.62" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="62.23" x2="12.7" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.92" y1="70.65" x2="44.45" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="R46" pad="2"/>
 <contactref element="R8" pad="1"/>
-<wire x1="-20.42" y1="46.99" x2="-73.56" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="73.56" x2="25.4" y2="78.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10" class="3">
 <contactref element="Q3" pad="2"/>
@@ -3921,7 +4030,7 @@ design rules under a new name.</description>
 <contactref element="R23" pad="2"/>
 <contactref element="D7" pad="3"/>
 <contactref element="IC2" pad="85"/>
-<wire x1="-71.12" y1="78.57" x2="-106.91" y2="10.389996875" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.12" y1="78.57" x2="68.35" y2="39.599996875" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.25" y1="76.2" x2="-71.12" y2="78.57" width="0" layer="19" extent="1-1"/>
 <wire x1="-33.87" y1="76.2" x2="-37.25" y2="76.2" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3984,21 +4093,21 @@ design rules under a new name.</description>
 <signal name="DO_CONDUCTIV_SENSOR_ON" class="3">
 <contactref element="R27" pad="2"/>
 <contactref element="IC2" pad="65"/>
-<wire x1="-25.82" y1="95.25" x2="-100.06" y2="16.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.82" y1="95.25" x2="75.2" y2="45.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5" class="3">
 <contactref element="D2" pad="1"/>
 <contactref element="K2" pad="P$2"/>
-<wire x1="-24.13" y1="36.83" x2="-88.375" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="85.09" x2="-88.375" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CONDUCTIV_PUMP_MAINS_L_SW" class="4">
 <contactref element="K2" pad="P$4"/>
 <contactref element="V5" pad="1"/>
 <contactref element="X9" pad="1-2"/>
 <contactref element="X9" pad="1"/>
-<wire x1="-116.84" y1="-68.58" x2="-121.92" y2="-68.58" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.99" y1="36.83" x2="-116.84" y2="-68.58" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.54" y1="70.65" x2="-46.99" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="72.39" x2="7.62" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="62.23" x2="12.7" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.54" y1="70.65" x2="35.56" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="/DOSING_DIS" class="3">
 <contactref element="R52" pad="2"/>
@@ -4031,12 +4140,12 @@ design rules under a new name.</description>
 <signal name="RS485_B_NEXT" class="3">
 <contactref element="R53" pad="2"/>
 <contactref element="X12" pad="5"/>
-<wire x1="-118.745" y1="-80.01" x2="-127.42" y2="-99.06" width="0" layer="19" extent="1-1"/>
+<wire x1="144.78" y1="28.575" x2="-127.42" y2="-99.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RS485_A_NEXT" class="3">
 <contactref element="R55" pad="2"/>
 <contactref element="X12" pad="4"/>
-<wire x1="-120.015" y1="-77.47" x2="-127.42" y2="-104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="142.24" y1="27.305" x2="-127.42" y2="-104.14" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$36">
 <contactref element="R57" pad="2"/>
@@ -4060,7 +4169,7 @@ design rules under a new name.</description>
 <signal name="DO_7XSEGMENT_1_EN">
 <contactref element="R56" pad="1"/>
 <contactref element="IC2" pad="1"/>
-<wire x1="-105.06" y1="1.04" x2="-129.12" y2="-109.22" width="0" layer="19" extent="1-1"/>
+<wire x1="70.2" y1="30.25" x2="-129.12" y2="-109.22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC_DISPLAY_3">
 <contactref element="Q12" pad="4"/>
@@ -4117,7 +4226,7 @@ design rules under a new name.</description>
 <signal name="DO_7XSEGMENT_2_EN">
 <contactref element="R64" pad="1"/>
 <contactref element="IC2" pad="2"/>
-<wire x1="-130.39" y1="-168.91" x2="-104.56" y2="1.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-130.39" y1="-168.91" x2="70.7" y2="30.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC_DISPLAY_2">
 <contactref element="Q16" pad="4"/>
@@ -4129,7 +4238,7 @@ design rules under a new name.</description>
 <signal name="DO_7XSEGMENT_3_EN">
 <contactref element="R60" pad="1"/>
 <contactref element="IC2" pad="3"/>
-<wire x1="-130.39" y1="-142.24" x2="-104.06" y2="1.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-130.39" y1="-142.24" x2="71.2" y2="30.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_5V0_HMI">
 <contactref element="R68" pad="1"/>
@@ -4152,7 +4261,7 @@ design rules under a new name.</description>
 <signal name="DO_CTRL_YELLOW_STATUS_LED">
 <contactref element="R70" pad="1"/>
 <contactref element="IC2" pad="4"/>
-<wire x1="-103.56" y1="1.04" x2="-136.74" y2="-245.11" width="0" layer="19" extent="1-1"/>
+<wire x1="71.7" y1="30.25" x2="-136.74" y2="-245.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="/STATUS_LED_G">
 <contactref element="Q18" pad="3"/>
@@ -4187,12 +4296,12 @@ design rules under a new name.</description>
 <signal name="DO_CTRL_GREEN_STATUS_LED">
 <contactref element="R72" pad="1"/>
 <contactref element="IC2" pad="5"/>
-<wire x1="-103.06" y1="1.04" x2="-136.74" y2="-260.35" width="0" layer="19" extent="1-1"/>
+<wire x1="72.2" y1="30.25" x2="-136.74" y2="-260.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DO_CTRL_RED_STATUS_LED">
 <contactref element="R74" pad="1"/>
 <contactref element="IC2" pad="6"/>
-<wire x1="-102.56" y1="1.04" x2="-136.74" y2="-283.21" width="0" layer="19" extent="1-1"/>
+<wire x1="72.7" y1="30.25" x2="-136.74" y2="-283.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="/PH_SENSOR_LED_ON">
 <contactref element="Q20" pad="3"/>
@@ -4257,22 +4366,22 @@ design rules under a new name.</description>
 <signal name="DO_PH_SENSOR_DISPLAY_ON">
 <contactref element="R76" pad="1"/>
 <contactref element="IC2" pad="7"/>
-<wire x1="-102.06" y1="1.04" x2="-136.74" y2="-306.07" width="0" layer="19" extent="1-1"/>
+<wire x1="73.2" y1="30.25" x2="-136.74" y2="-306.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DO_CONDUCTIV_SENSOR_DISPLAY_ON">
 <contactref element="R78" pad="1"/>
 <contactref element="IC2" pad="75"/>
-<wire x1="-105.06" y1="16.74" x2="-136.74" y2="-328.93" width="0" layer="19" extent="1-1"/>
+<wire x1="70.2" y1="45.95" x2="-136.74" y2="-328.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DO_PH_PUMP_ON_LED">
 <contactref element="R80" pad="1"/>
 <contactref element="IC2" pad="16"/>
-<wire x1="-97.56" y1="1.04" x2="-136.74" y2="-351.79" width="0" layer="19" extent="1-1"/>
+<wire x1="77.7" y1="30.25" x2="-136.74" y2="-351.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DO_CONDUCTIV_PUMP_ON_LED">
 <contactref element="R82" pad="1"/>
 <contactref element="IC2" pad="74"/>
-<wire x1="-136.74" y1="-374.65" x2="-104.560003125" y2="16.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.74" y1="-374.65" x2="70.699996875" y2="45.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43">
 <contactref element="X13" pad="1"/>
@@ -4325,17 +4434,17 @@ design rules under a new name.</description>
 <signal name="DBG_SWCLK">
 <contactref element="IC2" pad="50"/>
 <contactref element="X2" pad="4"/>
-<wire x1="-91.21" y1="14.89" x2="-101.6" y2="-41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="84.05" y1="44.1" x2="106.68" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DBG_SWDIO">
 <contactref element="IC2" pad="51"/>
 <contactref element="X2" pad="2"/>
-<wire x1="-93.060003125" y1="16.74" x2="-104.14" y2="-41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="82.199996875" y1="45.95" x2="106.68" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DBG_SWO">
 <contactref element="IC2" pad="52"/>
 <contactref element="X2" pad="6"/>
-<wire x1="-93.56" y1="16.74" x2="-99.06" y2="-41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="81.7" y1="45.95" x2="106.68" y2="43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AI_I_SENSE_CONDUVTIV_SENSOR">
 <contactref element="IC2" pad="84"/>
@@ -4343,62 +4452,67 @@ design rules under a new name.</description>
 <signal name="N$77">
 <contactref element="IC2" pad="64"/>
 <contactref element="C40" pad="2"/>
-<wire x1="-136.31" y1="-412.75" x2="-99.56" y2="16.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.31" y1="-412.75" x2="75.7" y2="45.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$78">
 <contactref element="C43" pad="1"/>
 <contactref element="IC2" pad="81"/>
-<wire x1="-138.01" y1="-424.18" x2="-106.91" y2="12.389996875" width="0" layer="19" extent="1-1"/>
+<wire x1="-138.01" y1="-424.18" x2="68.35" y2="41.599996875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$79">
 <contactref element="C42" pad="2"/>
 <contactref element="IC2" pad="9"/>
-<wire x1="-136.31" y1="-420.37" x2="-101.06" y2="1.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.31" y1="-420.37" x2="74.2" y2="30.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$80">
 <contactref element="C41" pad="1"/>
 <contactref element="IC2" pad="33"/>
-<wire x1="-138.01" y1="-416.56" x2="-91.21" y2="6.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-138.01" y1="-416.56" x2="84.05" y2="35.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$81">
 <contactref element="IC2" pad="35"/>
 <contactref element="R83" pad="1"/>
 <contactref element="IC2" pad="36"/>
-<wire x1="-91.21" y1="7.89" x2="-91.21" y2="7.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-136.74" y1="-430.53" x2="-91.21" y2="7.39" width="0" layer="19" extent="1-1"/>
+<wire x1="84.05" y1="37.1" x2="84.05" y2="36.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.74" y1="-430.53" x2="84.05" y2="36.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$73">
 <contactref element="IC7" pad="1"/>
 <contactref element="IC2" pad="14"/>
 <contactref element="R84" pad="2"/>
-<wire x1="-138.36" y1="-439.42" x2="-98.56" y2="1.04" width="0" layer="19" extent="1-1"/>
-<wire x1="-135.04" y1="-444.5" x2="-138.36" y2="-439.42" width="0" layer="19" extent="1-1"/>
+<wire x1="76.27" y1="27.94" x2="76.7" y2="30.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-135.04" y1="-444.5" x2="76.27" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$74">
 <contactref element="IC2" pad="13"/>
 <contactref element="R85" pad="2"/>
 <contactref element="R84" pad="1"/>
-<wire x1="-136.74" y1="-444.5" x2="-99.06" y2="1.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.74" y1="-444.5" x2="76.2" y2="30.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-135.04" y1="-452.12" x2="-136.74" y2="-444.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$75">
 <contactref element="IC7" pad="3"/>
 <contactref element="R85" pad="1"/>
-<wire x1="-135.96" y1="-439.42" x2="-136.74" y2="-452.12" width="0" layer="19" extent="1-1"/>
+<wire x1="78.67" y1="27.94" x2="-136.74" y2="-452.12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$76">
 <contactref element="C45" pad="2"/>
 <contactref element="IC2" pad="88"/>
 <contactref element="C46" pad="2"/>
-<wire x1="-136.31" y1="-457.2" x2="-106.91" y2="8.889996875" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.31" y1="-457.2" x2="68.35" y2="38.099996875" width="0" layer="19" extent="1-1"/>
 <wire x1="-136.31" y1="-461.01" x2="-136.31" y2="-457.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$82">
 <contactref element="C47" pad="2"/>
 <contactref element="IC2" pad="91"/>
 <contactref element="C48" pad="2"/>
-<wire x1="-136.31" y1="-464.82" x2="-106.91" y2="7.389996875" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.31" y1="-464.82" x2="68.35" y2="36.599996875" width="0" layer="19" extent="1-1"/>
 <wire x1="-136.31" y1="-468.63" x2="-136.31" y2="-464.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$83">
+<contactref element="R86" pad="2"/>
+<contactref element="D12" pad="2"/>
+<wire x1="-146.89" y1="-480.059996875" x2="-147.168" y2="-485.14" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
