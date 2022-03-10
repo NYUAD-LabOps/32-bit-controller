@@ -4552,7 +4552,7 @@ DDEController.pdf</description>
 <instance part="GND15" gate="1" x="297.18" y="160.02" smashed="yes"/>
 <instance part="GND16" gate="1" x="297.18" y="101.6" smashed="yes"/>
 <instance part="IC3" gate="G$1" x="281.94" y="124.46" smashed="yes">
-<attribute name="NAME" x="274.32" y="134.62" size="1.27" layer="95"/>
+<attribute name="NAME" x="281.94" y="134.62" size="1.27" layer="95"/>
 <attribute name="VALUE" x="274.32" y="114.3" size="1.27" layer="96"/>
 </instance>
 <instance part="R29" gate="G$1" x="261.62" y="111.76" smashed="yes" rot="R90">
@@ -5109,7 +5109,7 @@ DDEController.pdf</description>
 <label x="274.32" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="DI_DOSE_EN" class="0">
+<net name="DI_DOSING_EN" class="3">
 <segment>
 <pinref part="IC2" gate="G$1" pin="P415"/>
 <wire x1="223.52" y1="78.74" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
