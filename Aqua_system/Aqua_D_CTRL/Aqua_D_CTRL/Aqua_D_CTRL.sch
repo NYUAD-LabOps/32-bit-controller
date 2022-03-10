@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3153,6 +3153,7 @@ DDEController.pdf</description>
 <part name="C49" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/ 100V"/>
 <part name="D12" library="Labops_Lib_AH" deviceset="26-21/GPC-F3138B/CA" device=""/>
 <part name="R86" library="Labops_Lib_AH" deviceset="R_1206" device="" value="82R 1%"/>
+<part name="X14" library="con-tycoelectronics" library_urn="urn:adsk.eagle:library:193" deviceset="RJ45" device="" package3d_urn="urn:adsk.eagle:package:10660/1" technology="-8L-B"/>
 </parts>
 <sheets>
 <sheet>
@@ -3808,9 +3809,9 @@ DDEController.pdf</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="B"/>
 <pinref part="R49" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
-<label x="109.22" y="106.68" size="1.778" layer="95"/>
+<wire x1="106.68" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R53" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="127" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="106.68" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="127" y1="93.98" x2="127" y2="106.68" width="0.1524" layer="91"/>
@@ -3818,15 +3819,18 @@ DDEController.pdf</description>
 <pinref part="V3" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="91.44" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
 <junction x="144.78" y="106.68"/>
+<label x="121.92" y="76.2" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="121.92" y1="76.2" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
+<junction x="121.92" y="106.68"/>
 </segment>
 </net>
 <net name="RS485_A" class="3">
 <segment>
 <pinref part="IC1" gate="G$1" pin="A"/>
 <pinref part="R50" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="101.6" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
-<label x="109.22" y="101.6" size="1.778" layer="95"/>
+<wire x1="106.68" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R55" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="101.6" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="88.9" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
@@ -3834,6 +3838,9 @@ DDEController.pdf</description>
 <pinref part="V2" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="91.44" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
 <junction x="157.48" y="101.6"/>
+<label x="116.84" y="76.2" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="116.84" y1="76.2" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
+<junction x="116.84" y="101.6"/>
 </segment>
 </net>
 <net name="N$42" class="3">
@@ -3849,7 +3856,7 @@ DDEController.pdf</description>
 </net>
 <net name="/DOSING_DIS" class="3">
 <segment>
-<label x="119.38" y="50.8" size="1.778" layer="95" xref="yes"/>
+<label x="119.38" y="45.72" size="1.778" layer="95" xref="yes"/>
 <pinref part="R52" gate="G$1" pin="2"/>
 <pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
@@ -3857,8 +3864,8 @@ DDEController.pdf</description>
 <pinref part="R51" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <junction x="111.76" y="38.1"/>
-<wire x1="119.38" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="50.8" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="45.72" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DI_DOSING_EN" class="3">
@@ -3878,15 +3885,15 @@ DDEController.pdf</description>
 <net name="RS485_B_NEXT" class="3">
 <segment>
 <pinref part="R53" gate="G$1" pin="2"/>
-<wire x1="127" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
-<label x="114.3" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="127" y1="83.82" x2="127" y2="76.2" width="0.1524" layer="91"/>
+<label x="127" y="76.2" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="RS485_A_NEXT" class="3">
 <segment>
 <pinref part="R55" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
-<label x="114.3" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="78.74" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
+<label x="134.62" y="76.2" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$83" class="0">
@@ -5579,6 +5586,10 @@ DDEController.pdf</description>
 <attribute name="NAME" x="17.78" y="226.06" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="17.78" y="202.692" size="1.778" layer="96" rot="MR0"/>
 </instance>
+<instance part="X14" gate="G$1" x="15.24" y="187.96" smashed="yes" rot="MR0">
+<attribute name="NAME" x="17.78" y="198.12" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="17.78" y="174.752" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5693,44 +5704,6 @@ DDEController.pdf</description>
 <label x="25.4" y="76.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="3">
-<segment>
-<pinref part="X12" gate="G$1" pin="8"/>
-<wire x1="17.78" y1="205.74" x2="25.4" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="3">
-<segment>
-<pinref part="X12" gate="G$1" pin="7"/>
-<wire x1="17.78" y1="208.28" x2="25.4" y2="208.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$35" class="3">
-<segment>
-<pinref part="X12" gate="G$1" pin="6"/>
-<wire x1="17.78" y1="210.82" x2="25.4" y2="210.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="RS485_B_NEXT" class="3">
-<segment>
-<pinref part="X12" gate="G$1" pin="5"/>
-<label x="48.26" y="213.36" size="1.778" layer="95" xref="yes"/>
-<wire x1="17.78" y1="213.36" x2="48.26" y2="213.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="RS485_A_NEXT" class="3">
-<segment>
-<pinref part="X12" gate="G$1" pin="4"/>
-<wire x1="17.78" y1="215.9" x2="25.4" y2="215.9" width="0.1524" layer="91"/>
-<label x="25.4" y="215.9" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$40" class="3">
-<segment>
-<pinref part="X12" gate="G$1" pin="3"/>
-<wire x1="17.78" y1="218.44" x2="25.4" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="RS485_B" class="3">
 <segment>
 <pinref part="X12" gate="G$1" pin="2"/>
@@ -5743,6 +5716,20 @@ DDEController.pdf</description>
 <pinref part="X12" gate="G$1" pin="1"/>
 <label x="40.64" y="223.52" size="1.778" layer="95" xref="yes"/>
 <wire x1="40.64" y1="223.52" x2="17.78" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RS485_A_NEXT" class="3">
+<segment>
+<pinref part="X14" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="195.58" x2="25.4" y2="195.58" width="0.1524" layer="91"/>
+<label x="25.4" y="195.58" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RS485_B_NEXT" class="3">
+<segment>
+<pinref part="X14" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="193.04" x2="35.56" y2="193.04" width="0.1524" layer="91"/>
+<label x="35.56" y="193.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
