@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -4164,8 +4164,10 @@ design rules under a new name.</description>
 <contactref element="Q10" pad="3"/>
 <contactref element="R15" pad="1"/>
 <contactref element="U1" pad="43"/>
+<wire x1="101.3206" y1="64.86" x2="103.468" y2="64.86" width="0.2032" layer="1"/>
+<wire x1="109.05" y1="70.442" x2="109.728" y2="70.442" width="0.2032" layer="1"/>
+<wire x1="103.468" y1="64.86" x2="109.05" y2="70.442" width="0.2032" layer="1"/>
 <wire x1="109.728" y1="70.442" x2="113.284" y2="72.302" width="0" layer="19" extent="1-1"/>
-<wire x1="101.3206" y1="64.86" x2="109.728" y2="70.442" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9" class="3">
 <contactref element="Q10" pad="1"/>
@@ -4185,12 +4187,15 @@ design rules under a new name.</description>
 <signal name="/DO_COMM_RX_EN" class="3">
 <contactref element="R16" pad="2"/>
 <contactref element="U1" pad="40"/>
-<wire x1="101.3206" y1="63.36" x2="106.592" y2="61.976" width="0" layer="19" extent="1-1"/>
+<wire x1="101.3206" y1="63.36" x2="103.772" y2="63.36" width="0.2032" layer="1"/>
+<wire x1="105.156" y1="61.976" x2="106.592" y2="61.976" width="0.2032" layer="1"/>
+<wire x1="103.772" y1="63.36" x2="105.156" y2="61.976" width="0.2032" layer="1"/>
 </signal>
 <signal name="DO_COMM_TX_EN" class="3">
 <contactref element="R47" pad="2"/>
 <contactref element="U1" pad="41"/>
-<wire x1="101.3206" y1="63.86" x2="106.592" y2="64.008" width="0" layer="19" extent="1-1"/>
+<wire x1="101.3206" y1="63.86" x2="106.444" y2="63.86" width="0.2032" layer="1"/>
+<wire x1="106.444" y1="63.86" x2="106.592" y2="64.008" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$37" class="3">
 <contactref element="R47" pad="1"/>
@@ -4205,7 +4210,8 @@ design rules under a new name.</description>
 <signal name="DO_USART_TX" class="3">
 <contactref element="R48" pad="2"/>
 <contactref element="U1" pad="42"/>
-<wire x1="101.3206" y1="64.359996875" x2="106.592" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="106.592" y1="66.04" x2="104.911996875" y2="64.359996875" width="0.2032" layer="1"/>
+<wire x1="104.911996875" y1="64.359996875" x2="101.3206" y2="64.359996875" width="0.2032" layer="1"/>
 </signal>
 <signal name="RS485_B" class="3">
 <contactref element="IC1" pad="7"/>
@@ -4585,9 +4591,12 @@ design rules under a new name.</description>
 <contactref element="D13" pad="3"/>
 <contactref element="R54" pad="1"/>
 <contactref element="U1" pad="39"/>
+<wire x1="101.3206" y1="62.86" x2="103.51" y2="62.86" width="0.2032" layer="1"/>
+<wire x1="103.51" y1="62.86" x2="105.664" y2="60.706" width="0.2032" layer="1"/>
+<wire x1="105.664" y1="60.706" x2="107.866" y2="60.706" width="0.2032" layer="1"/>
+<wire x1="107.866" y1="60.706" x2="108.628" y2="59.944" width="0.2032" layer="1"/>
 <wire x1="112.268" y1="58.268" x2="135.04" y2="48.514" width="0" layer="19" extent="1-1"/>
 <wire x1="108.628" y1="59.944" x2="112.268" y2="58.268" width="0" layer="19" extent="1-1"/>
-<wire x1="101.3206" y1="62.86" x2="108.628" y2="59.944" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RS485_B_NEXT" class="3">
 <contactref element="R53" pad="2"/>
@@ -4624,6 +4633,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="DO_7XSEGMENT_1_EN">
 <contactref element="R56" pad="1"/>
+<contactref element="U1" pad="1"/>
+<wire x1="101.3206" y1="43.86" x2="94.4" y2="8.636" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC_DISPLAY_3">
 <contactref element="Q12" pad="4"/>
@@ -4687,7 +4698,7 @@ design rules under a new name.</description>
 <signal name="DO_7XSEGMENT_2_EN">
 <contactref element="R64" pad="1"/>
 <contactref element="U1" pad="2"/>
-<wire x1="94.4" y1="16.002" x2="101.3206" y2="44.36" width="0" layer="19" extent="1-1"/>
+<wire x1="101.3206" y1="44.36" x2="94.4" y2="16.002" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC_DISPLAY_2">
 <contactref element="Q16" pad="4"/>
@@ -4701,7 +4712,7 @@ design rules under a new name.</description>
 <signal name="DO_7XSEGMENT_3_EN">
 <contactref element="R60" pad="1"/>
 <contactref element="U1" pad="3"/>
-<wire x1="94.4" y1="23.876" x2="101.3206" y2="44.86" width="0" layer="19" extent="1-1"/>
+<wire x1="101.3206" y1="44.86" x2="94.4" y2="23.876" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="/STATUS_LED_Y">
 <contactref element="Q17" pad="3"/>
@@ -4724,9 +4735,11 @@ design rules under a new name.</description>
 <contactref element="R70" pad="1"/>
 <wire x1="117.348" y1="8.548" x2="113.626" y2="8.548" width="0.3048" layer="1"/>
 <wire x1="113.626" y1="8.548" x2="112.014" y2="10.16" width="0.3048" layer="1"/>
-<wire x1="112.014" y1="10.16" x2="112.014" y2="28.702" width="0.3048" layer="1"/>
+<wire x1="112.014" y1="28.702" x2="112.014" y2="10.16" width="0.3048" layer="1"/>
 <contactref element="U1" pad="4"/>
-<wire x1="112.014" y1="28.702" x2="101.3206" y2="45.359996875" width="0" layer="19" extent="1-1"/>
+<wire x1="112.014" y1="28.702" x2="112.014" y2="35.3386125" width="0.2032" layer="1"/>
+<wire x1="101.992615625" y1="45.359996875" x2="101.3206" y2="45.359996875" width="0.2032" layer="1"/>
+<wire x1="112.014" y1="35.3386125" x2="101.992615625" y2="45.359996875" width="0.2032" layer="1"/>
 </signal>
 <signal name="/STATUS_LED_G">
 <contactref element="Q18" pad="3"/>
@@ -4766,15 +4779,21 @@ design rules under a new name.</description>
 <wire x1="113.372" y1="12.612" x2="112.522" y2="13.462" width="0.3048" layer="1"/>
 <wire x1="112.522" y1="13.462" x2="112.522" y2="29.21" width="0.3048" layer="1"/>
 <contactref element="U1" pad="5"/>
-<wire x1="112.522" y1="29.21" x2="101.3206" y2="45.86" width="0" layer="19" extent="1-1"/>
+<wire x1="112.522" y1="29.21" x2="112.522" y2="35.56" width="0.2032" layer="1"/>
+<wire x1="102.222" y1="45.86" x2="101.3206" y2="45.86" width="0.2032" layer="1"/>
+<wire x1="112.522" y1="35.56" x2="102.222" y2="45.86" width="0.2032" layer="1"/>
 </signal>
 <signal name="DO_CTRL_RED_STATUS_LED">
 <contactref element="R74" pad="1"/>
 <wire x1="117.348" y1="16.93" x2="114.134" y2="16.93" width="0.3048" layer="1"/>
-<wire x1="112.9792" y1="18.0848" x2="112.9792" y2="28.9052" width="0.3048" layer="1"/>
+<wire x1="112.9792" y1="28.9052" x2="112.9792" y2="28.702" width="0.3048" layer="1"/>
+<wire x1="112.9792" y1="28.702" x2="112.9792" y2="18.0848" width="0.3048" layer="1"/>
 <wire x1="114.134" y1="16.93" x2="112.9792" y2="18.0848" width="0.3048" layer="1"/>
 <contactref element="U1" pad="6"/>
-<wire x1="112.9792" y1="28.9052" x2="101.3206" y2="46.36" width="0" layer="19" extent="1-1"/>
+<wire x1="112.9792" y1="28.702" x2="112.9284" y2="28.7528" width="0.2032" layer="1"/>
+<wire x1="112.9284" y1="28.7528" x2="112.9284" y2="35.6616" width="0.2032" layer="1"/>
+<wire x1="112.9284" y1="35.6616" x2="102.23" y2="46.36" width="0.2032" layer="1"/>
+<wire x1="102.23" y1="46.36" x2="101.3206" y2="46.36" width="0.2032" layer="1"/>
 </signal>
 <signal name="/PH_SENSOR_LED_ON">
 <contactref element="Q20" pad="3"/>
@@ -4847,30 +4866,40 @@ design rules under a new name.</description>
 <signal name="DO_PH_SENSOR_DISPLAY_ON">
 <contactref element="R76" pad="1"/>
 <wire x1="117.348" y1="29.376" x2="116.166" y2="29.376" width="0.3048" layer="1"/>
-<wire x1="116.166" y1="29.376" x2="114.554" y2="30.988" width="0.3048" layer="1"/>
-<contactref element="U1" pad="7"/>
-<wire x1="114.554" y1="30.988" x2="101.3206" y2="46.86" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="9"/>
+<wire x1="114.554" y1="30.988" x2="116.166" y2="29.376" width="0.3048" layer="1"/>
+<wire x1="101.3206" y1="47.859996875" x2="103.270003125" y2="47.859996875" width="0.2032" layer="1"/>
+<wire x1="103.270003125" y1="47.859996875" x2="114.554" y2="36.576" width="0.2032" layer="1"/>
+<wire x1="114.554" y1="36.576" x2="114.554" y2="30.988" width="0.2032" layer="1"/>
 </signal>
 <signal name="DO_CONDUCTIV_SENSOR_DISPLAY_ON">
 <contactref element="R78" pad="1"/>
 <wire x1="117.348" y1="20.232" x2="114.134" y2="20.232" width="0.3048" layer="1"/>
 <wire x1="114.134" y1="20.232" x2="113.538" y2="20.828" width="0.3048" layer="1"/>
 <wire x1="113.538" y1="20.828" x2="113.538" y2="28.194" width="0.3048" layer="1"/>
-<contactref element="U1" pad="8"/>
-<wire x1="113.538" y1="28.194" x2="101.3206" y2="47.36" width="0" layer="19" extent="1-1"/>
+<wire x1="113.538" y1="28.194" x2="113.538" y2="35.5651" width="0.2032" layer="1"/>
+<wire x1="113.538" y1="35.5651" x2="103.25355" y2="45.84955" width="0.2032" layer="1"/>
+<contactref element="U1" pad="7"/>
+<wire x1="103.25355" y1="45.84955" x2="101.3206" y2="46.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DO_PH_PUMP_ON_LED">
 <contactref element="R80" pad="1"/>
 <contactref element="U1" pad="10"/>
-<wire x1="101.3206" y1="48.36" x2="117.348" y2="33.186" width="0" layer="19" extent="1-1"/>
+<wire x1="115.062" y1="36.8249" x2="115.062" y2="33.528" width="0.2032" layer="1"/>
+<wire x1="115.062" y1="33.528" x2="115.404" y2="33.186" width="0.2032" layer="1"/>
+<wire x1="115.404" y1="33.186" x2="117.348" y2="33.186" width="0.2032" layer="1"/>
+<wire x1="101.3206" y1="48.36" x2="103.5269" y2="48.36" width="0.2032" layer="1"/>
+<wire x1="103.5269" y1="48.36" x2="115.062" y2="36.8249" width="0.2032" layer="1"/>
 </signal>
-<signal name="DO_CONDUCTIV_PUMP_ON_LED">
+<signal name="DO_CONDUCTIV_PUMP_ON_LED" class="3">
 <contactref element="R82" pad="1"/>
 <wire x1="117.348" y1="24.55" x2="114.896" y2="24.55" width="0.3048" layer="1"/>
 <wire x1="114.896" y1="24.55" x2="114.046" y2="25.4" width="0.3048" layer="1"/>
 <wire x1="114.046" y1="25.4" x2="114.046" y2="29.972" width="0.3048" layer="1"/>
-<contactref element="U1" pad="9"/>
-<wire x1="114.046" y1="29.972" x2="101.3206" y2="47.859996875" width="0" layer="19" extent="1-1"/>
+<wire x1="114.046" y1="29.972" x2="114.046" y2="36.322" width="0.2032" layer="1"/>
+<contactref element="U1" pad="8"/>
+<wire x1="103.008" y1="47.36" x2="101.3206" y2="47.36" width="0.2032" layer="1"/>
+<wire x1="114.046" y1="36.322" x2="103.008" y2="47.36" width="0.2032" layer="1"/>
 </signal>
 <signal name="DO_BCD_A">
 <contactref element="X13" pad="12"/>

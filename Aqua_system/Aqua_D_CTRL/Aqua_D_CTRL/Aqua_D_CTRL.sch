@@ -6073,8 +6073,10 @@ DDEController.pdf</description>
 <nets>
 <net name="DO_7XSEGMENT_1_EN" class="0">
 <segment>
-<wire x1="557.276" y1="80.264" x2="557.276" y2="57.404" width="0.1524" layer="91"/>
-<label x="557.276" y="57.404" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="559.054" y1="80.28" x2="559.054" y2="57.277" width="0.1524" layer="91"/>
+<label x="559.054" y="57.277" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="P4_0"/>
+<wire x1="559.054" y1="80.28" x2="557.28" y2="80.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DO_7XSEGMENT_2_EN" class="0">
@@ -6121,20 +6123,22 @@ DDEController.pdf</description>
 </net>
 <net name="DO_PH_SENSOR_DISPLAY_ON" class="0">
 <segment>
-<wire x1="587.756" y1="98.28" x2="587.756" y2="57.404" width="0.1524" layer="91"/>
-<label x="587.756" y="57.404" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="P4_6"/>
-<wire x1="557.28" y1="98.28" x2="587.756" y2="98.28" width="0.1524" layer="91"/>
+<wire x1="596.519" y1="97.264" x2="596.519" y2="97.155" width="0.1524" layer="91"/>
+<label x="596.519" y="56.388" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="P7_1"/>
+<wire x1="596.519" y1="97.155" x2="596.519" y2="56.388" width="0.1524" layer="91"/>
+<wire x1="596.519" y1="97.264" x2="596.519" y2="104.28" width="0.1524" layer="91"/>
+<wire x1="596.519" y1="104.28" x2="557.28" y2="104.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DO_CONDUCTIV_PUMP_ON_LED" class="0">
+<net name="DO_CONDUCTIV_PUMP_ON_LED" class="3">
 <segment>
-<label x="596.9" y="63.5" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="596.9" y1="91.882" x2="596.9" y2="91.821" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="P7_1"/>
-<wire x1="596.9" y1="91.821" x2="596.9" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="596.9" y1="91.882" x2="596.9" y2="104.28" width="0.1524" layer="91"/>
-<wire x1="596.9" y1="104.28" x2="557.28" y2="104.28" width="0.1524" layer="91"/>
+<label x="592.455" y="56.515" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="592.455" y1="98.661" x2="592.455" y2="98.552" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="P7_0"/>
+<wire x1="592.455" y1="98.552" x2="592.455" y2="56.515" width="0.1524" layer="91"/>
+<wire x1="592.455" y1="98.661" x2="592.455" y2="101.28" width="0.1524" layer="91"/>
+<wire x1="592.455" y1="101.28" x2="557.28" y2="101.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DO_PH_PUMP_ON_LED" class="0">
@@ -6621,12 +6625,12 @@ DDEController.pdf</description>
 </net>
 <net name="DO_CONDUCTIV_SENSOR_DISPLAY_ON" class="0">
 <segment>
-<label x="592.328" y="63.5" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="592.328" y1="88.882" x2="592.328" y2="88.773" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="P7_0"/>
-<wire x1="592.328" y1="88.773" x2="592.328" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="592.328" y1="88.882" x2="592.328" y2="101.28" width="0.1524" layer="91"/>
-<wire x1="592.328" y1="101.28" x2="557.28" y2="101.28" width="0.1524" layer="91"/>
+<label x="587.883" y="56.515" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="587.883" y1="94.295" x2="587.883" y2="94.107" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="P4_6"/>
+<wire x1="587.883" y1="94.107" x2="587.883" y2="56.515" width="0.1524" layer="91"/>
+<wire x1="587.883" y1="94.295" x2="587.883" y2="98.28" width="0.1524" layer="91"/>
+<wire x1="587.883" y1="98.28" x2="557.28" y2="98.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DO_BCD_A" class="0">
@@ -7893,7 +7897,7 @@ DDEController.pdf</description>
 <label x="68.58" y="213.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="DO_CONDUCTIV_PUMP_ON_LED" class="0">
+<net name="DO_CONDUCTIV_PUMP_ON_LED" class="3">
 <segment>
 <pinref part="R82" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="167.64" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
