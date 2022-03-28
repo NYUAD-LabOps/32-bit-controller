@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -676,61 +676,6 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="1" x="-2.54" y="0" drill="1.5" diameter="2.54"/>
 <pad name="1-2" x="2.54" y="0" drill="1.5" diameter="2.54"/>
 </package>
-<package name="TE_282834-2_0">
-<description>2 Position Wire to Board Terminal Block Horizontal with Board 0.100" (2.54mm) Through Hole</description>
-<wire x1="-2.895" y1="-3.4" x2="-2.895" y2="3.4" width="0.15" layer="51"/>
-<wire x1="-2.895" y1="3.4" x2="2.895" y2="3.4" width="0.15" layer="51"/>
-<wire x1="2.895" y1="3.4" x2="2.895" y2="-3.4" width="0.15" layer="51"/>
-<wire x1="2.895" y1="-3.4" x2="-2.895" y2="-3.4" width="0.15" layer="51"/>
-<wire x1="-2.895" y1="3.4" x2="2.895" y2="3.4" width="0.15" layer="21"/>
-<wire x1="2.895" y1="-3.4" x2="2.895" y2="3.4" width="0.15" layer="21"/>
-<wire x1="-2.895" y1="-3.4" x2="2.895" y2="-3.4" width="0.15" layer="21"/>
-<wire x1="-2.895" y1="-3.4" x2="-2.895" y2="3.4" width="0.15" layer="21"/>
-<wire x1="-2.995" y1="-3.5" x2="-2.995" y2="3.5" width="0.1" layer="41"/>
-<wire x1="-2.995" y1="3.5" x2="2.995" y2="3.5" width="0.1" layer="41"/>
-<wire x1="2.995" y1="3.5" x2="2.995" y2="-3.5" width="0.1" layer="41"/>
-<wire x1="2.995" y1="-3.5" x2="-2.995" y2="-3.5" width="0.1" layer="41"/>
-<text x="-2.95" y="3.625" size="1" layer="25">&gt;NAME</text>
-<circle x="-3.35" y="0" radius="0.25" width="0" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="1.1" diameter="1.7" shape="square"/>
-<pad name="2" x="1.27" y="0" drill="1.1" diameter="1.7"/>
-<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;Value</text>
-</package>
-<package name="CSTNE8M00G520000R0">
-<description>8.000MHz ±0.50% Ceramic Resonator with Built in Capacitor 10pF 40Ω Stability ±0.20% 3-SMD</description>
-<wire x1="-1.675" y1="-0.725" x2="-1.675" y2="0.725" width="0.15" layer="51"/>
-<wire x1="-1.675" y1="0.725" x2="1.675" y2="0.725" width="0.15" layer="51"/>
-<wire x1="1.675" y1="0.725" x2="1.675" y2="-0.725" width="0.15" layer="51"/>
-<wire x1="1.675" y1="-0.725" x2="-1.675" y2="-0.725" width="0.15" layer="51"/>
-<wire x1="-1.775" y1="-1.05" x2="-1.775" y2="1.05" width="0.1" layer="41"/>
-<wire x1="-1.775" y1="1.05" x2="1.775" y2="1.05" width="0.1" layer="41"/>
-<wire x1="1.775" y1="1.05" x2="1.775" y2="-1.05" width="0.1" layer="41"/>
-<wire x1="1.775" y1="-1.05" x2="-1.775" y2="-1.05" width="0.1" layer="41"/>
-<wire x1="1.775" y1="0.725" x2="1.775" y2="-0.725" width="0.15" layer="21"/>
-<wire x1="-1.775" y1="0.725" x2="-1.775" y2="-0.725" width="0.15" layer="21"/>
-<text x="2" y="-0.275" size="1" layer="25">&gt;NAME</text>
-<smd name="1" x="-1.2" y="0" dx="0.4" dy="1.9" layer="1"/>
-<smd name="2" x="0" y="0" dx="0.4" dy="1.9" layer="1"/>
-<smd name="3" x="1.2" y="0" dx="0.4" dy="1.9" layer="1"/>
-</package>
-<package name="L101011MS02Q">
-<description>SWITCH SLIDE SPST 4A 125V</description>
-<wire x1="-5.395" y1="-9.55" x2="-5.395" y2="9.55" width="0.15" layer="51"/>
-<wire x1="-5.395" y1="9.55" x2="5.395" y2="9.55" width="0.15" layer="51"/>
-<wire x1="5.395" y1="9.55" x2="5.395" y2="-9.55" width="0.15" layer="51"/>
-<wire x1="5.395" y1="-9.55" x2="-5.395" y2="-9.55" width="0.15" layer="51"/>
-<wire x1="-5.495" y1="-9.65" x2="-5.495" y2="9.65" width="0.1" layer="41"/>
-<wire x1="-5.495" y1="9.65" x2="5.495" y2="9.65" width="0.1" layer="41"/>
-<wire x1="5.495" y1="9.65" x2="5.495" y2="-9.65" width="0.1" layer="41"/>
-<wire x1="5.495" y1="-9.65" x2="-5.495" y2="-9.65" width="0.1" layer="41"/>
-<wire x1="-5.395" y1="9.55" x2="5.395" y2="9.55" width="0.15" layer="21"/>
-<wire x1="5.395" y1="-9.55" x2="5.395" y2="9.55" width="0.15" layer="21"/>
-<wire x1="-5.395" y1="-9.55" x2="5.395" y2="-9.55" width="0.15" layer="21"/>
-<wire x1="-5.395" y1="-9.55" x2="-5.395" y2="9.55" width="0.15" layer="21"/>
-<text x="-5.395" y="9.85" size="1" layer="25">&gt;NAME</text>
-<pad name="1" x="-2.85" y="-4.6" drill="1.65" diameter="2.5" shape="square"/>
-<pad name="2" x="-2.85" y="0" drill="1.65" diameter="2.5"/>
-</package>
 <package name="SMD1206-LED">
 <wire x1="1.125003125" y1="0.975003125" x2="0.675003125" y2="0.525" width="0.13" layer="21" curve="90"/>
 <wire x1="0.675003125" y1="-0.67499375" x2="0.975003125" y2="-0.974996875" width="0.13" layer="21" curve="90"/>
@@ -849,6 +794,48 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="J3_18" x="19.05" y="-8.89" drill="1.2"/>
 <pad name="J3_19" x="21.59" y="-8.89" drill="1.2"/>
 <pad name="J3_20" x="24.13" y="-8.89" drill="1.2"/>
+</package>
+<package name="L101011MS02Q">
+<description>SWITCH SLIDE SPST 4A 125V</description>
+<wire x1="-5.395" y1="-9.55" x2="-5.395" y2="9.55" width="0.15" layer="51"/>
+<wire x1="-5.395" y1="9.55" x2="5.395" y2="9.55" width="0.15" layer="51"/>
+<wire x1="5.395" y1="9.55" x2="5.395" y2="-9.55" width="0.15" layer="51"/>
+<wire x1="5.395" y1="-9.55" x2="-5.395" y2="-9.55" width="0.15" layer="51"/>
+<wire x1="5.395" y1="-9.55" x2="5.395" y2="9.55" width="0.15" layer="21"/>
+<wire x1="-5.395" y1="-9.55" x2="5.395" y2="-9.55" width="0.15" layer="21"/>
+<wire x1="-5.395" y1="-9.55" x2="-5.395" y2="9.55" width="0.15" layer="21"/>
+<text x="-5.395" y="9.85" size="1" layer="25">&gt;NAME</text>
+<pad name="1" x="-2.85" y="-4.6" drill="1.65" diameter="2.5" shape="square"/>
+<pad name="2" x="-2.85" y="0" drill="1.65" diameter="2.5"/>
+</package>
+<package name="TE_282834-2_0">
+<description>2 Position Wire to Board Terminal Block Horizontal with Board 0.100" (2.54mm) Through Hole</description>
+<wire x1="-2.895" y1="-3.4" x2="-2.895" y2="3.4" width="0.15" layer="51"/>
+<wire x1="-2.895" y1="3.4" x2="2.895" y2="3.4" width="0.15" layer="51"/>
+<wire x1="2.895" y1="3.4" x2="2.895" y2="-3.4" width="0.15" layer="51"/>
+<wire x1="2.895" y1="-3.4" x2="-2.895" y2="-3.4" width="0.15" layer="51"/>
+<wire x1="-2.895" y1="3.4" x2="2.895" y2="3.4" width="0.15" layer="21"/>
+<wire x1="2.895" y1="-3.4" x2="2.895" y2="3.4" width="0.15" layer="21"/>
+<wire x1="-2.895" y1="-3.4" x2="2.895" y2="-3.4" width="0.15" layer="21"/>
+<wire x1="-2.895" y1="-3.4" x2="-2.895" y2="3.4" width="0.15" layer="21"/>
+<text x="-2.95" y="3.625" size="1" layer="25">&gt;NAME</text>
+<circle x="-3.35" y="0" radius="0.25" width="0" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1.1" diameter="1.7" shape="square"/>
+<pad name="2" x="1.27" y="0" drill="1.1" diameter="1.7"/>
+<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;Value</text>
+</package>
+<package name="CSTNE8M00G520000R0">
+<description>8.000MHz ±0.50% Ceramic Resonator with Built in Capacitor 10pF 40Ω Stability ±0.20% 3-SMD</description>
+<wire x1="-1.675" y1="-0.725" x2="-1.675" y2="0.725" width="0.15" layer="51"/>
+<wire x1="-1.675" y1="0.725" x2="1.675" y2="0.725" width="0.15" layer="51"/>
+<wire x1="1.675" y1="0.725" x2="1.675" y2="-0.725" width="0.15" layer="51"/>
+<wire x1="1.675" y1="-0.725" x2="-1.675" y2="-0.725" width="0.15" layer="51"/>
+<wire x1="1.775" y1="0.725" x2="1.775" y2="-0.725" width="0.15" layer="21"/>
+<wire x1="-1.775" y1="0.725" x2="-1.775" y2="-0.725" width="0.15" layer="21"/>
+<text x="2" y="-0.275" size="1" layer="25">&gt;NAME</text>
+<smd name="1" x="-1.2" y="0" dx="0.4" dy="1.9" layer="1"/>
+<smd name="2" x="0" y="0" dx="0.4" dy="1.9" layer="1"/>
+<smd name="3" x="1.2" y="0" dx="0.4" dy="1.9" layer="1"/>
 </package>
 </packages>
 <packages3d>
@@ -1277,35 +1264,6 @@ Diode with low voltage drop</description>
 <pin name="1" x="10.16" y="-10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
 <text x="0" y="-17.78" size="1.778" layer="96">&gt;Value</text>
 </symbol>
-<symbol name="MURATA_CSTNE8M00G520000R0_0_0">
-<description>8.000MHz ±0.50% Ceramic Resonator with Built in Capacitor 10pF 40Ω Stability ±0.20% 3-SMD</description>
-<wire x1="2.54" y1="-5.588" x2="2.54" y2="-9.652" width="0.508" layer="94"/>
-<wire x1="7.62" y1="-5.588" x2="7.62" y2="-9.652" width="0.508" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="6.35" y2="-5.08" width="0.508" layer="94"/>
-<wire x1="6.35" y1="-5.08" x2="6.35" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="6.35" y1="-10.16" x2="3.81" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.15" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.15" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.15" layer="94"/>
-<text x="2.794" y="0.508" size="2.54" layer="95" align="top-left">&gt;NAME</text>
-<text x="2.794" y="-2.286" size="2.54" layer="95" align="top-left">CSTNE8M00G520000R0</text>
-<pin name="INPUT" x="-2.54" y="-7.62" visible="pad" length="middle" direction="pas"/>
-<pin name="OUTPUT" x="12.7" y="-7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="GND" x="5.08" y="-15.24" visible="pad" length="middle" direction="pwr" rot="R90"/>
-</symbol>
-<symbol name="SW_SPST">
-<description>SWITCH SLIDE SPST 4A 125V</description>
-<wire x1="1.27" y1="-4.826" x2="3.81" y2="-3.302" width="0.508" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-5.08" width="0.15" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.15" layer="94"/>
-<text x="-0.762" y="-0.254" size="2.54" layer="95" align="top-left">&gt;NAME</text>
-<text x="-0.762" y="-7.62" size="2.54" layer="96" align="top-left">&gt;Value</text>
-<pin name="1" x="-5.08" y="-5.08" visible="pad" length="middle" direction="pas"/>
-<pin name="2" x="10.16" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
-<circle x="0.762" y="-5.08" radius="0.508" width="0.254" layer="94"/>
-<circle x="4.318" y="-5.08" radius="0.508" width="0.254" layer="94"/>
-</symbol>
 <symbol name="LED_0805_GREEN">
 <wire x1="1.27" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
@@ -1398,6 +1356,35 @@ Diode with low voltage drop</description>
 <pin name="VDD33_2" x="20.32" y="33.02" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND_2" x="20.32" y="-35.56" length="middle" direction="pwr" rot="R180"/>
 <pin name="EXT_5V" x="20.32" y="30.48" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="SW_SPST">
+<description>SWITCH SLIDE SPST 4A 125V</description>
+<wire x1="1.27" y1="-4.826" x2="3.81" y2="-3.302" width="0.508" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-5.08" width="0.15" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.15" layer="94"/>
+<text x="-0.762" y="-0.254" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="-0.762" y="-7.62" size="2.54" layer="96" align="top-left">&gt;Value</text>
+<pin name="1" x="-5.08" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<circle x="0.762" y="-5.08" radius="0.508" width="0.254" layer="94"/>
+<circle x="4.318" y="-5.08" radius="0.508" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MURATA_CSTNE8M00G520000R0_0_0">
+<description>8.000MHz ±0.50% Ceramic Resonator with Built in Capacitor 10pF 40Ω Stability ±0.20% 3-SMD</description>
+<wire x1="2.54" y1="-5.588" x2="2.54" y2="-9.652" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-5.588" x2="7.62" y2="-9.652" width="0.508" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="6.35" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="6.35" y1="-5.08" x2="6.35" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="6.35" y1="-10.16" x2="3.81" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.15" layer="94"/>
+<text x="2.794" y="0.508" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="2.794" y="-2.286" size="2.54" layer="95" align="top-left">CSTNE8M00G520000R0</text>
+<pin name="INPUT" x="-2.54" y="-7.62" visible="pad" length="middle" direction="pas"/>
+<pin name="OUTPUT" x="12.7" y="-7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="5.08" y="-15.24" visible="pad" length="middle" direction="pwr" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2161,78 +2148,6 @@ Diode with low voltage drop</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="282834-2" prefix="X">
-<gates>
-<gate name="G$1" symbol="X02" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TE_282834-2_0">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Connector Header Terminal Block 2 Positions, 1 Row, 2.54mm, THT" constant="no"/>
-<attribute name="MFN" value="282834-2" constant="no"/>
-<attribute name="MFR" value="TE" constant="no"/>
-<attribute name="PRICE-1" value="0.8" constant="no"/>
-<attribute name="SUPPLIER-1" value="Digikey" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CSTNE8M00G520000R0" prefix="IC">
-<description>8.000MHz ±0.50% Ceramic Resonator with Built in Capacitor 10pF 40Ω Stability ±0.20% 3-SMD</description>
-<gates>
-<gate name="G$0" symbol="MURATA_CSTNE8M00G520000R0_0_0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CSTNE8M00G520000R0">
-<connects>
-<connect gate="G$0" pin="GND" pad="2"/>
-<connect gate="G$0" pin="INPUT" pad="1"/>
-<connect gate="G$0" pin="OUTPUT" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="8MHz ±0.5% 10pF 40Ω SMD3213-3P Ceramic Resonators " constant="no"/>
-<attribute name="LIB_STATUS" value="Prototype" constant="no"/>
-<attribute name="MFN" value="CSTNE8M00G520000R0" constant="no"/>
-<attribute name="MFR" value="Murata" constant="no"/>
-<attribute name="PART_VALUE" value="8MHz, 0.5%" constant="no"/>
-<attribute name="PRICE-1" value="0.12" constant="no"/>
-<attribute name="SUPPLIER-1" value="LCSC" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="L101011MS02Q" prefix="SW">
-<gates>
-<gate name="G$1" symbol="SW_SPST" x="5.08" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="L101011MS02Q">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Slide Switch, SPST, 4A, 28VDC" constant="no"/>
-<attribute name="LIB_STATUS" value="Prototype" constant="no"/>
-<attribute name="MFN" value="L101011MS02Q" constant="no"/>
-<attribute name="MFR" value="C&amp;K" constant="no"/>
-<attribute name="PART_VALUE" value="SW 4A/28V" constant="no"/>
-<attribute name="PRICE-1" value="1.66" constant="no"/>
-<attribute name="SUPPLIER-1" value="Mouser" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="26-21/GPC-F3138B/CA" prefix="D">
 <gates>
 <gate name="G$1" symbol="LED_0805_GREEN" x="0" y="0"/>
@@ -2348,6 +2263,78 @@ Diode with low voltage drop</description>
 <attribute name="MPN" value="ESP32-PICO-KIT"/>
 <attribute name="PACKAGE" value="None"/>
 <attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L101011MS02Q" prefix="SW">
+<gates>
+<gate name="G$1" symbol="SW_SPST" x="5.08" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="L101011MS02Q">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Slide Switch, SPST, 4A, 28VDC" constant="no"/>
+<attribute name="LIB_STATUS" value="Prototype" constant="no"/>
+<attribute name="MFN" value="L101011MS02Q" constant="no"/>
+<attribute name="MFR" value="C&amp;K" constant="no"/>
+<attribute name="PART_VALUE" value="SW 4A/28V" constant="no"/>
+<attribute name="PRICE-1" value="1.66" constant="no"/>
+<attribute name="SUPPLIER-1" value="Mouser" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="282834-2" prefix="X">
+<gates>
+<gate name="G$1" symbol="X02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TE_282834-2_0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Connector Header Terminal Block 2 Positions, 1 Row, 2.54mm, THT" constant="no"/>
+<attribute name="MFN" value="282834-2" constant="no"/>
+<attribute name="MFR" value="TE" constant="no"/>
+<attribute name="PRICE-1" value="0.8" constant="no"/>
+<attribute name="SUPPLIER-1" value="Digikey" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CSTNE8M00G520000R0" prefix="IC">
+<description>8.000MHz ±0.50% Ceramic Resonator with Built in Capacitor 10pF 40Ω Stability ±0.20% 3-SMD</description>
+<gates>
+<gate name="G$0" symbol="MURATA_CSTNE8M00G520000R0_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CSTNE8M00G520000R0">
+<connects>
+<connect gate="G$0" pin="GND" pad="2"/>
+<connect gate="G$0" pin="INPUT" pad="1"/>
+<connect gate="G$0" pin="OUTPUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="8MHz ±0.5% 10pF 40Ω SMD3213-3P Ceramic Resonators " constant="no"/>
+<attribute name="LIB_STATUS" value="Prototype" constant="no"/>
+<attribute name="MFN" value="CSTNE8M00G520000R0" constant="no"/>
+<attribute name="MFR" value="Murata" constant="no"/>
+<attribute name="PART_VALUE" value="8MHz, 0.5%" constant="no"/>
+<attribute name="PRICE-1" value="0.12" constant="no"/>
+<attribute name="SUPPLIER-1" value="LCSC" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3893,7 +3880,6 @@ DDEController.pdf</description>
 <part name="X8" library="Labops_Lib_AH" deviceset="726386-2" device="TE_726386-2"/>
 <part name="X9" library="Labops_Lib_AH" deviceset="726386-2" device="TE_726386-2"/>
 <part name="X10" library="Labops_Lib_AH" deviceset="726386-2" device="TE_726386-2"/>
-<part name="X11" library="Labops_Lib_AH" deviceset="282834-2" device=""/>
 <part name="GND31" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="X12" library="con-tycoelectronics" library_urn="urn:adsk.eagle:library:193" deviceset="RJ45" device="" package3d_urn="urn:adsk.eagle:package:10660/1" technology="-8L-B"/>
 <part name="R53" library="Labops_Lib_AH" deviceset="R_0603" device=""/>
@@ -3971,7 +3957,6 @@ DDEController.pdf</description>
 <part name="P+9" library="Labops_Lib_AH" deviceset="VCC" device="" value="3V3"/>
 <part name="C44" library="Labops_Lib_AH" deviceset="C_0603" device="" value="1uF/25V"/>
 <part name="GND66" library="3D_MIG_Controller" deviceset="GND" device=""/>
-<part name="SW1" library="Labops_Lib_AH" deviceset="L101011MS02Q" device=""/>
 <part name="C49" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/ 100V"/>
 <part name="D12" library="Labops_Lib_AH" deviceset="26-21/GPC-F3138B/CA" device=""/>
 <part name="R86" library="Labops_Lib_AH" deviceset="R_1206" device="" value="82R 1%"/>
@@ -3994,7 +3979,6 @@ DDEController.pdf</description>
 <part name="U1" library="3D_MIG_Controller" deviceset="S7G2_X_176" device="" value="S7G2LQFP176"/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_D_L" device=""/>
 <part name="J1" library="Labops_Lib_AH" deviceset="ESP32-PICO-KIT" device=""/>
-<part name="IC9" library="Labops_Lib_AH" deviceset="CSTNE8M00G520000R0" device=""/>
 <part name="GND69" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R93" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10K 1%"/>
 <part name="R94" library="Labops_Lib_AH" deviceset="R_0603" device="" value="0R 1%"/>
@@ -4050,6 +4034,9 @@ DDEController.pdf</description>
 <part name="C68" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/50V"/>
 <part name="GND97" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND98" library="3D_MIG_Controller" deviceset="GND" device=""/>
+<part name="SW1" library="Labops_Lib_AH" deviceset="L101011MS02Q" device=""/>
+<part name="X11" library="Labops_Lib_AH" deviceset="282834-2" device=""/>
+<part name="IC2" library="Labops_Lib_AH" deviceset="CSTNE8M00G520000R0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4275,10 +4262,6 @@ DDEController.pdf</description>
 <attribute name="VALUE" x="131.318" y="87.63" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND45" gate="1" x="144.78" y="68.58" smashed="yes"/>
-<instance part="SW1" gate="G$1" x="30.48" y="236.22" smashed="yes">
-<attribute name="NAME" x="29.718" y="235.966" size="2.54" layer="95" align="top-left"/>
-<attribute name="VALUE" x="29.718" y="228.6" size="2.54" layer="96" align="top-left"/>
-</instance>
 <instance part="C49" gate="G$1" x="25.4" y="220.98" smashed="yes">
 <attribute name="NAME" x="26.416" y="221.615" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.416" y="216.789" size="1.778" layer="96"/>
@@ -4330,6 +4313,10 @@ DDEController.pdf</description>
 <instance part="R97" gate="G$1" x="332.74" y="136.144" smashed="yes" rot="R180">
 <attribute name="NAME" x="330.454" y="134.6454" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="341.376" y="134.62" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SW1" gate="G$1" x="31.242" y="236.22" smashed="yes">
+<attribute name="NAME" x="30.48" y="235.966" size="2.54" layer="95" align="top-left"/>
+<attribute name="VALUE" x="30.48" y="228.6" size="2.54" layer="96" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -4482,10 +4469,13 @@ DDEController.pdf</description>
 <segment>
 <label x="22.86" y="231.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="22.86" y1="231.14" x2="25.4" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="1"/>
 <pinref part="C49" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="223.52" x2="25.4" y2="231.14" width="0.1524" layer="91"/>
-<junction x="25.4" y="231.14"/>
+<wire x1="25.4" y1="223.52" x2="25.4" y2="231.013" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="231.013" x2="25.4" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="231.013" x2="26.162" y2="231.013" width="0.1524" layer="91"/>
+<wire x1="26.162" y1="231.013" x2="26.162" y2="231.14" width="0.1524" layer="91"/>
+<junction x="25.4" y="231.013"/>
 </segment>
 </net>
 <net name="V_24V0_P" class="3">
@@ -4832,16 +4822,6 @@ DDEController.pdf</description>
 <wire x1="340.36" y1="215.9" x2="340.36" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$84" class="0">
-<segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<pinref part="SW1" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="223.52" x2="40.64" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="DRAIN"/>
-<wire x1="40.64" y1="231.14" x2="50.8" y2="231.14" width="0.1524" layer="91"/>
-<junction x="40.64" y="231.14"/>
-</segment>
-</net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R92" gate="G$1" pin="2"/>
@@ -4909,6 +4889,19 @@ DDEController.pdf</description>
 <pinref part="R97" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="136.144" x2="347.472" y2="136.144" width="0.1524" layer="91"/>
 <label x="338.836" y="136.144" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="SW1" gate="G$1" pin="2"/>
+<pinref part="Q5" gate="G$1" pin="DRAIN"/>
+<wire x1="41.402" y1="231.14" x2="42.164" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="42.164" y1="231.14" x2="50.8" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="223.52" x2="40.64" y2="228.473" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="228.473" x2="42.164" y2="228.473" width="0.1524" layer="91"/>
+<wire x1="42.164" y1="228.473" x2="42.164" y2="231.14" width="0.1524" layer="91"/>
+<junction x="42.164" y="231.14"/>
 </segment>
 </net>
 </nets>
@@ -5942,9 +5935,6 @@ DDEController.pdf</description>
 <attribute name="SHEET" x="746.76" y="-181.61" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="678.18" y="-163.83" size="2.54" layer="94"/>
 </instance>
-<instance part="IC9" gate="G$0" x="583.692" y="146.558" smashed="yes" rot="MR270">
-<attribute name="NAME" x="583.184" y="143.764" size="2.54" layer="95" rot="MR270" align="top-left"/>
-</instance>
 <instance part="GND69" gate="1" x="604.012" y="141.478" smashed="yes" rot="R90"/>
 <instance part="R93" gate="G$1" x="570.992" y="141.478" smashed="yes" rot="R90">
 <attribute name="NAME" x="566.9534" y="140.208" size="1.778" layer="95" rot="R90"/>
@@ -6067,6 +6057,9 @@ DDEController.pdf</description>
 </instance>
 <instance part="GND97" gate="1" x="446.278" y="10.668" smashed="yes"/>
 <instance part="GND98" gate="1" x="448.818" y="46.482" smashed="yes"/>
+<instance part="IC2" gate="G$0" x="583.692" y="146.558" smashed="yes" rot="MR270">
+<attribute name="NAME" x="583.184" y="143.764" size="2.54" layer="95" rot="MR270" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6159,13 +6152,14 @@ DDEController.pdf</description>
 <wire x1="557.28" y1="194.28" x2="588.518" y2="194.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DO_V_COND_PUMP_ON" class="0">
+<net name="DO_V_CONDUCTIV_PUMP_ON" class="3">
 <segment>
-<wire x1="359.283" y1="194.437" x2="343.027" y2="194.437" width="0.1524" layer="91"/>
+<wire x1="359.283" y1="194.437" x2="359.156" y2="194.437" width="0.1524" layer="91"/>
 <label x="343.027" y="194.437" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="P1_10"/>
-<wire x1="367.42" y1="194.5" x2="359.283" y2="194.5" width="0.1524" layer="91"/>
-<wire x1="359.283" y1="194.5" x2="359.283" y2="194.437" width="0.1524" layer="91"/>
+<wire x1="359.156" y1="194.437" x2="343.027" y2="194.437" width="0.1524" layer="91"/>
+<wire x1="359.283" y1="194.437" x2="367.42" y2="194.437" width="0.1524" layer="91"/>
+<wire x1="367.42" y1="194.437" x2="367.42" y2="194.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DO_V_PH_PUMP_ON" class="3">
@@ -6677,15 +6671,8 @@ DDEController.pdf</description>
 <net name="GND1" class="3">
 <segment>
 <wire x1="598.932" y1="141.478" x2="601.472" y2="141.478" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="G$0" pin="GND"/>
 <pinref part="GND69" gate="1" pin="GND"/>
-</segment>
-</net>
-<net name="N$49" class="0">
-<segment>
-<wire x1="588.772" y1="133.858" x2="591.312" y2="133.858" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="G$0" pin="OUTPUT"/>
-<pinref part="R94" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="G$0" pin="GND"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -6708,11 +6695,9 @@ DDEController.pdf</description>
 <wire x1="570.992" y1="146.558" x2="570.992" y2="149.098" width="0.1524" layer="91"/>
 <wire x1="570.992" y1="149.098" x2="570.992" y2="149.28" width="0.1524" layer="91"/>
 <wire x1="570.992" y1="149.28" x2="557.28" y2="149.28" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="G$0" pin="INPUT"/>
-<wire x1="591.312" y1="149.28" x2="591.312" y2="149.098" width="0.1524" layer="91"/>
 <wire x1="570.992" y1="149.098" x2="591.312" y2="149.098" width="0.1524" layer="91"/>
 <junction x="570.992" y="149.098"/>
-<junction x="591.312" y="149.098"/>
+<pinref part="IC2" gate="G$0" pin="INPUT"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -6846,6 +6831,13 @@ DDEController.pdf</description>
 <wire x1="478.78" y1="46.99" x2="491.236" y2="46.99" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="R94" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="G$0" pin="OUTPUT"/>
+<wire x1="588.772" y1="133.858" x2="591.312" y2="133.858" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -6899,10 +6891,6 @@ DDEController.pdf</description>
 <attribute name="NAME" x="7.62" y="121.92" size="1.778" layer="95" align="top-left"/>
 <attribute name="VALUE" x="116.84" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="X11" gate="G$1" x="12.7" y="73.66" smashed="yes" rot="MR0">
-<attribute name="NAME" x="12.7" y="81.28" size="1.27" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="12.7" y="66.04" size="1.27" layer="96" rot="MR0"/>
-</instance>
 <instance part="GND31" gate="1" x="25.4" y="68.58" smashed="yes"/>
 <instance part="X12" gate="G$1" x="15.24" y="215.9" smashed="yes" rot="MR0">
 <attribute name="NAME" x="17.78" y="226.06" size="1.778" layer="95" rot="MR0"/>
@@ -6911,6 +6899,10 @@ DDEController.pdf</description>
 <instance part="X14" gate="G$1" x="15.24" y="187.96" smashed="yes" rot="MR0">
 <attribute name="NAME" x="17.78" y="198.12" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="17.78" y="174.752" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="X11" gate="G$1" x="12.7" y="73.66" smashed="yes" rot="MR0">
+<attribute name="NAME" x="12.7" y="81.28" size="1.27" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="12.7" y="66.04" size="1.27" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -6940,9 +6932,9 @@ DDEController.pdf</description>
 <wire x1="15.24" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X11" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND31" gate="1" pin="GND"/>
+<pinref part="X11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VCC_CONDUCTIV_SENSOR_SW" class="3">
@@ -7021,9 +7013,9 @@ DDEController.pdf</description>
 </net>
 <net name="/DOSING_DIS" class="3">
 <segment>
-<pinref part="X11" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 <label x="25.4" y="76.2" size="1.778" layer="95" xref="yes"/>
+<pinref part="X11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RS485_B" class="3">
