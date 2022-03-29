@@ -3555,6 +3555,28 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-10.2362" y="8.509" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="FUSE_RM22.6">
+<wire x1="-11.05" y1="4.55" x2="11.05" y2="4.55" width="0.2" layer="51"/>
+<wire x1="11.05" y1="-4.55" x2="11.05" y2="4.55" width="0.2" layer="51"/>
+<wire x1="-11.05" y1="-4.55" x2="11.05" y2="-4.55" width="0.2" layer="51"/>
+<wire x1="-11.05" y1="-4.55" x2="-11.05" y2="4.55" width="0.2" layer="51"/>
+<wire x1="-11.05" y1="4.55" x2="11.05" y2="4.55" width="0.2" layer="21"/>
+<wire x1="11.05" y1="-4.55" x2="11.05" y2="-1.525" width="0.2" layer="21"/>
+<wire x1="11.05" y1="1.525" x2="11.05" y2="4.55" width="0.2" layer="21"/>
+<wire x1="-11.05" y1="-4.55" x2="11.05" y2="-4.55" width="0.2" layer="21"/>
+<wire x1="-11.05" y1="-4.55" x2="-11.05" y2="-1.525" width="0.2" layer="21"/>
+<wire x1="-11.05" y1="1.525" x2="-11.05" y2="4.55" width="0.2" layer="21"/>
+<wire x1="-12.55" y1="4.65" x2="12.55" y2="4.65" width="0.2" layer="51"/>
+<wire x1="12.55" y1="-4.65" x2="12.55" y2="4.65" width="0.2" layer="51"/>
+<wire x1="-12.55" y1="-4.65" x2="12.55" y2="-4.65" width="0.2" layer="51"/>
+<wire x1="-12.55" y1="-4.65" x2="-12.55" y2="4.65" width="0.2" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.1" layer="51"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.1" layer="51"/>
+<pad name="1" x="-11.3" y="0" drill="1.5" diameter="2.3" shape="square"/>
+<pad name="2" x="11.3" y="0" drill="1.5" diameter="2.54"/>
+<text x="12.7" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="12.7" y="-4.064" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT23" urn="urn:adsk.eagle:package:28738/2" type="model">
@@ -4265,6 +4287,19 @@ Diode with low voltage drop</description>
 <text x="27.6606" y="1.4986" size="2.0828" layer="97" ratio="6" rot="SR0">2 of 2</text>
 <text x="28.2956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="27.6606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="FUSE">
+<wire x1="3.81" y1="1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="P$2" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+<text x="-1.27" y="2.54" size="1.27" layer="95">&gt;Name</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5693,6 +5728,31 @@ Diode with low voltage drop</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="696101000002" prefix="F">
+<gates>
+<gate name="G$1" symbol="FUSE" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="FUSE_RM22.6">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Fuse Block 10 A 250V 1 Circuit Cartridge Through Hole" constant="no"/>
+<attribute name="LIB_STATUS" value="Prototype" constant="no"/>
+<attribute name="MFN" value="696101000002" constant="no"/>
+<attribute name="MFR" value="Wurth Elektronik" constant="no"/>
+<attribute name="OUR_STOCK" value="10" constant="no"/>
+<attribute name="PART_VALUE" value="10A 5mmx20mm" constant="no"/>
+<attribute name="PRICE-1" value="0.64" constant="no"/>
+<attribute name="SUPPLIER-1" value="Digikey" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="3D_MIG_Controller">
@@ -6830,6 +6890,7 @@ DDEController.pdf</description>
 <part name="GND55" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND57" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND58" library="3D_MIG_Controller" deviceset="GND" device=""/>
+<part name="F1" library="Labops_Lib_AH" deviceset="696101000002" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7964,6 +8025,10 @@ DDEController.pdf</description>
 <attribute name="NAME" x="336.3214" y="217.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="341.122" y="217.17" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="F1" gate="G$1" x="276.86" y="246.38" smashed="yes">
+<attribute name="NAME" x="275.59" y="248.92" size="1.27" layer="95"/>
+<attribute name="VALUE" x="275.59" y="243.84" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8263,20 +8328,23 @@ DDEController.pdf</description>
 <junction x="99.06" y="223.52"/>
 </segment>
 </net>
-<net name="MAINS_L" class="4">
+<net name="MAINS_L_F" class="4">
 <segment>
 <wire x1="337.82" y1="246.38" x2="309.88" y2="246.38" width="0.1524" layer="91"/>
-<label x="284.48" y="246.38" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="309.88" y1="233.68" x2="309.88" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="246.38" x2="337.82" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="V1" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="241.3" x2="297.18" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="246.38" x2="297.18" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="246.38" x2="297.18" y2="246.38" width="0.1524" layer="91"/>
 <junction x="309.88" y="246.38"/>
 <junction x="297.18" y="246.38"/>
 <pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="246.38" x2="297.18" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="F1" gate="G$1" pin="P$2"/>
+<label x="340.36" y="246.38" size="1.778" layer="95" xref="yes"/>
+<wire x1="337.82" y1="246.38" x2="340.36" y2="246.38" width="0.1524" layer="91"/>
+<junction x="337.82" y="246.38"/>
 </segment>
 <segment>
 <label x="147.32" y="215.9" size="1.778" layer="95" xref="yes"/>
@@ -8332,6 +8400,13 @@ DDEController.pdf</description>
 <pinref part="R46" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="200.66" x2="317.5" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MAINS_L" class="4">
+<segment>
+<pinref part="F1" gate="G$1" pin="P$1"/>
+<wire x1="271.78" y1="246.38" x2="261.62" y2="246.38" width="0.1524" layer="91"/>
+<label x="261.62" y="246.38" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -8758,7 +8833,7 @@ DDEController.pdf</description>
 <label x="215.9" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MAINS_L" class="4">
+<net name="MAINS_L_F" class="4">
 <segment>
 <pinref part="K2" gate="G$1" pin="4"/>
 <pinref part="V5" gate="G$1" pin="1"/>
@@ -9745,13 +9820,6 @@ DDEController.pdf</description>
 <label x="27.94" y="132.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAINS_L" class="4">
-<segment>
-<pinref part="X10" gate="G$0" pin="1"/>
-<wire x1="17.78" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
-<label x="27.94" y="114.3" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="MAINS_N" class="1">
 <segment>
 <pinref part="X5" gate="G$0" pin="1"/>
@@ -9810,6 +9878,13 @@ DDEController.pdf</description>
 <pinref part="X14" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="193.04" x2="35.56" y2="193.04" width="0.1524" layer="91"/>
 <label x="35.56" y="193.04" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MAINS_L" class="4">
+<segment>
+<pinref part="X10" gate="G$0" pin="1"/>
+<wire x1="17.78" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
+<label x="27.94" y="114.3" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
