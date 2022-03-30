@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6648,7 +6648,7 @@ DDEController.pdf</description>
 <part name="GND23" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R40" library="Labops_Lib_AH" deviceset="R_0603" device="" value="22K 1%"/>
 <part name="R41" library="Labops_Lib_AH" deviceset="R_0603" device="" value="2.8K 1%"/>
-<part name="R42" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10K 1%"/>
+<part name="R42" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100R 1%"/>
 <part name="D10" library="Labops_Lib_AH" deviceset="BAS40-04,215" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3"/>
 <part name="IC5" library="Labops_Lib_AH" deviceset="TPS54202DDCR" device=""/>
@@ -9184,14 +9184,6 @@ DDEController.pdf</description>
 <label x="287.02" y="187.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="DO_PH_SENSOR_ON" class="3">
-<segment>
-<label x="276.86" y="99.06" size="1.778" layer="95" rot="MR270" xref="yes"/>
-<pinref part="U2" gate="B" pin="P101"/>
-<wire x1="264.16" y1="104.14" x2="276.86" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="104.14" x2="276.86" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="AI_V_PH_SENSOR" class="3">
 <segment>
 <label x="139.7" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -9675,8 +9667,16 @@ DDEController.pdf</description>
 <segment>
 <pinref part="U2" gate="B" pin="P100"/>
 <wire x1="264.16" y1="101.6" x2="269.24" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="101.6" x2="269.24" y2="93.98" width="0.1524" layer="91"/>
-<label x="269.24" y="93.98" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="269.24" y1="101.6" x2="269.24" y2="96.52" width="0.1524" layer="91"/>
+<label x="269.24" y="96.52" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="DO_PH_SENSOR_ON" class="3">
+<segment>
+<pinref part="U2" gate="B" pin="P101"/>
+<wire x1="264.16" y1="104.14" x2="274.32" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="104.14" x2="274.32" y2="96.52" width="0.1524" layer="91"/>
+<label x="274.32" y="96.52" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
