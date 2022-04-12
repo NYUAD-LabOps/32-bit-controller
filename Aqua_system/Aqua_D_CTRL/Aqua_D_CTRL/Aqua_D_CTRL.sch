@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6891,6 +6891,7 @@ DDEController.pdf</description>
 <part name="GND57" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND58" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="F1" library="Labops_Lib_AH" deviceset="696101000002" device=""/>
+<part name="R85" library="Labops_Lib_AH" deviceset="R_1206" device="" value="0R 1%"/>
 </parts>
 <sheets>
 <sheet>
@@ -7194,6 +7195,10 @@ DDEController.pdf</description>
 <instance part="C39" gate="G$1" x="333.248" y="177.038" smashed="yes">
 <attribute name="NAME" x="334.264" y="177.673" size="1.778" layer="95"/>
 <attribute name="VALUE" x="335.661" y="159.512" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R85" gate="G$1" x="354.584" y="181.864" smashed="yes">
+<attribute name="NAME" x="350.774" y="183.3626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="350.774" y="178.562" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -7558,17 +7563,9 @@ DDEController.pdf</description>
 <wire x1="241.3" y1="233.68" x2="241.3" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="EXT_5V"/>
-<wire x1="293.624" y1="181.864" x2="326.898" y2="181.864" width="0.1524" layer="91"/>
-<label x="353.314" y="181.864" size="1.778" layer="95" xref="yes"/>
-<pinref part="C36" gate="G$1" pin="1"/>
-<wire x1="326.898" y1="181.864" x2="333.248" y2="181.864" width="0.1524" layer="91"/>
-<wire x1="333.248" y1="181.864" x2="353.314" y2="181.864" width="0.1524" layer="91"/>
-<wire x1="326.898" y1="179.578" x2="326.898" y2="181.864" width="0.1524" layer="91"/>
-<junction x="326.898" y="181.864"/>
-<pinref part="C39" gate="G$1" pin="1"/>
-<wire x1="333.248" y1="179.578" x2="333.248" y2="181.864" width="0.1524" layer="91"/>
-<junction x="333.248" y="181.864"/>
+<pinref part="R85" gate="G$1" pin="2"/>
+<wire x1="359.664" y1="181.864" x2="368.808" y2="181.864" width="0.1524" layer="91"/>
+<label x="368.808" y="181.864" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$33" class="3">
@@ -7849,6 +7846,26 @@ DDEController.pdf</description>
 <wire x1="303.276" y1="169.418" x2="303.276" y2="169.164" width="0.1524" layer="91"/>
 <wire x1="303.276" y1="169.164" x2="305.562" y2="169.164" width="0.1524" layer="91"/>
 <label x="305.562" y="169.164" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="V5V0_ESP32" class="0">
+<segment>
+<pinref part="R85" gate="G$1" pin="1"/>
+<pinref part="C39" gate="G$1" pin="1"/>
+<wire x1="349.504" y1="181.864" x2="333.248" y2="181.864" width="0.1524" layer="91"/>
+<wire x1="333.248" y1="181.864" x2="333.248" y2="179.578" width="0.1524" layer="91"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="EXT_5V"/>
+<wire x1="314.198" y1="181.864" x2="293.624" y2="181.864" width="0.1524" layer="91"/>
+<wire x1="333.248" y1="181.864" x2="326.898" y2="181.864" width="0.1524" layer="91"/>
+<junction x="333.248" y="181.864"/>
+<junction x="314.198" y="181.864"/>
+<label x="318.77" y="184.404" size="1.778" layer="95" xref="yes"/>
+<wire x1="326.898" y1="181.864" x2="314.198" y2="181.864" width="0.1524" layer="91"/>
+<wire x1="318.77" y1="184.404" x2="314.198" y2="184.404" width="0.1524" layer="91"/>
+<wire x1="314.198" y1="184.404" x2="314.198" y2="181.864" width="0.1524" layer="91"/>
+<wire x1="326.898" y1="179.578" x2="326.898" y2="181.864" width="0.1524" layer="91"/>
+<junction x="326.898" y="181.864"/>
 </segment>
 </net>
 </nets>
