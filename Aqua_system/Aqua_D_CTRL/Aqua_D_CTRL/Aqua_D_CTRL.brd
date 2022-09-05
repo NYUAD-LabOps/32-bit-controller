@@ -927,12 +927,58 @@
 <text x="12.7" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="12.7" y="-4.064" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="615008148521" urn="urn:adsk.eagle:footprint:16445936/1">
+<description>&lt;b&gt;WR-MJ&lt;/B&gt;&lt;BR&gt;Modular Jack Horizontal Plastic 8P8C Tab Up</description>
+<wire x1="-7.5" y1="-6.425" x2="7.5" y2="-6.425" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-6.425" x2="-7.5" y2="6.425" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-6.425" x2="7.5" y2="6.425" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="6.425" x2="7.5" y2="6.425" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="6.525" x2="7.6" y2="6.525" width="0.2" layer="21"/>
+<wire x1="7.6" y1="6.525" x2="7.6" y2="1.075" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="6.525" x2="-7.6" y2="1.075" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-1.925" x2="-7.6" y2="-6.525" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-6.525" x2="7.6" y2="-6.525" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-6.525" x2="7.6" y2="-1.925" width="0.2" layer="21"/>
+<pad name="1" x="3.57" y="1.875" drill="0.9" rot="R180"/>
+<pad name="2" x="2.55" y="4.415" drill="0.9" rot="R180"/>
+<pad name="3" x="1.53" y="1.875" drill="0.9" rot="R180"/>
+<pad name="4" x="0.51" y="4.415" drill="0.9" rot="R180"/>
+<pad name="5" x="-0.51" y="1.875" drill="0.9" rot="R180"/>
+<pad name="6" x="-1.53" y="4.415" drill="0.9" rot="R180"/>
+<pad name="7" x="-2.55" y="1.875" drill="0.9" rot="R180"/>
+<pad name="8" x="-3.57" y="4.415" drill="0.9" rot="R180"/>
+<text x="8.398409375" y="5.2424" size="1.016" layer="25" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="8.328409375" y="3.0884" size="1.016" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<hole x="-7.5" y="-0.425" drill="2.36"/>
+<hole x="7.5" y="-0.425" drill="2.36"/>
+<circle x="5" y="1.875" radius="0.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="6.725"/>
+<vertex x="7.8" y="6.725"/>
+<vertex x="7.8" y="1.075"/>
+<vertex x="8.9" y="1.075"/>
+<vertex x="8.9" y="-1.825"/>
+<vertex x="7.8" y="-1.825"/>
+<vertex x="7.8" y="-6.725"/>
+<vertex x="-7.8" y="-6.725"/>
+<vertex x="-7.8" y="-1.825"/>
+<vertex x="-8.9" y="-1.825"/>
+<vertex x="-8.9" y="0.975"/>
+<vertex x="-7.8" y="0.975"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT23" urn="urn:adsk.eagle:package:28738/2" type="model">
 <description>SOT-23</description>
 <packageinstances>
 <packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
+<package3d name="615008148521" urn="urn:adsk.eagle:package:16446022/2" type="model">
+<description>&lt;b&gt;WR-MJ&lt;/B&gt;&lt;BR&gt;Modular Jack Horizontal Plastic 8P8C Tab Up</description>
+<packageinstances>
+<packageinstance name="615008148521"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -955,47 +1001,6 @@
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
-</library>
-<library name="con-tycoelectronics" urn="urn:adsk.eagle:library:193">
-<description>&lt;b&gt;Tyco Electronics Connector&lt;/b&gt;&lt;p&gt;
-http://catalog.tycoelectronics.com&lt;br&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="RJ45-NO-SHIELD" urn="urn:adsk.eagle:footprint:10651/1" library_version="2">
-<description>&lt;b&gt;RJ45 Low Profile&lt;/b&gt; No Shield&lt;p&gt;
-For all RJ45 N and Z Series Models&lt;br&gt;
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<wire x1="-7.527" y1="10.819" x2="7.527" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="8.4455" y1="-5.5118" x2="-8.4455" y2="-5.5118" width="0.01" layer="20"/>
-<wire x1="7.527" y1="-7.782" x2="-7.527" y2="-7.782" width="0.2032" layer="21"/>
-<wire x1="-7.527" y1="-7.782" x2="-7.527" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="7.527" y1="10.819" x2="7.527" y2="-7.782" width="0.2032" layer="21"/>
-<pad name="4" x="-0.635" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="3" x="-1.905" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="2" x="-3.175" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="5" x="0.635" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="1" x="-4.445" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="6" x="1.905" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="7" x="3.175" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="8" x="4.445" y="8.89" drill="0.9" diameter="1.4"/>
-<text x="-9.525" y="-0.635" size="1.778" layer="25" rot="R90">&gt;NAME</text>
-<text x="-5.715" y="2.54" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="7.6" y1="-5.485" x2="8.875" y2="-4.342" layer="21"/>
-<rectangle x1="-8.875" y1="-5.485" x2="-7.625" y2="-4.342" layer="21"/>
-<hole x="-5.715" y="0" drill="3.2512"/>
-<hole x="5.715" y="0" drill="3.2512"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="RJ45-NO-SHIELD" urn="urn:adsk.eagle:package:10660/1" type="box" library_version="2">
-<description>RJ45 Low Profile No Shield
-For all RJ45 N and Z Series Models
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<packageinstances>
-<packageinstance name="RJ45-NO-SHIELD"/>
-</packageinstances>
-</package3d>
-</packages3d>
 </library>
 <library name="con-amp-micromatch" urn="urn:adsk.eagle:library:122">
 <description>AMP Connectors, Type  MicroMatch</description>
@@ -2565,13 +2570,13 @@ design rules under a new name.</description>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-30°C" x="33.363" y="58.42" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VERIFICATION_VERSION" value="0.0.0.1" x="33.363" y="58.42" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="X12" library="con-tycoelectronics" library_urn="urn:adsk.eagle:library:193" package="RJ45-NO-SHIELD" package3d_urn="urn:adsk.eagle:package:10660/1" value="RJ45-8L-B" x="141.859" y="60.579" smashed="yes" rot="R90">
-<attribute name="MF" value="TYCO ELECTRONICS" x="141.859" y="60.579" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RJ45-8L-B" x="141.859" y="60.579" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="X12" library="Labops_Lib_AH" package="615008148521" package3d_urn="urn:adsk.eagle:package:16446022/2" value="615008148521" x="141.859" y="60.579" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RJ45 unshielded 8P8C" x="141.859" y="60.579" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFN" value="615008148521" x="141.859" y="60.579" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Wurth Elektronik" x="141.859" y="60.579" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="130.81" y="61.468" size="0.8128" layer="25" rot="R90"/>
-<attribute name="OC_FARNELL" value="1279843" x="141.859" y="60.579" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="52K4445" x="141.859" y="60.579" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULARITY" value="0" x="141.859" y="60.579" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_VALUE" value="615008148521" x="141.859" y="60.579" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="Horizontal" x="141.859" y="60.579" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="139.319" y="54.864" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="R53" library="Labops_Lib_AH" package="R0603" value="0R 1%" x="129.413" y="76.454" smashed="yes">
@@ -3245,13 +3250,13 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="" x="86.233" y="98.679" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="87.503" y="101.219" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="X14" library="con-tycoelectronics" library_urn="urn:adsk.eagle:library:193" package="RJ45-NO-SHIELD" package3d_urn="urn:adsk.eagle:package:10660/1" value="RJ45-8L-B" x="141.859" y="78.994" smashed="yes" rot="R90">
-<attribute name="MF" value="TYCO ELECTRONICS" x="141.859" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RJ45-8L-B" x="141.859" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="X14" library="Labops_Lib_AH" package="615008148521" package3d_urn="urn:adsk.eagle:package:16446022/2" value="615008148521" x="141.859" y="78.994" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RJ45 unshielded 8P8C" x="141.859" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFN" value="615008148521" x="141.859" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Wurth Elektronik" x="141.859" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="129.794" y="80.137" size="0.8128" layer="25" rot="R270"/>
-<attribute name="OC_FARNELL" value="1279843" x="141.859" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="52K4445" x="141.859" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULARITY" value="0" x="141.859" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_VALUE" value="615008148521" x="141.859" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="Horizontal" x="141.859" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="139.319" y="73.279" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="R87" library="Labops_Lib_AH" package="R0603" value="100R 1%" x="142.24" y="16.256" smashed="yes" rot="R180">
@@ -3323,7 +3328,7 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="Digikey" x="10.668" y="64.389" size="1.778" layer="27" display="off"/>
 </element>
 <element name="FID1" library="Labops_Lib_AH" package="FIDUCIAL" value="FIDUCIAL" x="138.43" y="3.048" smashed="yes"/>
-<element name="FID2" library="Labops_Lib_AH" package="FIDUCIAL" value="FIDUCIAL" x="5.969" y="106.934" smashed="yes"/>
+<element name="FID2" library="Labops_Lib_AH" package="FIDUCIAL" value="FIDUCIAL" x="91.4019" y="5.9944" smashed="yes"/>
 <element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0-PAD" package3d_urn="urn:adsk.eagle:package:14280/1" value="MOUNT-PAD-ROUND3.0" x="144.966" y="5" smashed="yes">
 <attribute name="POPULARITY" value="17" x="144.966" y="5" size="1.778" layer="27" display="off"/>
 </element>
@@ -4034,19 +4039,6 @@ design rules under a new name.</description>
 <via x="30.48" y="116.84" extent="1-16" drill="0.3"/>
 <via x="27.94" y="116.84" extent="1-16" drill="0.3"/>
 <via x="25.4" y="116.84" extent="1-16" drill="0.3"/>
-<via x="22.86" y="116.84" extent="1-16" drill="0.3"/>
-<via x="20.32" y="116.84" extent="1-16" drill="0.3"/>
-<via x="17.78" y="116.84" extent="1-16" drill="0.3"/>
-<via x="15.24" y="116.84" extent="1-16" drill="0.3"/>
-<via x="12.7" y="116.84" extent="1-16" drill="0.3"/>
-<via x="10.16" y="116.84" extent="1-16" drill="0.3"/>
-<via x="2.54" y="110.49" extent="1-16" drill="0.3"/>
-<via x="2.54" y="107.95" extent="1-16" drill="0.3"/>
-<via x="2.54" y="105.41" extent="1-16" drill="0.3"/>
-<via x="2.54" y="102.87" extent="1-16" drill="0.3"/>
-<via x="2.54" y="100.33" extent="1-16" drill="0.3"/>
-<via x="2.54" y="97.79" extent="1-16" drill="0.3"/>
-<via x="2.54" y="95.25" extent="1-16" drill="0.3"/>
 <via x="97.79" y="41.91" extent="1-16" drill="0.3"/>
 <via x="74.93" y="41.91" extent="1-16" drill="0.3"/>
 <via x="81.28" y="29.21" extent="1-16" drill="0.3"/>
@@ -4197,15 +4189,7 @@ design rules under a new name.</description>
 <via x="128.905" y="53.975" extent="1-16" drill="0.35"/>
 <via x="131.445" y="53.34" extent="1-16" drill="0.35"/>
 <via x="133.35" y="53.34" extent="1-16" drill="0.35"/>
-<via x="135.255" y="53.34" extent="1-16" drill="0.35"/>
-<via x="136.525" y="54.61" extent="1-16" drill="0.35"/>
-<via x="137.795" y="55.88" extent="1-16" drill="0.35"/>
-<via x="137.795" y="58.42" extent="1-16" drill="0.35"/>
-<via x="137.795" y="60.325" extent="1-16" drill="0.35"/>
-<via x="137.795" y="62.23" extent="1-16" drill="0.35"/>
-<via x="137.795" y="64.135" extent="1-16" drill="0.35"/>
 <via x="134.62" y="65.405" extent="1-16" drill="0.35"/>
-<via x="136.525" y="66.675" extent="1-16" drill="0.35"/>
 <via x="132.715" y="67.945" extent="1-16" drill="0.35"/>
 <via x="99.06" y="49.53" extent="1-16" drill="0.35"/>
 <via x="106.68" y="50.8" extent="1-16" drill="0.35"/>
@@ -4535,19 +4519,6 @@ design rules under a new name.</description>
 <vertex x="58.293" y="95.8469"/>
 <vertex x="48.895" y="86.4489"/>
 </polygon>
-<wire x1="20.32" y1="116.84" x2="22.86" y2="116.84" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="116.84" x2="20.32" y2="116.84" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="116.84" x2="17.78" y2="116.84" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="116.84" x2="15.24" y2="116.84" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="116.84" x2="12.7" y2="116.84" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="116.84" x2="22.86" y2="116.84" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="110.49" x2="10.16" y2="116.84" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="107.95" x2="2.54" y2="110.49" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="105.41" x2="2.54" y2="107.95" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="102.87" x2="2.54" y2="105.41" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="100.33" x2="2.54" y2="102.87" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="97.79" x2="2.54" y2="100.33" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="95.25" x2="2.54" y2="97.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_24V0" class="3">
 <contactref element="X1" pad="1"/>
@@ -5087,11 +5058,11 @@ design rules under a new name.</description>
 <wire x1="131.064" y1="63.881" x2="131.064" y2="58.586" width="0.508" layer="1"/>
 <wire x1="129.921" y1="58.586" x2="131.064" y2="58.586" width="0.508" layer="1"/>
 <wire x1="131.064" y1="63.881" x2="127.508" y2="67.437" width="0.508" layer="1"/>
-<wire x1="132.969" y1="57.404" x2="132.246" y2="57.404" width="0.508" layer="1"/>
-<wire x1="132.246" y1="57.404" x2="131.064" y2="58.586" width="0.508" layer="1"/>
 <wire x1="118.11" y1="67.437" x2="124.206" y2="67.437" width="0.508" layer="1"/>
 <wire x1="125.515" y1="68.746" x2="125.515" y2="74.422" width="0.508" layer="1"/>
 <wire x1="124.206" y1="67.437" x2="125.515" y2="68.746" width="0.508" layer="1"/>
+<wire x1="131.064" y1="58.586" x2="132.901" y2="58.586" width="0.508" layer="1"/>
+<wire x1="132.901" y1="58.586" x2="137.444" y2="63.129" width="0.508" layer="1"/>
 </signal>
 <signal name="RS485_A" class="3">
 <contactref element="IC1" pad="6"/>
@@ -5102,19 +5073,18 @@ design rules under a new name.</description>
 <wire x1="128.563" y1="70.358" x2="128.563" y2="70.69" width="0.508" layer="1"/>
 <wire x1="128.563" y1="70.69" x2="130.263" y2="72.39" width="0.508" layer="1"/>
 <wire x1="128.563" y1="70.358" x2="128.563" y2="69.381" width="0.508" layer="1"/>
-<wire x1="128.563" y1="69.381" x2="131.015" y2="66.929" width="0.508" layer="1"/>
-<wire x1="131.015" y1="66.929" x2="134.493" y2="66.929" width="0.508" layer="1"/>
-<wire x1="134.493" y1="66.929" x2="136.906" y2="64.516" width="0.508" layer="1"/>
-<wire x1="136.906" y1="64.516" x2="136.906" y2="57.404" width="0.508" layer="1"/>
-<wire x1="136.906" y1="57.404" x2="135.636" y2="56.134" width="0.508" layer="1"/>
-<wire x1="135.636" y1="56.134" x2="135.509" y2="56.134" width="0.508" layer="1"/>
+<wire x1="131.015" y1="66.929" x2="128.563" y2="69.381" width="0.508" layer="1"/>
 <wire x1="129.921" y1="54.698" x2="129.96" y2="54.737" width="0.508" layer="1"/>
-<wire x1="134.112" y1="54.737" x2="135.509" y2="56.134" width="0.508" layer="1"/>
-<wire x1="129.96" y1="54.737" x2="134.112" y2="54.737" width="0.508" layer="1"/>
 <wire x1="129.921" y1="54.698" x2="128.651" y2="55.968" width="0.508" layer="1"/>
 <wire x1="125.603" y1="66.167" x2="118.11" y2="66.167" width="0.508" layer="1"/>
 <wire x1="128.651" y1="55.968" x2="128.651" y2="63.119" width="0.508" layer="1"/>
 <wire x1="128.651" y1="63.119" x2="125.603" y2="66.167" width="0.508" layer="1"/>
+<wire x1="139.0904" y1="54.737" x2="141.8844" y2="57.531" width="0.508" layer="1"/>
+<wire x1="141.8844" y1="57.531" x2="141.8844" y2="62.2486" width="0.508" layer="1"/>
+<wire x1="141.8844" y1="62.2486" x2="139.984" y2="64.149" width="0.508" layer="1"/>
+<wire x1="129.96" y1="54.737" x2="139.0904" y2="54.737" width="0.508" layer="1"/>
+<wire x1="139.984" y1="64.149" x2="137.204" y2="66.929" width="0.508" layer="1"/>
+<wire x1="137.204" y1="66.929" x2="131.015" y2="66.929" width="0.508" layer="1"/>
 </signal>
 <signal name="N$42" class="3">
 <contactref element="R49" pad="1"/>
@@ -5652,15 +5622,19 @@ design rules under a new name.</description>
 <signal name="RS485_B_NEXT" class="3">
 <contactref element="R53" pad="2"/>
 <contactref element="X14" pad="2"/>
-<wire x1="132.334" y1="76.454" x2="132.969" y2="75.819" width="0.508" layer="1"/>
-<wire x1="132.334" y1="76.454" x2="130.263" y2="76.454" width="0.508" layer="1"/>
+<wire x1="130.263" y1="76.454" x2="135.353" y2="81.544" width="0.508" layer="1"/>
+<wire x1="135.353" y1="81.544" x2="137.444" y2="81.544" width="0.508" layer="1"/>
 </signal>
 <signal name="RS485_A_NEXT" class="3">
 <contactref element="R55" pad="2"/>
 <contactref element="X14" pad="1"/>
-<wire x1="130.263" y1="70.358" x2="132.715" y2="70.358" width="0.508" layer="1"/>
-<wire x1="135.509" y1="73.152" x2="135.509" y2="74.549" width="0.508" layer="1"/>
-<wire x1="135.509" y1="73.152" x2="132.715" y2="70.358" width="0.508" layer="1"/>
+<wire x1="130.263" y1="70.358" x2="132.6515" y2="70.358" width="0.508" layer="1"/>
+<wire x1="135.6741" y1="73.3806" x2="140.1572" y2="73.3806" width="0.508" layer="1"/>
+<wire x1="140.1572" y1="73.3806" x2="141.9987" y2="75.2221" width="0.508" layer="1"/>
+<wire x1="141.9987" y1="75.2221" x2="141.9987" y2="81.0133" width="0.508" layer="1"/>
+<wire x1="141.9987" y1="81.0133" x2="140.448" y2="82.564" width="0.508" layer="1"/>
+<wire x1="140.448" y1="82.564" x2="139.984" y2="82.564" width="0.508" layer="1"/>
+<wire x1="132.6515" y1="70.358" x2="135.6741" y2="73.3806" width="0.508" layer="1"/>
 </signal>
 <signal name="N$36">
 <contactref element="R57" pad="2"/>

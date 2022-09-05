@@ -3748,12 +3748,58 @@ DIN A3, landscape with location and doc. field</description>
 <text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="615008148521" urn="urn:adsk.eagle:footprint:16445936/1">
+<description>&lt;b&gt;WR-MJ&lt;/B&gt;&lt;BR&gt;Modular Jack Horizontal Plastic 8P8C Tab Up</description>
+<wire x1="-7.5" y1="-6.425" x2="7.5" y2="-6.425" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-6.425" x2="-7.5" y2="6.425" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-6.425" x2="7.5" y2="6.425" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="6.425" x2="7.5" y2="6.425" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="6.525" x2="7.6" y2="6.525" width="0.2" layer="21"/>
+<wire x1="7.6" y1="6.525" x2="7.6" y2="1.075" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="6.525" x2="-7.6" y2="1.075" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-1.925" x2="-7.6" y2="-6.525" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-6.525" x2="7.6" y2="-6.525" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-6.525" x2="7.6" y2="-1.925" width="0.2" layer="21"/>
+<pad name="1" x="3.57" y="1.875" drill="0.9" rot="R180"/>
+<pad name="2" x="2.55" y="4.415" drill="0.9" rot="R180"/>
+<pad name="3" x="1.53" y="1.875" drill="0.9" rot="R180"/>
+<pad name="4" x="0.51" y="4.415" drill="0.9" rot="R180"/>
+<pad name="5" x="-0.51" y="1.875" drill="0.9" rot="R180"/>
+<pad name="6" x="-1.53" y="4.415" drill="0.9" rot="R180"/>
+<pad name="7" x="-2.55" y="1.875" drill="0.9" rot="R180"/>
+<pad name="8" x="-3.57" y="4.415" drill="0.9" rot="R180"/>
+<text x="8.398409375" y="5.2424" size="1.016" layer="25" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="8.328409375" y="3.0884" size="1.016" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<hole x="-7.5" y="-0.425" drill="2.36"/>
+<hole x="7.5" y="-0.425" drill="2.36"/>
+<circle x="5" y="1.875" radius="0.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="6.725"/>
+<vertex x="7.8" y="6.725"/>
+<vertex x="7.8" y="1.075"/>
+<vertex x="8.9" y="1.075"/>
+<vertex x="8.9" y="-1.825"/>
+<vertex x="7.8" y="-1.825"/>
+<vertex x="7.8" y="-6.725"/>
+<vertex x="-7.8" y="-6.725"/>
+<vertex x="-7.8" y="-1.825"/>
+<vertex x="-8.9" y="-1.825"/>
+<vertex x="-8.9" y="0.975"/>
+<vertex x="-7.8" y="0.975"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT23" urn="urn:adsk.eagle:package:28738/2" type="model">
 <description>SOT-23</description>
 <packageinstances>
 <packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
+<package3d name="615008148521" urn="urn:adsk.eagle:package:16446022/2" type="model">
+<description>&lt;b&gt;WR-MJ&lt;/B&gt;&lt;BR&gt;Modular Jack Horizontal Plastic 8P8C Tab Up</description>
+<packageinstances>
+<packageinstance name="615008148521"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4471,6 +4517,51 @@ Diode with low voltage drop</description>
 <pin name="P$2" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
 <text x="-1.27" y="2.54" size="1.27" layer="95">&gt;Name</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="8P8C_2">
+<description>8P8C</description>
+<text x="-13.142" y="0.498" size="1.778" layer="95" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="12.06" y="-5.284" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="8" x="-10.16" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="7" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="6" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="7.62" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="-10.795" y1="-3.81" x2="-10.795" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="3.81" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="8.255" y1="0.635" x2="8.255" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="8.255" y1="-3.81" x2="7.62" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-3.81" x2="5.08" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-5.08" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-3.81" x2="-7.62" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-3.81" x2="-10.16" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-3.81" x2="-10.795" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-10.795" y1="0.635" x2="-7.62" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0.635" x2="-7.62" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="1.905" x2="-6.35" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="1.905" x2="-6.35" y2="3.81" width="0.254" layer="94"/>
+<wire x1="8.255" y1="0.635" x2="5.08" y2="0.635" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="1.905" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-12.065" y1="5.08" x2="9.525" y2="5.08" width="0.254" layer="94"/>
+<wire x1="9.525" y1="5.08" x2="9.525" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="9.525" y1="-5.08" x2="-12.065" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.065" y1="-5.08" x2="-12.065" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-3.81" x2="-10.16" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.175" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-3.175" x2="5.08" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-3.175" x2="7.62" y2="-3.81" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6078,6 +6169,73 @@ Diode with low voltage drop</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="615008148521" prefix="J">
+<description>&lt;b&gt;WR-MJ Modular Jack Horizontal Plastic 8P8C Tab Up  &lt;br&gt; &lt;/b&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class:500 Mating cycles
+
+&lt;br&gt;
+&lt;b&gt;General Information
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature:-40 up to +85 °C
+&lt;br&gt;Compliance: RoHS
+&lt;br&gt;
+&lt;b&gt;Electrical Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;IR 1:1.5A
+&lt;br&gt;Working Voltage:120V (AC)
+&lt;br&gt;Withstanding Voltage:1000V (AC)
+&lt;br&gt;Contact Resistance:20mΩ
+&lt;br&gt;RISO:500 MΩ
+&lt;br&gt;
+&lt;br&gt;Material Properties
+&lt;br&gt;Insulator MateriaL:PBT
+&lt;br&gt;Insulator Flammability Rating:UL94 V-0
+&lt;br&gt;Color:Black
+&lt;br&gt;Contact Material Copper Alloy
+&lt;br&gt;Contact Plating:Gold
+&lt;br&gt;Contact Type:Stamped
+&lt;br&gt;&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;br&gt;Packaging:Tray
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o76656v209%20Family_WR-MJ_Plastic_Horizontal_Tab-UP_615008148521.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o76656v209%20Family_WR-MJ_Plastic_Horizontal_Tab-UP_615008148521.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MJ_HORIZONTAL_PLASTIC_8P8C_TAB_UP/"&gt;https://www.we-online.com/catalog/en/MJ_HORIZONTAL_PLASTIC_8P8C_TAB_UP/&lt;/a&gt;&lt;p&gt;
+
+Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
+2020 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="8P8C_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="615008148521">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16446022/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="RJ45 unshielded 8P8C"/>
+<attribute name="MFN" value="615008148521"/>
+<attribute name="MFR" value="Wurth Elektronik"/>
+<attribute name="PART_VALUE" value="615008148521"/>
+<attribute name="TYPE" value="Horizontal"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="3D_MIG_Controller">
@@ -6182,179 +6340,6 @@ Diode with low voltage drop</description>
 <device name="">
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="con-tycoelectronics" urn="urn:adsk.eagle:library:193">
-<description>&lt;b&gt;Tyco Electronics Connector&lt;/b&gt;&lt;p&gt;
-http://catalog.tycoelectronics.com&lt;br&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="RJ45-NO-SHIELD" urn="urn:adsk.eagle:footprint:10651/1" library_version="2">
-<description>&lt;b&gt;RJ45 Low Profile&lt;/b&gt; No Shield&lt;p&gt;
-For all RJ45 N and Z Series Models&lt;br&gt;
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<wire x1="-7.527" y1="10.819" x2="7.527" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="8.4455" y1="-5.5118" x2="-8.4455" y2="-5.5118" width="0.01" layer="20"/>
-<wire x1="7.527" y1="-7.782" x2="-7.527" y2="-7.782" width="0.2032" layer="21"/>
-<wire x1="-7.527" y1="-7.782" x2="-7.527" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="7.527" y1="10.819" x2="7.527" y2="-7.782" width="0.2032" layer="21"/>
-<pad name="4" x="-0.635" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="3" x="-1.905" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="2" x="-3.175" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="5" x="0.635" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="1" x="-4.445" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="6" x="1.905" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="7" x="3.175" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="8" x="4.445" y="8.89" drill="0.9" diameter="1.4"/>
-<text x="-9.525" y="-0.635" size="1.778" layer="25" rot="R90">&gt;NAME</text>
-<text x="-5.715" y="2.54" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="7.6" y1="-5.485" x2="8.875" y2="-4.342" layer="21"/>
-<rectangle x1="-8.875" y1="-5.485" x2="-7.625" y2="-4.342" layer="21"/>
-<hole x="-5.715" y="0" drill="3.2512"/>
-<hole x="5.715" y="0" drill="3.2512"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="RJ45-NO-SHIELD" urn="urn:adsk.eagle:package:10660/1" type="box" library_version="2">
-<description>RJ45 Low Profile No Shield
-For all RJ45 N and Z Series Models
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<packageinstances>
-<packageinstance name="RJ45-NO-SHIELD"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="JACK8" urn="urn:adsk.eagle:symbol:10650/1" library_version="2">
-<wire x1="1.524" y1="8.128" x2="0" y2="8.128" width="0.254" layer="94"/>
-<wire x1="0" y1="8.128" x2="0" y2="7.112" width="0.254" layer="94"/>
-<wire x1="0" y1="7.112" x2="1.524" y2="7.112" width="0.254" layer="94"/>
-<wire x1="1.524" y1="5.588" x2="0" y2="5.588" width="0.254" layer="94"/>
-<wire x1="0" y1="5.588" x2="0" y2="4.572" width="0.254" layer="94"/>
-<wire x1="0" y1="4.572" x2="1.524" y2="4.572" width="0.254" layer="94"/>
-<wire x1="1.524" y1="3.048" x2="0" y2="3.048" width="0.254" layer="94"/>
-<wire x1="0" y1="3.048" x2="0" y2="2.032" width="0.254" layer="94"/>
-<wire x1="0" y1="2.032" x2="1.524" y2="2.032" width="0.254" layer="94"/>
-<wire x1="1.524" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.508" x2="1.524" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.032" x2="0" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.032" x2="0" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.048" x2="1.524" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-4.572" x2="0" y2="-4.572" width="0.254" layer="94"/>
-<wire x1="0" y1="-4.572" x2="0" y2="-5.588" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.588" x2="1.524" y2="-5.588" width="0.254" layer="94"/>
-<wire x1="3.048" y1="-2.032" x2="5.588" y2="-2.032" width="0.1998" layer="94"/>
-<wire x1="5.588" y1="-2.032" x2="5.588" y2="-0.254" width="0.1998" layer="94"/>
-<wire x1="5.588" y1="-0.254" x2="6.604" y2="-0.254" width="0.1998" layer="94"/>
-<wire x1="6.604" y1="-0.254" x2="6.604" y2="1.778" width="0.1998" layer="94"/>
-<wire x1="6.604" y1="1.778" x2="5.588" y2="1.778" width="0.1998" layer="94"/>
-<wire x1="5.588" y1="1.778" x2="5.588" y2="3.556" width="0.1998" layer="94"/>
-<wire x1="5.588" y1="3.556" x2="3.048" y2="3.556" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="3.556" x2="3.048" y2="2.54" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="2.54" x2="3.048" y2="2.032" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="2.032" x2="3.048" y2="1.524" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="1.524" x2="3.048" y2="1.016" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="1.016" x2="3.048" y2="0.508" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="0.508" x2="3.048" y2="0" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="0" x2="3.048" y2="-0.508" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="-0.508" x2="3.048" y2="-1.016" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="-1.016" x2="3.048" y2="-2.032" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="2.54" x2="3.81" y2="2.54" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="2.032" x2="3.81" y2="2.032" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="1.524" x2="3.81" y2="1.524" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="1.016" x2="3.81" y2="1.016" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="0.508" x2="3.81" y2="0.508" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="0" x2="3.81" y2="0" width="0.1998" layer="94"/>
-<wire x1="1.524" y1="-7.112" x2="0" y2="-7.112" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.112" x2="0" y2="-8.128" width="0.254" layer="94"/>
-<wire x1="0" y1="-8.128" x2="1.524" y2="-8.128" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-9.652" x2="0" y2="-9.652" width="0.254" layer="94"/>
-<wire x1="0" y1="-9.652" x2="0" y2="-10.668" width="0.254" layer="94"/>
-<wire x1="0" y1="-10.668" x2="1.524" y2="-10.668" width="0.254" layer="94"/>
-<wire x1="3.048" y1="-0.508" x2="3.81" y2="-0.508" width="0.1998" layer="94"/>
-<wire x1="3.048" y1="-1.016" x2="3.81" y2="-1.016" width="0.1998" layer="94"/>
-<text x="-2.54" y="10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-13.208" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="3" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="4" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="7" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="8" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RJ45" urn="urn:adsk.eagle:component:10669/2" prefix="X" library_version="2">
-<description>&lt;b&gt;CORCOM Modular RJ Jacks&lt;/b&gt; No Shield&lt;p&gt;
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<gates>
-<gate name="G$1" symbol="JACK8" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RJ45-NO-SHIELD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10660/1"/>
-</package3dinstances>
-<technologies>
-<technology name="-6L-B">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="RJ45-6L-B" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="16R6090" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-6L-S">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="RJ45-6L-S" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="16R6091" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-6X">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="RJ45-6X" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="01P1604" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-8L-B">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="RJ45-8L-B" constant="no"/>
-<attribute name="OC_FARNELL" value="1279843" constant="no"/>
-<attribute name="OC_NEWARK" value="52K4445" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-8L-S">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="RJ45-8L-S" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="80K9067" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-8X">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="RJ45-8X" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="16R6101" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -7057,7 +7042,7 @@ DDEController.pdf</description>
 <part name="X9" library="Labops_Lib_AH" deviceset="726386-2" device="TE_726386-2"/>
 <part name="X10" library="Labops_Lib_AH" deviceset="726386-2" device="TE_726386-2"/>
 <part name="GND31" library="Labops_Lib_AH" deviceset="GND" device=""/>
-<part name="X12" library="con-tycoelectronics" library_urn="urn:adsk.eagle:library:193" deviceset="RJ45" device="" package3d_urn="urn:adsk.eagle:package:10660/1" technology="-8L-B"/>
+<part name="X12" library="Labops_Lib_AH" deviceset="615008148521" device="" package3d_urn="urn:adsk.eagle:package:16446022/2"/>
 <part name="R53" library="Labops_Lib_AH" deviceset="R_0603" device="" value="0R 1%"/>
 <part name="R55" library="Labops_Lib_AH" deviceset="R_0603" device="" value="0R 1%"/>
 <part name="FRAME6" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
@@ -7136,7 +7121,7 @@ DDEController.pdf</description>
 <part name="C49" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/ 100V"/>
 <part name="D12" library="Labops_Lib_AH" deviceset="26-21/GPC-F3138B/CA" device=""/>
 <part name="R86" library="Labops_Lib_AH" deviceset="R_1206" device="" value="82R 1%"/>
-<part name="X14" library="con-tycoelectronics" library_urn="urn:adsk.eagle:library:193" deviceset="RJ45" device="" package3d_urn="urn:adsk.eagle:package:10660/1" technology="-8L-B"/>
+<part name="X14" library="Labops_Lib_AH" deviceset="615008148521" device="" package3d_urn="urn:adsk.eagle:package:16446022/2"/>
 <part name="R87" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100R 1%"/>
 <part name="R88" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100R 1%"/>
 <part name="R89" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100R 1%"/>
@@ -10073,13 +10058,13 @@ DDEController.pdf</description>
 <attribute name="VALUE" x="116.84" y="124.46" size="1.778" layer="96"/>
 </instance>
 <instance part="GND31" gate="1" x="25.4" y="68.58" smashed="yes"/>
-<instance part="X12" gate="G$1" x="15.24" y="215.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="17.78" y="226.06" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="17.78" y="202.692" size="1.778" layer="96" rot="MR0"/>
+<instance part="X12" gate="G$1" x="12.7" y="215.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.86" y="205.74" size="1.778" layer="95"/>
+<attribute name="VALUE" x="5.08" y="225.552" size="1.778" layer="96"/>
 </instance>
-<instance part="X14" gate="G$1" x="15.24" y="187.96" smashed="yes" rot="MR0">
-<attribute name="NAME" x="17.78" y="198.12" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="17.78" y="174.752" size="1.778" layer="96" rot="MR0"/>
+<instance part="X14" gate="G$1" x="10.16" y="187.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.86" y="180.34" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="22.86" y="201.168" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X11" gate="G$1" x="12.7" y="73.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.7" y="81.28" size="1.27" layer="95" rot="MR0"/>
@@ -10196,14 +10181,14 @@ DDEController.pdf</description>
 <segment>
 <pinref part="X12" gate="G$1" pin="2"/>
 <label x="50.8" y="220.98" size="1.778" layer="95" xref="yes"/>
-<wire x1="17.78" y1="220.98" x2="50.8" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="220.98" x2="50.8" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RS485_A" class="3">
 <segment>
 <pinref part="X12" gate="G$1" pin="1"/>
 <label x="40.64" y="223.52" size="1.778" layer="95" xref="yes"/>
-<wire x1="40.64" y1="223.52" x2="17.78" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="223.52" x2="20.32" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RS485_A_NEXT" class="3">
