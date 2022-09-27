@@ -185,7 +185,6 @@
 <wire x1="16.0472" y1="-5.2" x2="17.4232" y2="-4.465" width="0.1524" layer="51"/>
 <wire x1="17.4232" y1="-4.465" x2="17.4232" y2="-5.735" width="0.1524" layer="51"/>
 <wire x1="17.4232" y1="-5.735" x2="16.0472" y2="-5.2" width="0.1524" layer="51"/>
-<text x="-16.002" y="-17.2212" size="1.27" layer="48" ratio="6" rot="SR0">PTH_DRILL_SIZE:_1.4_MM,_TOL:_+0.05/-0.05</text>
 <text x="-2.8574" y="4.475" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 <wire x1="9" y1="2.5" x2="9" y2="4" width="0.127" layer="21"/>
 <wire x1="4" y1="4" x2="4" y2="2.5" width="0.127" layer="21"/>
