@@ -7136,7 +7136,7 @@ DDEController.pdf</description>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.0" package3d_urn="urn:adsk.eagle:package:14280/1"/>
 <part name="IC8" library="Labops_Lib_AH" deviceset="LM317AEMP" device=""/>
 <part name="R91" library="Labops_Lib_AH" deviceset="R_0603" device="" value="1k 1%"/>
-<part name="R92" library="Labops_Lib_AH" deviceset="R_0603" device="" value="24K 1%"/>
+<part name="R92" library="Labops_Lib_AH" deviceset="R_0603" device="" value="18K 1%"/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_D_L" device=""/>
 <part name="J1" library="Labops_Lib_AH" deviceset="ESP32-PICO-KIT" device=""/>
 <part name="GND69" library="3D_MIG_Controller" deviceset="GND" device=""/>
