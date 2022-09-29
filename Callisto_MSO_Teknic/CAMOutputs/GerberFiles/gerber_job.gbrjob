@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-09-27T13:04:07Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Callisto_Teknic_MSO_LED_out"
+        },
+        "Owner": "Michael Davis <michael@davisfiles.net>",
+        "Size": {
+            "X": 65,
+            "Y": 45
+        }
+    }
+}
