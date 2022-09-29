@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -3356,7 +3356,7 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER-1" value="" x="119.634" y="90.932" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="122.809" y="89.027" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R92" library="Labops_Lib_AH" package="R0603" value="24K 1%" x="116.967" y="87.376" smashed="yes">
+<element name="R92" library="Labops_Lib_AH" package="R0603" value="18K 1%" x="116.967" y="87.376" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="116.967" y="87.376" size="1.778" layer="27" display="off"/>
 <attribute name="LIB_STATUS" value="" x="116.967" y="87.376" size="1.778" layer="27" display="off"/>
 <attribute name="MFN" value="Open Source " x="116.967" y="87.376" size="1.778" layer="27" display="off"/>
