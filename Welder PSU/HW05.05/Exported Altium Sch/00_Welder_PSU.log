@@ -1,0 +1,47 @@
+P-CAD Schematic ASCII File Export Log :
+      Information : Start export of symbol definitions for parts
+      Warning :     Symbol name [ROVERVIEW], mode [Normal], part [1] changed to [ROVERVIEW_1_N]
+      Warning :     Symbol name [FiducialMarker], mode [Normal], part [1] changed to [FiducialMarker_1_N]
+      Warning :     Ellipse at position [0mil : 0mil] approximated with a circular arc
+      Warning :     Symbol name [BOMonly], mode [Normal], part [1] changed to [BOMonly_1_N]
+      Warning :     Symbol name [X01_V], mode [Normal], part [1] changed to [X01_V_1_N]
+      Warning :     Symbol name [X01], mode [Normal], part [1] changed to [X01_1_N]
+      Warning :     Symbol name [RJ45-Unshielded], mode [Normal], part [1] changed to [RJ45-Unshielded_1_N]
+      Warning :     Ellipse at position [-100mil : -200mil] approximated with a circular arc
+      Warning :     Ellipse at position [-100mil : -400mil] approximated with a circular arc
+      Warning :     Ellipse at position [-100mil : -300mil] approximated with a circular arc
+      Warning :     Ellipse at position [-100mil : -100mil] approximated with a circular arc
+      Warning :     Ellipse at position [-100mil : -600mil] approximated with a circular arc
+      Warning :     Ellipse at position [-100mil : -500mil] approximated with a circular arc
+      Warning :     Ellipse at position [-100mil : -800mil] approximated with a circular arc
+      Warning :     Ellipse at position [-100mil : -700mil] approximated with a circular arc
+      Warning :     Symbol name [X04], mode [Normal], part [1] changed to [X04_1_N]
+      Warning :     Symbol name [Varistor], mode [Normal], part [1] changed to [Varistor_1_N]
+      Warning :     Symbol name [R_EU], mode [Normal], part [1] changed to [R_EU_1_N]
+      Warning :     Rectangle [0mil : -140mil]-[200mil : -60mil] exported as lines.
+      Warning :     Symbol name [Capacitor], mode [Normal], part [1] changed to [Capacitor_1_N]
+      Warning :     Symbol name [Capacitor], mode [IEEE], part [1] changed to [Capacitor_1_I]
+      Warning :     Symbol name [Capacitor], mode [DeMorgan], part [1] changed to [Capacitor_1_D]
+      Warning :     Symbol name [GBPC3510W], mode [Normal], part [1] changed to [GBPC3510W_1_N]
+      Warning :     Rectangle [200mil : -300mil]-[800mil : 100mil] exported as lines.
+      Warning :     Symbol name [ALFG2PF09], mode [Normal], part [1] changed to [ALFG2PF09_1_N]
+      Warning :     Rectangle [0mil : -400mil]-[400mil : 0mil] exported as lines.
+      Warning :     Rectangle [50mil : -150mil]-[350mil : -50mil] exported as lines.
+      Warning :     Elliptical arc at position [280mil : -100mil] converted to circular arc
+      Warning :     Elliptical arc at position [240mil : -100mil] converted to circular arc
+      Warning :     Elliptical arc at position [200mil : -100mil] converted to circular arc
+      Warning :     Elliptical arc at position [160mil : -100mil] converted to circular arc
+      Warning :     Elliptical arc at position [120mil : -100mil] converted to circular arc
+      Warning :     Symbol name [ECAP], mode [Normal], part [1] changed to [ECAP_1_N]
+      Warning :     Symbol name [ZenerDiode], mode [Normal], part [1] changed to [ZenerDiode_1_N]
+      Warning :     Symbol name [Optocoupler], mode [Normal], part [1] changed to [Optocoupler_1_N]
+      Warning :     Rectangle [-100mil : -150mil]-[200mil : 150mil] exported as lines.
+      Warning :     Symbol name [Q_NPN], mode [Normal], part [1] changed to [Q_NPN_1_N]
+      Warning :     Symbol name [Q_PNP_ECB], mode [Normal], part [1] changed to [Q_PNP_ECB_1_N]
+      Warning :     Symbol name [Diode], mode [Normal], part [1] changed to [Diode_1_N]
+      Warning :     Symbol name [NTC], mode [Normal], part [1] changed to [NTC_1_N]
+      Warning :     Symbol name [C_Ceramic], mode [Normal], part [1] changed to [C_Ceramic_1_N]
+      Warning :     Symbol name [X06_2], mode [Normal], part [1] changed to [X06_2_1_N]
+      Warning :     Symbol name [LED], mode [Normal], part [1] changed to [LED_1_N]
+      Warning :     Symbol name [Transformer-CT-2P], mode [Normal], part [1] changed to [Transformer-CT-2P_1_N]
+EndLog

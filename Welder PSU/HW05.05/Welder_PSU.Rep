@@ -1,0 +1,635 @@
+Export log for : Welder_PSU.Rep
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+AddingPadStyle (Default)
+AddingPadStyle P:EX157Y157D1571
+AddingPadStyle EF39X35TOP1
+AddingPadStyle EF24X59TOP1
+AddingPadStyle P:EX64Y64D401
+AddingPadStyle P:EX55Y55D351
+AddingPadStyle P:RRX55Y55D351
+AddingPadStyle P:EX93Y93D931
+AddingPadStyle EF138X55TOP1
+AddingPadStyle EF47X55TOP1
+AddingPadStyle EF75X28TOP1
+AddingPadStyle EF75X28TOP2
+AddingPadStyle EF39X39TOP1
+AddingPadStyle P:EX67Y67D431
+AddingPadStyle EF16X75TOP1
+AddingPadStyle EF12X57TOP1
+AddingPadStyle P:EX98Y98D431
+AddingPadStyle EF59X51TOP1
+AddingPadStyle EF31X35TOP1
+AddingPadStyle P:EX71Y71D431
+AddingPadStyle P:EX98Y98D471
+AddingPadStyle P:SX51Y51D311
+AddingPadStyle P:EX51Y51D311
+AddingPadStyle EF55X110TOP1
+AddingPadStyle EF85X108TOP1
+AddingPadStyle P:SX94Y94D751
+AddingPadStyle P:EX94Y94D751
+AddingPadStyle P:EX102Y102D831
+AddingPadStyle EF24X31TOP1
+AddingPadStyle P:RRX71Y79D431
+AddingPadStyle P:EX157Y157D1181
+AddingPadStyle P:RRX157Y157D1181
+AddingPadStyle EF79X138TOP1
+AddingPadStyle EF124X57TOP1
+AddingPadStyle EF35X57TOP1
+AddingPadStyle EF59X55TOP1
+AddingPadStyle P:EX79Y79D391
+AddingPadStyle P:RRX79Y79D391
+AddingPadStyle EF65X24TOP1
+AddingPadStyle EF28X33TOP1
+AddingPadStyle P:EX119Y119D781
+AddingPadStyle EF71X51TOP1
+AddingPadStyle EF118X295TOP1
+AddingPadStyle EF124X492TOP1
+AddingPadStyle EF69X69TOP1
+AddingPadStyle P:EX394Y394D2361
+AddingPadStyle P:EX236Y236D1181
+AddingPadStyle P:SX98Y98D651
+AddingPadStyle P:EX98Y98D651
+AddingPadStyle P:EX91Y91D651
+AddingPadStyle EF213X354TOP1
+AddingPadStyle P:SX62Y62D401
+AddingPadStyle P:EX62Y62D401
+AddingPadStyle P:EX40Y40D401
+AddingPadStyle P:EX138Y138D711
+AddingPadStyle P:EX94Y94D591
+AddingPadStyle P:RRX94Y94D591
+AddingPadStyle P:RRX55Y55D311
+AddingPadStyle P:EX55Y55D311
+AddingPadStyle EF65X15TOP1
+AddingPadStyle EF65X15TOP2
+AddingPadStyle EF27X39TOP1
+AddingPadStyle EF24X39TOP1
+AddingPadStyle P:EX79Y59D351
+AddingPadStyle P:SX79Y59D351
+AddingPadStyle P:EX71Y71D391
+AddingPadStyle P:EX220Y220D2201
+AddingPadStyle P:SX75Y75D491
+AddingPadStyle P:EX75Y75D491
+AddingPadStyle P:EX61Y61D391
+AddingPadStyle P:SX61Y61D391
+AddingPadStyle EF39X39TOP2
+Adding ViaStyle (Default)
+Adding ViaStyle V:EX39Y39D241
+Adding ViaStyle V:EX24Y24D121
+Adding ViaStyle V:EX31Y31D121
+Adding TextStyle (Default)
+Adding TextStyle T:H31W6
+Adding TextStyle T:H79W10
+Adding TextStyle T:H20W4
+Adding TextStyle T:H39W8
+Adding TextStyle T:H79W20
+Adding TextStyle T:H39W10
+Adding TextStyle T:H39W4
+Adding TextStyle T:H31W4
+Adding TextStyle T:H59W6
+Adding PatternDef EIA0603_1
+Adding PatternDef SOT23-3N_1
+Adding PatternDef X04_100mil_1
+Adding PatternDef X08_615008148521_1
+Adding PatternDef EIA0603_2
+Adding PatternDef SOT23-3N_2
+Adding PatternDef SOT223_1
+Adding PatternDef SOIC8_1
+Adding PatternDef EIA0603_3
+Adding PatternDef X10_100mil_2xRow_Vert_1
+Adding PatternDef Resonator_CSTNE8M00G520000R0_1
+Adding PatternDef QFP-144-M_1
+Adding PatternDef CAPACITOR-FILM-RM17.5-28x17.5x25_1
+Adding PatternDef EIA0805_1
+Adding PatternDef SOT23DualDiode_1
+Adding PatternDef CAPACITOR-FILM-RM12.5mm-12mm_1
+Adding PatternDef RES-RM15-RSF1W_1
+Adding PatternDef RES-RM12.5-VR37_1
+Adding PatternDef C_Disc_P7.5D12_1
+Adding PatternDef 2010Resistor_1
+Adding PatternDef SMB_1
+Adding PatternDef ALFG2PF09_1
+Adding PatternDef SOD323_1
+Adding PatternDef NTC_D10_P7.5_1
+Adding PatternDef CAPACITOR-ELKO-400V-RM10-35x50_1
+Adding PatternDef 2512Resistor_1
+Adding PatternDef SOT223 TI_1
+Adding PatternDef 1206LED_1
+Adding PatternDef CAPACITOR-ELKO-RM5-10x20_1
+Adding PatternDef SOIC16_Wide_HV_1
+Adding PatternDef Ferrite_Smd_0603_1
+Adding PatternDef Fuse_Clip_01020071Z_1
+Adding PatternDef EPCOS_B72205S0271K101_1
+Adding PatternDef EIA1206_1
+Adding PatternDef SRN8040TA_1
+Adding PatternDef SRP1770TA_1
+Adding PatternDef SMA_1
+Adding PatternDef CAPACITOR-ELKO-RM5-10x20_2
+Adding PatternDef 11-0060-A_1
+Adding PatternDef PAD-3.0x6.0MM_1
+Adding PatternDef PAD-3.0x6.0MM_2
+Adding PatternDef PAD-3.0x6.0MM_3
+Adding PatternDef PAD-3.0x6.0MM_4
+Adding PatternDef PAD-3.0x6.0MM_5
+Adding PatternDef TO247-AC_1
+Adding PatternDef TO247-AC_2
+Adding PatternDef X01_M10_7461061_1
+Adding PatternDef WSLP3921L_1
+Adding PatternDef SMA_2
+Adding PatternDef X06_Molex_Microfit_1
+Adding PatternDef X01_FastonPCBTab6.3mm1.8mmHole_1
+Adding PatternDef PAD-3.0x6.0MM_6
+Adding PatternDef PAD-3.0x6.0MM_7
+Adding PatternDef CST206-2A_1
+Adding PatternDef RES-RM20-RSF2W_1
+Adding PatternDef TO-92_1
+Adding PatternDef TSSOP24_1
+Adding PatternDef SOT23-5_1
+Adding PatternDef DIP04_1
+Adding PatternDef TO247-AD_1
+Adding PatternDef DO-201AD_1
+Adding PatternDef GBPC3510W_1
+Adding PatternDef CAPACITOR-ELKO-RM5-10x20_3
+Adding PatternDef CAPACITOR-ELKO-RM5-10x20_4
+Adding PatternDef CAPACITOR-ELKO-RM5-10x20_5
+Adding PatternDef CAPACITOR-ELKO-RM5-10x20_6
+Adding PatternDef CAPACITOR-ELKO-400V-RM10-35x50_2
+Adding PatternDef CAPACITOR-ELKO-400V-RM10-35x50_3
+Adding PatternDef CP22.5x10x26.5_1
+Adding PatternDef FiducialMarker_1
+Adding CompDef EIA0603_1
+Adding CompDef SOT23-3N_1
+Adding CompDef X04_100mil_1
+Adding CompDef X08_615008148521_1
+Adding CompDef EIA0603_2
+Adding CompDef SOT23-3N_2
+Adding CompDef SOT223_1
+Adding CompDef SOIC8_1
+Adding CompDef EIA0603_3
+Adding CompDef X10_100mil_2xRow_Vert_1
+Adding CompDef Resonator_CSTNE8M00G520000R0_1
+Adding CompDef QFP-144-M_1
+Adding CompDef CAPACITOR-FILM-RM17.5-28x17.5x25_1
+Adding CompDef EIA0805_1
+Adding CompDef SOT23DualDiode_1
+Adding CompDef CAPACITOR-FILM-RM12.5mm-12mm_1
+Adding CompDef RES-RM15-RSF1W_1
+Adding CompDef RES-RM12.5-VR37_1
+Adding CompDef C_Disc_P7.5D12_1
+Adding CompDef 2010Resistor_1
+Adding CompDef SMB_1
+Adding CompDef ALFG2PF09_1
+Adding CompDef SOD323_1
+Adding CompDef NTC_D10_P7.5_1
+Adding CompDef CAPACITOR-ELKO-400V-RM10-35x50_1
+Adding CompDef 2512Resistor_1
+Adding CompDef SOT223 TI_1
+Adding CompDef 1206LED_1
+Adding CompDef CAPACITOR-ELKO-RM5-10x20_1
+Adding CompDef SOIC16_Wide_HV_1
+Adding CompDef Ferrite_Smd_0603_1
+Adding CompDef Fuse_Clip_01020071Z_1
+Adding CompDef EPCOS_B72205S0271K101_1
+Adding CompDef EIA1206_1
+Adding CompDef SRN8040TA_1
+Adding CompDef SRP1770TA_1
+Adding CompDef SMA_1
+Adding CompDef CAPACITOR-ELKO-RM5-10x20_2
+Adding CompDef 11-0060-A_1
+Adding CompDef PAD-3.0x6.0MM_1
+Adding CompDef PAD-3.0x6.0MM_2
+Adding CompDef PAD-3.0x6.0MM_3
+Adding CompDef PAD-3.0x6.0MM_4
+Adding CompDef PAD-3.0x6.0MM_5
+Adding CompDef TO247-AC_1
+Adding CompDef TO247-AC_2
+Adding CompDef X01_M10_7461061_1
+Adding CompDef WSLP3921L_1
+Adding CompDef SMA_2
+Adding CompDef X06_Molex_Microfit_1
+Adding CompDef X01_FastonPCBTab6.3mm1.8mmHole_1
+Adding CompDef PAD-3.0x6.0MM_6
+Adding CompDef PAD-3.0x6.0MM_7
+Adding CompDef CST206-2A_1
+Adding CompDef RES-RM20-RSF2W_1
+Adding CompDef TO-92_1
+Adding CompDef TSSOP24_1
+Adding CompDef SOT23-5_1
+Adding CompDef DIP04_1
+Adding CompDef TO247-AD_1
+Adding CompDef DO-201AD_1
+Adding CompDef GBPC3510W_1
+Adding CompDef CAPACITOR-ELKO-RM5-10x20_3
+Adding CompDef CAPACITOR-ELKO-RM5-10x20_4
+Adding CompDef CAPACITOR-ELKO-RM5-10x20_5
+Adding CompDef CAPACITOR-ELKO-RM5-10x20_6
+Adding CompDef CAPACITOR-ELKO-400V-RM10-35x50_2
+Adding CompDef CAPACITOR-ELKO-400V-RM10-35x50_3
+Adding CompDef CP22.5x10x26.5_1
+Adding CompDef FiducialMarker_1
+      Warning: Net NetD310_1 already belongs to a NetClass and has not been added to NetClass Weld-
+      Warning: Net NetD307_1 already belongs to a NetClass and has not been added to NetClass Weld-
+      Warning: Net GND already belongs to a NetClass and has not been added to NetClass LV_Net
+      Warning: Net Welder- already belongs to a NetClass and has not been added to NetClass LV_Net
+      Warning: Net Welder+ already belongs to a NetClass and has not been added to NetClass LV_Net
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopSolder.
+      Warning: Unexpected Poly Region Object Found On Layer BottomSolder.
+      Warning: Unexpected Poly Region Object Found On Layer BottomSolder.
+      Warning: Unexpected Poly Region Object Found On Layer BottomSolder.
+      Warning: Unexpected Poly Region Object Found On Layer BottomSolder.
+      Warning: Unexpected Poly Region Object Found On Layer BottomSolder.
+      Warning: Unexpected Poly Region Object Found On Layer BottomSolder.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected Poly Region Object Found On Layer TopOverlay.
+      Warning: Unexpected ComponentBody Object Found On Layer Mechanical1.
+      Warning: Unexpected ComponentBody Object Found On Layer Mechanical1.
+      Warning: Unexpected ComponentBody Object Found On Layer Mechanical1.
+      Warning: Unexpected ComponentBody Object Found On Layer Mechanical1.
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer1.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer1.
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+      Warning: Unexpected Poly Region Object Found On Layer MidLayer2.
+ 
+EndLog
