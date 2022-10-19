@@ -532,10 +532,10 @@
 <part name="GND6" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R7" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R1" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
-<part name="R2" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R3" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R9" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R11" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
+<part name="R2" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R3" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R9" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
+<part name="R11" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="J1" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
 <part name="U4" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U5" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -545,10 +545,10 @@
 <part name="GND9" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R8" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R4" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
-<part name="R5" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R6" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R10" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R12" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
+<part name="R5" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R6" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R10" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
+<part name="R12" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="J2" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
 <part name="U13" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U14" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -558,10 +558,10 @@
 <part name="GND15" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R25" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R26" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
-<part name="R27" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R28" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R29" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R30" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
+<part name="R27" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R28" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R29" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
+<part name="R30" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="J5" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
 <part name="U16" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U17" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -571,10 +571,10 @@
 <part name="GND18" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R31" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R32" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
-<part name="R33" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R34" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R35" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R36" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
+<part name="R33" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R34" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R35" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
+<part name="R36" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="J6" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
 <part name="U25" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U26" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -584,10 +584,10 @@
 <part name="GND27" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R49" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R50" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
-<part name="R51" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R52" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R53" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R54" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
+<part name="R51" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R52" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R53" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
+<part name="R54" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="J9" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
 <part name="U28" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U29" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -597,10 +597,10 @@
 <part name="GND30" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R55" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R56" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
-<part name="R57" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R58" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R59" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R60" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
+<part name="R57" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R58" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R59" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
+<part name="R60" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="J10" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
 <part name="U37" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U38" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -610,10 +610,10 @@
 <part name="GND39" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R73" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R74" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
-<part name="R75" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R76" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R77" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R78" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
+<part name="R75" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R76" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R77" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
+<part name="R78" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="J13" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
 <part name="U40" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U41" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -623,10 +623,10 @@
 <part name="GND42" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R79" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R80" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
-<part name="R81" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R82" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R83" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R84" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
+<part name="R81" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R82" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R83" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
+<part name="R84" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="J14" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
 <part name="U49" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U50" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -636,10 +636,10 @@
 <part name="GND51" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R97" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R98" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
-<part name="R99" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R100" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R101" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R102" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
+<part name="R99" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R100" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R101" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
+<part name="R102" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="J17" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
 <part name="U52" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U53" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -649,10 +649,10 @@
 <part name="GND54" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R103" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R104" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
-<part name="R105" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R106" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R107" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
-<part name="R108" library="3D_MIG_Controller" deviceset="R_0805" device=""/>
+<part name="R105" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R106" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
+<part name="R107" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
+<part name="R108" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="J18" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
 <part name="J3" library="3D_MIG_Controller" deviceset="2_X_10_HEADER_GENERIC" device="2_X_10_.1_IN_RA"/>
 <part name="GND1" library="3D_MIG_Controller" deviceset="GND" device=""/>

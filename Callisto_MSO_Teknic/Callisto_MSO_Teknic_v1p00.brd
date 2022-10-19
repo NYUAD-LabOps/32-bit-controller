@@ -497,19 +497,19 @@ design rules under a new name.</description>
 <element name="R1" library="3D_MIG_Controller" package="0805" value="33" x="14.5" y="22.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="15.77" y="23.47" size="0.508" layer="26" rot="MR0"/>
 </element>
-<element name="R2" library="3D_MIG_Controller" package="0805" value="" x="10.3" y="22.2" smashed="yes" rot="MR0">
+<element name="R2" library="3D_MIG_Controller" package="0805" value="33" x="10.3" y="22.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="11.57" y="23.47" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="11.57" y="19.66" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R3" library="3D_MIG_Controller" package="0805" value="" x="6.1" y="22.2" smashed="yes" rot="MR0">
+<element name="R3" library="3D_MIG_Controller" package="0805" value="33" x="6.1" y="22.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="7.37" y="23.47" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="7.37" y="19.66" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R9" library="3D_MIG_Controller" package="0805" value="" x="10.2" y="12" smashed="yes" rot="MR180">
+<element name="R9" library="3D_MIG_Controller" package="0805" value="1k" x="10.2" y="12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="11.33" y="10.93" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="8.93" y="14.54" size="0.381" layer="28" rot="MR180"/>
 </element>
-<element name="R11" library="3D_MIG_Controller" package="0805" value="" x="6" y="12.1" smashed="yes" rot="MR180">
+<element name="R11" library="3D_MIG_Controller" package="0805" value="1k" x="6" y="12.1" smashed="yes" rot="MR180">
 <attribute name="NAME" x="7.13" y="10.93" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="4.73" y="14.64" size="0.381" layer="28" rot="MR180"/>
 </element>
@@ -539,19 +539,19 @@ design rules under a new name.</description>
 <element name="R4" library="3D_MIG_Controller" package="0805" value="33" x="14.5" y="39.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="15.77" y="41.07" size="0.508" layer="26" rot="MR0"/>
 </element>
-<element name="R5" library="3D_MIG_Controller" package="0805" value="" x="10.3" y="39.8" smashed="yes" rot="MR0">
+<element name="R5" library="3D_MIG_Controller" package="0805" value="33" x="10.3" y="39.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="11.57" y="41.07" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="11.57" y="37.26" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R6" library="3D_MIG_Controller" package="0805" value="" x="6.1" y="39.8" smashed="yes" rot="MR0">
+<element name="R6" library="3D_MIG_Controller" package="0805" value="33" x="6.1" y="39.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="7.37" y="41.07" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="7.37" y="37.26" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R10" library="3D_MIG_Controller" package="0805" value="" x="10.2" y="29.6" smashed="yes" rot="MR180">
+<element name="R10" library="3D_MIG_Controller" package="0805" value="1k" x="10.2" y="29.6" smashed="yes" rot="MR180">
 <attribute name="NAME" x="11.33" y="28.53" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="8.93" y="32.14" size="0.381" layer="28" rot="MR180"/>
 </element>
-<element name="R12" library="3D_MIG_Controller" package="0805" value="" x="6" y="29.7" smashed="yes" rot="MR180">
+<element name="R12" library="3D_MIG_Controller" package="0805" value="1k" x="6" y="29.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="7.13" y="28.53" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="4.73" y="32.24" size="0.381" layer="28" rot="MR180"/>
 </element>
@@ -581,19 +581,19 @@ design rules under a new name.</description>
 <element name="R26" library="3D_MIG_Controller" package="0805" value="33" x="36.9" y="22.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.17" y="23.37" size="0.508" layer="26" rot="MR0"/>
 </element>
-<element name="R27" library="3D_MIG_Controller" package="0805" value="" x="32.7" y="22.1" smashed="yes" rot="MR0">
+<element name="R27" library="3D_MIG_Controller" package="0805" value="33" x="32.7" y="22.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="33.97" y="23.37" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="33.97" y="19.56" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R28" library="3D_MIG_Controller" package="0805" value="" x="28.5" y="22.1" smashed="yes" rot="MR0">
+<element name="R28" library="3D_MIG_Controller" package="0805" value="33" x="28.5" y="22.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="29.77" y="23.37" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="29.77" y="19.56" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R29" library="3D_MIG_Controller" package="0805" value="" x="32.6" y="11.9" smashed="yes" rot="MR180">
+<element name="R29" library="3D_MIG_Controller" package="0805" value="1k" x="32.6" y="11.9" smashed="yes" rot="MR180">
 <attribute name="NAME" x="33.73" y="10.83" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="31.33" y="14.44" size="0.381" layer="28" rot="MR180"/>
 </element>
-<element name="R30" library="3D_MIG_Controller" package="0805" value="" x="28.4" y="12" smashed="yes" rot="MR180">
+<element name="R30" library="3D_MIG_Controller" package="0805" value="1k" x="28.4" y="12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="29.53" y="10.83" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="27.13" y="14.54" size="0.381" layer="28" rot="MR180"/>
 </element>
@@ -623,19 +623,19 @@ design rules under a new name.</description>
 <element name="R32" library="3D_MIG_Controller" package="0805" value="33" x="36.9" y="39.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.17" y="40.97" size="0.508" layer="26" rot="MR0"/>
 </element>
-<element name="R33" library="3D_MIG_Controller" package="0805" value="" x="32.7" y="39.7" smashed="yes" rot="MR0">
+<element name="R33" library="3D_MIG_Controller" package="0805" value="33" x="32.7" y="39.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="33.97" y="40.97" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="33.97" y="37.16" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R34" library="3D_MIG_Controller" package="0805" value="" x="28.5" y="39.7" smashed="yes" rot="MR0">
+<element name="R34" library="3D_MIG_Controller" package="0805" value="33" x="28.5" y="39.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="29.77" y="40.97" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="29.77" y="37.16" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R35" library="3D_MIG_Controller" package="0805" value="" x="32.6" y="29.5" smashed="yes" rot="MR180">
+<element name="R35" library="3D_MIG_Controller" package="0805" value="1k" x="32.6" y="29.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="33.73" y="28.43" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="31.33" y="32.04" size="0.381" layer="28" rot="MR180"/>
 </element>
-<element name="R36" library="3D_MIG_Controller" package="0805" value="" x="28.4" y="29.6" smashed="yes" rot="MR180">
+<element name="R36" library="3D_MIG_Controller" package="0805" value="1k" x="28.4" y="29.6" smashed="yes" rot="MR180">
 <attribute name="NAME" x="29.53" y="28.43" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="27.13" y="32.14" size="0.381" layer="28" rot="MR180"/>
 </element>
@@ -665,19 +665,19 @@ design rules under a new name.</description>
 <element name="R50" library="3D_MIG_Controller" package="0805" value="33" x="58.8" y="22.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="60.07" y="23.37" size="0.508" layer="26" rot="MR0"/>
 </element>
-<element name="R51" library="3D_MIG_Controller" package="0805" value="" x="54.6" y="22.1" smashed="yes" rot="MR0">
+<element name="R51" library="3D_MIG_Controller" package="0805" value="33" x="54.6" y="22.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="55.87" y="23.37" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="55.87" y="19.56" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R52" library="3D_MIG_Controller" package="0805" value="" x="50.4" y="22.1" smashed="yes" rot="MR0">
+<element name="R52" library="3D_MIG_Controller" package="0805" value="33" x="50.4" y="22.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="51.67" y="23.37" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="51.67" y="19.56" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R53" library="3D_MIG_Controller" package="0805" value="" x="54.5" y="11.9" smashed="yes" rot="MR180">
+<element name="R53" library="3D_MIG_Controller" package="0805" value="1k" x="54.5" y="11.9" smashed="yes" rot="MR180">
 <attribute name="NAME" x="55.63" y="10.83" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="53.23" y="14.44" size="0.381" layer="28" rot="MR180"/>
 </element>
-<element name="R54" library="3D_MIG_Controller" package="0805" value="" x="50.3" y="12" smashed="yes" rot="MR180">
+<element name="R54" library="3D_MIG_Controller" package="0805" value="1k" x="50.3" y="12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="51.43" y="10.83" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="49.03" y="14.54" size="0.381" layer="28" rot="MR180"/>
 </element>
@@ -707,19 +707,19 @@ design rules under a new name.</description>
 <element name="R56" library="3D_MIG_Controller" package="0805" value="33" x="58.8" y="39.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="60.07" y="40.97" size="0.508" layer="26" rot="MR0"/>
 </element>
-<element name="R57" library="3D_MIG_Controller" package="0805" value="" x="54.6" y="39.7" smashed="yes" rot="MR0">
+<element name="R57" library="3D_MIG_Controller" package="0805" value="33" x="54.6" y="39.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="55.87" y="40.97" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="55.87" y="37.16" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R58" library="3D_MIG_Controller" package="0805" value="" x="50.4" y="39.7" smashed="yes" rot="MR0">
+<element name="R58" library="3D_MIG_Controller" package="0805" value="33" x="50.4" y="39.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="51.67" y="40.97" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="51.67" y="37.16" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R59" library="3D_MIG_Controller" package="0805" value="" x="54.5" y="29.5" smashed="yes" rot="MR180">
+<element name="R59" library="3D_MIG_Controller" package="0805" value="1k" x="54.5" y="29.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="55.63" y="28.43" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="53.23" y="32.04" size="0.381" layer="28" rot="MR180"/>
 </element>
-<element name="R60" library="3D_MIG_Controller" package="0805" value="" x="50.3" y="29.6" smashed="yes" rot="MR180">
+<element name="R60" library="3D_MIG_Controller" package="0805" value="1k" x="50.3" y="29.6" smashed="yes" rot="MR180">
 <attribute name="NAME" x="51.43" y="28.43" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="49.03" y="32.14" size="0.381" layer="28" rot="MR180"/>
 </element>
@@ -749,19 +749,19 @@ design rules under a new name.</description>
 <element name="R74" library="3D_MIG_Controller" package="0805" value="33" x="81.3" y="22.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="82.57" y="23.47" size="0.508" layer="26" rot="MR0"/>
 </element>
-<element name="R75" library="3D_MIG_Controller" package="0805" value="" x="77.1" y="22.2" smashed="yes" rot="MR0">
+<element name="R75" library="3D_MIG_Controller" package="0805" value="33" x="77.1" y="22.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="78.37" y="23.47" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="78.37" y="19.66" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R76" library="3D_MIG_Controller" package="0805" value="" x="72.9" y="22.2" smashed="yes" rot="MR0">
+<element name="R76" library="3D_MIG_Controller" package="0805" value="33" x="72.9" y="22.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="74.17" y="23.47" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="74.17" y="19.66" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R77" library="3D_MIG_Controller" package="0805" value="" x="77" y="12" smashed="yes" rot="MR180">
+<element name="R77" library="3D_MIG_Controller" package="0805" value="1k" x="77" y="12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="78.13" y="10.93" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="75.73" y="14.54" size="0.381" layer="28" rot="MR180"/>
 </element>
-<element name="R78" library="3D_MIG_Controller" package="0805" value="" x="72.8" y="12.1" smashed="yes" rot="MR180">
+<element name="R78" library="3D_MIG_Controller" package="0805" value="1k" x="72.8" y="12.1" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.93" y="10.93" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="71.53" y="14.64" size="0.381" layer="28" rot="MR180"/>
 </element>
@@ -791,19 +791,19 @@ design rules under a new name.</description>
 <element name="R80" library="3D_MIG_Controller" package="0805" value="33" x="81.3" y="39.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="82.57" y="41.07" size="0.508" layer="26" rot="MR0"/>
 </element>
-<element name="R81" library="3D_MIG_Controller" package="0805" value="" x="77.1" y="39.8" smashed="yes" rot="MR0">
+<element name="R81" library="3D_MIG_Controller" package="0805" value="33" x="77.1" y="39.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="78.37" y="41.07" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="78.37" y="37.26" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R82" library="3D_MIG_Controller" package="0805" value="" x="72.9" y="39.8" smashed="yes" rot="MR0">
+<element name="R82" library="3D_MIG_Controller" package="0805" value="33" x="72.9" y="39.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="74.17" y="41.07" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="74.17" y="37.26" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R83" library="3D_MIG_Controller" package="0805" value="" x="77" y="29.6" smashed="yes" rot="MR180">
+<element name="R83" library="3D_MIG_Controller" package="0805" value="1k" x="77" y="29.6" smashed="yes" rot="MR180">
 <attribute name="NAME" x="78.13" y="28.53" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="75.73" y="32.14" size="0.381" layer="28" rot="MR180"/>
 </element>
-<element name="R84" library="3D_MIG_Controller" package="0805" value="" x="72.8" y="29.7" smashed="yes" rot="MR180">
+<element name="R84" library="3D_MIG_Controller" package="0805" value="1k" x="72.8" y="29.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.93" y="28.53" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="71.53" y="32.24" size="0.381" layer="28" rot="MR180"/>
 </element>
@@ -833,19 +833,19 @@ design rules under a new name.</description>
 <element name="R98" library="3D_MIG_Controller" package="0805" value="33" x="104" y="22.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="105.27" y="23.37" size="0.508" layer="26" rot="MR0"/>
 </element>
-<element name="R99" library="3D_MIG_Controller" package="0805" value="" x="99.8" y="22.1" smashed="yes" rot="MR0">
+<element name="R99" library="3D_MIG_Controller" package="0805" value="33" x="99.8" y="22.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="101.07" y="23.37" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="101.07" y="19.56" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R100" library="3D_MIG_Controller" package="0805" value="" x="95.6" y="22.1" smashed="yes" rot="MR0">
+<element name="R100" library="3D_MIG_Controller" package="0805" value="33" x="95.6" y="22.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="96.87" y="23.37" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="96.87" y="19.56" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R101" library="3D_MIG_Controller" package="0805" value="" x="99.7" y="11.9" smashed="yes" rot="MR180">
+<element name="R101" library="3D_MIG_Controller" package="0805" value="1k" x="99.7" y="11.9" smashed="yes" rot="MR180">
 <attribute name="NAME" x="100.83" y="10.83" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="98.43" y="14.44" size="0.381" layer="28" rot="MR180"/>
 </element>
-<element name="R102" library="3D_MIG_Controller" package="0805" value="" x="95.5" y="12" smashed="yes" rot="MR180">
+<element name="R102" library="3D_MIG_Controller" package="0805" value="1k" x="95.5" y="12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="96.63" y="10.83" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="94.23" y="14.54" size="0.381" layer="28" rot="MR180"/>
 </element>
@@ -875,19 +875,19 @@ design rules under a new name.</description>
 <element name="R104" library="3D_MIG_Controller" package="0805" value="33" x="104" y="39.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="105.27" y="40.97" size="0.508" layer="26" rot="MR0"/>
 </element>
-<element name="R105" library="3D_MIG_Controller" package="0805" value="" x="99.8" y="39.7" smashed="yes" rot="MR0">
+<element name="R105" library="3D_MIG_Controller" package="0805" value="33" x="99.8" y="39.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="101.07" y="40.97" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="101.07" y="37.16" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R106" library="3D_MIG_Controller" package="0805" value="" x="95.6" y="39.7" smashed="yes" rot="MR0">
+<element name="R106" library="3D_MIG_Controller" package="0805" value="33" x="95.6" y="39.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="96.87" y="40.97" size="0.508" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="96.87" y="37.16" size="0.381" layer="28" rot="MR0"/>
 </element>
-<element name="R107" library="3D_MIG_Controller" package="0805" value="" x="99.7" y="29.5" smashed="yes" rot="MR180">
+<element name="R107" library="3D_MIG_Controller" package="0805" value="1k" x="99.7" y="29.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="100.83" y="28.43" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="98.43" y="32.04" size="0.381" layer="28" rot="MR180"/>
 </element>
-<element name="R108" library="3D_MIG_Controller" package="0805" value="" x="95.5" y="29.6" smashed="yes" rot="MR180">
+<element name="R108" library="3D_MIG_Controller" package="0805" value="1k" x="95.5" y="29.6" smashed="yes" rot="MR180">
 <attribute name="NAME" x="96.63" y="28.43" size="0.508" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="94.23" y="32.14" size="0.381" layer="28" rot="MR180"/>
 </element>
