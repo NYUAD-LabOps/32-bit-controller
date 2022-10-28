@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-04-19T05:09:49Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "OutputIndicator_v1p3"
+        },
+        "Owner": "Michael Davis <michael@davisfiles.net>",
+        "Size": {
+            "X": 121,
+            "Y": 97
+        }
+    }
+}
