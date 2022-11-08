@@ -2280,7 +2280,7 @@ Shield pins may be grounded.
 </device>
 </devices>
 </deviceset>
-<deviceset name="3.81MM_1_X_4_RT_ANGLE_PLUG_HEADER" prefix="J" uservalue="yes">
+<deviceset name="3.81MM_1_X_4_RT_ANGLE_PLUG_HEADER" prefix="T" uservalue="yes">
 <description>4 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.150" (3.81mm) 90°, Right Angle - Through Hole</description>
 <gates>
 <gate name="G$1" symbol="1X4_HEADER" x="0" y="-7.62"/>
@@ -2401,7 +2401,7 @@ Shield pins may be grounded.
 </device>
 </devices>
 </deviceset>
-<deviceset name="FIDUCIAL_1MM">
+<deviceset name="FIDUCIAL_1MM" prefix="FID">
 <description>For use by pick and place machines to calibrate the vision/machine, 1mm
 &lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
 <gates>
@@ -2452,7 +2452,7 @@ Shield pins may be grounded.
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEKNIC_8PIN_MOTOR" prefix="J" uservalue="yes">
+<deviceset name="TEKNIC_MOTOR_8PIN" prefix="J" uservalue="yes">
 <gates>
 <gate name="HLFB" symbol="CON_39281083_TEKNIC_8PIN" x="0" y="0"/>
 </gates>
@@ -2494,7 +2494,7 @@ Shield pins may be grounded.
 </device>
 </devices>
 </deviceset>
-<deviceset name="RELAY_KYOTO_KF0604D">
+<deviceset name="RELAY_KYOTO_KF0604D" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="RELAY_KYOTO_KF0604D" x="-5.08" y="0"/>
 </gates>
@@ -2512,7 +2512,7 @@ Shield pins may be grounded.
 </device>
 </devices>
 </deviceset>
-<deviceset name="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" prefix="J" uservalue="yes">
+<deviceset name="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" prefix="T" uservalue="yes">
 <description>TERM BLOCK HDR 2POS 90DEG 3.81MM</description>
 <gates>
 <gate name="A" symbol="1X2_HEADER" x="2.54" y="-2.54"/>
@@ -2723,7 +2723,7 @@ Shield pins may be grounded.
 <part name="R40" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R41" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R42" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J13" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J13" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="U13" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U14" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U15" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -2736,7 +2736,7 @@ Shield pins may be grounded.
 <part name="R46" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R47" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R48" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J14" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J14" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="U22" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U23" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U24" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -2749,7 +2749,7 @@ Shield pins may be grounded.
 <part name="R64" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R65" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R66" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J17" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J17" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="U25" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U26" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U27" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -2762,7 +2762,7 @@ Shield pins may be grounded.
 <part name="R70" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R71" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R72" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J18" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J18" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="U34" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U35" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U36" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -2775,7 +2775,7 @@ Shield pins may be grounded.
 <part name="R88" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R89" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R90" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J21" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J21" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="U37" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U38" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U39" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -2788,7 +2788,7 @@ Shield pins may be grounded.
 <part name="R94" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R95" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R96" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J22" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J22" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="U46" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U47" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U48" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -2801,7 +2801,7 @@ Shield pins may be grounded.
 <part name="R112" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R113" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R114" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J25" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J25" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="U49" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U50" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U51" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -2814,7 +2814,7 @@ Shield pins may be grounded.
 <part name="R118" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R119" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R120" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J26" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J26" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="U58" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U59" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U60" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -2827,7 +2827,7 @@ Shield pins may be grounded.
 <part name="R136" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R137" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R138" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J29" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J29" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="U61" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U62" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U63" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -2840,7 +2840,7 @@ Shield pins may be grounded.
 <part name="R142" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R143" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R144" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J30" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J30" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="U70" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U71" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U72" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -2853,7 +2853,7 @@ Shield pins may be grounded.
 <part name="R160" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R161" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R162" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J33" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J33" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="U73" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U74" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U75" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
@@ -2866,7 +2866,7 @@ Shield pins may be grounded.
 <part name="R166" library="3D_MIG_Controller" deviceset="R_0805" device="" value="33"/>
 <part name="R167" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R168" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
-<part name="J34" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
+<part name="J34" library="3D_MIG_Controller" deviceset="TEKNIC_MOTOR_8PIN" device=""/>
 <part name="R29" library="3D_MIG_Controller" deviceset="R_0402" device="" value="500R0"/>
 <part name="U6" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U$1" library="3D_MIG_Controller" deviceset="RELAY_KYOTO_KF0604D" device=""/>
