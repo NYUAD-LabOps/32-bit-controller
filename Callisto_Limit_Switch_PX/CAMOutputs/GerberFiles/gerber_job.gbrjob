@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-06-04T00:21:09Z",
+        "CreationDate": "2022-11-12T03:42:14Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,12 +13,12 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "Callisto_Limit_Switch_PX"
+            "ProjectId": "Limit_switch_test_circuit"
         },
         "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
-            "X": 50,
-            "Y": 40
+            "X": 30,
+            "Y": 30
         }
     }
 }
