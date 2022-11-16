@@ -2867,11 +2867,11 @@ Shield pins may be grounded.
 <part name="R167" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="R168" library="3D_MIG_Controller" deviceset="R_0805" device="" value="1k"/>
 <part name="J34" library="3D_MIG_Controller" deviceset="TEKNIC_8PIN_MOTOR" device=""/>
-<part name="R29" library="3D_MIG_Controller" deviceset="R_0402" device="" value="500R0"/>
+<part name="R29" library="3D_MIG_Controller" deviceset="R_0402" device="" value="470R0"/>
 <part name="U6" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U$1" library="3D_MIG_Controller" deviceset="RELAY_KYOTO_KF0604D" device=""/>
 <part name="J15" library="3D_MIG_Controller" deviceset="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" device="" value="2-pos"/>
-<part name="R30" library="3D_MIG_Controller" deviceset="R_0402" device="" value="500R0"/>
+<part name="R30" library="3D_MIG_Controller" deviceset="R_0402" device="" value="470R0"/>
 <part name="U7" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U$2" library="3D_MIG_Controller" deviceset="RELAY_KYOTO_KF0604D" device=""/>
 <part name="J16" library="3D_MIG_Controller" deviceset="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" device="" value="2-pos"/>
@@ -2879,11 +2879,11 @@ Shield pins may be grounded.
 <part name="LED5" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R31" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="R32" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
-<part name="R49" library="3D_MIG_Controller" deviceset="R_0402" device="" value="500R0"/>
+<part name="R49" library="3D_MIG_Controller" deviceset="R_0402" device="" value="470R0"/>
 <part name="U16" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U$7" library="3D_MIG_Controller" deviceset="RELAY_KYOTO_KF0604D" device=""/>
 <part name="J23" library="3D_MIG_Controller" deviceset="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" device="" value="2-pos"/>
-<part name="R50" library="3D_MIG_Controller" deviceset="R_0402" device="" value="500R0"/>
+<part name="R50" library="3D_MIG_Controller" deviceset="R_0402" device="" value="470R0"/>
 <part name="U17" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
 <part name="U$8" library="3D_MIG_Controller" deviceset="RELAY_KYOTO_KF0604D" device=""/>
 <part name="J24" library="3D_MIG_Controller" deviceset="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" device="" value="2-pos"/>
@@ -2901,55 +2901,55 @@ Shield pins may be grounded.
 <part name="J28" library="3D_MIG_Controller" deviceset="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" device="" value="2-pos"/>
 <part name="J31" library="3D_MIG_Controller" deviceset="3.81MM_1_X_2_RT_ANGLE_PLUG_HEADER" device="" value="2-pos"/>
 <part name="U5" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="R28" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
+<part name="R28" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2K2"/>
 <part name="LED3" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R33" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND5" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R34" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="U8" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="R35" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
+<part name="R35" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2K2"/>
 <part name="LED6" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R36" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND6" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R53" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="U9" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="R54" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
+<part name="R54" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2K2"/>
 <part name="LED7" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R55" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND7" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R56" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="U19" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="R60" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
+<part name="R60" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2K2"/>
 <part name="LED11" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R73" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND9" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R74" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="U21" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="R78" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
+<part name="R78" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2K2"/>
 <part name="LED13" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R79" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND19" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R80" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="U18" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="R57" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
+<part name="R57" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2K2"/>
 <part name="LED10" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R58" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND8" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R59" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="U20" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="R75" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
+<part name="R75" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2K2"/>
 <part name="LED12" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R76" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND13" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R77" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="U29" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="R84" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
+<part name="R84" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2K2"/>
 <part name="LED15" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R97" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND21" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R98" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="U28" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="R81" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
+<part name="R81" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2K2"/>
 <part name="LED14" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R82" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND20" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2959,7 +2959,7 @@ Shield pins may be grounded.
 <part name="P3" library="3D_MIG_Controller" deviceset="1_X_1_1MM_PIN" device=""/>
 <part name="P4" library="3D_MIG_Controller" deviceset="1_X_1_1MM_PIN" device=""/>
 <part name="U30" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="R99" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
+<part name="R99" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2K2"/>
 <part name="LED16" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R100" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND22" library="3D_MIG_Controller" deviceset="GND" device=""/>
