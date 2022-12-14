@@ -897,7 +897,7 @@ design rules under a new name.</description>
 <signal name="N$12">
 <contactref element="R12" pad="1"/>
 <contactref element="LED12" pad="1"/>
-<wire x1="57.7" y1="76.95" x2="57.7" y2="79.65" width="0" layer="19" extent="1-1"/>
+<wire x1="57.7" y1="79.65" x2="57.7" y2="76.95" width="0.254" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R5" pad="1"/>
@@ -984,7 +984,7 @@ design rules under a new name.</description>
 <signal name="N$8">
 <contactref element="R8" pad="1"/>
 <contactref element="LED8" pad="1"/>
-<wire x1="35.2" y1="76.95" x2="35.2" y2="79.65" width="0" layer="19" extent="1-1"/>
+<wire x1="35.2" y1="79.65" x2="35.2" y2="76.95" width="0.254" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R17" pad="1"/>
@@ -1071,7 +1071,7 @@ design rules under a new name.</description>
 <signal name="N$20">
 <contactref element="R20" pad="1"/>
 <contactref element="LED20" pad="1"/>
-<wire x1="56.4" y1="47.95" x2="56.4" y2="50.65" width="0" layer="19" extent="1-1"/>
+<wire x1="56.4" y1="50.65" x2="56.4" y2="47.95" width="0.254" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="R21" pad="1"/>
@@ -1158,7 +1158,7 @@ design rules under a new name.</description>
 <signal name="N$24">
 <contactref element="R24" pad="1"/>
 <contactref element="LED24" pad="1"/>
-<wire x1="33.9" y1="47.95" x2="33.9" y2="50.65" width="0" layer="19" extent="1-1"/>
+<wire x1="33.9" y1="50.65" x2="33.9" y2="47.95" width="0.254" layer="1"/>
 </signal>
 <signal name="N$33">
 <contactref element="R33" pad="1"/>
@@ -1245,7 +1245,7 @@ design rules under a new name.</description>
 <signal name="N$36">
 <contactref element="R36" pad="1"/>
 <contactref element="LED36" pad="1"/>
-<wire x1="56.1" y1="21.35" x2="56.1" y2="24.05" width="0" layer="19" extent="1-1"/>
+<wire x1="56.1" y1="24.05" x2="56.1" y2="21.35" width="0.254" layer="1"/>
 </signal>
 <signal name="N$37">
 <contactref element="R37" pad="1"/>
@@ -1332,7 +1332,7 @@ design rules under a new name.</description>
 <signal name="N$40">
 <contactref element="R40" pad="1"/>
 <contactref element="LED40" pad="1"/>
-<wire x1="33.6" y1="21.35" x2="33.6" y2="24.05" width="0" layer="19" extent="1-1"/>
+<wire x1="33.6" y1="24.05" x2="33.6" y2="21.35" width="0.254" layer="1"/>
 </signal>
 <signal name="N$49">
 <contactref element="R49" pad="1"/>
@@ -1419,7 +1419,7 @@ design rules under a new name.</description>
 <signal name="N$52">
 <contactref element="R52" pad="1"/>
 <contactref element="LED52" pad="1"/>
-<wire x1="115.9" y1="76.65" x2="115.9" y2="79.35" width="0" layer="19" extent="1-1"/>
+<wire x1="115.9" y1="79.35" x2="115.9" y2="76.65" width="0.254" layer="1"/>
 </signal>
 <signal name="N$53">
 <contactref element="R53" pad="1"/>
@@ -1506,7 +1506,7 @@ design rules under a new name.</description>
 <signal name="N$56">
 <contactref element="R56" pad="1"/>
 <contactref element="LED56" pad="1"/>
-<wire x1="93.4" y1="76.65" x2="93.4" y2="79.35" width="0" layer="19" extent="1-1"/>
+<wire x1="93.4" y1="79.35" x2="93.4" y2="76.65" width="0.254" layer="1"/>
 </signal>
 <signal name="N$65">
 <contactref element="R65" pad="1"/>
@@ -1593,7 +1593,7 @@ design rules under a new name.</description>
 <signal name="N$68">
 <contactref element="R68" pad="1"/>
 <contactref element="LED68" pad="1"/>
-<wire x1="104.9" y1="20.35" x2="104.9" y2="23.05" width="0" layer="19" extent="1-1"/>
+<wire x1="104.9" y1="20.35" x2="104.9" y2="23.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$69">
 <contactref element="R69" pad="1"/>
@@ -1680,7 +1680,21 @@ design rules under a new name.</description>
 <signal name="N$72">
 <contactref element="R72" pad="1"/>
 <contactref element="LED72" pad="1"/>
-<wire x1="104.9" y1="49.45" x2="104.9" y2="52.15" width="0" layer="19" extent="1-1"/>
+<wire x1="104.9" y1="49.45" x2="104.9" y2="52.15" width="0.254" layer="1"/>
+</signal>
+<signal name="GND">
+<polygon width="0.01" layer="1" thermals="no">
+<vertex x="0" y="0"/>
+<vertex x="0" y="90"/>
+<vertex x="125" y="90"/>
+<vertex x="125" y="0"/>
+</polygon>
+<polygon width="0.01" layer="16" thermals="no">
+<vertex x="0" y="0"/>
+<vertex x="0" y="90"/>
+<vertex x="125" y="90"/>
+<vertex x="125" y="0"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
