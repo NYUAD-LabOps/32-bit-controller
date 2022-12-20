@@ -3030,6 +3030,7 @@ Shield pins may be grounded.
 <plain>
 <text x="-579.12" y="116.84" size="6.4516" layer="97">Power Input</text>
 <text x="-154.94" y="114.3" size="6.4516" layer="97">JTAG</text>
+<text x="-678.18" y="-350.52" size="1.778" layer="97">These circles are fuducials for PnP.</text>
 </plain>
 <instances>
 <instance part="R16" gate="G$1" x="-50.8" y="-414.02" smashed="yes">
