@@ -1,0 +1,16 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"DESCRIPTION";"MF";"MFN";"MFR";"MPN";"OC_FARNELL";"OC_NEWARK";"PART_VALUE";"POPULARITY";"PRICE-1";"SUPPLIER-1";
+"7";"";"LED5MM";"LED5MM";"LED4, LED5, LED6, LED7, LED8, LED9, LED10";"LED";"";"";"";"";"";"";"";"";"93";"";"";
+"4";"0603ESDA-24NSMD";"0603ESDA-24NSMD";"EIA0603";"V1, V2, V3, V4";"";"aristor 0603 SMD Bidirectional 50V 24V";"";"0603ESDA-24N";"Bourns";"";"";"";"";"";"";"LCSC";
+"11";"100nF/100V";"C_0603EIA0603";"EIA0603";"C2, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15";"";"";"";"";"";"";"";"";"";"";"";"";
+"12";"10K 1%";"R_0603";"EIA0603";"R1, R3, R4, R5, R6, R9, R11, R13, R21, R22, R23, R24";"";"";"";"Open Source 0603";"";"";"";"";"";"";"";"";
+"1";"10k 1%";"R_0603";"EIA0603";"R7";"";"";"";"Open Source 0603";"";"";"";"";"";"";"";"";
+"7";"150R 1%";"R_1206EIA1206";"EIA1206";"R25, R26, R27, R28, R29, R30, R31";"";"";"";"Open Source R1206";"";"";"";"";"";"";"";"";
+"4";"1K 1%";"R_0603";"EIA0603";"R8, R10, R12, R14";"";"";"";"Open Source 0603";"";"";"";"";"";"";"";"";
+"4";"1uF/35V";"C_0603EIA0603";"EIA0603";"C1, C3, C4, C5";"";"";"";"";"";"";"";"";"";"";"";"";
+"3";"7-SEG_SA39-11SRWA";"7-SEG_SA39-11SRWA";"SA39-11SRWA";"LED1, LED2, LED3";"Kingbright 14.2mm (0.56 INCH) SINGLE DIGIT NUMERIC DUISPLAY";"";"";"";"";"";"unknown";"unknown";"";"";"";"";
+"1";"74LS47N";"74LS47N";"DIL16";"IC1";"BCD to seven segment DECODER/DRIVER";"";"";"";"";"";"";"";"";"0";"";"";
+"4";"BC817";"BC817";"SOT23";"Q1, Q2, Q3, Q4";"";"Transistor BJT NPN SOT23 45V 0.5A";"";"BC817";"NXP";"";"";"";"";"";"0.03";"Mouser";
+"3";"FIDUCIAL";"FIDUCIAL";"FIDUCIAL";"FID1, FID2, FID3";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"MICROMATCH-16";"MICROMATCH-16";"MICROMATCH-16";"X1";"MicroMaTch 16  8-215464-6 / 1-215464-6";"";"FARNELL";"";"";"8-215464-6";"3784680";"26H3309";"";"";"";"";
+"4";"MOUNT-PAD-ROUND3.0";"MOUNT-PAD-ROUND3.0";"3,0-PAD";"H1, H2, H3, H4";"MOUNTING PAD, round";"";"";"";"";"";"";"";"";"17";"";"";
+"7";"R_1206EIA1206";"R_1206EIA1206";"EIA1206";"R2, R15, R16, R17, R18, R19, R20";"";"";"";"Open Source R1206";"";"";"";"";"";"";"";"";
