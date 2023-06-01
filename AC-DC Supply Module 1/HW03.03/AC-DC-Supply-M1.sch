@@ -6763,6 +6763,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="T?1" library="Labops_Lib_AH" deviceset="FLYBACK_TR_NYUAD01" device=""/>
 <part name="C20" library="Labops_Lib_AH" deviceset="C_0603" device="" value="1uF/35V"/>
 <part name="C28" library="Labops_Lib_AH" deviceset="C_0603" device="" value="1uF/35V"/>
+<part name="FID3" library="Labops_Lib_AH" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7007,7 +7008,7 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="R19" gate="G$1" x="227.33" y="186.69" smashed="yes" rot="R90">
 <attribute name="NAME" x="227.1014" y="179.07" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="236.982" y="179.07" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="219.202" y="184.15" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C4" gate="G$1" x="233.68" y="187.96" smashed="yes">
 <attribute name="NAME" x="233.045" y="188.976" size="1.778" layer="95" rot="R90"/>
@@ -7079,6 +7080,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="308.864" y="222.885" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="308.864" y="227.711" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="FID3" gate="G$1" x="161.29" y="15.24" smashed="yes"/>
 </instances>
 <busses>
 </busses>
