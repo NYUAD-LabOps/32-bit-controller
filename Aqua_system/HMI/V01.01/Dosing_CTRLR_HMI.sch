@@ -3814,13 +3814,13 @@ DDEController.pdf</description>
 <part name="GND14" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="GND15" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
-<part name="R2" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206"/>
-<part name="R15" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206"/>
-<part name="R16" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206"/>
-<part name="R17" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206"/>
-<part name="R18" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206"/>
-<part name="R19" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206"/>
-<part name="R20" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206"/>
+<part name="R2" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="22R 1%"/>
+<part name="R15" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="22R 1%"/>
+<part name="R16" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="22R 1%"/>
+<part name="R17" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="22R 1%"/>
+<part name="R18" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="22R 1%"/>
+<part name="R19" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="22R 1%"/>
+<part name="R20" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="22R 1%"/>
 <part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>

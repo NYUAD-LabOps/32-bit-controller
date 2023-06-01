@@ -960,49 +960,49 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="93" x="80" y="22.5" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="78.1966" y="19.2996" locked="yes" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R2" library="Labops_Lib_AH" package="EIA1206" value="R_1206EIA1206" x="73.66" y="20.955" smashed="yes">
+<element name="R2" library="Labops_Lib_AH" package="EIA1206" value="22R 1%" x="73.66" y="20.955" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="73.66" y="20.955" size="1.778" layer="27" display="off"/>
 <attribute name="MFN" value="Open Source R1206" x="73.66" y="20.955" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="69.215" y="20.32" size="1.27" layer="25" font="vector"/>
 <attribute name="PART_VALUE" value="" x="73.66" y="20.955" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="71.501" y="17.78" size="1.27" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="R15" library="Labops_Lib_AH" package="EIA1206" value="R_1206EIA1206" x="73.66" y="36.195" smashed="yes">
+<element name="R15" library="Labops_Lib_AH" package="EIA1206" value="22R 1%" x="73.66" y="36.195" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="73.66" y="36.195" size="1.778" layer="27" display="off"/>
 <attribute name="MFN" value="Open Source R1206" x="73.66" y="36.195" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="67.945" y="35.56" size="1.27" layer="25" font="vector"/>
 <attribute name="PART_VALUE" value="" x="73.66" y="36.195" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="73.66" y="34.671" size="1.27" layer="27" font="vector" display="off"/>
 </element>
-<element name="R16" library="Labops_Lib_AH" package="EIA1206" value="R_1206EIA1206" x="33.02" y="21.59" smashed="yes">
+<element name="R16" library="Labops_Lib_AH" package="EIA1206" value="22R 1%" x="33.02" y="21.59" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="33.02" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="MFN" value="Open Source R1206" x="33.02" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.305" y="20.955" size="1.27" layer="25" font="vector"/>
 <attribute name="PART_VALUE" value="" x="33.02" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="29.845" y="16.891" size="1.27" layer="27" font="vector" display="off"/>
 </element>
-<element name="R17" library="Labops_Lib_AH" package="EIA1206" value="R_1206EIA1206" x="33.02" y="36.195" smashed="yes">
+<element name="R17" library="Labops_Lib_AH" package="EIA1206" value="22R 1%" x="33.02" y="36.195" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="33.02" y="36.195" size="1.778" layer="27" display="off"/>
 <attribute name="MFN" value="Open Source R1206" x="33.02" y="36.195" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.75" y="37.465" size="1.27" layer="25" font="vector"/>
 <attribute name="PART_VALUE" value="" x="33.02" y="36.195" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="33.02" y="34.671" size="1.27" layer="27" font="vector" display="off"/>
 </element>
-<element name="R18" library="Labops_Lib_AH" package="EIA1206" value="R_1206EIA1206" x="113.665" y="36.195" smashed="yes">
+<element name="R18" library="Labops_Lib_AH" package="EIA1206" value="22R 1%" x="113.665" y="36.195" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="113.665" y="36.195" size="1.778" layer="27" display="off"/>
 <attribute name="MFN" value="Open Source R1206" x="113.665" y="36.195" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="107.95" y="35.56" size="1.27" layer="25" font="vector"/>
 <attribute name="PART_VALUE" value="" x="113.665" y="36.195" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="106.68" y="33.401" size="1.27" layer="27" font="vector" display="off"/>
 </element>
-<element name="R19" library="Labops_Lib_AH" package="EIA1206" value="R_1206EIA1206" x="113.665" y="20.955" smashed="yes">
+<element name="R19" library="Labops_Lib_AH" package="EIA1206" value="22R 1%" x="113.665" y="20.955" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="113.665" y="20.955" size="1.778" layer="27" display="off"/>
 <attribute name="MFN" value="Open Source R1206" x="113.665" y="20.955" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="107.95" y="20.32" size="1.27" layer="25" font="vector"/>
 <attribute name="PART_VALUE" value="" x="113.665" y="20.955" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="106.68" y="18.161" size="1.27" layer="27" font="vector" display="off"/>
 </element>
-<element name="R20" library="Labops_Lib_AH" package="EIA1206" value="R_1206EIA1206" x="113.665" y="6.35" smashed="yes">
+<element name="R20" library="Labops_Lib_AH" package="EIA1206" value="22R 1%" x="113.665" y="6.35" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="113.665" y="6.35" size="1.778" layer="27" display="off"/>
 <attribute name="MFN" value="Open Source R1206" x="113.665" y="6.35" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="107.315" y="5.715" size="1.27" layer="25" font="vector"/>
