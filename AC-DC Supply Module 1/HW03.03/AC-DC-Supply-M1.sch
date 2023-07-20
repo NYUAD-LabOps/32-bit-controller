@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -6750,14 +6750,14 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R20" library="Labops_Lib_AH" deviceset="R_0603" device="" value="4.7K 1%"/>
 <part name="R21" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100R 1%"/>
 <part name="C5" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/50V"/>
-<part name="R22" library="Labops_Lib_AH" deviceset="R_0603" device="" value="40.2K 1%"/>
-<part name="R23" library="Labops_Lib_AH" deviceset="R_0603" device="" value="4.7K 1%"/>
+<part name="R22" library="Labops_Lib_AH" deviceset="R_0603" device="" value="33K 1%"/>
+<part name="R23" library="Labops_Lib_AH" deviceset="R_0603" device="" value="3.9K 1%"/>
 <part name="D4" library="Labops_Lib_AH" deviceset="STTH1R04U" device="SMB"/>
 <part name="R24" library="Labops_Lib_AH" deviceset="R_0805" device="1" value="ERA-8AEB124V"/>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="MCASS31QHB7102KTNA01"/>
 <part name="U$1" library="Labops_Lib_AH" deviceset="P6SMB120AT3G" device="SMB"/>
 <part name="GND4" library="Labops_Lib_AH" deviceset="GND" device=""/>
-<part name="C26" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/50V"/>
+<part name="C26" library="Labops_Lib_AH" deviceset="C_0603" device="" value="1u/35V"/>
 <part name="C27" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/50V"/>
 <part name="D7" library="Labops_Lib_AH" deviceset="STTH1003SB-TR" device=""/>
 <part name="T?1" library="Labops_Lib_AH" deviceset="FLYBACK_TR_NYUAD01" device=""/>
