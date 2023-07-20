@@ -169,6 +169,16 @@
 <wire x1="0" y1="90" x2="125" y2="90" width="0" layer="20"/>
 <wire x1="125" y1="90" x2="125" y2="0" width="0" layer="20"/>
 <wire x1="125" y1="0" x2="0" y2="0" width="0" layer="20"/>
+<text x="10.9" y="65.8" size="1.778" layer="21">X</text>
+<text x="11" y="35.9" size="1.778" layer="21">Y</text>
+<text x="11.4" y="10" size="1.778" layer="21">z</text>
+<text x="73.4" y="65.5" size="1.778" layer="21">A</text>
+<text x="69.3" y="37.4" size="1.778" layer="21">C</text>
+<text x="68.6" y="8.8" size="1.778" layer="21">WF</text>
+<text x="28.8" y="86.3" size="1.778" layer="21">A</text>
+<text x="50" y="86.2" size="1.778" layer="21">B</text>
+<text x="84.7" y="86.2" size="1.778" layer="21">A</text>
+<text x="107.2" y="85.5" size="1.778" layer="21">B</text>
 </plain>
 <libraries>
 <library name="3D_MIG_Controller">
@@ -730,85 +740,171 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="LG R971-KN-1" x="98.6" y="83.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="90.86" y="76.97" size="0.381" layer="27" rot="R270"/>
 </element>
-<element name="LED65" library="3D_MIG_Controller" package="0805" value="Green" x="100.71" y="19.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="101.98" y="20.67" size="0.508" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="LG R971-KN-1" x="88.01" y="4.16" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LED65" library="3D_MIG_Controller" package="0805" value="Green" x="87.11" y="20.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="88.38" y="21.57" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="74.41" y="5.06" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R65" library="3D_MIG_Controller" package="0805" value="" x="100.71" y="24" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.34" y="23.43" size="0.508" layer="25" rot="R90"/>
-<attribute name="VALUE" x="103.25" y="22.73" size="0.381" layer="27" rot="R90"/>
+<element name="R65" library="3D_MIG_Controller" package="0805" value="" x="87.11" y="24.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="88.74" y="24.33" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="89.65" y="23.63" size="0.381" layer="27" rot="R90"/>
 </element>
-<element name="J17" library="3D_MIG_Controller" package="CON_39281083" value="" x="92.3" y="11.4" smashed="yes">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="92.3" y="11.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="39281083" x="92.3" y="11.4" size="1.778" layer="27" display="off"/>
-<attribute name="MFR_NAME" value="Molex Connector Corporation" x="92.3" y="11.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="89.4426" y="15.875" size="1.27" layer="27" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="101.982" y="15.705" size="1.27" layer="21" ratio="6" rot="SR0"/>
+<element name="J17" library="3D_MIG_Controller" package="CON_39281083" value="" x="78.7" y="12.3" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="78.7" y="12.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39281083" x="78.7" y="12.3" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Molex Connector Corporation" x="78.7" y="12.3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="75.8426" y="16.775" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="88.382" y="16.605" size="1.27" layer="21" ratio="6" rot="SR0"/>
 </element>
-<element name="R66" library="3D_MIG_Controller" package="0805" value="" x="96.5" y="24" smashed="yes" rot="R90">
-<attribute name="NAME" x="98.13" y="23.43" size="0.508" layer="25" rot="R90"/>
-<attribute name="VALUE" x="99.04" y="22.73" size="0.381" layer="27" rot="R90"/>
+<element name="R66" library="3D_MIG_Controller" package="0805" value="" x="82.9" y="24.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.53" y="24.33" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="85.44" y="23.63" size="0.381" layer="27" rot="R90"/>
 </element>
-<element name="LED66" library="3D_MIG_Controller" package="0805" value="Green" x="96.5" y="19.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="97.77" y="20.67" size="0.508" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="LG R971-KN-1" x="101.6" y="27.4" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LED66" library="3D_MIG_Controller" package="0805" value="Green" x="82.9" y="20.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="84.17" y="21.57" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="88" y="28.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R67" library="3D_MIG_Controller" package="0805" value="" x="92.3" y="24" smashed="yes" rot="R90">
-<attribute name="NAME" x="93.93" y="23.43" size="0.508" layer="25" rot="R90"/>
-<attribute name="VALUE" x="94.84" y="22.73" size="0.381" layer="27" rot="R90"/>
+<element name="R67" library="3D_MIG_Controller" package="0805" value="" x="78.7" y="24.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.33" y="24.33" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="81.24" y="23.63" size="0.381" layer="27" rot="R90"/>
 </element>
-<element name="LED67" library="3D_MIG_Controller" package="0805" value="Green" x="92.3" y="19.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="93.37" y="20.57" size="0.508" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="LG R971-KN-1" x="97.5" y="27.4" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LED67" library="3D_MIG_Controller" package="0805" value="Green" x="78.7" y="20.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.77" y="21.47" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="83.9" y="28.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R68" library="3D_MIG_Controller" package="0805" value="" x="104.9" y="24" smashed="yes" rot="R90">
-<attribute name="NAME" x="103.63" y="22.73" size="0.508" layer="25" rot="R90"/>
-<attribute name="VALUE" x="107.44" y="22.73" size="0.381" layer="27" rot="R90"/>
+<element name="R68" library="3D_MIG_Controller" package="0805" value="" x="91.3" y="24.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="90.03" y="23.63" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="93.84" y="23.63" size="0.381" layer="27" rot="R90"/>
 </element>
-<element name="LED68" library="3D_MIG_Controller" package="0805" value="Green" x="104.9" y="19.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="106.17" y="20.67" size="0.508" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="LG R971-KN-1" x="110.1" y="27.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="102.36" y="20.67" size="0.381" layer="27" rot="R270"/>
+<element name="LED68" library="3D_MIG_Controller" package="0805" value="Green" x="91.3" y="20.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="92.57" y="21.57" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="96.5" y="28.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="88.76" y="21.57" size="0.381" layer="27" rot="R270"/>
 </element>
-<element name="LED69" library="3D_MIG_Controller" package="0805" value="Green" x="100.71" y="48.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="101.98" y="49.77" size="0.508" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="LG R971-KN-1" x="88.01" y="33.26" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LED69" library="3D_MIG_Controller" package="0805" value="Green" x="87.11" y="48.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="88.38" y="49.77" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="74.41" y="33.26" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R69" library="3D_MIG_Controller" package="0805" value="" x="100.71" y="53.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.34" y="52.53" size="0.508" layer="25" rot="R90"/>
-<attribute name="VALUE" x="103.25" y="51.83" size="0.381" layer="27" rot="R90"/>
+<element name="R69" library="3D_MIG_Controller" package="0805" value="" x="87.11" y="53.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="88.74" y="52.53" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="89.65" y="51.83" size="0.381" layer="27" rot="R90"/>
 </element>
-<element name="J18" library="3D_MIG_Controller" package="CON_39281083" value="" x="92.3" y="40.5" smashed="yes">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="92.3" y="40.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="39281083" x="92.3" y="40.5" size="1.778" layer="27" display="off"/>
-<attribute name="MFR_NAME" value="Molex Connector Corporation" x="92.3" y="40.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="89.4426" y="44.975" size="1.27" layer="27" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="101.982" y="44.805" size="1.27" layer="21" ratio="6" rot="SR0"/>
+<element name="J18" library="3D_MIG_Controller" package="CON_39281083" value="" x="78.7" y="40.5" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="78.7" y="40.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39281083" x="78.7" y="40.5" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Molex Connector Corporation" x="78.7" y="40.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="75.8426" y="44.975" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="88.382" y="44.805" size="1.27" layer="21" ratio="6" rot="SR0"/>
 </element>
-<element name="R70" library="3D_MIG_Controller" package="0805" value="" x="96.5" y="53.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="98.13" y="52.53" size="0.508" layer="25" rot="R90"/>
-<attribute name="VALUE" x="99.04" y="51.83" size="0.381" layer="27" rot="R90"/>
+<element name="R70" library="3D_MIG_Controller" package="0805" value="" x="82.9" y="53.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.53" y="52.53" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="85.44" y="51.83" size="0.381" layer="27" rot="R90"/>
 </element>
-<element name="LED70" library="3D_MIG_Controller" package="0805" value="Green" x="96.5" y="48.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="97.77" y="49.77" size="0.508" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="LG R971-KN-1" x="101.6" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LED70" library="3D_MIG_Controller" package="0805" value="Green" x="82.9" y="48.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="84.17" y="49.77" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="88" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R71" library="3D_MIG_Controller" package="0805" value="" x="92.3" y="53.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="93.93" y="52.53" size="0.508" layer="25" rot="R90"/>
-<attribute name="VALUE" x="94.84" y="51.83" size="0.381" layer="27" rot="R90"/>
+<element name="R71" library="3D_MIG_Controller" package="0805" value="" x="78.7" y="53.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.33" y="52.53" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="81.24" y="51.83" size="0.381" layer="27" rot="R90"/>
 </element>
-<element name="LED71" library="3D_MIG_Controller" package="0805" value="Green" x="92.3" y="48.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="93.37" y="49.67" size="0.508" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="LG R971-KN-1" x="97.5" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LED71" library="3D_MIG_Controller" package="0805" value="Green" x="78.7" y="48.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.77" y="49.67" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="83.9" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R72" library="3D_MIG_Controller" package="0805" value="" x="104.9" y="53.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="103.63" y="51.83" size="0.508" layer="25" rot="R90"/>
-<attribute name="VALUE" x="107.44" y="51.83" size="0.381" layer="27" rot="R90"/>
+<element name="R72" library="3D_MIG_Controller" package="0805" value="" x="91.3" y="53.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="90.03" y="51.83" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="93.84" y="51.83" size="0.381" layer="27" rot="R90"/>
 </element>
-<element name="LED72" library="3D_MIG_Controller" package="0805" value="Green" x="104.9" y="48.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="106.17" y="49.77" size="0.508" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="LG R971-KN-1" x="110.1" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="102.36" y="49.77" size="0.381" layer="27" rot="R270"/>
+<element name="LED72" library="3D_MIG_Controller" package="0805" value="Green" x="91.3" y="48.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="92.57" y="49.77" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="96.5" y="56.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="88.76" y="49.77" size="0.381" layer="27" rot="R270"/>
+</element>
+<element name="R1" library="3D_MIG_Controller" package="0805" value="" x="112.8" y="52.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="111.53" y="51.63" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="115.34" y="51.63" size="0.381" layer="27" rot="R90"/>
+</element>
+<element name="LED1" library="3D_MIG_Controller" package="0805" value="Green" x="112.7" y="46.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="113.97" y="48.07" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="132.3" y="54.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="110.16" y="48.07" size="0.381" layer="27" rot="R270"/>
+</element>
+<element name="J1" library="3D_MIG_Controller" package="CON_39281083" value="" x="104.4" y="40.3" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="96.3" y="40.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39281083" x="96.3" y="40.3" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Molex Connector Corporation" x="96.3" y="40.3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="101.5426" y="44.775" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="114.082" y="44.605" size="1.27" layer="21" ratio="6" rot="SR0"/>
+</element>
+<element name="R2" library="3D_MIG_Controller" package="0805" value="" x="108.6" y="52.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="107.33" y="51.63" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="111.14" y="51.63" size="0.381" layer="27" rot="R90"/>
+</element>
+<element name="LED2" library="3D_MIG_Controller" package="0805" value="Green" x="108.5" y="47" smashed="yes" rot="R270">
+<attribute name="NAME" x="109.77" y="48.27" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="113.6" y="67.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="105.96" y="48.27" size="0.381" layer="27" rot="R270"/>
+</element>
+<element name="R3" library="3D_MIG_Controller" package="0805" value="" x="104.5" y="52.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="103.23" y="51.63" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="107.04" y="51.63" size="0.381" layer="27" rot="R90"/>
+</element>
+<element name="LED3" library="3D_MIG_Controller" package="0805" value="Green" x="104.4" y="47.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="105.67" y="48.37" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="109.5" y="79.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="101.86" y="48.37" size="0.381" layer="27" rot="R270"/>
+</element>
+<element name="R4" library="3D_MIG_Controller" package="0805" value="" x="117.1" y="52.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="115.83" y="51.63" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="119.64" y="51.63" size="0.381" layer="27" rot="R90"/>
+</element>
+<element name="LED4" library="3D_MIG_Controller" package="0805" value="Green" x="117.1" y="46.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="118.37" y="47.87" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="122.2" y="90.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="114.56" y="47.87" size="0.381" layer="27" rot="R270"/>
+</element>
+<element name="R13" library="3D_MIG_Controller" package="0805" value="" x="110.4" y="25.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="109.13" y="23.83" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="112.94" y="23.83" size="0.381" layer="27" rot="R90"/>
+</element>
+<element name="LED13" library="3D_MIG_Controller" package="0805" value="Green" x="110.4" y="19.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="111.67" y="20.87" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="130" y="27.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="107.86" y="20.87" size="0.381" layer="27" rot="R270"/>
+</element>
+<element name="J4" library="3D_MIG_Controller" package="CON_39281083" value="" x="102" y="12.1" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="93.9" y="12.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="39281083" x="93.9" y="12.1" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Molex Connector Corporation" x="93.9" y="12.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="99.1426" y="16.575" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="111.682" y="16.405" size="1.27" layer="21" ratio="6" rot="SR0"/>
+</element>
+<element name="R14" library="3D_MIG_Controller" package="0805" value="" x="106.2" y="25" smashed="yes" rot="R90">
+<attribute name="NAME" x="104.93" y="23.73" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="108.74" y="23.73" size="0.381" layer="27" rot="R90"/>
+</element>
+<element name="LED14" library="3D_MIG_Controller" package="0805" value="Green" x="106.2" y="19.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="107.47" y="20.87" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="111.3" y="39.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="103.66" y="20.87" size="0.381" layer="27" rot="R270"/>
+</element>
+<element name="R15" library="3D_MIG_Controller" package="0805" value="" x="102" y="25" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.73" y="23.73" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="104.54" y="23.73" size="0.381" layer="27" rot="R90"/>
+</element>
+<element name="LED15" library="3D_MIG_Controller" package="0805" value="Green" x="102" y="19.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="103.27" y="20.87" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="107.1" y="51.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="99.46" y="20.87" size="0.381" layer="27" rot="R270"/>
+</element>
+<element name="R16" library="3D_MIG_Controller" package="0805" value="" x="114.6" y="25.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="113.33" y="23.83" size="0.508" layer="25" rot="R90"/>
+<attribute name="VALUE" x="117.14" y="23.83" size="0.381" layer="27" rot="R90"/>
+</element>
+<element name="LED16" library="3D_MIG_Controller" package="0805" value="Green" x="114.6" y="19.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="115.87" y="20.87" size="0.508" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="LG R971-KN-1" x="119.7" y="63.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="112.06" y="20.87" size="0.381" layer="27" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -1511,176 +1607,176 @@ design rules under a new name.</description>
 <signal name="N$65">
 <contactref element="R65" pad="1"/>
 <contactref element="LED65" pad="1"/>
-<wire x1="100.71" y1="23.05" x2="100.71" y2="20.35" width="0.254" layer="1"/>
+<wire x1="87.11" y1="23.95" x2="87.11" y2="21.25" width="0.254" layer="1"/>
 </signal>
 <signal name="B_STEP+_WF">
 <contactref element="R65" pad="2"/>
 <contactref element="J17" pad="2"/>
-<wire x1="100.7" y1="5.9" x2="102.6" y2="7.8" width="0.254" layer="16"/>
-<wire x1="102.6" y1="25.2" x2="100.7" y2="27.1" width="0.254" layer="16"/>
-<via x="100.7" y="27.1" extent="1-16" drill="0.35"/>
-<wire x1="100.7" y1="27.1" x2="100.71" y2="27.09" width="0.254" layer="1"/>
-<wire x1="100.71" y1="27.09" x2="100.71" y2="24.95" width="0.254" layer="1"/>
-<wire x1="102.6" y1="7.8" x2="102.6" y2="25.2" width="0.254" layer="16"/>
+<wire x1="87.1" y1="6.8" x2="89" y2="8.7" width="0.254" layer="16"/>
+<wire x1="89" y1="26.1" x2="87.1" y2="28" width="0.254" layer="16"/>
+<via x="87.1" y="28" extent="1-16" drill="0.35"/>
+<wire x1="87.1" y1="28" x2="87.11" y2="27.99" width="0.254" layer="1"/>
+<wire x1="87.11" y1="27.99" x2="87.11" y2="25.85" width="0.254" layer="1"/>
+<wire x1="89" y1="8.7" x2="89" y2="26.1" width="0.254" layer="16"/>
 </signal>
 <signal name="N$66">
 <contactref element="R66" pad="1"/>
 <contactref element="LED66" pad="1"/>
-<wire x1="96.5" y1="23.05" x2="96.5" y2="20.35" width="0.254" layer="1"/>
+<wire x1="82.9" y1="23.95" x2="82.9" y2="21.25" width="0.254" layer="1"/>
 </signal>
 <signal name="B_DIR-_WF">
 <contactref element="LED66" pad="2"/>
 <contactref element="J17" pad="7"/>
-<wire x1="96.5" y1="11.4" x2="96.5" y2="16.3" width="0.254" layer="16"/>
-<via x="96.5" y="16.3" extent="1-16" drill="0.35"/>
-<wire x1="96.5" y1="16.3" x2="96.5" y2="18.45" width="0.254" layer="1"/>
+<wire x1="82.9" y1="12.3" x2="82.9" y2="17.2" width="0.254" layer="16"/>
+<via x="82.9" y="17.2" extent="1-16" drill="0.35"/>
+<wire x1="82.9" y1="17.2" x2="82.9" y2="19.35" width="0.254" layer="1"/>
 </signal>
 <signal name="B_DIR+_WF">
 <contactref element="R66" pad="2"/>
 <contactref element="J17" pad="3"/>
-<wire x1="96.5" y1="24.95" x2="96.5" y2="27.1" width="0.254" layer="1"/>
-<via x="96.5" y="27.1" extent="1-16" drill="0.35"/>
-<wire x1="96.5" y1="27.1" x2="98.2" y2="25.4" width="0.254" layer="16"/>
-<wire x1="98.2" y1="25.4" x2="98.2" y2="7.3" width="0.254" layer="16"/>
-<wire x1="98.2" y1="7.3" x2="96.8" y2="5.9" width="0.254" layer="16"/>
-<wire x1="96.8" y1="5.9" x2="96.5" y2="5.9" width="0.254" layer="16"/>
+<wire x1="82.9" y1="25.85" x2="82.9" y2="28" width="0.254" layer="1"/>
+<via x="82.9" y="28" extent="1-16" drill="0.35"/>
+<wire x1="82.9" y1="28" x2="84.6" y2="26.3" width="0.254" layer="16"/>
+<wire x1="84.6" y1="26.3" x2="84.6" y2="8.2" width="0.254" layer="16"/>
+<wire x1="84.6" y1="8.2" x2="83.2" y2="6.8" width="0.254" layer="16"/>
+<wire x1="83.2" y1="6.8" x2="82.9" y2="6.8" width="0.254" layer="16"/>
 </signal>
 <signal name="N$67">
 <contactref element="R67" pad="1"/>
 <contactref element="LED67" pad="1"/>
-<wire x1="92.3" y1="23.05" x2="92.3" y2="20.35" width="0.254" layer="1"/>
+<wire x1="78.7" y1="23.95" x2="78.7" y2="21.25" width="0.254" layer="1"/>
 </signal>
 <signal name="B_ENABLE-_WF">
 <contactref element="LED67" pad="2"/>
 <contactref element="J17" pad="8"/>
-<wire x1="92.3" y1="18.45" x2="92.3" y2="16.1" width="0.254" layer="1"/>
-<via x="92.3" y="16.1" extent="1-16" drill="0.35"/>
-<wire x1="92.3" y1="16.1" x2="92.3" y2="11.4" width="0.254" layer="16"/>
+<wire x1="78.7" y1="19.35" x2="78.7" y2="17" width="0.254" layer="1"/>
+<via x="78.7" y="17" extent="1-16" drill="0.35"/>
+<wire x1="78.7" y1="17" x2="78.7" y2="12.3" width="0.254" layer="16"/>
 </signal>
 <signal name="B_ENABLE+_WF">
 <contactref element="R67" pad="2"/>
 <contactref element="J17" pad="4"/>
-<wire x1="92.3" y1="5.9" x2="94.3" y2="7.9" width="0.254" layer="16"/>
-<wire x1="94.3" y1="25.2" x2="92.3" y2="27.2" width="0.254" layer="16"/>
-<via x="92.3" y="27.2" extent="1-16" drill="0.35"/>
-<wire x1="92.3" y1="27.2" x2="92.3" y2="24.95" width="0.254" layer="1"/>
-<wire x1="94.3" y1="7.9" x2="94.3" y2="25.2" width="0.254" layer="16"/>
+<wire x1="78.7" y1="6.8" x2="80.7" y2="8.8" width="0.254" layer="16"/>
+<wire x1="80.7" y1="26.1" x2="78.7" y2="28.1" width="0.254" layer="16"/>
+<via x="78.7" y="28.1" extent="1-16" drill="0.35"/>
+<wire x1="78.7" y1="28.1" x2="78.7" y2="25.85" width="0.254" layer="1"/>
+<wire x1="80.7" y1="8.8" x2="80.7" y2="26.1" width="0.254" layer="16"/>
 </signal>
 <signal name="B_STEP-_WF">
 <contactref element="LED65" pad="2"/>
 <contactref element="J17" pad="6"/>
-<wire x1="100.71" y1="18.45" x2="100.71" y2="16.31" width="0.254" layer="1"/>
-<wire x1="100.71" y1="16.31" x2="100.7" y2="16.3" width="0.254" layer="1"/>
-<via x="100.7" y="16.3" extent="1-16" drill="0.35"/>
-<wire x1="100.7" y1="16.3" x2="100.7" y2="11.4" width="0.254" layer="16"/>
+<wire x1="87.11" y1="19.35" x2="87.11" y2="17.21" width="0.254" layer="1"/>
+<wire x1="87.11" y1="17.21" x2="87.1" y2="17.2" width="0.254" layer="1"/>
+<via x="87.1" y="17.2" extent="1-16" drill="0.35"/>
+<wire x1="87.1" y1="17.2" x2="87.1" y2="12.3" width="0.254" layer="16"/>
 </signal>
 <signal name="B_HLFB-_WF">
 <contactref element="J17" pad="5"/>
 <contactref element="LED68" pad="2"/>
-<wire x1="104.9" y1="11.4" x2="104.9" y2="16.3" width="0.254" layer="16"/>
-<via x="104.9" y="16.3" extent="1-16" drill="0.35"/>
-<wire x1="104.9" y1="16.3" x2="104.9" y2="18.45" width="0.254" layer="1"/>
+<wire x1="91.3" y1="12.3" x2="91.3" y2="17.2" width="0.254" layer="16"/>
+<via x="91.3" y="17.2" extent="1-16" drill="0.35"/>
+<wire x1="91.3" y1="17.2" x2="91.3" y2="19.35" width="0.254" layer="1"/>
 </signal>
 <signal name="B_HLFB+_WF">
 <contactref element="J17" pad="1"/>
 <contactref element="R68" pad="2"/>
-<wire x1="104.9" y1="24.95" x2="104.9" y2="27.1" width="0.254" layer="1"/>
-<via x="104.9" y="27.1" extent="1-16" drill="0.35"/>
-<wire x1="104.9" y1="27.1" x2="106.6" y2="25.4" width="0.254" layer="16"/>
-<wire x1="106.6" y1="7.6" x2="104.9" y2="5.9" width="0.254" layer="16"/>
-<wire x1="106.6" y1="25.4" x2="106.6" y2="7.6" width="0.254" layer="16"/>
+<wire x1="91.3" y1="25.85" x2="91.3" y2="28" width="0.254" layer="1"/>
+<via x="91.3" y="28" extent="1-16" drill="0.35"/>
+<wire x1="91.3" y1="28" x2="93" y2="26.3" width="0.254" layer="16"/>
+<wire x1="93" y1="8.5" x2="91.3" y2="6.8" width="0.254" layer="16"/>
+<wire x1="93" y1="26.3" x2="93" y2="8.5" width="0.254" layer="16"/>
 </signal>
 <signal name="N$68">
 <contactref element="R68" pad="1"/>
 <contactref element="LED68" pad="1"/>
-<wire x1="104.9" y1="20.35" x2="104.9" y2="23.05" width="0.254" layer="1"/>
+<wire x1="91.3" y1="21.25" x2="91.3" y2="23.95" width="0.254" layer="1"/>
 </signal>
 <signal name="N$69">
 <contactref element="R69" pad="1"/>
 <contactref element="LED69" pad="1"/>
-<wire x1="100.71" y1="52.15" x2="100.71" y2="49.45" width="0.254" layer="1"/>
+<wire x1="87.11" y1="52.15" x2="87.11" y2="49.45" width="0.254" layer="1"/>
 </signal>
 <signal name="A_STEP+_C">
 <contactref element="R69" pad="2"/>
 <contactref element="J18" pad="2"/>
-<wire x1="100.7" y1="35" x2="102.6" y2="36.9" width="0.254" layer="16"/>
-<wire x1="102.6" y1="54.3" x2="100.7" y2="56.2" width="0.254" layer="16"/>
-<via x="100.7" y="56.2" extent="1-16" drill="0.35"/>
-<wire x1="100.7" y1="56.2" x2="100.71" y2="56.19" width="0.254" layer="1"/>
-<wire x1="100.71" y1="56.19" x2="100.71" y2="54.05" width="0.254" layer="1"/>
-<wire x1="102.6" y1="36.9" x2="102.6" y2="54.3" width="0.254" layer="16"/>
+<wire x1="87.1" y1="35" x2="89" y2="36.9" width="0.254" layer="16"/>
+<wire x1="89" y1="54.3" x2="87.1" y2="56.2" width="0.254" layer="16"/>
+<via x="87.1" y="56.2" extent="1-16" drill="0.35"/>
+<wire x1="87.1" y1="56.2" x2="87.11" y2="56.19" width="0.254" layer="1"/>
+<wire x1="87.11" y1="56.19" x2="87.11" y2="54.05" width="0.254" layer="1"/>
+<wire x1="89" y1="36.9" x2="89" y2="54.3" width="0.254" layer="16"/>
 </signal>
 <signal name="N$70">
 <contactref element="R70" pad="1"/>
 <contactref element="LED70" pad="1"/>
-<wire x1="96.5" y1="52.15" x2="96.5" y2="49.45" width="0.254" layer="1"/>
+<wire x1="82.9" y1="52.15" x2="82.9" y2="49.45" width="0.254" layer="1"/>
 </signal>
 <signal name="A_DIR-C">
 <contactref element="LED70" pad="2"/>
 <contactref element="J18" pad="7"/>
-<wire x1="96.5" y1="40.5" x2="96.5" y2="45.4" width="0.254" layer="16"/>
-<via x="96.5" y="45.4" extent="1-16" drill="0.35"/>
-<wire x1="96.5" y1="45.4" x2="96.5" y2="47.55" width="0.254" layer="1"/>
+<wire x1="82.9" y1="40.5" x2="82.9" y2="45.4" width="0.254" layer="16"/>
+<via x="82.9" y="45.4" extent="1-16" drill="0.35"/>
+<wire x1="82.9" y1="45.4" x2="82.9" y2="47.55" width="0.254" layer="1"/>
 </signal>
 <signal name="A_DIR+_C">
 <contactref element="R70" pad="2"/>
 <contactref element="J18" pad="3"/>
-<wire x1="96.5" y1="54.05" x2="96.5" y2="56.2" width="0.254" layer="1"/>
-<via x="96.5" y="56.2" extent="1-16" drill="0.35"/>
-<wire x1="96.5" y1="56.2" x2="98.2" y2="54.5" width="0.254" layer="16"/>
-<wire x1="98.2" y1="54.5" x2="98.2" y2="36.4" width="0.254" layer="16"/>
-<wire x1="98.2" y1="36.4" x2="96.8" y2="35" width="0.254" layer="16"/>
-<wire x1="96.8" y1="35" x2="96.5" y2="35" width="0.254" layer="16"/>
+<wire x1="82.9" y1="54.05" x2="82.9" y2="56.2" width="0.254" layer="1"/>
+<via x="82.9" y="56.2" extent="1-16" drill="0.35"/>
+<wire x1="82.9" y1="56.2" x2="84.6" y2="54.5" width="0.254" layer="16"/>
+<wire x1="84.6" y1="54.5" x2="84.6" y2="36.4" width="0.254" layer="16"/>
+<wire x1="84.6" y1="36.4" x2="83.2" y2="35" width="0.254" layer="16"/>
+<wire x1="83.2" y1="35" x2="82.9" y2="35" width="0.254" layer="16"/>
 </signal>
 <signal name="N$71">
 <contactref element="R71" pad="1"/>
 <contactref element="LED71" pad="1"/>
-<wire x1="92.3" y1="52.15" x2="92.3" y2="49.45" width="0.254" layer="1"/>
+<wire x1="78.7" y1="52.15" x2="78.7" y2="49.45" width="0.254" layer="1"/>
 </signal>
 <signal name="A_ENABLE-_C">
 <contactref element="LED71" pad="2"/>
 <contactref element="J18" pad="8"/>
-<wire x1="92.3" y1="47.55" x2="92.3" y2="45.2" width="0.254" layer="1"/>
-<via x="92.3" y="45.2" extent="1-16" drill="0.35"/>
-<wire x1="92.3" y1="45.2" x2="92.3" y2="40.5" width="0.254" layer="16"/>
+<wire x1="78.7" y1="47.55" x2="78.7" y2="45.2" width="0.254" layer="1"/>
+<via x="78.7" y="45.2" extent="1-16" drill="0.35"/>
+<wire x1="78.7" y1="45.2" x2="78.7" y2="40.5" width="0.254" layer="16"/>
 </signal>
 <signal name="A_ENABLE+_C">
 <contactref element="R71" pad="2"/>
 <contactref element="J18" pad="4"/>
-<wire x1="92.3" y1="35" x2="94.3" y2="37" width="0.254" layer="16"/>
-<wire x1="94.3" y1="54.3" x2="92.3" y2="56.3" width="0.254" layer="16"/>
-<via x="92.3" y="56.3" extent="1-16" drill="0.35"/>
-<wire x1="92.3" y1="56.3" x2="92.3" y2="54.05" width="0.254" layer="1"/>
-<wire x1="94.3" y1="37" x2="94.3" y2="54.3" width="0.254" layer="16"/>
+<wire x1="78.7" y1="35" x2="80.7" y2="37" width="0.254" layer="16"/>
+<wire x1="80.7" y1="54.3" x2="78.7" y2="56.3" width="0.254" layer="16"/>
+<via x="78.7" y="56.3" extent="1-16" drill="0.35"/>
+<wire x1="78.7" y1="56.3" x2="78.7" y2="54.05" width="0.254" layer="1"/>
+<wire x1="80.7" y1="37" x2="80.7" y2="54.3" width="0.254" layer="16"/>
 </signal>
 <signal name="A_STEP-_C">
 <contactref element="LED69" pad="2"/>
 <contactref element="J18" pad="6"/>
-<wire x1="100.71" y1="47.55" x2="100.71" y2="45.41" width="0.254" layer="1"/>
-<wire x1="100.71" y1="45.41" x2="100.7" y2="45.4" width="0.254" layer="1"/>
-<via x="100.7" y="45.4" extent="1-16" drill="0.35"/>
-<wire x1="100.7" y1="45.4" x2="100.7" y2="40.5" width="0.254" layer="16"/>
+<wire x1="87.11" y1="47.55" x2="87.11" y2="45.41" width="0.254" layer="1"/>
+<wire x1="87.11" y1="45.41" x2="87.1" y2="45.4" width="0.254" layer="1"/>
+<via x="87.1" y="45.4" extent="1-16" drill="0.35"/>
+<wire x1="87.1" y1="45.4" x2="87.1" y2="40.5" width="0.254" layer="16"/>
 </signal>
 <signal name="A_HLFB-_C">
 <contactref element="J18" pad="5"/>
 <contactref element="LED72" pad="2"/>
-<wire x1="104.9" y1="40.5" x2="104.9" y2="45.4" width="0.254" layer="16"/>
-<via x="104.9" y="45.4" extent="1-16" drill="0.35"/>
-<wire x1="104.9" y1="45.4" x2="104.9" y2="47.55" width="0.254" layer="1"/>
+<wire x1="91.3" y1="40.5" x2="91.3" y2="45.4" width="0.254" layer="16"/>
+<via x="91.3" y="45.4" extent="1-16" drill="0.35"/>
+<wire x1="91.3" y1="45.4" x2="91.3" y2="47.55" width="0.254" layer="1"/>
 </signal>
 <signal name="A_HLFB+_C">
 <contactref element="J18" pad="1"/>
 <contactref element="R72" pad="2"/>
-<wire x1="104.9" y1="54.05" x2="104.9" y2="56.2" width="0.254" layer="1"/>
-<via x="104.9" y="56.2" extent="1-16" drill="0.35"/>
-<wire x1="104.9" y1="56.2" x2="106.6" y2="54.5" width="0.254" layer="16"/>
-<wire x1="106.6" y1="36.7" x2="104.9" y2="35" width="0.254" layer="16"/>
-<wire x1="106.6" y1="54.5" x2="106.6" y2="36.7" width="0.254" layer="16"/>
+<wire x1="91.3" y1="54.05" x2="91.3" y2="56.2" width="0.254" layer="1"/>
+<via x="91.3" y="56.2" extent="1-16" drill="0.35"/>
+<wire x1="91.3" y1="56.2" x2="93" y2="54.5" width="0.254" layer="16"/>
+<wire x1="93" y1="36.7" x2="91.3" y2="35" width="0.254" layer="16"/>
+<wire x1="93" y1="54.5" x2="93" y2="36.7" width="0.254" layer="16"/>
 </signal>
 <signal name="N$72">
 <contactref element="R72" pad="1"/>
 <contactref element="LED72" pad="1"/>
-<wire x1="104.9" y1="49.45" x2="104.9" y2="52.15" width="0.254" layer="1"/>
+<wire x1="91.3" y1="49.45" x2="91.3" y2="52.15" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <polygon width="0.01" layer="1" thermals="no">
@@ -1695,6 +1791,191 @@ design rules under a new name.</description>
 <vertex x="125" y="90"/>
 <vertex x="125" y="0"/>
 </polygon>
+</signal>
+<signal name="N$1">
+<contactref element="R1" pad="1"/>
+<contactref element="LED1" pad="1"/>
+<wire x1="112.7" y1="47.75" x2="112.7" y2="51.85" width="0.254" layer="1"/>
+<wire x1="112.7" y1="51.85" x2="112.8" y2="51.95" width="0.254" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R2" pad="1"/>
+<contactref element="LED2" pad="1"/>
+<wire x1="108.5" y1="47.95" x2="108.5" y2="51.85" width="0.254" layer="1"/>
+<wire x1="108.5" y1="51.85" x2="108.6" y2="51.95" width="0.254" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R3" pad="1"/>
+<contactref element="LED3" pad="1"/>
+<wire x1="104.4" y1="48.05" x2="104.4" y2="51.85" width="0.254" layer="1"/>
+<wire x1="104.4" y1="51.85" x2="104.5" y2="51.95" width="0.254" layer="1"/>
+</signal>
+<signal name="N$4">
+<contactref element="R4" pad="1"/>
+<contactref element="LED4" pad="1"/>
+<wire x1="117.1" y1="47.55" x2="117.1" y2="51.95" width="0.254" layer="1"/>
+</signal>
+<signal name="B_STEP+_C">
+<contactref element="R1" pad="2"/>
+<contactref element="J1" pad="2"/>
+<wire x1="112.8" y1="53.85" x2="112.8" y2="56.1" width="0.254" layer="1"/>
+<via x="112.8" y="56.1" extent="1-16" drill="0.35"/>
+<wire x1="112.8" y1="56.1" x2="115" y2="53.9" width="0.254" layer="16"/>
+<wire x1="115" y1="37" x2="112.8" y2="34.8" width="0.254" layer="16"/>
+<wire x1="115" y1="53.9" x2="115" y2="37" width="0.254" layer="16"/>
+</signal>
+<signal name="B_DIR+_C">
+<contactref element="R2" pad="2"/>
+<contactref element="J1" pad="3"/>
+<wire x1="108.6" y1="53.85" x2="108.6" y2="56.1" width="0.254" layer="1"/>
+<via x="108.6" y="56.1" extent="1-16" drill="0.35"/>
+<wire x1="108.6" y1="56.1" x2="110.7" y2="54" width="0.254" layer="16"/>
+<wire x1="110.7" y1="36.9" x2="108.6" y2="34.8" width="0.254" layer="16"/>
+<wire x1="110.7" y1="54" x2="110.7" y2="36.9" width="0.254" layer="16"/>
+</signal>
+<signal name="B_ENABLE+_C">
+<contactref element="R3" pad="2"/>
+<contactref element="J1" pad="4"/>
+<wire x1="104.5" y1="53.85" x2="104.5" y2="56" width="0.254" layer="1"/>
+<via x="104.5" y="56" extent="1-16" drill="0.35"/>
+<wire x1="104.5" y1="56" x2="106.6" y2="53.9" width="0.254" layer="16"/>
+<wire x1="106.6" y1="37" x2="104.4" y2="34.8" width="0.254" layer="16"/>
+<wire x1="106.6" y1="53.9" x2="106.6" y2="37" width="0.254" layer="16"/>
+</signal>
+<signal name="B_HLFB+_C">
+<contactref element="R4" pad="2"/>
+<contactref element="J1" pad="1"/>
+<wire x1="117.1" y1="53.85" x2="117.1" y2="55.9" width="0.254" layer="1"/>
+<wire x1="117.1" y1="55.9" x2="117.2" y2="56" width="0.254" layer="1"/>
+<via x="117.2" y="56" extent="1-16" drill="0.35"/>
+<wire x1="117.2" y1="56" x2="119.3" y2="53.9" width="0.254" layer="16"/>
+<wire x1="119.3" y1="37.1" x2="117" y2="34.8" width="0.254" layer="16"/>
+<wire x1="119.3" y1="53.9" x2="119.3" y2="37.1" width="0.254" layer="16"/>
+</signal>
+<signal name="B_STEP-_C">
+<contactref element="LED1" pad="2"/>
+<contactref element="J1" pad="6"/>
+<wire x1="112.8" y1="40.3" x2="112.8" y2="43.9" width="0.254" layer="16"/>
+<via x="112.8" y="43.9" extent="1-16" drill="0.35"/>
+<wire x1="112.8" y1="43.9" x2="112.8" y2="45.75" width="0.254" layer="1"/>
+<wire x1="112.8" y1="45.75" x2="112.7" y2="45.85" width="0.254" layer="1"/>
+</signal>
+<signal name="B_DIR-C">
+<contactref element="LED2" pad="2"/>
+<contactref element="J1" pad="7"/>
+<wire x1="108.6" y1="40.3" x2="108.6" y2="43.9" width="0.254" layer="16"/>
+<wire x1="108.6" y1="43.9" x2="108.5" y2="44" width="0.254" layer="16"/>
+<via x="108.5" y="44" extent="1-16" drill="0.35"/>
+<wire x1="108.5" y1="44" x2="108.5" y2="46.05" width="0.254" layer="1"/>
+</signal>
+<signal name="B_ENABLE-_C">
+<contactref element="LED3" pad="2"/>
+<contactref element="J1" pad="8"/>
+<wire x1="104.4" y1="40.3" x2="104.4" y2="44.2" width="0.254" layer="16"/>
+<via x="104.4" y="44.2" extent="1-16" drill="0.35"/>
+<wire x1="104.4" y1="44.2" x2="104.4" y2="46.15" width="0.254" layer="1"/>
+</signal>
+<signal name="B_HLFB-_C">
+<contactref element="LED4" pad="2"/>
+<contactref element="J1" pad="5"/>
+<wire x1="117" y1="40.3" x2="117" y2="44" width="0.254" layer="16"/>
+<via x="117" y="44" extent="1-16" drill="0.35"/>
+<wire x1="117" y1="44" x2="117" y2="45.55" width="0.254" layer="1"/>
+<wire x1="117" y1="45.55" x2="117.1" y2="45.65" width="0.254" layer="1"/>
+</signal>
+<signal name="N$13">
+<contactref element="R13" pad="1"/>
+<contactref element="LED13" pad="1"/>
+<wire x1="110.4" y1="20.55" x2="110.4" y2="24.15" width="0.254" layer="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="R14" pad="1"/>
+<contactref element="LED14" pad="1"/>
+<wire x1="106.2" y1="20.55" x2="106.2" y2="24.05" width="0.254" layer="1"/>
+</signal>
+<signal name="N$15">
+<contactref element="R15" pad="1"/>
+<contactref element="LED15" pad="1"/>
+<wire x1="102" y1="20.55" x2="102" y2="24.05" width="0.254" layer="1"/>
+</signal>
+<signal name="N$16">
+<contactref element="R16" pad="1"/>
+<contactref element="LED16" pad="1"/>
+<wire x1="114.6" y1="20.55" x2="114.6" y2="24.15" width="0.254" layer="1"/>
+</signal>
+<signal name="A_HLFB+_WF">
+<contactref element="J4" pad="1"/>
+<contactref element="R16" pad="2"/>
+<wire x1="114.6" y1="26.05" x2="114.6" y2="28.3" width="0.254" layer="1"/>
+<wire x1="114.6" y1="28.3" x2="114.7" y2="28.4" width="0.254" layer="1"/>
+<via x="114.7" y="28.4" extent="1-16" drill="0.35"/>
+<wire x1="114.7" y1="28.4" x2="117.5" y2="25.6" width="0.254" layer="16"/>
+<wire x1="117.5" y1="9.5" x2="114.6" y2="6.6" width="0.254" layer="16"/>
+<wire x1="117.5" y1="25.6" x2="117.5" y2="9.5" width="0.254" layer="16"/>
+</signal>
+<signal name="A_HLFB-_WF">
+<contactref element="J4" pad="5"/>
+<contactref element="LED16" pad="2"/>
+<wire x1="114.6" y1="12.1" x2="114.6" y2="16.4" width="0.254" layer="16"/>
+<wire x1="114.6" y1="16.4" x2="114.7" y2="16.5" width="0.254" layer="16"/>
+<via x="114.7" y="16.5" extent="1-16" drill="0.35"/>
+<wire x1="114.7" y1="16.5" x2="114.7" y2="18.55" width="0.254" layer="1"/>
+<wire x1="114.7" y1="18.55" x2="114.6" y2="18.65" width="0.254" layer="1"/>
+</signal>
+<signal name="A_STEP+_WF">
+<contactref element="J4" pad="2"/>
+<contactref element="R13" pad="2"/>
+<wire x1="110.4" y1="26.05" x2="110.4" y2="28.3" width="0.254" layer="1"/>
+<wire x1="110.4" y1="28.3" x2="110.5" y2="28.4" width="0.254" layer="1"/>
+<via x="110.5" y="28.4" extent="1-16" drill="0.35"/>
+<wire x1="110.5" y1="28.4" x2="112.8" y2="26.1" width="0.254" layer="16"/>
+<wire x1="112.8" y1="9" x2="110.4" y2="6.6" width="0.254" layer="16"/>
+<wire x1="112.8" y1="26.1" x2="112.8" y2="9" width="0.254" layer="16"/>
+</signal>
+<signal name="A_STEP-_WF">
+<contactref element="J4" pad="6"/>
+<contactref element="LED13" pad="2"/>
+<wire x1="110.4" y1="12.1" x2="110.4" y2="16.4" width="0.254" layer="16"/>
+<wire x1="110.4" y1="16.4" x2="110.5" y2="16.5" width="0.254" layer="16"/>
+<via x="110.5" y="16.5" extent="1-16" drill="0.35"/>
+<wire x1="110.5" y1="16.5" x2="110.5" y2="18.55" width="0.254" layer="1"/>
+<wire x1="110.5" y1="18.55" x2="110.4" y2="18.65" width="0.254" layer="1"/>
+</signal>
+<signal name="A_DIR+_WF">
+<contactref element="J4" pad="3"/>
+<contactref element="R14" pad="2"/>
+<wire x1="106.2" y1="25.95" x2="106.2" y2="28.2" width="0.254" layer="1"/>
+<wire x1="106.2" y1="28.2" x2="106.3" y2="28.3" width="0.254" layer="1"/>
+<via x="106.3" y="28.3" extent="1-16" drill="0.35"/>
+<wire x1="106.3" y1="28.3" x2="108.6" y2="26" width="0.254" layer="16"/>
+<wire x1="108.6" y1="9" x2="106.2" y2="6.6" width="0.254" layer="16"/>
+<wire x1="108.6" y1="26" x2="108.6" y2="9" width="0.254" layer="16"/>
+</signal>
+<signal name="A_DIR-_WF">
+<contactref element="J4" pad="7"/>
+<contactref element="LED14" pad="2"/>
+<wire x1="106.2" y1="12.1" x2="106.2" y2="16.4" width="0.254" layer="16"/>
+<wire x1="106.2" y1="16.4" x2="106.3" y2="16.5" width="0.254" layer="16"/>
+<via x="106.3" y="16.5" extent="1-16" drill="0.35"/>
+<wire x1="106.3" y1="16.5" x2="106.3" y2="18.55" width="0.254" layer="1"/>
+<wire x1="106.3" y1="18.55" x2="106.2" y2="18.65" width="0.254" layer="1"/>
+</signal>
+<signal name="A_ENABLE+_WF">
+<contactref element="J4" pad="4"/>
+<contactref element="R15" pad="2"/>
+<wire x1="102" y1="25.95" x2="102" y2="28.1" width="0.254" layer="1"/>
+<wire x1="102" y1="28.1" x2="102.2" y2="28.3" width="0.254" layer="1"/>
+<via x="102.2" y="28.3" extent="1-16" drill="0.35"/>
+<wire x1="102.2" y1="28.3" x2="104.1" y2="26.4" width="0.254" layer="16"/>
+<wire x1="104.1" y1="8.7" x2="102" y2="6.6" width="0.254" layer="16"/>
+<wire x1="104.1" y1="26.4" x2="104.1" y2="8.7" width="0.254" layer="16"/>
+</signal>
+<signal name="A_ENABLE-_WF">
+<contactref element="J4" pad="8"/>
+<contactref element="LED15" pad="2"/>
+<wire x1="102" y1="12.1" x2="102" y2="16.4" width="0.254" layer="16"/>
+<via x="102" y="16.4" extent="1-16" drill="0.35"/>
+<wire x1="102" y1="16.4" x2="102" y2="18.65" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
