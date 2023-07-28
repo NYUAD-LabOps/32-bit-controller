@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1718,17 +1718,17 @@ DIN A3, landscape with extra doc field</description>
 <part name="GND1" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="GND2" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="R1" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100R 1%"/>
-<part name="R2" library="Labops_Lib_AH" deviceset="R_0603" device=""/>
+<part name="R2" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10K 1%"/>
 <part name="C2" library="Labops_Lib_AH" deviceset="C_0603" device="EIA0603" value="100nF/50V"/>
-<part name="R3" library="Labops_Lib_AH" deviceset="R_0603" device=""/>
+<part name="R3" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10K 1%"/>
 <part name="GND3" library="Labops_Lib_AH" deviceset="GND" device=""/>
-<part name="C3" library="Labops_Lib_AH" deviceset="C_0603" device="EIA0603"/>
+<part name="C3" library="Labops_Lib_AH" deviceset="C_0603" device="EIA0603" value="1uF/25V"/>
 <part name="GND4" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="R4" library="Labops_Lib_AH" deviceset="R_0603" device="" value="1K 1%"/>
 <part name="R5" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100K 1%"/>
-<part name="C4" library="Labops_Lib_AH" deviceset="C_0603" device="EIA0603" value="100nF/50V"/>
+<part name="C4" library="Labops_Lib_AH" deviceset="C_0603" device="EIA0603" value="470pF/25V"/>
 <part name="R6" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="280mR 1%"/>
-<part name="R7" library="Labops_Lib_AH" deviceset="R_0603" device=""/>
+<part name="R7" library="Labops_Lib_AH" deviceset="R_0603" device="" value="220K 1%"/>
 <part name="C5" library="Labops_Lib_AH" deviceset="C_0603" device="EIA0603" value="100nF/50V"/>
 <part name="D1" library="Labops_Lib_AH" deviceset="STTH1R04U" device="SMB"/>
 <part name="L1" library="Labops_Lib_AH" deviceset="SRN8040TA-220M" device=""/>
@@ -1818,7 +1818,7 @@ DIN A3, landscape with extra doc field</description>
 </instance>
 <instance part="C1" gate="G$1" x="160.02" y="139.7" smashed="yes">
 <attribute name="NAME" x="161.036" y="140.335" size="1.778" layer="95"/>
-<attribute name="VALUE" x="161.036" y="135.509" size="1.778" layer="96"/>
+<attribute name="VALUE" x="145.796" y="135.509" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="160.02" y="132.08" smashed="yes"/>
 <instance part="GND2" gate="1" x="223.52" y="104.14" smashed="yes"/>
@@ -1858,7 +1858,7 @@ DIN A3, landscape with extra doc field</description>
 </instance>
 <instance part="R6" gate="G$1" x="175.26" y="139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="176.53" y="138.6586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="179.07" y="148.082" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="166.37" y="146.558" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="G$1" x="238.76" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="242.57" y="122.9614" size="1.778" layer="95" rot="R180"/>
@@ -2006,9 +2006,9 @@ DIN A3, landscape with extra doc field</description>
 <attribute name="NAME" x="118.11" y="39.1414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="130.81" y="38.862" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R16" gate="G$1" x="104.14" y="33.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="107.95" y="31.5214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="100.33" y="31.242" size="1.778" layer="96" rot="R180"/>
+<instance part="R16" gate="G$1" x="104.14" y="40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="107.95" y="39.1414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.95" y="43.942" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X1" gate="G$1" x="43.18" y="20.32" smashed="yes">
 <attribute name="NAME" x="40.64" y="27.94" size="1.27" layer="95"/>
@@ -2600,28 +2600,21 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="121.92" y1="35.56" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="IC?1" gate="G$1" pin="PA15"/>
-<wire x1="109.22" y1="33.02" x2="144.78" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SWDIO" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
-<label x="96.52" y="35.56" size="1.778" layer="95" rot="R180"/>
+<wire x1="99.06" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<label x="91.44" y="43.18" size="1.778" layer="95" rot="R180"/>
 <pinref part="X1" gate="G$1" pin="6"/>
-<wire x1="86.36" y1="33.02" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="20.32" x2="53.34" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="40.64" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="20.32" x2="53.34" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
-<label x="96.52" y="38.1" size="1.778" layer="95" rot="R180"/>
+<label x="83.82" y="33.02" size="1.778" layer="95" rot="R180"/>
 <pinref part="X1" gate="G$1" pin="8"/>
 <wire x1="73.66" y1="35.56" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
@@ -2663,6 +2656,13 @@ DIN A3, landscape with extra doc field</description>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="68.58" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
 <junction x="78.74" y="71.12"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="IC?1" gate="G$1" pin="PA13"/>
+<wire x1="109.22" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
