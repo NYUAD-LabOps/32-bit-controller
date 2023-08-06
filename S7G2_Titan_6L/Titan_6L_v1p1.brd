@@ -169,10 +169,10 @@
 <hole x="57" y="83" drill="3"/>
 <hole x="57" y="3" drill="3"/>
 <hole x="3" y="3" drill="3"/>
-<text x="6.2" y="85.3" size="1.27" layer="25">1</text>
-<text x="6.8" y="90.5" size="1.27" layer="25">2</text>
-<text x="54.6" y="85.1" size="1.27" layer="25">39</text>
-<text x="54.8" y="90.5" size="1.27" layer="25">40</text>
+<text x="3.8" y="86.9" size="1.27" layer="25">1</text>
+<text x="3.9" y="89.6" size="1.27" layer="25">2</text>
+<text x="55.7" y="86.9" size="1.27" layer="25">39</text>
+<text x="55.6" y="89.6" size="1.27" layer="25">40</text>
 <text x="54.4" y="79.6" size="0.6096" layer="25">1</text>
 <text x="59" y="79.3" size="0.6096" layer="25">2</text>
 <text x="53.8" y="66.3" size="0.6096" layer="25">9</text>
@@ -1380,7 +1380,7 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="PH2RA-10-UA" x="2.9" y="59" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J9" library="3D_MIG_Controller" package="2X5" value="10-pos" x="55.5" y="20.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="55.73" y="22.537" size="1.778" layer="25" font="vector" ratio="14"/>
+<attribute name="NAME" x="54.5" y="22.537" size="1.778" layer="25" font="vector" ratio="14"/>
 <attribute name="PARTNO" value="PH2RA-10-UA" x="55.5" y="20.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="AFID1" library="3D_MIG_Controller" package="FIDUCIAL_1MM" value="FIDUCIAL_1MM" x="54" y="2" smashed="yes"/>
@@ -1398,11 +1398,11 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="TPD2E2U06DRLR" x="43.1" y="18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J11" library="3D_MIG_Controller" package="2X5" value="10-pos" x="55.5" y="39" smashed="yes" rot="R270">
-<attribute name="NAME" x="57.63" y="40.737" size="0.508" layer="25" font="vector" ratio="14"/>
+<attribute name="NAME" x="54.5" y="40.937" size="1.778" layer="25" font="vector" ratio="14"/>
 <attribute name="PARTNO" value="PH2RA-10-UA" x="55.5" y="39" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J12" library="3D_MIG_Controller" package="2X5" value="10-pos" x="55.5" y="57.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="57.43" y="59.537" size="0.508" layer="25" font="vector" ratio="14"/>
+<attribute name="NAME" x="54.5" y="59.337" size="1.778" layer="25" font="vector" ratio="14"/>
 <attribute name="PARTNO" value="PH2RA-10-UA" x="55.5" y="57.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
@@ -1498,16 +1498,16 @@ design rules under a new name.</description>
 <via x="19.4" y="55.7" extent="1-16" drill="0.35"/>
 <contactref element="J2" pad="P$1"/>
 <polygon width="0.01" layer="1" thermals="no">
-<vertex x="0" y="92"/>
+<vertex x="-0.9" y="92"/>
 <vertex x="60" y="92"/>
 <vertex x="60" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="-0.9" y="0"/>
 </polygon>
 <polygon width="0.01" layer="16" thermals="no">
-<vertex x="0" y="92"/>
+<vertex x="-0.7" y="92"/>
 <vertex x="60" y="92"/>
 <vertex x="60" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="-0.7" y="0"/>
 </polygon>
 <via x="13" y="23.6" extent="1-16" drill="0.35"/>
 <via x="34.7" y="31.3" extent="1-16" drill="0.35"/>
@@ -1527,10 +1527,10 @@ design rules under a new name.</description>
 <via x="39.7" y="22.9" extent="1-16" drill="0.35"/>
 <via x="28.6" y="28.6" extent="1-16" drill="0.35"/>
 <polygon width="0.01" layer="2" thermals="no">
-<vertex x="0" y="92"/>
+<vertex x="-0.9" y="92"/>
 <vertex x="60" y="92"/>
 <vertex x="60" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="-0.9" y="0"/>
 </polygon>
 <contactref element="J2" pad="P$4"/>
 <contactref element="J6" pad="SHLD2"/>
@@ -1572,16 +1572,16 @@ design rules under a new name.</description>
 <wire x1="21.75" y1="58.95" x2="21.9" y2="58.8" width="0.254" layer="1"/>
 <via x="21.9" y="58.8" extent="1-2" drill="0.35"/>
 <polygon width="0.01" layer="3" thermals="no">
-<vertex x="0" y="92"/>
+<vertex x="-0.5" y="92"/>
 <vertex x="60" y="92"/>
 <vertex x="60" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="-0.5" y="0"/>
 </polygon>
 <polygon width="0.01" layer="14" thermals="no">
-<vertex x="0" y="92"/>
+<vertex x="-0.4" y="92"/>
 <vertex x="60" y="92"/>
 <vertex x="60" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="-0.4" y="0"/>
 </polygon>
 <contactref element="J8" pad="P$39"/>
 <contactref element="J8" pad="P$40"/>
@@ -1740,14 +1740,12 @@ design rules under a new name.</description>
 <wire x1="33.25" y1="70.43355625" x2="33.198271875" y2="70.381828125" width="0.254" layer="16"/>
 <wire x1="33.25" y1="71.35" x2="33.25" y2="70.43355625" width="0.254" layer="16"/>
 <wire x1="33.192003125" y1="70.375559375" x2="33.198271875" y2="70.381828125" width="0.508" layer="16"/>
-<via x="4.9" y="72.7" extent="1-16" drill="0.35"/>
-<wire x1="4.9" y1="72.7" x2="2.125" y2="72.7" width="0.508" layer="1"/>
 <wire x1="30.6" y1="29.4" x2="31.95" y2="29.4" width="0.508" layer="16"/>
 <polygon width="0.01" layer="15" thermals="no">
-<vertex x="0" y="92"/>
+<vertex x="-0.3" y="92"/>
 <vertex x="60" y="92"/>
 <vertex x="60" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="-0.3" y="0"/>
 </polygon>
 <wire x1="10" y1="17.9" x2="9.2" y2="17.9" width="0.254" layer="16"/>
 <wire x1="9.1" y1="17.8" x2="9.2" y2="17.9" width="0.254" layer="16"/>
@@ -1793,6 +1791,8 @@ design rules under a new name.</description>
 <wire x1="21.2" y1="73.546546875" x2="21.084715625" y2="73.4312625" width="0.254" layer="1"/>
 <wire x1="41.1" y1="65.4" x2="39.776496875" y2="65.4" width="0.254" layer="16"/>
 <wire x1="39.776496875" y1="65.4" x2="39.7357875" y2="65.440709375" width="0.254" layer="16"/>
+<wire x1="2.125" y1="72.7" x2="4.8" y2="72.7" width="0.254" layer="1"/>
+<via x="4.8" y="72.7" extent="1-15" drill="0.35"/>
 </signal>
 <signal name="VDDIN">
 <contactref element="L1" pad="1"/>
