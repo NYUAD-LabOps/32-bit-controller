@@ -542,13 +542,6 @@
 <wire x1="40.64" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VDD5" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="20.32" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
-<label x="22.86" y="25.4" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="VDD-12" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="7"/>
@@ -558,22 +551,10 @@
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="20.32" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
-<label x="22.86" y="17.78" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U1" gate="A" pin="C(3)"/>
 <wire x1="76.2" y1="27.34" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
 <label x="81.28" y="38.1" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="IO_SIGNAL_2" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="20.32" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
-<label x="22.86" y="15.24" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
