@@ -1557,6 +1557,33 @@ DIN A3, landscape with extra doc field</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="SRN8040TA-331M" prefix="L">
+<description>FIXED IND 22UH 2.9A SMD, 73m-Ohm, Bourns</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR_2_PINS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRN8040TA-220M">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="FIXED IND 330UH 0.66A SMD, Bourns" constant="no"/>
+<attribute name="LIB_STATUS" value="Verified" constant="no"/>
+<attribute name="MFN" value="SRN8040TA-331M" constant="no"/>
+<attribute name="MFR" value="Bourns" constant="no"/>
+<attribute name="OUR_STOCK" value="10" constant="no"/>
+<attribute name="PART_VALUE" value="330uH/0.66A" constant="no"/>
+<attribute name="PRICE-1" value="" constant="no"/>
+<attribute name="SUPPLIER-1" value="Digikey" constant="no"/>
+<attribute name="TECHNOLOGY" value="SMD" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="SRN8040TA-220M" prefix="L">
 <description>FIXED IND 22UH 2.9A SMD, 73m-Ohm, Bourns</description>
 <gates>
@@ -3808,7 +3835,7 @@ Source: www.kingbright.com</description>
 <part name="R7" library="Labops_Lib_AH" deviceset="R_0603" device="" value="18K 1%"/>
 <part name="C5" library="Labops_Lib_AH" deviceset="C_0603" device="EIA0603" value="100nF/50V"/>
 <part name="D1" library="Labops_Lib_AH" deviceset="STTH1R04U" device="SMB"/>
-<part name="L1" library="Labops_Lib_AH" deviceset="SRN8040TA-220M" device=""/>
+<part name="L1" library="Labops_Lib_AH" deviceset="SRN8040TA-331M" device=""/>
 <part name="PAD1_RING_LED+" library="Labops_Lib_AH" deviceset="THT_PAD_5MM" device=""/>
 <part name="GND5" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="PAD1_RING_LED_GND" library="Labops_Lib_AH" deviceset="THT_PAD_5MM" device=""/>
