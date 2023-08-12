@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2717,8 +2717,8 @@ Shield pins may be grounded.
 <attribute name="NAME" x="-649.454" y="-168.205" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-649.454" y="-173.031" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="-583.68" y="-163.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="-585.1786" y="-167.33" size="1.778" layer="95" rot="R90"/>
+<instance part="R1" gate="G$1" x="-584" y="-163" smashed="yes" rot="R90">
+<attribute name="NAME" x="-585.4986" y="-166.81" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="C8" gate="G$1" x="-474.98" y="-102.87" smashed="yes">
 <attribute name="NAME" x="-473.964" y="-102.235" size="1.778" layer="95"/>
@@ -3129,14 +3129,17 @@ Shield pins may be grounded.
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-583.68" y1="-168.6" x2="-583.68" y2="-182.32" width="0.1524" layer="91"/>
-<wire x1="-583.68" y1="-182.32" x2="-580.08" y2="-182.32" width="0.1524" layer="91"/>
-<label x="-579.88" y="-182.42" size="0.4064" layer="95" xref="yes"/>
+<wire x1="-584" y1="-168.08" x2="-584" y2="-172.2" width="0.1524" layer="91"/>
+<wire x1="-584" y1="-172.2" x2="-584" y2="-182.2" width="0.1524" layer="91"/>
+<wire x1="-584" y1="-182.2" x2="-580.08" y2="-182.2" width="0.1524" layer="91"/>
+<label x="-579.88" y="-182.2" size="0.4064" layer="95" xref="yes"/>
+<wire x1="-581.6" y1="-172.2" x2="-584" y2="-172.2" width="0.1524" layer="91"/>
+<junction x="-584" y="-172.2"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="-575.31" y1="-167.894" x2="-575.31" y2="-171.704" width="0.1524" layer="91"/>
-<wire x1="-575.31" y1="-171.704" x2="-583.692" y2="-171.704" width="0.1524" layer="91"/>
+<wire x1="-575.31" y1="-167.894" x2="-575.31" y2="-172.2" width="0.1524" layer="91"/>
+<wire x1="-575.31" y1="-172.2" x2="-581.68" y2="-172.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -3182,6 +3185,7 @@ Shield pins may be grounded.
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="-444.5" y1="-88.9" x2="-440.182" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="-440.182" y1="-88.9" x2="-440.182" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="-440.182" y="-88.9"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
@@ -3672,14 +3676,14 @@ Shield pins may be grounded.
 <pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="166.12" y1="-1.72" x2="196.088" y2="-1.72" width="0.1524" layer="91"/>
 <wire x1="196.088" y1="-1.72" x2="196.088" y2="-1.778" width="0.1524" layer="91"/>
-<wire x1="166.12" y1="-1.72" x2="170.18" y2="-1.72" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="-1.72" x2="170.18" y2="70.28" width="0.1524" layer="91"/>
+<wire x1="166.12" y1="-1.72" x2="134.62" y2="-1.72" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-1.72" x2="134.62" y2="70.28" width="0.1524" layer="91"/>
 <junction x="166.12" y="-1.72"/>
-<wire x1="170.18" y1="70.28" x2="170.18" y2="127" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="127" x2="193.04" y2="127" width="0.1524" layer="91"/>
-<wire x1="166.12" y1="70.28" x2="170.18" y2="70.28" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="70.28" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="76.2" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="166.12" y1="70.28" x2="134.62" y2="70.28" width="0.1524" layer="91"/>
 <junction x="166.12" y="70.28"/>
-<label x="193.04" y="127" size="1.016" layer="95" xref="yes"/>
+<label x="129.54" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VCC1"/>
@@ -3706,28 +3710,28 @@ Shield pins may be grounded.
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="-23.88" y1="-31.72" x2="-39.94" y2="-31.72" width="0.1524" layer="91"/>
 <wire x1="-39.94" y1="-31.72" x2="-40.194" y2="-31.622" width="0.1524" layer="91"/>
-<wire x1="-23.88" y1="-31.72" x2="-33.02" y2="-31.72" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="-31.72" x2="-33.02" y2="34.28" width="0.1524" layer="91"/>
+<wire x1="-23.88" y1="-31.72" x2="5.08" y2="-31.72" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-31.72" x2="5.08" y2="34.28" width="0.1524" layer="91"/>
 <junction x="-23.88" y="-31.72"/>
-<wire x1="-33.02" y1="34.28" x2="-33.02" y2="67.28" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="67.28" x2="-33.02" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-23.88" y1="34.28" x2="-33.02" y2="34.28" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="34.28" x2="5.08" y2="67.28" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="67.28" x2="5.08" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-23.88" y1="34.28" x2="5.08" y2="34.28" width="0.1524" layer="91"/>
 <junction x="-23.88" y="34.28"/>
-<wire x1="-23.88" y1="67.28" x2="-33.02" y2="67.28" width="0.1524" layer="91"/>
+<wire x1="-23.88" y1="67.28" x2="5.08" y2="67.28" width="0.1524" layer="91"/>
 <junction x="-23.88" y="67.28"/>
-<label x="-33.02" y="91.44" size="1.016" layer="255" xref="yes"/>
+<label x="5.08" y="73.66" size="1.016" layer="255" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VCC(IO)4"/>
-<wire x1="105.6" y1="112.64" x2="105.6" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="105.6" y1="129.54" x2="72.58" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="105.6" y1="112.64" x2="105.6" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="105.6" y1="88.9" x2="72.58" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VCC(IO)5"/>
-<wire x1="39.56" y1="129.54" x2="-2.54" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="72.58" y1="112.64" x2="72.58" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="72.58" y1="129.54" x2="39.56" y2="129.54" width="0.1524" layer="91"/>
-<label x="-2.54" y="129.54" size="1.016" layer="255" rot="R180" xref="yes"/>
+<wire x1="39.56" y1="88.9" x2="-2.54" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="72.58" y1="112.64" x2="72.58" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="72.58" y1="88.9" x2="39.56" y2="88.9" width="0.1524" layer="91"/>
+<label x="-2.54" y="88.9" size="1.016" layer="255" rot="R180" xref="yes"/>
 <pinref part="U3" gate="G$1" pin="VCC(IO)6"/>
-<wire x1="39.56" y1="112.64" x2="39.56" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="39.56" y1="112.64" x2="39.56" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="2"/>
 <wire x1="39.56" y1="112.64" x2="39.56" y2="132.592" width="0.1524" layer="91"/>
 <wire x1="39.56" y1="132.592" x2="39.86" y2="132.592" width="0.1524" layer="91"/>
@@ -4338,14 +4342,14 @@ Shield pins may be grounded.
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-583.68" y1="-158.44" x2="-583.68" y2="-146.12" width="0.1524" layer="91"/>
-<wire x1="-583.68" y1="-146.12" x2="-580.08" y2="-146.12" width="0.1524" layer="91"/>
+<wire x1="-584" y1="-157.92" x2="-584" y2="-146.12" width="0.1524" layer="91"/>
+<wire x1="-584" y1="-146.12" x2="-580.08" y2="-146.12" width="0.1524" layer="91"/>
 <label x="-580.18" y="-145.92" size="0.4064" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="-575.31" y1="-160.274" x2="-575.31" y2="-154.686" width="0.1524" layer="91"/>
-<wire x1="-575.31" y1="-154.686" x2="-583.692" y2="-154.686" width="0.1524" layer="91"/>
+<wire x1="-575.31" y1="-154.686" x2="-584" y2="-154.686" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XII" class="0">
@@ -5906,7 +5910,29 @@ Shield pins may be grounded.
 </sheet>
 </sheets>
 <errors>
+<approved hash="103,1,71.12,-365.76,U4,NC_2,GND,,,"/>
+<approved hash="103,1,71.12,-368.3,U4,NC,GND,,,"/>
+<approved hash="108,1,-297.18,-137.16,GND,,,,,"/>
+<approved hash="108,1,111.506,-332.74,GND,,,,,"/>
 <approved hash="108,1,-502.91,76.2,GND,,,,,"/>
+<approved hash="108,1,-490.464,76.2,GND,,,,,"/>
+<approved hash="108,1,-516.626,76.2,GND,,,,,"/>
+<approved hash="108,1,5.08,67.28,VDD,,,,,"/>
+<approved hash="108,1,-516.626,104.14,VDD,,,,,"/>
+<approved hash="108,1,-74.954,16.256,VDD,,,,,"/>
+<approved hash="108,1,72.58,88.9,VDD,,,,,"/>
+<approved hash="108,1,-490.464,104.14,VDD,,,,,"/>
+<approved hash="108,1,-502.91,104.14,VDD,,,,,"/>
+<approved hash="108,1,5.08,34.28,VDD,,,,,"/>
+<approved hash="108,1,-64.794,16.256,VDD,,,,,"/>
+<approved hash="108,1,39.56,88.9,VDD,,,,,"/>
+<approved hash="108,1,134.62,70.28,VDD,,,,,"/>
+<approved hash="108,1,-63.5,-350.52,VDD5,,,,,"/>
+<approved hash="109,1,-583.68,-171.704,GND,,,,,"/>
+<approved hash="109,1,-583.68,-171.704,GND,,,,,"/>
+<approved hash="109,1,-583.68,-171.74,GND,,,,,"/>
+<approved hash="109,1,-583.68,-171.74,GND,,,,,"/>
+<approved hash="109,1,-583.692,-154.686,REXT,,,,,"/>
 </errors>
 </schematic>
 </drawing>
