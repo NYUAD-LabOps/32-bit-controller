@@ -3892,20 +3892,6 @@ Shield pins may be grounded.
 <pinref part="U3" gate="G$1" pin="P8_6"/>
 </segment>
 </net>
-<net name="USB_N" class="1">
-<segment>
-<pinref part="U3" gate="G$1" pin="USB_DM"/>
-<wire x1="166.12" y1="-43.72" x2="182.88" y2="-43.72" width="0.1524" layer="91"/>
-<label x="182.88" y="-43.688" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="USB_P" class="1">
-<segment>
-<pinref part="U3" gate="G$1" pin="USB_DP"/>
-<wire x1="166.12" y1="-40.72" x2="182.88" y2="-40.72" width="0.1524" layer="91"/>
-<label x="183.134" y="-40.64" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="USBHS_VBUS" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="PB_1"/>
@@ -3913,26 +3899,11 @@ Shield pins may be grounded.
 <label x="54.61" y="-88.9" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="USBHS_P" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="USBHS_DP"/>
-<wire x1="99.62" y1="-77.22" x2="99.62" y2="-88.646" width="0.1524" layer="91"/>
-<label x="99.568" y="-88.646" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
 <net name="USB_VBUS_B" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="P4_7"/>
 <wire x1="135.62" y1="-77.22" x2="135.62" y2="-86.36" width="0.1524" layer="91"/>
 <label x="135.89" y="-86.36" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="USBHS_N" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="USBHS_DM"/>
-<wire x1="96.62" y1="-77.22" x2="96.52" y2="-77.22" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="-77.22" x2="96.52" y2="-88.646" width="0.1524" layer="91"/>
-<label x="96.52" y="-88.9" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="USBHS_FAULT" class="0">
@@ -4908,6 +4879,35 @@ Shield pins may be grounded.
 <label x="-37.084" y="28.194" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="USB_DP" class="1">
+<segment>
+<pinref part="U3" gate="G$1" pin="USB_DP"/>
+<wire x1="166.12" y1="-40.72" x2="182.88" y2="-40.72" width="0.1524" layer="91"/>
+<label x="183.134" y="-40.64" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="USB_DN" class="1">
+<segment>
+<pinref part="U3" gate="G$1" pin="USB_DM"/>
+<wire x1="166.12" y1="-43.72" x2="182.88" y2="-43.72" width="0.1524" layer="91"/>
+<label x="182.88" y="-43.688" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="USBHS_DN" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="USBHS_DM"/>
+<wire x1="96.62" y1="-77.22" x2="96.52" y2="-77.22" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-77.22" x2="96.52" y2="-88.646" width="0.1524" layer="91"/>
+<label x="96.52" y="-88.9" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="USBHS_DP" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="USBHS_DP"/>
+<wire x1="99.62" y1="-77.22" x2="99.62" y2="-88.646" width="0.1524" layer="91"/>
+<label x="99.568" y="-88.646" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -5061,40 +5061,6 @@ Shield pins may be grounded.
 <label x="104.14" y="101.854" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="USB_N" class="1">
-<segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="-33.02" x2="12.7" y2="-33.02" width="0.1524" layer="91"/>
-<label x="12.7" y="-33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U5" gate="A" pin="IO1"/>
-<wire x1="187.96" y1="-7.62" x2="195.58" y2="-7.62" width="0.1524" layer="91"/>
-<label x="195.58" y="-7.62" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U5" gate="A" pin="NC_2"/>
-<wire x1="152.4" y1="-2.54" x2="144.78" y2="-2.54" width="0.1524" layer="91"/>
-<label x="144.78" y="-2.54" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="USB_P" class="1">
-<segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="-43.18" x2="12.7" y2="-43.18" width="0.1524" layer="91"/>
-<label x="12.7" y="-43.18" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U5" gate="A" pin="IO2"/>
-<wire x1="187.96" y1="-2.54" x2="195.58" y2="-2.54" width="0.1524" layer="91"/>
-<label x="195.58" y="-2.54" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U5" gate="A" pin="NC"/>
-<wire x1="152.4" y1="-5.08" x2="144.78" y2="-5.08" width="0.1524" layer="91"/>
-<label x="144.78" y="-5.08" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="USBHS_VBUS" class="0">
 <segment>
 <label x="121.92" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -5113,23 +5079,6 @@ Shield pins may be grounded.
 <junction x="109.22" y="38.1"/>
 <pinref part="J6" gate="G$1" pin="VBUS"/>
 <pinref part="C1" gate="A" pin="1"/>
-</segment>
-</net>
-<net name="USBHS_P" class="0">
-<segment>
-<label x="139.7" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
-<wire x1="154.94" y1="53.34" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="D+"/>
-</segment>
-<segment>
-<pinref part="U4" gate="A" pin="IO2"/>
-<wire x1="187.96" y1="25.4" x2="195.58" y2="25.4" width="0.1524" layer="91"/>
-<label x="195.58" y="25.4" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U4" gate="A" pin="NC"/>
-<wire x1="152.4" y1="22.86" x2="147.32" y2="22.86" width="0.1524" layer="91"/>
-<label x="147.32" y="22.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -5160,23 +5109,6 @@ Shield pins may be grounded.
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="-22.86" x2="12.7" y2="-22.86" width="0.1524" layer="91"/>
 <label x="12.7" y="-22.86" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="USBHS_N" class="0">
-<segment>
-<label x="139.7" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
-<wire x1="154.94" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="D-"/>
-</segment>
-<segment>
-<pinref part="U4" gate="A" pin="IO1"/>
-<wire x1="187.96" y1="20.32" x2="195.58" y2="20.32" width="0.1524" layer="91"/>
-<label x="195.58" y="20.32" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U4" gate="A" pin="NC_2"/>
-<wire x1="152.4" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
-<label x="147.32" y="25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USBHS_FAULT" class="0">
@@ -5336,6 +5268,74 @@ Shield pins may be grounded.
 <wire x1="192.786" y1="50.8" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="58.42" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
 <label x="195.58" y="43.18" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="USBHS_DN" class="0">
+<segment>
+<label x="139.7" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="D-"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="NC_2"/>
+<wire x1="152.4" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
+<label x="147.32" y="25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="IO1"/>
+<wire x1="187.96" y1="20.32" x2="195.58" y2="20.32" width="0.1524" layer="91"/>
+<label x="195.58" y="20.32" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="USBHS_DP" class="0">
+<segment>
+<label x="139.7" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="53.34" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="D+"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="NC"/>
+<wire x1="152.4" y1="22.86" x2="147.32" y2="22.86" width="0.1524" layer="91"/>
+<label x="147.32" y="22.86" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="IO2"/>
+<wire x1="187.96" y1="25.4" x2="195.58" y2="25.4" width="0.1524" layer="91"/>
+<label x="195.58" y="25.4" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="USB_DN" class="1">
+<segment>
+<pinref part="U5" gate="A" pin="NC_2"/>
+<wire x1="152.4" y1="-2.54" x2="144.78" y2="-2.54" width="0.1524" layer="91"/>
+<label x="144.78" y="-2.54" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U5" gate="A" pin="IO1"/>
+<wire x1="187.96" y1="-7.62" x2="195.58" y2="-7.62" width="0.1524" layer="91"/>
+<label x="195.58" y="-7.62" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="-33.02" x2="12.7" y2="-33.02" width="0.1524" layer="91"/>
+<label x="12.7" y="-33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="USB_DP" class="1">
+<segment>
+<pinref part="U5" gate="A" pin="NC"/>
+<wire x1="152.4" y1="-5.08" x2="144.78" y2="-5.08" width="0.1524" layer="91"/>
+<label x="144.78" y="-5.08" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U5" gate="A" pin="IO2"/>
+<wire x1="187.96" y1="-2.54" x2="195.58" y2="-2.54" width="0.1524" layer="91"/>
+<label x="195.58" y="-2.54" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="-43.18" x2="12.7" y2="-43.18" width="0.1524" layer="91"/>
+<label x="12.7" y="-43.18" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
