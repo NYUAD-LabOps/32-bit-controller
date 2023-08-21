@@ -5240,36 +5240,6 @@ Shield pins may be grounded.
 <label x="104.14" y="116.84" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="GNDE" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="SHIELD4"/>
-<wire x1="195.58" y1="-58.42" x2="195.58" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-53.34" x2="195.58" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-45.72" x2="195.58" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-40.64" x2="195.58" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-33.02" x2="187.96" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="J7" gate="G$1" pin="SHIELD3"/>
-<wire x1="187.96" y1="-40.64" x2="195.58" y2="-40.64" width="0.1524" layer="91"/>
-<junction x="195.58" y="-40.64"/>
-<pinref part="J7" gate="G$1" pin="SHIELD2"/>
-<wire x1="187.96" y1="-45.72" x2="195.58" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="195.58" y="-45.72"/>
-<pinref part="J7" gate="G$1" pin="SHIELD1"/>
-<wire x1="187.96" y1="-53.34" x2="195.58" y2="-53.34" width="0.1524" layer="91"/>
-<junction x="195.58" y="-53.34"/>
-<label x="195.58" y="-58.42" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="SHIELD_2"/>
-<wire x1="185.42" y1="58.42" x2="192.786" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="58.42" x2="192.786" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="192.786" y1="58.42" x2="192.786" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="SHIELD_1"/>
-<wire x1="192.786" y1="50.8" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="58.42" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
-<label x="195.58" y="43.18" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
 <net name="USBHS_DN" class="0">
 <segment>
 <label x="139.7" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -5336,6 +5306,36 @@ Shield pins may be grounded.
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="-43.18" x2="12.7" y2="-43.18" width="0.1524" layer="91"/>
 <label x="12.7" y="-43.18" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GNDS" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="SHIELD_2"/>
+<wire x1="185.42" y1="58.42" x2="192.786" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="58.42" x2="192.786" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="192.786" y1="58.42" x2="192.786" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="SHIELD_1"/>
+<wire x1="192.786" y1="50.8" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="58.42" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
+<label x="195.58" y="43.18" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="SHIELD4"/>
+<wire x1="195.58" y1="-58.42" x2="195.58" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-53.34" x2="195.58" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-45.72" x2="195.58" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-40.64" x2="195.58" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-33.02" x2="187.96" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="SHIELD3"/>
+<wire x1="187.96" y1="-40.64" x2="195.58" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="195.58" y="-40.64"/>
+<pinref part="J7" gate="G$1" pin="SHIELD2"/>
+<wire x1="187.96" y1="-45.72" x2="195.58" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="195.58" y="-45.72"/>
+<pinref part="J7" gate="G$1" pin="SHIELD1"/>
+<wire x1="187.96" y1="-53.34" x2="195.58" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="195.58" y="-53.34"/>
+<label x="195.58" y="-58.42" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -5956,7 +5956,7 @@ Shield pins may be grounded.
 <label x="193.294" y="-1.27" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="GNDE" class="0">
+<net name="GNDS" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="GNDE1"/>
 <wire x1="139.1" y1="-43.28" x2="142.24" y2="-43.28" width="0.1524" layer="91"/>
@@ -8847,11 +8847,6 @@ Shield pins may be grounded.
 <label x="27.94" y="-27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="P$4"/>
-<wire x1="38.1" y1="-12.7" x2="27.94" y2="-12.7" width="0.1524" layer="91"/>
-<label x="27.94" y="-12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="-12.7" x2="86.36" y2="-12.7" width="0.1524" layer="91"/>
 <label x="86.36" y="-12.7" size="1.016" layer="95" xref="yes"/>
@@ -8912,6 +8907,13 @@ Shield pins may be grounded.
 <pinref part="J2" gate="G$1" pin="P$2"/>
 <wire x1="38.1" y1="-22.86" x2="27.94" y2="-22.86" width="0.1524" layer="91"/>
 <label x="27.94" y="-22.86" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GNDS" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="P$4"/>
+<wire x1="38.1" y1="-12.7" x2="27.94" y2="-12.7" width="0.1524" layer="91"/>
+<label x="27.94" y="-12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
