@@ -242,22 +242,22 @@
 <wire x1="-3.175" y1="-2.921" x2="-1.905" y2="-2.921" width="0.2032" layer="22"/>
 </package>
 <package name="ADM1602K">
-<pad name="P1" x="32.9" y="2.5" drill="1.2"/>
-<pad name="P2" x="35.44" y="2.5" drill="1.2"/>
-<pad name="P3" x="37.98" y="2.5" drill="1.2"/>
-<pad name="P4" x="40.52" y="2.5" drill="1.2"/>
-<pad name="P5" x="43.06" y="2.5" drill="1.2"/>
-<pad name="P6" x="45.6" y="2.5" drill="1.2"/>
-<pad name="P7" x="48.14" y="2.5" drill="1.2"/>
-<pad name="P8" x="50.68" y="2.5" drill="1.2"/>
-<pad name="P9" x="53.22" y="2.5" drill="1.2"/>
-<pad name="P10" x="55.76" y="2.5" drill="1.2"/>
-<pad name="P11" x="58.3" y="2.5" drill="1.2"/>
-<pad name="P12" x="60.84" y="2.5" drill="1.2"/>
-<pad name="P13" x="63.38" y="2.5" drill="1.2"/>
-<pad name="P14" x="65.92" y="2.5" drill="1.2"/>
-<pad name="P15" x="68.46" y="2.5" drill="1.2"/>
-<pad name="P16" x="71" y="2.5" drill="1.2"/>
+<pad name="P1" x="8" y="33.5" drill="1.2"/>
+<pad name="P2" x="10.54" y="33.5" drill="1.2"/>
+<pad name="P3" x="13.08" y="33.5" drill="1.2"/>
+<pad name="P4" x="15.62" y="33.5" drill="1.2"/>
+<pad name="P5" x="18.16" y="33.5" drill="1.2"/>
+<pad name="P6" x="20.7" y="33.5" drill="1.2"/>
+<pad name="P7" x="23.24" y="33.5" drill="1.2"/>
+<pad name="P8" x="25.78" y="33.5" drill="1.2"/>
+<pad name="P9" x="28.32" y="33.5" drill="1.2"/>
+<pad name="P10" x="30.86" y="33.5" drill="1.2"/>
+<pad name="P11" x="33.4" y="33.5" drill="1.2"/>
+<pad name="P12" x="35.94" y="33.5" drill="1.2"/>
+<pad name="P13" x="38.48" y="33.5" drill="1.2"/>
+<pad name="P14" x="41.02" y="33.5" drill="1.2"/>
+<pad name="P15" x="43.56" y="33.5" drill="1.2"/>
+<pad name="P16" x="46.1" y="33.5" drill="1.2"/>
 <hole x="2.5" y="2.5" drill="3"/>
 <hole x="77.5" y="2.5" drill="3"/>
 <hole x="77.5" y="33.5" drill="3"/>
@@ -266,10 +266,10 @@
 <wire x1="0" y1="36" x2="80" y2="36" width="0.127" layer="21"/>
 <wire x1="80" y1="36" x2="80" y2="0" width="0.127" layer="21"/>
 <wire x1="80" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="4" y1="32" x2="76" y2="32" width="0.127" layer="21"/>
-<wire x1="76" y1="32" x2="76" y2="4" width="0.127" layer="21"/>
-<wire x1="76" y1="4" x2="4" y2="4" width="0.127" layer="21"/>
-<wire x1="4" y1="4" x2="4" y2="32" width="0.127" layer="21"/>
+<wire x1="4.35" y1="30.85" x2="75.65" y2="30.85" width="0.127" layer="21"/>
+<wire x1="75.65" y1="30.85" x2="75.65" y2="4.55" width="0.127" layer="21"/>
+<wire x1="75.65" y1="4.55" x2="4.35" y2="4.55" width="0.127" layer="21"/>
+<wire x1="4.35" y1="4.55" x2="4.35" y2="30.85" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
