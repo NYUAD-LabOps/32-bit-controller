@@ -161,10 +161,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="68.58" y2="0" width="0" layer="20"/>
-<wire x1="68.58" y1="0" x2="68.58" y2="53.34" width="0" layer="20"/>
-<wire x1="68.58" y1="53.34" x2="0" y2="53.34" width="0" layer="20"/>
-<wire x1="0" y1="53.34" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="68.58" y2="0" width="0" layer="21"/>
+<wire x1="68.58" y1="0" x2="68.58" y2="53.34" width="0" layer="21"/>
+<wire x1="68.58" y1="53.34" x2="0" y2="53.34" width="0" layer="21"/>
+<wire x1="0" y1="53.34" x2="0" y2="0" width="0" layer="21"/>
 </plain>
 <libraries>
 <library name="3D_MIG_Controller">
