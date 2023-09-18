@@ -342,8 +342,8 @@
 <text x="-0.254" y="-1.016" size="0.254" layer="27">&gt;Value</text>
 </package>
 <package name="CAP_YX_10X16_RUB">
-<pad name="1" x="0" y="0" drill="0.8636" diameter="1.3716"/>
-<pad name="2" x="5.0038" y="0" drill="0.8636" diameter="1.3716" rot="R180"/>
+<pad name="1" x="0" y="0" drill="0.795" diameter="1.3716"/>
+<pad name="2" x="5.0038" y="0" drill="0.795" diameter="1.3716" rot="R180"/>
 <wire x1="-4.2672" y1="0" x2="-2.9972" y2="0" width="0.1524" layer="21"/>
 <wire x1="-3.6322" y1="0.635" x2="-3.6322" y2="-0.635" width="0.1524" layer="21"/>
 <wire x1="7.874" y1="0" x2="-2.8702" y2="0" width="0.1524" layer="21" curve="-180"/>
