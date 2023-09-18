@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2023-09-15T09:05:22Z",
+        "CreationDate": "2023-09-18T06:03:41Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -15,10 +15,10 @@
         "Name": {
             "ProjectId": "Arduino_Shield_RC_Controller"
         },
-        "Owner": "  <>",
+        "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
-            "X": 70,
-            "Y": 86
+            "X": 135,
+            "Y": 100
         }
     }
 }
