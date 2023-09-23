@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2023-09-14T01:58:47Z",
+        "CreationDate": "2023-09-23T02:10:11Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,7 +13,7 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "Type_2_v1p00"
+            "ProjectId": "Type_2_v1p01"
         },
         "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
