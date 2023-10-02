@@ -296,20 +296,20 @@
 <pad name="P22" x="66.167" y="27.94" drill="1.2"/>
 <pad name="P23" x="63.627" y="25.4" drill="1.2"/>
 <pad name="P24" x="66.167" y="25.4" drill="1.2"/>
-<pad name="P25" x="50.8" y="2.54" drill="1.2"/>
-<pad name="P26" x="53.34" y="2.54" drill="1.2"/>
-<pad name="P27" x="55.88" y="2.54" drill="1.2"/>
-<pad name="P28" x="58.42" y="2.54" drill="1.2"/>
-<pad name="P29" x="60.96" y="2.54" drill="1.2"/>
-<pad name="P30" x="63.5" y="2.54" drill="1.2"/>
-<pad name="P31" x="27.94" y="2.54" drill="1.2"/>
-<pad name="P32" x="30.48" y="2.54" drill="1.2"/>
-<pad name="P33" x="33.02" y="2.54" drill="1.2"/>
-<pad name="P34" x="35.56" y="2.54" drill="1.2"/>
-<pad name="P35" x="38.1" y="2.54" drill="1.2"/>
-<pad name="P36" x="40.64" y="2.54" drill="1.2"/>
-<pad name="P37" x="43.18" y="2.54" drill="1.2"/>
-<pad name="P38" x="45.72" y="2.54" drill="1.2"/>
+<pad name="P30" x="50.8" y="2.54" drill="1.2"/>
+<pad name="P29" x="53.34" y="2.54" drill="1.2"/>
+<pad name="P28" x="55.88" y="2.54" drill="1.2"/>
+<pad name="P27" x="58.42" y="2.54" drill="1.2"/>
+<pad name="P26" x="60.96" y="2.54" drill="1.2"/>
+<pad name="P25" x="63.5" y="2.54" drill="1.2"/>
+<pad name="P38" x="27.94" y="2.54" drill="1.2"/>
+<pad name="P37" x="30.48" y="2.54" drill="1.2"/>
+<pad name="P36" x="33.02" y="2.54" drill="1.2"/>
+<pad name="P35" x="35.56" y="2.54" drill="1.2"/>
+<pad name="P34" x="38.1" y="2.54" drill="1.2"/>
+<pad name="P33" x="40.64" y="2.54" drill="1.2"/>
+<pad name="P32" x="43.18" y="2.54" drill="1.2"/>
+<pad name="P31" x="45.72" y="2.54" drill="1.2"/>
 <wire x1="0" y1="0" x2="0" y2="53.34" width="0.05" layer="21"/>
 <wire x1="0" y1="53.34" x2="68.58" y2="53.34" width="0.05" layer="21"/>
 <wire x1="68.58" y1="53.34" x2="68.58" y2="0" width="0.05" layer="21"/>
@@ -1181,7 +1181,7 @@
 <wire x1="274.32" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SW4" class="0">
+<net name="SW5" class="0">
 <segment>
 <pinref part="SW4" gate="A" pin="2"/>
 <wire x1="347.98" y1="-7.62" x2="353.06" y2="-7.62" width="0.1524" layer="91"/>
@@ -1191,14 +1191,14 @@
 <wire x1="309.88" y1="-7.62" x2="309.88" y2="0" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="0" x2="353.06" y2="0" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="0" x2="353.06" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="AR1" gate="G$1" pin="A3"/>
-<wire x1="360.68" y1="66.04" x2="391.16" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="66.04" x2="391.16" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="-7.62" x2="353.06" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="353.06" y="-7.62"/>
+<pinref part="AR1" gate="G$1" pin="A2"/>
+<wire x1="391.16" y1="-7.62" x2="391.16" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="63.5" x2="360.68" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SW5" class="0">
+<net name="SW4" class="0">
 <segment>
 <pinref part="SW5" gate="A" pin="2"/>
 <wire x1="347.98" y1="-35.56" x2="353.06" y2="-35.56" width="0.1524" layer="91"/>
@@ -1208,11 +1208,11 @@
 <wire x1="309.88" y1="-35.56" x2="309.88" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="-27.94" x2="353.06" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="-27.94" x2="353.06" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="AR1" gate="G$1" pin="A2"/>
-<wire x1="360.68" y1="63.5" x2="393.7" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="63.5" x2="393.7" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="-35.56" x2="353.06" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="353.06" y="-35.56"/>
+<pinref part="AR1" gate="G$1" pin="A3"/>
+<wire x1="393.7" y1="-35.56" x2="393.7" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="66.04" x2="360.68" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
