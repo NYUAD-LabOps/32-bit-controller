@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2023-09-20T03:55:27Z",
+        "CreationDate": "2023-10-02T02:13:21Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,7 +13,7 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "Arduino_Shield_RC_Controller"
+            "ProjectId": "Arduino_Shield_RC_Controller_v2"
         },
         "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
