@@ -546,16 +546,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="27.31" y="32.3" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C88" library="3D_MIG_Controller" package="0805" value="0.1uF" x="13.3" y="29.6" smashed="yes" rot="R270">
-<attribute name="VALUE" x="13.64" y="32" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="13.64" y="32" size="1.27" layer="26" rot="R90"/>
 </element>
 <element name="C86" library="3D_MIG_Controller" package="0805" value="10uF" x="11" y="29.6" smashed="yes" rot="R270">
-<attribute name="VALUE" x="11.44" y="32" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="11.44" y="32" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="LED" library="3D_MIG_Controller" package="LED_0805_GREEN" value="" x="6.5" y="29.6" smashed="yes">
 <attribute name="NAME" x="6.83" y="31.53" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="R90" library="3D_MIG_Controller" package="0805" value="470R" x="8.5" y="29.6" smashed="yes" rot="R90">
-<attribute name="VALUE" x="8.94" y="32.1" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="8.94" y="32.1" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="J2" library="3D_MIG_Controller" package="2X5" value="" x="6.05" y="12.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.87" y="10.613" size="1.27" layer="25" font="vector" ratio="14" rot="R180"/>
