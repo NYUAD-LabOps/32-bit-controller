@@ -1,0 +1,7 @@
+#Feeder,Feeder ID,Type,Nozzle,X,Y,Angle,Footprint,Value,Pick height,Pick delay,Placement height,Placement delay,Vacuum detection,Vacuum value,Vision alignment,Speed,
+stack,1,0,1,410.22,88.28,-90.00,,one,0.50,0,0.00,0,No,0,0,100,4,50,80,No,No,-40,-40,-40,-40,
+pcb,Manual,Lock,100,100,350,150,Front,10,10,0,
+test,No,
+mirror_create,1,1,33.858,73.282,0,0,0,0,0.000000,
+mirror,33.858,73.282,0,No,
+#Chip,Feeder ID,Nozzle,Name,Value,Footprint,X,Y,Rotation,Skip
