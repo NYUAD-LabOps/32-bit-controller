@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2023-10-23T05:43:18Z",
+        "CreationDate": "2023-10-25T07:05:57Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,7 +13,7 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "S5D3_MCU_only"
+            "ProjectId": "S5D3_MCU_only_edge_Power_SPI"
         },
         "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
