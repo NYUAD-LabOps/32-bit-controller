@@ -170,8 +170,8 @@
 <wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="1" x="-0.875" y="0" dx="1.1" dy="1.4" layer="1" roundness="10"/>
+<smd name="2" x="0.875" y="0" dx="1.1" dy="1.4" layer="1" roundness="10"/>
 <text x="-1.27" y="1.27" size="0.508" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="0.381" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
@@ -189,10 +189,14 @@
 <text x="2" y="-1.6" size="0.381" layer="27">&gt;VALUE</text>
 </package>
 <package name="0402">
-<smd name="P$1" x="0" y="0.6" dx="0.8" dy="0.7" layer="1"/>
-<smd name="P$2" x="0" y="-0.6" dx="0.8" dy="0.7" layer="1"/>
-<text x="-0.381" y="0.889" size="0.254" layer="25">&gt;Name</text>
-<text x="-0.254" y="-1.016" size="0.254" layer="27">&gt;Value</text>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<text x="-0.635" y="0.762" size="0.254" layer="25">&gt;Name</text>
+<text x="-0.635" y="-0.889" size="0.254" layer="27">&gt;Value</text>
+<wire x1="-1" y1="0.483" x2="1" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="0.483" x2="1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="-0.483" x2="-1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1" y1="-0.483" x2="-1" y2="0.483" width="0.0508" layer="39"/>
 </package>
 <package name="SMD_3225">
 <smd name="4" x="-1.2" y="0.9" dx="1.6" dy="1.4" layer="1"/>
@@ -310,6 +314,7 @@
 <wire x1="-1.016" y1="-1.6256" x2="1.016" y2="-1.6256" width="0.1524" layer="21"/>
 <wire x1="1.016" y1="-0.3048" x2="1.016" y2="0.3048" width="0.1524" layer="21"/>
 <wire x1="1.016" y1="1.6256" x2="-1.016" y2="1.6256" width="0.1524" layer="21"/>
+<text x="-2.0828" y="1.4224" size="1.016" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="-0.8636" y1="-1.4986" x2="0.8636" y2="-1.4986" width="0.1524" layer="51"/>
 <wire x1="0.8636" y1="-1.4986" x2="0.8636" y2="-0.6858" width="0.1524" layer="51"/>
 <wire x1="0.8636" y1="-0.6858" x2="0.8636" y2="0.6858" width="0.1524" layer="51"/>
@@ -342,9 +347,10 @@
 <wire x1="1.4986" y1="0.6858" x2="1.4986" y2="1.1938" width="0.1524" layer="51"/>
 <wire x1="1.4986" y1="1.1938" x2="0.8636" y2="1.1938" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="51" curve="-180"/>
+<text x="-1.1938" y="0.4572" size="1.016" layer="51" ratio="6" rot="SR0">*</text>
 <wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
 <wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
-<text x="-2.0066" y="-1.905" size="0.508" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-3.2766" y="-0.635" size="0.508" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="USB_A_SMT">
 <description>&lt;h3&gt;USB Type 'A' Female Connector - SMT Silk Outline&lt;/h3&gt;
@@ -652,11 +658,6 @@ Shield pins may be grounded.
 <wire x1="-1.7" y1="-0.9" x2="1.8" y2="-0.9" width="0.127" layer="21"/>
 <wire x1="1.8" y1="-0.9" x2="1.8" y2="1" width="0.127" layer="21"/>
 <wire x1="1.8" y1="1" x2="-1.7" y2="1" width="0.127" layer="21"/>
-<rectangle x1="-1.4478" y1="-0.1778" x2="-0.1524" y2="0.2032" layer="29"/>
-<rectangle x1="-1.4478" y1="-0.6858" x2="-0.1524" y2="-0.3048" layer="29"/>
-<rectangle x1="0.1524" y1="-0.6858" x2="1.4478" y2="-0.3048" layer="29"/>
-<rectangle x1="0.1524" y1="0.3048" x2="1.4478" y2="0.6858" layer="29"/>
-<rectangle x1="-1.4478" y1="0.3048" x2="-0.1524" y2="0.6858" layer="29"/>
 </package>
 <package name="SOT323">
 <smd name="1" x="-0.65" y="-0.8763" dx="0.4572" dy="1.1684" layer="1"/>
@@ -690,6 +691,7 @@ Shield pins may be grounded.
 <wire x1="1.4986" y1="1.143" x2="-5.2578" y2="1.143" width="0.1524" layer="51"/>
 <wire x1="-5.2578" y1="1.143" x2="-5.2578" y2="-2.0574" width="0.1524" layer="51"/>
 <text x="-5.4102" y="2.667" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.6724" y="-3.829" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 <package name="0603">
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
@@ -698,8 +700,8 @@ Shield pins may be grounded.
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="1" x="-0.725" y="0" dx="0.95" dy="0.95" layer="1" roundness="10"/>
+<smd name="2" x="0.725" y="0" dx="0.95" dy="0.95" layer="1" roundness="10"/>
 <text x="-0.635" y="0.635" size="0.508" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="0.381" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
@@ -764,306 +766,6 @@ Shield pins may be grounded.
 <wire x1="-1.524" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.651" width="0.127" layer="21"/>
 </package>
-<package name="CAP_1210TJLJ_3P5X2P8_DIO">
-<smd name="1" x="-1.4859" y="0" dx="1.4478" dy="2.2606" layer="1"/>
-<smd name="2" x="1.4859" y="0" dx="1.4478" dy="2.2606" layer="1"/>
-<wire x1="-1.8542" y1="1.1176" x2="-1.8542" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="0.762" x2="-1.8542" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-0.762" x2="-1.8542" y2="-1.1176" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="-1.0922" x2="1.8542" y2="1.1176" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="0.762" x2="-1.1176" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-0.762" x2="-1.1176" y2="-1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-1.4986" x2="1.8542" y2="-1.4986" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="-1.4986" x2="1.8542" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="1.4986" x2="-1.8542" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="1.4986" x2="-1.8542" y2="-1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="4.9276" x2="-1.8542" y2="5.2832" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.4196" x2="1.8542" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="1.8542" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="1.8542" y2="5.2832" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="4.9276" x2="-3.1242" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="3.1242" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="4.9276" x2="-2.1082" y2="5.0292" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="4.9276" x2="-2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="-2.1082" y1="5.0292" x2="-2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="2.1082" y2="5.0292" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="2.1082" y1="5.0292" x2="2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="1.1176" x2="-1.8542" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-1.8542" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="-0.762" y2="2.7432" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-3.1242" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="0.508" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-2.1082" y2="2.4892" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-2.1082" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-2.1082" y1="2.4892" x2="-2.1082" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="-0.508" y2="2.4892" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="-0.508" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-0.508" y1="2.4892" x2="-0.508" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="1.1176" x2="-4.3942" y2="1.1176" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.7752" y2="1.1176" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-1.1176" x2="-4.3942" y2="-1.1176" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.7752" y2="-1.1176" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.3942" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.3942" y2="-2.3876" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.5212" y2="1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.2672" y2="1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.5212" y1="1.3716" x2="-4.2672" y2="1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.5212" y2="-1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.2672" y2="-1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.5212" y1="-1.3716" x2="-4.2672" y2="-1.3716" width="0.1524" layer="47"/>
-<wire x1="0" y1="1.4986" x2="6.9342" y2="1.4986" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="7.3152" y2="1.4986" width="0.1524" layer="47"/>
-<wire x1="0" y1="-1.4986" x2="6.9342" y2="-1.4986" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="7.3152" y2="-1.4986" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="6.9342" y2="2.7686" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="6.9342" y2="-2.7686" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="6.8072" y2="1.7526" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="7.0612" y2="1.7526" width="0.1524" layer="47"/>
-<wire x1="6.8072" y1="1.7526" x2="7.0612" y2="1.7526" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="6.8072" y2="-1.7526" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="7.0612" y2="-1.7526" width="0.1524" layer="47"/>
-<wire x1="6.8072" y1="-1.7526" x2="7.0612" y2="-1.7526" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="1.1176" x2="-1.8542" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-1.8542" y2="-4.4196" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-3.1242" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="3.1242" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-2.1082" y2="-3.9116" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<wire x1="-2.1082" y1="-3.9116" x2="-2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="2.1082" y2="-3.9116" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<wire x1="2.1082" y1="-3.9116" x2="2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<text x="-15.2146" y="-9.2456" size="1.27" layer="47" ratio="6" rot="SR0">Default Padstyle: RX57Y89D0T</text>
-<text x="-14.8082" y="-11.176" size="1.27" layer="47" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
-<text x="-14.8082" y="-13.0556" size="1.27" layer="47" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
-<text x="-4.0386" y="5.4356" size="0.635" layer="47" ratio="4" rot="SR0">0.146in/3.708mm</text>
-<text x="-5.3594" y="2.8956" size="0.635" layer="47" ratio="4" rot="SR0">0.043in/1.092mm</text>
-<text x="-12.4206" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.087in/2.21mm</text>
-<text x="7.4422" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.118in/2.997mm</text>
-<text x="-4.0386" y="-5.1816" size="0.635" layer="47" ratio="4" rot="SR0">0.146in/3.708mm</text>
-<wire x1="-1.9812" y1="-1.6256" x2="1.9812" y2="-1.6256" width="0.1524" layer="21"/>
-<wire x1="1.9812" y1="-1.6256" x2="1.9812" y2="-1.4732" width="0.1524" layer="21"/>
-<wire x1="1.9812" y1="1.6256" x2="-1.9812" y2="1.6256" width="0.1524" layer="21"/>
-<wire x1="-1.9812" y1="1.6256" x2="-1.9812" y2="1.4732" width="0.1524" layer="21"/>
-<wire x1="-1.9812" y1="-1.4732" x2="-1.9812" y2="-1.6256" width="0.1524" layer="21"/>
-<wire x1="1.9812" y1="1.4732" x2="1.9812" y2="1.6256" width="0.1524" layer="21"/>
-<polygon width="0.0254" layer="41">
-<vertex x="-0.7112" y="1.4478"/>
-<vertex x="0.7112" y="1.4478"/>
-<vertex x="0.7112" y="-1.4478"/>
-<vertex x="-0.7112" y="-1.4478"/>
-</polygon>
-<polygon width="0.0254" layer="41">
-<vertex x="-0.7112" y="1.4478"/>
-<vertex x="0.7112" y="1.4478"/>
-<vertex x="0.7112" y="-1.4478"/>
-<vertex x="-0.7112" y="-1.4478"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-<package name="CAP_1210TJLJ_3P5X2P8_DIO-M">
-<smd name="1" x="-1.5367" y="0" dx="1.7526" dy="2.2606" layer="1"/>
-<smd name="2" x="1.5367" y="0" dx="1.7526" dy="2.2606" layer="1"/>
-<wire x1="-1.8542" y1="1.1176" x2="-1.8542" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="0.762" x2="-1.8542" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-0.762" x2="-1.8542" y2="-1.1176" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="-1.0922" x2="1.8542" y2="1.1176" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="0.762" x2="-1.1176" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-0.762" x2="-1.1176" y2="-1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-1.4986" x2="1.8542" y2="-1.4986" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="-1.4986" x2="1.8542" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="1.4986" x2="-1.8542" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="1.4986" x2="-1.8542" y2="-1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.4732" y1="0" x2="-1.6256" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-1.6256" y1="0" x2="-1.4732" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-1.8542" y1="4.9276" x2="-1.8542" y2="5.2832" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.4196" x2="1.8542" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="1.8542" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="1.8542" y2="5.2832" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="4.9276" x2="-3.1242" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="3.1242" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="4.9276" x2="-2.1082" y2="5.0292" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="4.9276" x2="-2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="-2.1082" y1="5.0292" x2="-2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="2.1082" y2="5.0292" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="2.1082" y1="5.0292" x2="2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="1.1176" x2="-1.8542" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-1.8542" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="-0.762" y2="2.7432" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-3.1242" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="0.508" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-2.1082" y2="2.4892" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-2.1082" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-2.1082" y1="2.4892" x2="-2.1082" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="-0.508" y2="2.4892" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="-0.508" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-0.508" y1="2.4892" x2="-0.508" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="1.1176" x2="-4.3942" y2="1.1176" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.7752" y2="1.1176" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-1.1176" x2="-4.3942" y2="-1.1176" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.7752" y2="-1.1176" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.3942" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.3942" y2="-2.3876" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.5212" y2="1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.2672" y2="1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.5212" y1="1.3716" x2="-4.2672" y2="1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.5212" y2="-1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.2672" y2="-1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.5212" y1="-1.3716" x2="-4.2672" y2="-1.3716" width="0.1524" layer="47"/>
-<wire x1="0" y1="1.4986" x2="6.9342" y2="1.4986" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="7.3152" y2="1.4986" width="0.1524" layer="47"/>
-<wire x1="0" y1="-1.4986" x2="6.9342" y2="-1.4986" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="7.3152" y2="-1.4986" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="6.9342" y2="2.7686" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="6.9342" y2="-2.7686" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="6.8072" y2="1.7526" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="7.0612" y2="1.7526" width="0.1524" layer="47"/>
-<wire x1="6.8072" y1="1.7526" x2="7.0612" y2="1.7526" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="6.8072" y2="-1.7526" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="7.0612" y2="-1.7526" width="0.1524" layer="47"/>
-<wire x1="6.8072" y1="-1.7526" x2="7.0612" y2="-1.7526" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="1.1176" x2="-1.8542" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-1.8542" y2="-4.4196" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-3.1242" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="3.1242" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-2.1082" y2="-3.9116" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<wire x1="-2.1082" y1="-3.9116" x2="-2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="2.1082" y2="-3.9116" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<wire x1="2.1082" y1="-3.9116" x2="2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<text x="-15.2146" y="-9.2456" size="1.27" layer="47" ratio="6" rot="SR0">Default Padstyle: RX69Y89D0T</text>
-<text x="-14.8082" y="-11.176" size="1.27" layer="47" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
-<text x="-14.8082" y="-13.0556" size="1.27" layer="47" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
-<text x="-4.0386" y="5.4356" size="0.635" layer="47" ratio="4" rot="SR0">0.146in/3.708mm</text>
-<text x="-5.3594" y="2.8956" size="0.635" layer="47" ratio="4" rot="SR0">0.043in/1.092mm</text>
-<text x="-12.4206" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.087in/2.21mm</text>
-<text x="7.4422" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.118in/2.997mm</text>
-<text x="-4.0386" y="-5.1816" size="0.635" layer="47" ratio="4" rot="SR0">0.146in/3.708mm</text>
-<wire x1="-1.9812" y1="-1.6256" x2="1.9812" y2="-1.6256" width="0.1524" layer="21"/>
-<wire x1="1.9812" y1="1.6256" x2="-1.9812" y2="1.6256" width="0.1524" layer="21"/>
-<wire x1="-3.2258" y1="0" x2="-3.3782" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-3.3782" y1="0" x2="-3.2258" y2="0" width="0.1524" layer="21" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.6096" y="1.4478"/>
-<vertex x="0.6096" y="1.4478"/>
-<vertex x="0.6096" y="-1.4478"/>
-<vertex x="-0.6096" y="-1.4478"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.6096" y="1.4478"/>
-<vertex x="0.6096" y="1.4478"/>
-<vertex x="0.6096" y="-1.4478"/>
-<vertex x="-0.6096" y="-1.4478"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-<package name="CAP_1210TJLJ_3P5X2P8_DIO-L">
-<smd name="1" x="-1.4351" y="0" dx="1.143" dy="2.2098" layer="1"/>
-<smd name="2" x="1.4351" y="0" dx="1.143" dy="2.2098" layer="1"/>
-<wire x1="-1.8542" y1="1.1176" x2="-1.8542" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="0.762" x2="-1.8542" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-0.762" x2="-1.8542" y2="-1.1176" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="-1.0922" x2="1.8542" y2="1.1176" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="0.762" x2="-1.1176" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-0.762" x2="-1.1176" y2="-1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-1.4986" x2="1.8542" y2="-1.4986" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="-1.4986" x2="1.8542" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="1.4986" x2="-1.8542" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="1.4986" x2="-1.8542" y2="-1.4986" width="0.1524" layer="51"/>
-<wire x1="-1.3716" y1="0" x2="-1.524" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-1.524" y1="0" x2="-1.3716" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-1.8542" y1="4.9276" x2="-1.8542" y2="5.2832" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.4196" x2="1.8542" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="1.8542" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="1.8542" y2="5.2832" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="4.9276" x2="-3.1242" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="3.1242" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="4.9276" x2="-2.1082" y2="5.0292" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="4.9276" x2="-2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="-2.1082" y1="5.0292" x2="-2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="2.1082" y2="5.0292" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="4.9276" x2="2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="2.1082" y1="5.0292" x2="2.1082" y2="4.7752" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="1.1176" x2="-1.8542" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-1.8542" y2="4.9276" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="-0.762" y2="2.7432" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-3.1242" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="0.508" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-2.1082" y2="2.4892" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="2.3876" x2="-2.1082" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-2.1082" y1="2.4892" x2="-2.1082" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="-0.508" y2="2.4892" width="0.1524" layer="47"/>
-<wire x1="-0.762" y1="2.3876" x2="-0.508" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-0.508" y1="2.4892" x2="-0.508" y2="2.2352" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="1.1176" x2="-4.3942" y2="1.1176" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.7752" y2="1.1176" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-1.1176" x2="-4.3942" y2="-1.1176" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.7752" y2="-1.1176" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.3942" y2="2.3876" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.3942" y2="-2.3876" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.5212" y2="1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="1.1176" x2="-4.2672" y2="1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.5212" y1="1.3716" x2="-4.2672" y2="1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.5212" y2="-1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.3942" y1="-1.1176" x2="-4.2672" y2="-1.3716" width="0.1524" layer="47"/>
-<wire x1="-4.5212" y1="-1.3716" x2="-4.2672" y2="-1.3716" width="0.1524" layer="47"/>
-<wire x1="0" y1="1.4986" x2="6.9342" y2="1.4986" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="7.3152" y2="1.4986" width="0.1524" layer="47"/>
-<wire x1="0" y1="-1.4986" x2="6.9342" y2="-1.4986" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="7.3152" y2="-1.4986" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="6.9342" y2="2.7686" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="6.9342" y2="-2.7686" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="6.8072" y2="1.7526" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="1.4986" x2="7.0612" y2="1.7526" width="0.1524" layer="47"/>
-<wire x1="6.8072" y1="1.7526" x2="7.0612" y2="1.7526" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="6.8072" y2="-1.7526" width="0.1524" layer="47"/>
-<wire x1="6.9342" y1="-1.4986" x2="7.0612" y2="-1.7526" width="0.1524" layer="47"/>
-<wire x1="6.8072" y1="-1.7526" x2="7.0612" y2="-1.7526" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="1.1176" x2="-1.8542" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-1.8542" y2="-4.4196" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-3.1242" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="3.1242" y2="-4.0386" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-2.1082" y2="-3.9116" width="0.1524" layer="47"/>
-<wire x1="-1.8542" y1="-4.0386" x2="-2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<wire x1="-2.1082" y1="-3.9116" x2="-2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="2.1082" y2="-3.9116" width="0.1524" layer="47"/>
-<wire x1="1.8542" y1="-4.0386" x2="2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<wire x1="2.1082" y1="-3.9116" x2="2.1082" y2="-4.1656" width="0.1524" layer="47"/>
-<text x="-15.2146" y="-9.2456" size="1.27" layer="47" ratio="6" rot="SR0">Default Padstyle: RX45Y87D0T</text>
-<text x="-14.8082" y="-11.1252" size="1.27" layer="47" ratio="6" rot="SR0">Alt 1 Padstyle: OX60Y90D30P</text>
-<text x="-14.8082" y="-13.0556" size="1.27" layer="47" ratio="6" rot="SR0">Alt 2 Padstyle: OX90Y60D30P</text>
-<text x="-4.0386" y="5.4356" size="0.635" layer="47" ratio="4" rot="SR0">0.146in/3.708mm</text>
-<text x="-5.3594" y="2.8956" size="0.635" layer="47" ratio="4" rot="SR0">0.043in/1.092mm</text>
-<text x="-12.4206" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.087in/2.21mm</text>
-<text x="7.4422" y="-0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.118in/2.997mm</text>
-<text x="-4.0386" y="-5.1816" size="0.635" layer="47" ratio="4" rot="SR0">0.146in/3.708mm</text>
-<wire x1="-1.9812" y1="-1.6256" x2="1.9812" y2="-1.6256" width="0.1524" layer="21"/>
-<wire x1="1.9812" y1="1.6256" x2="-1.9812" y2="1.6256" width="0.1524" layer="21"/>
-<wire x1="-2.8194" y1="0" x2="-2.9718" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.9718" y1="0" x2="-2.8194" y2="0" width="0.1524" layer="21" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.8128" y="1.4478"/>
-<vertex x="0.8128" y="1.4478"/>
-<vertex x="0.8128" y="-1.4478"/>
-<vertex x="-0.8128" y="-1.4478"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.8128" y="1.4478"/>
-<vertex x="0.8128" y="1.4478"/>
-<vertex x="0.8128" y="-1.4478"/>
-<vertex x="-0.8128" y="-1.4478"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
 <package name="CON_530470210_MOL">
 <pad name="1" x="0" y="0" drill="0.508" diameter="0.8382" shape="square"/>
 <pad name="2" x="-1.2446" y="0" drill="0.508" diameter="0.8382"/>
@@ -1082,60 +784,7 @@ Shield pins may be grounded.
 <wire x1="1.4986" y1="-2.0574" x2="1.4986" y2="1.143" width="0.1524" layer="51"/>
 <wire x1="1.4986" y1="1.143" x2="-2.7432" y2="1.143" width="0.1524" layer="51"/>
 <wire x1="-2.7432" y1="1.143" x2="-2.7432" y2="-2.0574" width="0.1524" layer="51"/>
-</package>
-<package name="QFN-24">
-<smd name="1" x="-1.9177" y="1.25" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="2" x="-1.9177" y="0.75" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="3" x="-1.9177" y="0.25" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="4" x="-1.9177" y="-0.25" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="5" x="-1.9177" y="-0.75" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="6" x="-1.9177" y="-1.25" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="7" x="-1.25" y="-1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="8" x="-0.75" y="-1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="9" x="-0.25" y="-1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="10" x="0.25" y="-1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="11" x="0.75" y="-1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="12" x="1.25" y="-1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="13" x="1.9177" y="-1.25" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="14" x="1.9177" y="-0.75" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="15" x="1.9177" y="-0.25" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="16" x="1.9177" y="0.25" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="17" x="1.9177" y="0.75" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="18" x="1.9177" y="1.25" dx="0.3048" dy="0.762" layer="1" rot="R270"/>
-<smd name="19" x="1.25" y="1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="20" x="0.75" y="1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="21" x="0.25" y="1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="22" x="-0.25" y="1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="23" x="-0.75" y="1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="24" x="-1.25" y="1.9177" dx="0.3048" dy="0.762" layer="1" rot="R180"/>
-<smd name="25" x="0" y="0" dx="2.7432" dy="2.7432" layer="1" cream="no"/>
-</package>
-<package name="QFN-24-L">
-<smd name="1" x="-1.8669" y="1.25" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="2" x="-1.8669" y="0.75" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="3" x="-1.8669" y="0.25" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="4" x="-1.8669" y="-0.25" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="5" x="-1.8669" y="-0.75" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="6" x="-1.8669" y="-1.25" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="7" x="-1.25" y="-1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="8" x="-0.75" y="-1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="9" x="-0.25" y="-1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="10" x="0.25" y="-1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="11" x="0.75" y="-1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="12" x="1.25" y="-1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="13" x="1.8669" y="-1.25" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="14" x="1.8669" y="-0.75" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="15" x="1.8669" y="-0.25" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="16" x="1.8669" y="0.25" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="17" x="1.8669" y="0.75" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="18" x="1.8669" y="1.25" dx="0.3048" dy="0.6604" layer="1" rot="R270"/>
-<smd name="19" x="1.25" y="1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="20" x="0.75" y="1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="21" x="0.25" y="1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="22" x="-0.25" y="1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="23" x="-0.75" y="1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="24" x="-1.25" y="1.8669" dx="0.3048" dy="0.6604" layer="1" rot="R180"/>
-<smd name="25" x="0" y="0" dx="2.7432" dy="2.7432" layer="1" cream="no"/>
+<text x="-2.4724" y="-3.829" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -1648,22 +1297,6 @@ Shield pins may be grounded.
 <wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-180"/>
 </symbol>
-<symbol name="CAPH">
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
-<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-</symbol>
 <symbol name="CON_530470210">
 <pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
 <pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas"/>
@@ -1696,8 +1329,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1715,8 +1348,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1734,8 +1367,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1753,8 +1386,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1772,8 +1405,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1791,8 +1424,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1810,8 +1443,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1829,8 +1462,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1848,8 +1481,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1867,8 +1500,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1886,8 +1519,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1905,8 +1538,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1924,8 +1557,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -2435,7 +2068,7 @@ Shield pins may be grounded.
 <technologies>
 <technology name="">
 <attribute name="PARTNO" value="BC846BW_NPN" constant="no"/>
-<attribute name="VALUE" value="NPN" constant="no"/>
+<attribute name="VALUE" value="BC846BW" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2456,8 +2089,8 @@ Shield pins may be grounded.
 <technologies>
 <technology name="">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="530470410" constant="no"/>
 <attribute name="MFR_NAME" value="Molex Connector Corporation" constant="no"/>
+<attribute name="PARTNO" value="530470410" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2470,8 +2103,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2486,8 +2119,8 @@ Shield pins may be grounded.
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2534,51 +2167,20 @@ Shield pins may be grounded.
 <connect gate="G$1" pin="YLO" pad="11"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MAN" value="Shanghai YDS Tech" constant="no"/>
+<attribute name="PARTNO" value="13F-64GYD2PL2NL" constant="no"/>
+<attribute name="VENDOR" value="lcsc.com" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="KSZ8081RNACA" prefix="U">
+<deviceset name="KSZ8081RNACA" prefix="U" uservalue="yes">
 <gates>
 <gate name="A" symbol="KSZ8081RNACA" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="QFN-24">
-<connects>
-<connect gate="A" pin="!RST" pad="24"/>
-<connect gate="A" pin="25" pad="25"/>
-<connect gate="A" pin="CRS_DV/PHYAD[1:0]" pad="15"/>
-<connect gate="A" pin="GND" pad="22"/>
-<connect gate="A" pin="INTRP" pad="18"/>
-<connect gate="A" pin="LED0/ANEN_SPEED" pad="23"/>
-<connect gate="A" pin="MDC" pad="11"/>
-<connect gate="A" pin="MDIO" pad="10"/>
-<connect gate="A" pin="REF_CLK" pad="16"/>
-<connect gate="A" pin="REXT" pad="9"/>
-<connect gate="A" pin="RXD0" pad="13"/>
-<connect gate="A" pin="RXD1" pad="12"/>
-<connect gate="A" pin="RXER" pad="17"/>
-<connect gate="A" pin="RXM" pad="3"/>
-<connect gate="A" pin="RXP" pad="4"/>
-<connect gate="A" pin="TXD0" pad="20"/>
-<connect gate="A" pin="TXD1" pad="21"/>
-<connect gate="A" pin="TXEN" pad="19"/>
-<connect gate="A" pin="TXM" pad="5"/>
-<connect gate="A" pin="TXP" pad="6"/>
-<connect gate="A" pin="VDDA_3.3" pad="2"/>
-<connect gate="A" pin="VDDIO" pad="14"/>
-<connect gate="A" pin="VDD_1.2" pad="1"/>
-<connect gate="A" pin="XI" pad="8"/>
-<connect gate="A" pin="XO" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="KSZ8081RNACA" constant="no"/>
-<attribute name="VENDOR" value="Micrel" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="QFN-24-M" package="QFN-24-M">
 <connects>
 <connect gate="A" pin="!RST" pad="24"/>
@@ -2609,42 +2211,8 @@ Shield pins may be grounded.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="KSZ8081RNACA" constant="no"/>
-<attribute name="VENDOR" value="Micrel" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="QFN-24-L" package="QFN-24-L">
-<connects>
-<connect gate="A" pin="!RST" pad="24"/>
-<connect gate="A" pin="25" pad="25"/>
-<connect gate="A" pin="CRS_DV/PHYAD[1:0]" pad="15"/>
-<connect gate="A" pin="GND" pad="22"/>
-<connect gate="A" pin="INTRP" pad="18"/>
-<connect gate="A" pin="LED0/ANEN_SPEED" pad="23"/>
-<connect gate="A" pin="MDC" pad="11"/>
-<connect gate="A" pin="MDIO" pad="10"/>
-<connect gate="A" pin="REF_CLK" pad="16"/>
-<connect gate="A" pin="REXT" pad="9"/>
-<connect gate="A" pin="RXD0" pad="13"/>
-<connect gate="A" pin="RXD1" pad="12"/>
-<connect gate="A" pin="RXER" pad="17"/>
-<connect gate="A" pin="RXM" pad="3"/>
-<connect gate="A" pin="RXP" pad="4"/>
-<connect gate="A" pin="TXD0" pad="20"/>
-<connect gate="A" pin="TXD1" pad="21"/>
-<connect gate="A" pin="TXEN" pad="19"/>
-<connect gate="A" pin="TXM" pad="5"/>
-<connect gate="A" pin="TXP" pad="6"/>
-<connect gate="A" pin="VDDA_3.3" pad="2"/>
-<connect gate="A" pin="VDDIO" pad="14"/>
-<connect gate="A" pin="VDD_1.2" pad="1"/>
-<connect gate="A" pin="XI" pad="8"/>
-<connect gate="A" pin="XO" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="KSZ8081RNACA" constant="no"/>
+<attribute name="PARTNO" value="KSZ8081RNACA" constant="no"/>
+<attribute name="VALUE" value="KSZ8081_QFN_24" constant="no"/>
 <attribute name="VENDOR" value="Micrel" constant="no"/>
 </technology>
 </technologies>
@@ -2664,12 +2232,15 @@ Shield pins may be grounded.
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="FA-238 25.0000MB-B3" constant="no"/>
+<attribute name="VALUE" value="25MHz" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FB_0805_120_OHM" uservalue="yes">
+<deviceset name="FB_0805_120_OHM" prefix="FB" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="FERRITE_BEAD_2_PINS" x="17.78" y="-7.62"/>
 </gates>
@@ -2680,61 +2251,9 @@ Shield pins may be grounded.
 <connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TLJT107M010R0900" prefix="C">
-<gates>
-<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="CAP_1210TJLJ_3P5X2P8_DIO">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER_1" value="478-9011-1-ND" constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER_2" value="478-9011-2-ND" constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER_3" value="478-9011-6-ND" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TLJT107M010R0900" constant="no"/>
-<attribute name="MFR_NAME" value="Diodes Inc" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="CAP_1210TJLJ_3P5X2P8_DIO-M" package="CAP_1210TJLJ_3P5X2P8_DIO-M">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER_1" value="478-9011-1-ND" constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER_2" value="478-9011-2-ND" constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER_3" value="478-9011-6-ND" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TLJT107M010R0900" constant="no"/>
-<attribute name="MFR_NAME" value="Diodes Inc" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="CAP_1210TJLJ_3P5X2P8_DIO-L" package="CAP_1210TJLJ_3P5X2P8_DIO-L">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER_1" value="478-9011-1-ND" constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER_2" value="478-9011-2-ND" constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER_3" value="478-9011-6-ND" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TLJT107M010R0900" constant="no"/>
-<attribute name="MFR_NAME" value="Diodes Inc" constant="no"/>
+<attribute name="PARTNO" value="BLM18PG121SN1D" constant="no"/>
+<attribute name="VALUE" value="120Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2752,9 +2271,8 @@ Shield pins may be grounded.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="530470210" constant="no"/>
 <attribute name="MFR_NAME" value="Molex Connector Corporation" constant="no"/>
+<attribute name="PARTNO" value="530470210" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2887,9 +2405,9 @@ Shield pins may be grounded.
 <part name="U4" library="3D_MIG_Controller" deviceset="TPD2E2U06DRLR" device="" value="TVS-Diode"/>
 <part name="U5" library="3D_MIG_Controller" deviceset="TPD2E2U06DRLR" device="" value="TVS-Diode"/>
 <part name="J12" library="3D_MIG_Controller" deviceset="CONN_05X2_RA" device="PTH" value="10-pos"/>
-<part name="U9" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U10" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U11" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U9" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U10" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U11" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND1" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND2" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND3" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2897,9 +2415,9 @@ Shield pins may be grounded.
 <part name="R29" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R30" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J10" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
-<part name="U12" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U13" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U14" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U12" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U13" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U14" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND7" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND8" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND9" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2907,9 +2425,9 @@ Shield pins may be grounded.
 <part name="R32" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R33" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J13" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
-<part name="U15" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U16" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U17" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U15" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U16" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U17" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND10" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND11" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND12" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2917,9 +2435,9 @@ Shield pins may be grounded.
 <part name="R35" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R36" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J14" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
-<part name="U18" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U19" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U20" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U18" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U19" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U20" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND13" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND19" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND20" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2927,9 +2445,9 @@ Shield pins may be grounded.
 <part name="R38" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R39" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J15" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
-<part name="U21" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U22" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U23" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U21" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U22" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U23" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND21" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND22" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND23" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2937,9 +2455,9 @@ Shield pins may be grounded.
 <part name="R41" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R42" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J16" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
-<part name="U27" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U28" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U29" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U27" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U28" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U29" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND29" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND30" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND31" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2947,9 +2465,9 @@ Shield pins may be grounded.
 <part name="R47" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R48" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J18" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
-<part name="U33" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U34" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U35" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U33" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U34" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U35" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND35" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND36" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND37" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2957,9 +2475,9 @@ Shield pins may be grounded.
 <part name="R53" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R54" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J20" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
-<part name="U39" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U40" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U41" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U39" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U40" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U41" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND82" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND83" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND84" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2967,9 +2485,9 @@ Shield pins may be grounded.
 <part name="R59" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R60" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J22" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
-<part name="U24" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U25" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U26" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U24" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U25" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U26" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND24" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND25" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND26" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2977,9 +2495,9 @@ Shield pins may be grounded.
 <part name="R44" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R45" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J17" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
-<part name="U36" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U37" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U38" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U36" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U37" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U38" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND39" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND80" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND81" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2987,9 +2505,9 @@ Shield pins may be grounded.
 <part name="R56" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R57" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J21" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
-<part name="U45" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U46" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U47" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U45" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U46" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U47" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND88" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND89" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND90" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -2997,9 +2515,9 @@ Shield pins may be grounded.
 <part name="R65" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="R66" library="3D_MIG_Controller" deviceset="R_0402_33R0" device="" value="33R0"/>
 <part name="J24" library="3D_MIG_Controller" deviceset="CONN_530470410_PICOBLADE_X_4" device=""/>
-<part name="U30" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U31" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
-<part name="U32" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U30" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U31" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
+<part name="U32" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="GND32" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND33" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="GND34" library="3D_MIG_Controller" deviceset="GND" device=""/>
@@ -3043,72 +2561,71 @@ Shield pins may be grounded.
 <part name="R107" library="3D_MIG_Controller" deviceset="R_0402" device="" value="33"/>
 <part name="R108" library="3D_MIG_Controller" deviceset="R_0402" device="" value="33"/>
 <part name="R109" library="3D_MIG_Controller" deviceset="R_0402" device="" value="33"/>
-<part name="C1" library="3D_MIG_Controller" deviceset="TLJT107M010R0900" device="CAP_1210TJLJ_3P5X2P8_DIO-M"/>
 <part name="C6" library="3D_MIG_Controller" deviceset="C_0402_0.1UF" device="" value="0.1uF"/>
-<part name="U7" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U7" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="R4" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
 <part name="LED3" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R6" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND5" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R7" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="J8" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
-<part name="U8" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U8" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="R8" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
 <part name="LED4" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R9" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND6" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R10" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="J9" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
-<part name="U43" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U43" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="R61" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
 <part name="LED6" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R62" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND51" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R63" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="J23" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
-<part name="U44" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U44" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="R67" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
 <part name="LED7" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R68" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND52" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R69" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="J25" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
-<part name="U48" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U48" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="R70" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
 <part name="LED8" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R71" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND53" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R72" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="J26" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
-<part name="U49" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U49" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="R73" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
 <part name="LED9" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R76" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND54" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R77" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="J27" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
-<part name="U50" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U50" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="R78" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
 <part name="LED10" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R79" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND55" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R80" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="J28" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
-<part name="U51" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U51" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="R81" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
 <part name="LED11" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R82" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND56" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R83" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="J29" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
-<part name="U52" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U52" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="R84" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
 <part name="LED12" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R85" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="GND57" library="3D_MIG_Controller" deviceset="GND" device=""/>
 <part name="R86" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="J30" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
-<part name="U53" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U53" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="R88" library="3D_MIG_Controller" deviceset="R_0402" device="" value="2.2K"/>
 <part name="LED13" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R89" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
@@ -3116,22 +2633,22 @@ Shield pins may be grounded.
 <part name="R90" library="3D_MIG_Controller" deviceset="R_0402_10K0" device="" value="10K0"/>
 <part name="J31" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
 <part name="R3" library="3D_MIG_Controller" deviceset="R_0402" device="" value="500R0"/>
-<part name="U42" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U42" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="LED5" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R11" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="J11" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
 <part name="R12" library="3D_MIG_Controller" deviceset="R_0402" device="" value="500R0"/>
-<part name="U54" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U54" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="LED14" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R27" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="J32" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
 <part name="R91" library="3D_MIG_Controller" deviceset="R_0402" device="" value="500R0"/>
-<part name="U55" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U55" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="LED15" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R92" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="J33" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
 <part name="R93" library="3D_MIG_Controller" deviceset="R_0402" device="" value="500R0"/>
-<part name="U56" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="NPN"/>
+<part name="U56" library="3D_MIG_Controller" deviceset="BC846BW" device="" value="BC846BW"/>
 <part name="LED16" library="3D_MIG_Controller" deviceset="LED_0805_GREEN" device="" value="Green"/>
 <part name="R95" library="3D_MIG_Controller" deviceset="R_0402_470R0" device="" value="470R0"/>
 <part name="J34" library="3D_MIG_Controller" deviceset="CONN_530470210_PICOBLADE_X_2" device=""/>
@@ -4982,7 +4499,6 @@ Shield pins may be grounded.
 <attribute name="NAME" x="165.4556" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="164.8206" y="4.0386" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="C1" gate="A" x="121.92" y="33.02" smashed="yes" rot="R270"/>
 <instance part="J1" gate="G$1" x="60.96" y="109.22" smashed="yes">
 <attribute name="NAME" x="33.02" y="125.222" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.02" y="91.44" size="1.778" layer="96"/>
@@ -5022,7 +4538,6 @@ Shield pins may be grounded.
 <segment>
 <pinref part="GND45" gate="1" pin="GND"/>
 <wire x1="121.92" y1="25.4" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C1" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="2"/>
@@ -5078,7 +4593,6 @@ Shield pins may be grounded.
 <wire x1="93.98" y1="38.1" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
 <junction x="109.22" y="38.1"/>
 <pinref part="J6" gate="G$1" pin="VBUS"/>
-<pinref part="C1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="D-" class="0">
