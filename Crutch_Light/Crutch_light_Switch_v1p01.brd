@@ -165,9 +165,10 @@
 <wire x1="35" y1="0" x2="35" y2="50" width="0" layer="20"/>
 <wire x1="35" y1="50" x2="0" y2="50" width="0" layer="20"/>
 <wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
-<hole x="17.5" y="3" drill="3"/>
-<hole x="17.5" y="41" drill="3"/>
-<hole x="57.5" y="25.5" drill="3"/>
+<hole x="17.5" y="5" drill="5"/>
+<hole x="17.5" y="43" drill="5"/>
+<hole x="3.5" y="36" drill="2.2"/>
+<hole x="3.5" y="44" drill="2.2"/>
 </plain>
 <libraries>
 <library name="3D_MIG_Controller">
