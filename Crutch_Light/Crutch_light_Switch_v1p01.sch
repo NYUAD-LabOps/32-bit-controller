@@ -166,9 +166,9 @@
 <package name="LIMIT_SWITCH_D2HW-BR201DR">
 <hole x="-3" y="-4" drill="1.999"/>
 <hole x="-3" y="4" drill="1.999"/>
-<pad name="COM" x="3" y="-5.08" drill="1"/>
-<pad name="NO" x="3" y="0" drill="1"/>
-<pad name="NC" x="3" y="5.08" drill="1"/>
+<pad name="COM" x="3" y="-5.08" drill="1" diameter="2.54"/>
+<pad name="NO" x="3" y="0" drill="1" diameter="2.54"/>
+<pad name="NC" x="3" y="5.08" drill="1" diameter="2.54"/>
 <wire x1="-6.5" y1="-6.65" x2="0" y2="-6.65" width="0.127" layer="21"/>
 <wire x1="0" y1="-6.65" x2="0" y2="6.65" width="0.127" layer="21"/>
 <wire x1="0" y1="6.65" x2="-6.5" y2="6.65" width="0.127" layer="21"/>
@@ -178,10 +178,12 @@
 <wire x1="-6.5" y1="-4.85" x2="-10.2" y2="-4.85" width="0.127" layer="21"/>
 <wire x1="-10.2" y1="-4.85" x2="-10.2" y2="-3.15" width="0.127" layer="21"/>
 <wire x1="-10.2" y1="-3.15" x2="-6.5" y2="-3.15" width="0.127" layer="21"/>
+<pad name="S1" x="-3" y="4" drill="2.5"/>
+<pad name="S2" x="-3" y="-4" drill="2.5"/>
 </package>
 <package name="BH-25C-1_ADM">
-<pad name="1" x="0" y="0" drill="1.2954" diameter="1.8034"/>
-<pad name="2" x="0" y="-19.9898" drill="1.2954" diameter="1.8034"/>
+<pad name="1" x="0" y="0" drill="1.2954" diameter="3"/>
+<pad name="2" x="0" y="-19.9898" drill="1.2954" diameter="3"/>
 <wire x1="-3.7592" y1="-21.2598" x2="-3.7592" y2="-22.5298" width="0.1524" layer="47"/>
 <wire x1="-3.7592" y1="-22.5298" x2="-3.7592" y2="-22.9108" width="0.1524" layer="47"/>
 <wire x1="3.7592" y1="-21.2598" x2="3.7592" y2="-22.5298" width="0.1524" layer="47"/>
