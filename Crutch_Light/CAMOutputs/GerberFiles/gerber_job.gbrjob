@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2023-11-10T03:34:12Z",
+        "CreationDate": "2023-11-12T00:33:13Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,11 +13,11 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "Crutch_light_Switch_v1p01"
+            "ProjectId": "Crutch_Light_v1p01"
         },
         "Owner": "Michael Davis <michael@davisfiles.net>",
         "Size": {
-            "X": 35,
+            "X": 10,
             "Y": 50
         }
     }
