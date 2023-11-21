@@ -1,0 +1,59 @@
+,X,Y,,X,Y
+P1,105.46,93.62,,112.38,148.3
+P2,129.18,69.94,,121.98,138.54
+Pcenter,117.32,81.78,,117.18,143.42
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Absolute Pick Locations,,,,Height,
+,Part,X,Y,Pick,Place
+Feeder 53,USB,117.24,119.97,1.7,3.3
+Feeder 52,S5D3 (center),117.18,143.42,1.2,2.8
+Feeder 51,SD_Card,117.24,106.17,1.1,2.7
+Feeder 50,S7G2,117.32,81.78,0.8,2.4
+Feeder 49,KSZ8081,117.24,129.99,0.3,1.9
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Feeder,,,,Height,
+,Part,X,Y,Pick,Place
+Feeder 33,100K,23.42,194.11,3.1,
+Feeder 32,100uF,,,,
+Feeder 31,BC846BW,,,,
+Feeder 30,AP2151,,,,
+Feeder 29,25MHz,,,,
+Feeder 28,24MHz,,,,
+Feeder 27,,,,,
+Feeder 26,32.768KHz,,,,
+Feeder 25,2.2uH,,,,
+Feeder 24,FB2/2,,,,
+Feeder 23,LED_GRN,,,,
+Feeder 22,100pF,,,,
+Feeder 21,6K49,,,,
+Feeder 20,2.2uF,,,,
+Feeder 19,,,,,
+Feeder 18,,,,,
+Feeder 17,,,,,
+Feeder 16,,,,,
+Feeder 15,,,,,
+Feeder 14,,,,,
+Feeder 13,,,,,
+Feeder 12,,,,,
+Feeder 11,,,,,
+Feeder 10,,,,,
+Feeder 09,,,,,
+Feeder 08,,,,,
+Feeder 07,0.1uF,411.42,168.75,2.8,4.4
+Feeder 06,,,,,
+Feeder 05,,,,,
+Feeder 04,,,,,
+Feeder 03,,,,,
+Feeder 02,,,,,
+Feeder 01,,,,,

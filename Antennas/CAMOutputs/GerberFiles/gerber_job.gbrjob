@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-10-02T12:21:57Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Type_3_XS_v1p00"
+        },
+        "Owner": "Michael Davis <michael@davisfiles.net>",
+        "Size": {
+            "X": 6,
+            "Y": 18.7
+        }
+    }
+}
