@@ -222,7 +222,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -240,9 +240,9 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
+<param name="mdWireWire" value="15mil"/>
+<param name="mdWirePad" value="15mil"/>
+<param name="mdWireVia" value="15mil"/>
 <param name="mdPadPad" value="6mil"/>
 <param name="mdPadVia" value="6mil"/>
 <param name="mdViaVia" value="6mil"/>
@@ -551,6 +551,20 @@ design rules under a new name.</description>
 <contactref element="J11" pad="P$2"/>
 <wire x1="61" y1="56.51" x2="51.85" y2="56.51" width="1.5" layer="16"/>
 <wire x1="51.85" y1="56.51" x2="49.94" y2="56.5" width="1.5" layer="16"/>
+</signal>
+<signal name="GND">
+<polygon width="0.01" layer="16">
+<vertex x="0" y="0"/>
+<vertex x="0" y="65"/>
+<vertex x="36" y="65"/>
+<vertex x="36" y="0"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="0" y="65"/>
+<vertex x="36" y="65"/>
+<vertex x="36" y="0"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
