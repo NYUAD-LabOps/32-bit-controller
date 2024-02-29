@@ -6751,10 +6751,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R21" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100R 1%"/>
 <part name="C5" library="Labops_Lib_AH" deviceset="C_0603" device="" value="100nF/50V"/>
 <part name="R22" library="Labops_Lib_AH" deviceset="R_0603" device="" value="33K 1%"/>
-<part name="R23" library="Labops_Lib_AH" deviceset="R_0603" device="" value="3.9K 1%"/>
+<part name="R23" library="Labops_Lib_AH" deviceset="R_0603" device="" value="5.6K 1%"/>
 <part name="D4" library="Labops_Lib_AH" deviceset="STTH1R04U" device="SMB"/>
 <part name="R24" library="Labops_Lib_AH" deviceset="R_0805" device="1" value="ERA-8AEB124V"/>
-<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="MCASS31QHB7102KTNA01"/>
+<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="220pF/1KV"/>
 <part name="U$1" library="Labops_Lib_AH" deviceset="P6SMB120AT3G" device="SMB"/>
 <part name="GND4" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="C26" library="Labops_Lib_AH" deviceset="C_0603" device="" value="1u/35V"/>
@@ -7053,7 +7053,7 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="C25" gate="G$1" x="173.99" y="228.6" smashed="yes">
 <attribute name="NAME" x="175.514" y="228.981" size="1.778" layer="95"/>
-<attribute name="VALUE" x="171.069" y="202.184" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="171.069" y="219.964" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$1" gate="G$1" x="185.42" y="226.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="187.452" y="228.6" size="1.778" layer="95" font="vector" rot="R270"/>
