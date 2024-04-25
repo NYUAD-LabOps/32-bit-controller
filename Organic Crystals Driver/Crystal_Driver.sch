@@ -1176,7 +1176,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="T1" library="Labops_Lib_AH" deviceset="SIHG039N60EF" device="2"/>
 <part name="GND1" library="Labops_Lib_AH" deviceset="GND" device=""/>
-<part name="R1" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="470R 1%"/>
+<part name="R1" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="220R 1%"/>
 <part name="R2" library="Labops_Lib_AH" deviceset="R_0603" device="" value="1K 1%"/>
 <part name="D1" library="Labops_Lib_AH" deviceset="FEP30DP-E3/45" device="TO-247AD"/>
 <part name="X1" library="Labops_Lib_AH" deviceset="726386-2" device="TE_726386-2"/>
@@ -1186,7 +1186,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="X3" library="Labops_Lib_AH" deviceset="2304-6111-TP" device=""/>
 <part name="T2" library="Labops_Lib_AH" deviceset="SIHG039N60EF" device="2"/>
 <part name="GND2" library="Labops_Lib_AH" deviceset="GND" device=""/>
-<part name="R3" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="470R 1%"/>
+<part name="R3" library="Labops_Lib_AH" deviceset="R_1206" device="EIA1206" value="220R 1%"/>
 <part name="R4" library="Labops_Lib_AH" deviceset="R_0603" device="" value="1K 1%"/>
 <part name="D2" library="Labops_Lib_AH" deviceset="FEP30DP-E3/45" device="TO-247AD"/>
 <part name="X4" library="Labops_Lib_AH" deviceset="726386-2" device="TE_726386-2"/>
