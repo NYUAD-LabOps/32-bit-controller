@@ -1173,27 +1173,6 @@ DIN A3, landscape with extra doc field</description>
 <text x="0" y="7.62" size="1.27" layer="95">&gt;Name</text>
 <text x="0" y="-7.62" size="1.27" layer="96">&gt;Value</text>
 </symbol>
-<symbol name="MCP6001U_A">
-<wire x1="-1.016" y1="-2.54" x2="-2.032" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.032" x2="-1.524" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
-<pin name="NULL@5" x="0" y="7.62" visible="pad" length="middle" direction="pas" rot="R270"/>
-<wire x1="0" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<pin name="NULL@2" x="0" y="-7.62" visible="pad" length="middle" direction="pas" rot="R90"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<pin name="NULL@3" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<pin name="NULL@1" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<pin name="NULL@4" x="10.16" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<text x="10.668" y="5.334" size="1.27" layer="95">&gt;NAME</text>
-<text x="10.668" y="2.794" size="1.27" layer="96">&gt;VALUE</text>
-<text x="0" y="5.08" size="1.27" layer="94">VDD</text>
-</symbol>
 <symbol name="X10">
 <wire x1="-2.54" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
@@ -1856,26 +1835,6 @@ Source: &lt;a href="https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf"&gt
 <attribute name="SUPPLIER-1" value="LCSC" constant="no"/>
 <attribute name="TECHNOLOGY" value="THT" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MCP6001UT" prefix="IC">
-<description>Opamp, 1MHz, SOT23-5, One Channel, Rail-Rail</description>
-<gates>
-<gate name="G$1" symbol="MCP6001U_A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23-5">
-<connects>
-<connect gate="G$1" pin="NULL@1" pad="1"/>
-<connect gate="G$1" pin="NULL@2" pad="2"/>
-<connect gate="G$1" pin="NULL@3" pad="3"/>
-<connect gate="G$1" pin="NULL@4" pad="4"/>
-<connect gate="G$1" pin="NULL@5" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2919,7 +2878,6 @@ Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
 <part name="R6" library="Labops_Lib_AH" deviceset="R_0603" device="" value="330R 1%"/>
 <part name="X1" library="Labops_Lib_AH" deviceset="B2B-XH-AM(LF)(SN)" device=""/>
 <part name="X2" library="Labops_Lib_AH" deviceset="B2B-XH-AM(LF)(SN)" device=""/>
-<part name="IC3" library="Labops_Lib_AH" deviceset="MCP6001UT" device=""/>
 <part name="R7" library="Labops_Lib_AH" deviceset="R_0603" device="" value="47K 1%"/>
 <part name="R8" library="Labops_Lib_AH" deviceset="R_0603" device="" value="47K 1%"/>
 <part name="GND6" library="Labops_Lib_AH" deviceset="GND" device=""/>
@@ -2928,13 +2886,12 @@ Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
 <part name="R10" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10K 1%"/>
 <part name="R11" library="Labops_Lib_AH" deviceset="R_0603" device="" value="10K 1%"/>
 <part name="GND7" library="Labops_Lib_AH" deviceset="GND" device=""/>
-<part name="R12" library="Labops_Lib_AH" deviceset="R_0603" device="" value="1K 1%"/>
+<part name="R12" library="Labops_Lib_AH" deviceset="R_0603" device="" value="n.P"/>
 <part name="GND8" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="R13" library="Labops_Lib_AH" deviceset="R_0603" device="" value="n.p"/>
-<part name="GND9" library="Labops_Lib_AH" deviceset="GND" device=""/>
 <part name="C3" library="Labops_Lib_AH" deviceset="C_0603" device="EIA0603" value="100nF/50V"/>
 <part name="GND10" library="Labops_Lib_AH" deviceset="GND" device=""/>
-<part name="R14" library="Labops_Lib_AH" deviceset="R_0603" device="" value="47K 1%"/>
+<part name="R14" library="Labops_Lib_AH" deviceset="R_0603" device="" value="0R 1%"/>
 <part name="R15" library="Labops_Lib_AH" deviceset="R_0603" device="" value="100R 1%"/>
 <part name="X3" library="Labops_Lib_AH" deviceset="WF2549-2WS05S0B01" device=""/>
 <part name="C4" library="Labops_Lib_AH" deviceset="C_0603" device="EIA0603" value="100nF/50V"/>
@@ -3255,10 +3212,6 @@ Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
 <attribute name="NAME" x="212.3186" y="64.77" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="207.518" y="64.77" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC3" gate="G$1" x="299.72" y="187.96" smashed="yes">
-<attribute name="NAME" x="310.388" y="193.294" size="1.27" layer="95"/>
-<attribute name="VALUE" x="310.388" y="190.754" size="1.27" layer="96"/>
-</instance>
 <instance part="R7" gate="G$1" x="274.32" y="190.5" smashed="yes">
 <attribute name="NAME" x="270.51" y="191.9986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="270.51" y="187.198" size="1.778" layer="96"/>
@@ -3294,7 +3247,6 @@ Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
 <attribute name="NAME" x="270.51" y="219.9386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="270.51" y="215.138" size="1.778" layer="96"/>
 </instance>
-<instance part="GND9" gate="1" x="299.72" y="175.26" smashed="yes"/>
 <instance part="C3" gate="G$1" x="304.8" y="203.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="308.356" y="211.455" size="1.778" layer="95"/>
 <attribute name="VALUE" x="308.356" y="206.629" size="1.778" layer="96"/>
@@ -3484,11 +3436,6 @@ Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="170.18" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="IC3" gate="G$1" pin="NULL@2"/>
-<wire x1="299.72" y1="177.8" x2="299.72" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -3707,14 +3654,11 @@ Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="180.34" x2="279.4" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="NULL@1"/>
 <wire x1="279.4" y1="190.5" x2="281.94" y2="190.5" width="0.1524" layer="91"/>
 <junction x="279.4" y="190.5"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="190.5" x2="292.1" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="218.44" x2="281.94" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="218.44" x2="281.94" y2="190.5" width="0.1524" layer="91"/>
-<junction x="281.94" y="190.5"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="218.44" x2="281.94" y2="218.44" width="0.1524" layer="91"/>
 <junction x="281.94" y="218.44"/>
@@ -3726,10 +3670,6 @@ Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
 <wire x1="289.56" y1="154.94" x2="289.56" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="157.48" x2="284.48" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="NULL@3"/>
-<wire x1="292.1" y1="185.42" x2="289.56" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="185.42" x2="289.56" y2="157.48" width="0.1524" layer="91"/>
-<junction x="289.56" y="157.48"/>
 </segment>
 </net>
 <net name="V3V3" class="0">
@@ -3739,13 +3679,9 @@ Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
 <label x="259.08" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="NULL@5"/>
-<wire x1="299.72" y1="195.58" x2="299.72" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="203.2" x2="294.64" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="203.2" x2="294.64" y2="203.2" width="0.1524" layer="91"/>
 <label x="294.64" y="203.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="299.72" y1="203.2" x2="302.26" y2="203.2" width="0.1524" layer="91"/>
-<junction x="299.72" y="203.2"/>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="2"/>
@@ -3818,11 +3754,8 @@ Updated by Yingchun,Shan  2020-01-06&lt;br&gt;
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="302.26" y1="218.44" x2="320.04" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="218.44" x2="320.04" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="NULL@4"/>
-<wire x1="320.04" y1="187.96" x2="309.88" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="322.58" y1="187.96" x2="320.04" y2="187.96" width="0.1524" layer="91"/>
-<junction x="320.04" y="187.96"/>
 </segment>
 </net>
 <net name="DI_PULSE1" class="0">
